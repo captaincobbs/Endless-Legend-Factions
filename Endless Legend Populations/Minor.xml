@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+  <RuntimeModule Name="MinorNE" Type="Extension" Version="1.7">
+
+    
+        <Title>Endless Legend Populations V2</Title>
+        <Description></Description>
+        <Author>Captain Cobbs</Author>
+        <Homepage>https://www.games2gether.com/profile/CaptainCobbs/</Homepage>
+        <PreviewImageFile>ModIcon.png</PreviewImageFile>
+        <ReleaseNotes>Release</ReleaseNotes>
+        <Tags>Minor Faction</Tags>
+
+		<Plugins>			
+			
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
+				<FilePath>Simulation/MinorFactionPersonalityDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			
+			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
+			    <ExtraTypes>
+                    <ExtraType DataType="FactionAffinity, Assembly-CSharp"/>
+					<ExtraType DataType="FactionAffinityMapping, Assembly-CSharp"/>
+                </ExtraTypes>
+				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Faction, Assembly-CSharp">
+			    <ExtraTypes>
+                    <ExtraType DataType="MinorFaction, Assembly-CSharp"/>
+                </ExtraTypes>
+				<FilePath>Simulation/Factions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="MinorFaction, Assembly-CSharp">
+                <FilePath>Simulation/Factions.xml</FilePath>
+            </DatabasePlugin>
+
+			
+			<DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp"/>
+                    <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
+                    <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
+                <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+            </DatabasePlugin>
+
+            <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
+				<FilePath>Simulation/PopulationDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+				<FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+			    <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+					<ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+                </ExtraTypes>
+				<FilePath>Gui/GuiElements[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			<LocalizationPlugin DefaultLanguage="English">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
+			
+		</Plugins>
+	</RuntimeModule>
+</Datatable>

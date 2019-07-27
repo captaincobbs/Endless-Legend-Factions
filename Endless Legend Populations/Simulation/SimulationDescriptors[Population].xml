@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+ 
+ <!-- Renaming is enough for count and affinity, no idea how to make population traits. My bad attempt is below (crashed the game)-->
+    
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityEndlessKapaku" Type="ClassPopulationEmpire"/>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityEndlessKapaku" Type="ClassPopulationStarSystem"/>
+
+
+    <SimulationDescriptor Name="ClassPopulationPlanetAffinityEndlessKapakuCount" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityEndlessKapakuCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityEndlessKapakuCount" Type="ClassPopulationStarSystem">
+        <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityEndlessKapakuCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityEndlessKapakuCount" Type="ClassPopulationEmpire">
+        <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityEndlessKapakuCount" Priority="100" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityEndlessKapaku" Type="ClassPopulationAssimilated">
+        <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+	
+		<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityEndlessKapaku" Type="ClassPopulationAssimilated">
+		<Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+	</SimulationDescriptor>
+  
+  
+  
+  <!--Industry-->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku" Type="ClassPopulationPlanet">      <!-- Default output-->
+    <Modifier       TargetProperty="BonusPopulationIndustry"      Operation="Addition"    Value="2" Path="./PlanetGameplayTypeHot" />
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku"                                                 Type="WithPopulationPlanet"> <!-- Bonus applied when boosted-->
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2"       Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku,ClassPopulation"/>
+  </SimulationDescriptor>
+    
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetIndustryEndlessKapaku" Type="ClassPopulationPlanet"> <!-- For gene splicing -->
+    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Force"      Value="1" Property="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryIndustryOnHot" TooltipHidden="true"/>
+    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Addition"   Value="1" Property="-3" Path="./PlanetGameplayTypeHot"/>
+  </SimulationDescriptor>
+
+
+  <!-- Food on temperate -->
+  <!-- If the path has something like PlanetGameplayType* or something like that then there needs to be a force operation which makes the output but has wrong tooltip so it is hidden, and then the Addition operation is solely for the tooltip.
+  because of that force operations need to have lower priority to get trigged later to overwrite the addition-->
+  
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" Type="ClassPopulationPlanet">       
+      <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
+      <Modifier       TargetProperty="Happiness"      Operation="Addition"    Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" Type="ClassPopulationPlanet">
+      <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="-2" Priority="-4" Path="./PlanetGameplayTypeFertile/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" TooltipHidden="true"/>
+      <Modifier       TargetProperty="Happiness"      Operation="Subtraction"    Value="2" Priority="-3" Path="./PlanetGameplayTypeFertile" />
+    </SimulationDescriptor>
+  
+    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"                                                 Type="WithPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationFood"      Operation="Force"    Value="2" Priority="-3"        Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTemperate/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
+        <Modifier       TargetProperty="BonusPopulationFood"      Operation="Addition"    Value="2" Path="PlanetGameplayTypeHot" />
+    </SimulationDescriptor>
+    
+    <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetFoodOnHot" Type="ClassPopulationPlanet">      
+        <Modifier       TargetProperty="BonusPopulationFood"         Operation="Addition"    Value="1" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+</Datatable>

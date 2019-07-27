@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
+    
+       
+ <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitEndlessKapaku" Cost="0" ShowInCustom="false"> <!--Thresholds set to 1, 2 and 3 for testing-->
+        <CollectionBonus Threshold="1">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusEndlessKapaku1"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+        </CollectionBonus>
+
+        <CollectionBonus Threshold="2">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusEndlessKapaku2"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+        </CollectionBonus>
+
+        <CollectionBonus Threshold="3">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusEndlessKapaku3"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+        </CollectionBonus>
+    </PopulationCollectionBonusTrait> 
+    
+</Datatable>

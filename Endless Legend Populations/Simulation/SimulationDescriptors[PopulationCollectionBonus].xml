@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    
+    
+      <SimulationDescriptor Name="PopulationCollectionBonusEndlessKapaku1" Type="PopulationCollectionBonus">
+        <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityEndlessKapaku"      TooltipOverride="%TooltipOverridePositivePolitics01"/> <!-- Population Collection Bonus 1 (always increases political value of the faction population, needs tooltipoverride) -->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="PopulationCollectionBonusEndlessKapaku2" Type="PopulationCollectionBonus">
+        <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.10" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityEndlessKapaku" SearchValueFromPath="true"/> <!-- Population Collection bonus 2, mostly increases one of the FIDSI by 15% if population is in system)-->
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="PopulationCollectionBonusEndlessKapaku3" Type="PopulationCollectionBonus">
+	<BinaryModifier TargetProperty="SystemProduction" Operation="Addition" Left="$(SystemEmpirePoint)" BinaryOperation="Multiplication" Right="3" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" /> <!-- Usually unlocks a law but ain't nobody got time for that-->
+    </SimulationDescriptor>
+  
+</Datatable>

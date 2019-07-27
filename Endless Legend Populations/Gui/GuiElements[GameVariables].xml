@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+<!-- Symbol Strings can be any character from the fonts which are included in the fonts folder in these ranges (according to MonAmiral)
+Default font (latin): Source Sans Pro
+0400 - 04FF (cyrillic): Liberation Sans
+4E00 - 9FFF (Chinese/Japanese/Korean): Noto Sans CJK
+
+2500 - 254F (?): Noto Sans CJK
+300A - 318F (?): Noto Sans CJK
+AC00 - D7A3 (?): Noto Sans CJK
+FF01 - 10106 (?): Noto Sans CJK
+10000 - 15DBA (?): Noto Sans CJK
+
+To use a special character from the Amplitude font properly copy the unicode character directly into the symbol string to prevent the game messing it up in population screen. 
+I did it using FontForge, Right clicking the symbol I wanted to use, glyph info and copied "unicode char" from there
+If you know a better way to copy the unicode character (which I assume there is) let me know
+-->
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityEndlessKapaku">
+        <Title>%ClassPopulationEmpireAffinityEndlessKapakuTitle</Title>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityEndlessKapakuCount">
+        <Title>%ClassPopulationEmpireAffinityEndlessKapakuTitle</Title>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityEndlessKapaku">
+        <Title>%ClassPopulationStarSystemAffinityEndlessKapakuTitle</Title>
+        <SymbolString>[custom02]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityEndlessKapakuCount">
+        <Title>%ClassPopulationStarSystemAffinityEndlessKapakuTitle</Title>
+        <SymbolString>[custom02]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityEndlessKapaku">
+        <Title>%PopulationEndlessKapakuTitle</Title>
+        <Description>%PopulationEndlessKapakuDescription</Description>
+        <SymbolString>[custom02]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+        <AltTitle>%PopulationSowersTitle</AltTitle>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityEndlessKapakuCount">
+        <Title>%PopulationEndlessKapakuTitle</Title>
+        <Description>%PopulationEndlessKapakuDescription</Description>
+        <SymbolString>[custom02]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+        <AltTitle>%PopulationEndlessKapakuTitle</AltTitle>
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="AffinityEndlessKapaku">
+        <Title>%AffinityEndlessKapakuTitle</Title>
+        <Description>%AffinityEndlessKapakuDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Gui/EndlessKapakuSmall.png" />  <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
+            <Icon Size="Medium" Path="Gui/EndlessKapakuMedium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Medium with transparent and white colors inverted, never saw it used anywhere so presumably safe to ignore-->
+            <Icon Size="Large" Path="Gui/EndlessKapakuLarge" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
+        </Icons>
+        <SymbolString>[custom02]</SymbolString>
+        <Color Red="255" Green="141" Blue="102" Alpha="255" />
+    </ExtendedGuiElement>
+
+</Datatable>

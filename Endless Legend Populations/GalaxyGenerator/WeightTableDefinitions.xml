@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Documentation/Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+  <GalaxyGeneratorWeightTable Name="MinorFactions">
+    <Entry Tag="MinorFactionAmoeba"         Weight="1"/>
+    <Entry Tag="MinorFactionBots"           Weight="1"/>
+    <Entry Tag="MinorFactionBenthys"        Weight="1"/>
+    <Entry Tag="MinorFactionDeuyivans"      Weight="1"/>
+    <Entry Tag="MinorFactionHaroshems"      Weight="1"/>
+    <Entry Tag="MinorFactionHisshos"        Weight="1"/>
+    <Entry Tag="MinorFactionMavros"         Weight="1"/>
+    <Entry Tag="MinorFactionPilgrims"       Weight="1"/>
+    <Entry Tag="MinorFactionZvali"          Weight="1"/>
+    <Entry Tag="MinorFactionTikanans"       Weight="1"/>
+    <Entry Tag="MinorFactionGnashasts"      Weight="1"/>
+    <Entry Tag="MinorFactionEyders"         Weight="1"/>
+    <Entry Tag="MinorFactionNiris"          Weight="1"/>
+    <Entry Tag="MinorFactionBhagabas"       Weight="1"/>
+    <Entry Tag="MinorFactionRemnant"        Weight="1"/>
+    <Entry Tag="MinorFactionPulsos"         Weight="1"/>
+    <Entry Tag="MinorFactionGreenman"       Weight="1"/>
+    <Entry Tag="MinorFactionSistersOfMercy" Weight="1"/>
+    <Entry Tag="MinorFactionIllo"           Weight="1"/>
+    <Entry Tag="MinorFactionSowers"         Weight="1"/>
+    <Entry Tag="MinorFactionKalTikMas"      Weight="1"/>
+    <Entry Tag="MinorFactionSefaloros"      Weight="1"/>
+    <Entry Tag="MinorFactionGalvrans"       Weight="1"/>
+    <Entry Tag="MinorFactionHarmony"        Weight="1"/>
+    <Entry Tag="MinorFactionBasryxo"        Weight="1"/>
+		<Entry Tag="MinorFactionEndlessKapaku"  Weight="5"/>
+  </GalaxyGeneratorWeightTable>
+	
+	<GalaxyGeneratorWeightTable Name="MinorFactionEndlessKapaku_PlanetTypes">
+    <Entry Tag="PlanetTypeLava"                 Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionEndlessKapaku_StarTypes">
+    <Entry Tag="StarTypeBlue"                   Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+</Datatable>

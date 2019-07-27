@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+
+
+    <PopulationModifiersTrait Name="PopulationModifiersTraitEndlessKapaku" SubCategory="Affinity" ShowInCustom="false">
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityEndlessKapaku"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityEndlessKapaku"/>
+            </Modifier>
+        </Modifiers>
+        <AssimilatedModifiers>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityEndlessKapaku"/>
+            </Modifier>
+        </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+
+    <PopulationModifiersTrait Name="PopulationModifiersEndlessKapakuCount" SubCategory="Count">
+        <Modifiers>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityEndlessKapakuCount"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityEndlessKapakuCount"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityEndlessKapakuCount"/>
+            </Modifier>
+        </Modifiers>
+    </PopulationModifiersTrait>
+	
+	<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryIndustryEndlessKapaku" SubCategory="Primary" ShowInCustom="true" Cost="25">
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku"/>
+            </Modifier>
+        </Modifiers>
+        <AssimilatedModifiers>
+            <Modifier Class="ClassPopulationPlanet"><!--Bonus given to the Population that assimilates them-->
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustryEndlessKapaku"/>
+            </Modifier>
+        </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+	
+	<PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryFoodTemperate" SubCategory="Secondary" ShowInCustom="true" Cost="5">
+        <Tags>PlanetGameplayTypeTemperate,BonusPopulationGrowth</Tags>
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet"><!--+2 happiness per Population on Hot-->
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
+            </Modifier>
+          <Modifier Class="ClassPopulationPlanet"><!---2 happiness per population on Fertile-->
+             <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile"/>            
+          </Modifier>
+        </Modifiers>
+		<AssimilatedModifiers>
+			<Modifier Class="ClassPopulationPlanet">
+				<!--Bonus given to the Population that assimilates them, +1Food-->
+				<SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetFoodOnHot"/>
+			</Modifier>
+		</AssimilatedModifiers>
+    </PopulationModifiersTrait>
+
+ 
+</Datatable>
