@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">  
-  <AffinityGuiElement Name="AffinityMappingEndlessKapaku">
-    <Title>%AffinityGameplayEndlessKapakuTitle</Title>
-    <Description>%AffinityGameplayEndlessKapakuDescription</Description>
+  <AffinityGuiElement Name="AffinityMappingKapaku">
+    <Title>%AffinityGameplayKapakuTitle</Title>
+    <Description>%AffinityGameplayKapakuDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Gui/KapakuSmall.png" />  <!--Symbol that is displayed on system view screen 24*24-->
-      <Icon Size="Medium" Path="Gui/KapakuMedium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54-->
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/KapakuLarge.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
-      <Icon Size="Mood" Path="Gui/KapakuMood.png" /> <!--Image used when the faction is discovered 1324*712-->
+      <Icon Size="Small" Path="Gui/Kapaku/Small.png" />                                                             <!--Symbol that is displayed on system view screen 24*24-->
+      <Icon Size="Medium" Path="Gui/Kapaku/Medium.png" />                                                           <!-- Symbol that the minor faction uses on galaxy screen 54*54-->
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- No idea what it does -->
+      <Icon Size="Large" Path="Gui/Kapaku/Large.png" />                                                             <!-- Image used on population and minor faction diplomacy screen 540*270-->
+      <Icon Size="Mood" Path="Gui/Kapaku/Mood.png" />                                                               <!--Image used when the faction is discovered 1324*712-->
     </Icons>
     <SymbolString>[custom02]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
