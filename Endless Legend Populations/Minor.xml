@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-  <RuntimeModule Name="Endless Legend Populations" Type="Extension" Version="1.1">
+  <RuntimeModule Name="ELP" Type="Extension" Version="1.1">
 
     
         <Title>Endless Legend Populations</Title>
