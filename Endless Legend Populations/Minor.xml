@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-  <RuntimeModule Name="MinorNE" Type="Extension" Version="1.7">
+  <RuntimeModule Name="Endless Legend Populations" Type="Extension" Version="1.1">
 
     
-        <Title>Endless Legend Populations V2</Title>
-        <Description></Description>
+        <Title>Endless Legend Populations</Title>
+        <Description>Adds various Endless Legend races as Minor Factions.</Description>
         <Author>Captain Cobbs</Author>
-        <Homepage>https://www.games2gether.com/profile/CaptainCobbs/</Homepage>
+        <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
         <PreviewImageFile>ModIcon.png</PreviewImageFile>
-        <ReleaseNotes>Release</ReleaseNotes>
-        <Tags>Minor Faction</Tags>
+        <ReleaseNotes>Fixed a few bugs, changed naming conventions to something readable, added all planned faction art</ReleaseNotes>
+        <Tags>Minor Faction, Endless Legend</Tags>
 
 		<Plugins>			
 			
