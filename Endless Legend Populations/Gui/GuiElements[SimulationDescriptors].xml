@@ -2,15 +2,13 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
   
   
-    <GuiElement Name="PopulationCollectionBonusKapaku1">
-        <Title>%PopulationCollectionBonusKapaku1</Title>
-    </GuiElement>
-    <GuiElement Name="PopulationCollectionBonusKapaku2">
-        <Title>%PopulationCollectionBonusKapaku2</Title>
-    </GuiElement>
-    <GuiElement Name="PopulationCollectionBonusKapaku3">
-        <Title>%PopulationCollectionBonusKapaku3</Title>
-    </GuiElement>
-
-
+  <GuiElement Name="PopulationCollectionBonusKapaku1">
+    <Title>%PopulationCollectionBonusKapaku1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusKapaku2">
+    <Title>%PopulationCollectionBonusKapaku2</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusKapaku3">
+    <Title>%PopulationCollectionBonusKapaku3</Title>
+  </GuiElement>
 </Datatable>

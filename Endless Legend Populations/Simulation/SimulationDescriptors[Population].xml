@@ -3,27 +3,27 @@
  
  <!-- Renaming is enough for count and affinity, no idea how to make population traits. My bad attempt is below (crashed the game)-->
     
-    <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire"/>
-    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem"/>
 
+<!---->
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinityKapakuCount" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityKapakuCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapakuCount" Type="ClassPopulationStarSystem">
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityKapakuCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapakuCount" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityKapakuCount" Priority="100" TooltipHidden="true"/>
+  </SimulationDescriptor>
 
-    <SimulationDescriptor Name="ClassPopulationPlanetAffinityKapakuCount" Type="ClassPopulationPlanet">
-        <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityKapakuCount" TooltipHidden="true"/>
-    </SimulationDescriptor>
-    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapakuCount" Type="ClassPopulationStarSystem">
-        <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityKapakuCount" TooltipHidden="true"/>
-    </SimulationDescriptor>
-    <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapakuCount" Type="ClassPopulationEmpire">
-        <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityKapakuCount" Priority="100" TooltipHidden="true"/>
-    </SimulationDescriptor>
-
-    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
-        <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 
 	
-		<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
-		<Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+	<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
+	  <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
   
   
@@ -47,22 +47,22 @@
   <!-- If the path has something like PlanetGameplayType* or something like that then there needs to be a force operation which makes the output but has wrong tooltip so it is hidden, and then the Addition operation is solely for the tooltip.
   because of that force operations need to have lower priority to get trigged later to overwrite the addition-->
   
-    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" Type="ClassPopulationPlanet">       
-      <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
-      <Modifier       TargetProperty="Happiness"      Operation="Addition"    Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" Type="ClassPopulationPlanet">       
+    <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
+    <Modifier       TargetProperty="Happiness"      Operation="Addition"    Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
+  </SimulationDescriptor>
 
-    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" Type="ClassPopulationPlanet">
-      <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="-2" Priority="-4" Path="./PlanetGameplayTypeFertile/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" TooltipHidden="true"/>
-      <Modifier       TargetProperty="Happiness"      Operation="Subtraction"    Value="2" Priority="-3" Path="./PlanetGameplayTypeFertile" />
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="-2" Priority="-4" Path="./PlanetGameplayTypeFertile/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" TooltipHidden="true"/>
+    <Modifier       TargetProperty="Happiness"      Operation="Subtraction"    Value="2" Priority="-3" Path="./PlanetGameplayTypeFertile" />
+  </SimulationDescriptor>
   
-    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"                                                 Type="WithPopulationPlanet">
-        <Modifier       TargetProperty="BonusPopulationFood"      Operation="Force"    Value="2" Priority="-3"        Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTemperate/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
-        <Modifier       TargetProperty="BonusPopulationFood"      Operation="Addition"    Value="2" Path="PlanetGameplayTypeHot" />
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"                                                 Type="WithPopulationPlanet">
+    <Modifier       TargetProperty="BonusPopulationFood"      Operation="Force"    Value="2" Priority="-3"        Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTemperate/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
+    <Modifier       TargetProperty="BonusPopulationFood"      Operation="Addition"    Value="2" Path="PlanetGameplayTypeHot" />
+  </SimulationDescriptor>
     
-    <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetFoodOnHot" Type="ClassPopulationPlanet">      
-        <Modifier       TargetProperty="BonusPopulationFood"         Operation="Addition"    Value="1" Path="ClassPopulation"/>
-    </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetFoodOnHot" Type="ClassPopulationPlanet">      
+    <Modifier       TargetProperty="BonusPopulationFood"         Operation="Addition"    Value="1" Path="ClassPopulation"/>
+  </SimulationDescriptor>
 </Datatable>

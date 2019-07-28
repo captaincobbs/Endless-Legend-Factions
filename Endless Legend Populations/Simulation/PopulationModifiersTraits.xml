@@ -55,10 +55,10 @@
             <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
                 <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"/>
             </Modifier>
-            <Modifier Class="ClassPopulationPlanet"><!--+2 happiness per Population on Hot-->
+            <Modifier Class="ClassPopulationPlanet"><!-- +2 happiness per Population on Hot-->
                 <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
             </Modifier>
-          <Modifier Class="ClassPopulationPlanet"><!---2 happiness per population on Fertile-->
+          <Modifier Class="ClassPopulationPlanet"><!-- -2 happiness per population on Fertile-->
              <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile"/>            
           </Modifier>
         </Modifiers>
