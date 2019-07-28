@@ -14,7 +14,7 @@
         <Trait Name="PopulationModifiersKapakuCount"/>
         <Trait Name="PopulationModifiersTraitKapaku"/>
 
-        <Trait Name="PopulationModifiersTraitPrimaryHappiness"/> <!-- +2 Happiness -->
+        <Trait Name="PopulationModifiersTraitPrimaryHappinessHot"/> <!-- +2 Happiness -->
         <Trait Name="PopulationModifiersTraitSecondaryIndustryHot"/> <!-- +2 Industry on Hot -->
 
         <Trait Name="PopulationCollectionBonusTraitKapaku" />
