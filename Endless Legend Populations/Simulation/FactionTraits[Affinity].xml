@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
 
-    <FactionAffinity Name="AffinityGameplayEndlessKapaku" SubCategory="MinorFactionAffinity" Hidden="false" Cost="80">
+    <FactionAffinity Name="AffinityGameplayKapaku" SubCategory="MinorFactionAffinity" Hidden="false" Cost="80">
         <Command Name="TransferResources"               Arguments="EmpireManpower,1000"/>
         <Command Name="SetHomeSystemManpowerPercentage" Arguments="1"/>
         <Command Name="UnlockPlay"                      Arguments="PlayDefensiveMediumLongRangeDefense"/>
@@ -23,7 +23,7 @@
         <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyShipDeactivation"/>
         <Command Name="UnlockBattleAction"              Arguments="Group_MainFlotilla_OnOwnShipDeactivation"/>
 
-        <SimulationDescriptorReference Name="AffinityEndlessKapaku"/>
+        <SimulationDescriptorReference Name="AffinityKapaku"/>
         <AutomatedShip>ShipDesignAutomatedShip</AutomatedShip>
     </FactionAffinity>
 

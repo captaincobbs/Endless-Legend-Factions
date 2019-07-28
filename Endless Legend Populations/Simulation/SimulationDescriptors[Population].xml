@@ -3,41 +3,41 @@
  
  <!-- Renaming is enough for count and affinity, no idea how to make population traits. My bad attempt is below (crashed the game)-->
     
-    <SimulationDescriptor Name="ClassPopulationEmpireAffinityEndlessKapaku" Type="ClassPopulationEmpire"/>
-    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityEndlessKapaku" Type="ClassPopulationStarSystem"/>
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire"/>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem"/>
 
 
-    <SimulationDescriptor Name="ClassPopulationPlanetAffinityEndlessKapakuCount" Type="ClassPopulationPlanet">
-        <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityEndlessKapakuCount" TooltipHidden="true"/>
+    <SimulationDescriptor Name="ClassPopulationPlanetAffinityKapakuCount" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityKapakuCount" TooltipHidden="true"/>
     </SimulationDescriptor>
-    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityEndlessKapakuCount" Type="ClassPopulationStarSystem">
-        <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityEndlessKapakuCount" TooltipHidden="true"/>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapakuCount" Type="ClassPopulationStarSystem">
+        <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityKapakuCount" TooltipHidden="true"/>
     </SimulationDescriptor>
-    <SimulationDescriptor Name="ClassPopulationEmpireAffinityEndlessKapakuCount" Type="ClassPopulationEmpire">
-        <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityEndlessKapakuCount" Priority="100" TooltipHidden="true"/>
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapakuCount" Type="ClassPopulationEmpire">
+        <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityKapakuCount" Priority="100" TooltipHidden="true"/>
     </SimulationDescriptor>
 
-    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityEndlessKapaku" Type="ClassPopulationAssimilated">
+    <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
         <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
     </SimulationDescriptor>
 
 	
-		<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityEndlessKapaku" Type="ClassPopulationAssimilated">
+		<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
 		<Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
   
   
   
   <!--Industry-->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku" Type="ClassPopulationPlanet">      <!-- Default output-->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku" Type="ClassPopulationPlanet">      <!-- Default output-->
     <Modifier       TargetProperty="BonusPopulationIndustry"      Operation="Addition"    Value="2" Path="./PlanetGameplayTypeHot" />
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku"                                                 Type="WithPopulationPlanet"> <!-- Bonus applied when boosted-->
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2"       Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku,ClassPopulation"/>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku"                                                 Type="WithPopulationPlanet"> <!-- Bonus applied when boosted-->
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2"       Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku,ClassPopulation"/>
   </SimulationDescriptor>
     
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetIndustryEndlessKapaku" Type="ClassPopulationPlanet"> <!-- For gene splicing -->
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetIndustryKapaku" Type="ClassPopulationPlanet"> <!-- For gene splicing -->
     <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Force"      Value="1" Property="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryIndustryOnHot" TooltipHidden="true"/>
     <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Addition"   Value="1" Property="-3" Path="./PlanetGameplayTypeHot"/>
   </SimulationDescriptor>

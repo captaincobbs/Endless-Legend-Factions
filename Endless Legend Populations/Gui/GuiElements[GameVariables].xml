@@ -16,52 +16,52 @@ To use a special character from the Amplitude font properly copy the unicode cha
 I did it using FontForge, Right clicking the symbol I wanted to use, glyph info and copied "unicode char" from there
 If you know a better way to copy the unicode character (which I assume there is) let me know
 -->
-    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityEndlessKapaku">
-        <Title>%ClassPopulationEmpireAffinityEndlessKapakuTitle</Title>
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapaku">
+        <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityEndlessKapakuCount">
-        <Title>%ClassPopulationEmpireAffinityEndlessKapakuTitle</Title>
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapakuCount">
+        <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityEndlessKapaku">
-        <Title>%ClassPopulationStarSystemAffinityEndlessKapakuTitle</Title>
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapaku">
+        <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
         <SymbolString>[custom02]</SymbolString>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityEndlessKapakuCount">
-        <Title>%ClassPopulationStarSystemAffinityEndlessKapakuTitle</Title>
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapakuCount">
+        <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
         <SymbolString>[custom02]</SymbolString>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
     </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityEndlessKapaku">
-        <Title>%PopulationEndlessKapakuTitle</Title>
-        <Description>%PopulationEndlessKapakuDescription</Description>
+    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapaku">
+        <Title>%PopulationKapakuTitle</Title>
+        <Description>%PopulationKapakuDescription</Description>
         <SymbolString>[custom02]</SymbolString>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
         <AltTitle>%PopulationSowersTitle</AltTitle>
     </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityEndlessKapakuCount">
-        <Title>%PopulationEndlessKapakuTitle</Title>
-        <Description>%PopulationEndlessKapakuDescription</Description>
+    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapakuCount">
+        <Title>%PopulationKapakuTitle</Title>
+        <Description>%PopulationKapakuDescription</Description>
         <SymbolString>[custom02]</SymbolString>
         <Color Red="255" Green="255" Blue="255" Alpha="255" />
-        <AltTitle>%PopulationEndlessKapakuTitle</AltTitle>
+        <AltTitle>%PopulationKapakuTitle</AltTitle>
     </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="AffinityEndlessKapaku">
-        <Title>%AffinityEndlessKapakuTitle</Title>
-        <Description>%AffinityEndlessKapakuDescription</Description>
+    <ExtendedGuiElement Name="AffinityKapaku">
+        <Title>%AffinityKapakuTitle</Title>
+        <Description>%AffinityKapakuDescription</Description>
         <Icons>
-            <Icon Size="Small" Path="Gui/EndlessKapakuSmall.png" />  <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
-            <Icon Size="Medium" Path="Gui/EndlessKapakuMedium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
-            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Medium with transparent and white colors inverted, never saw it used anywhere so presumably safe to ignore-->
-            <Icon Size="Large" Path="Gui/EndlessKapakuLarge" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
+            <Icon Size="Small" Path="Gui/Kapaku/Small.png" />  <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
+            <Icon Size="Medium" Path="Gui/Kapaku/Medium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Not sure what this does -->
+            <Icon Size="Large" Path="Gui/Kapaku/Large.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
         </Icons>
         <SymbolString>[custom02]</SymbolString>
         <Color Red="255" Green="141" Blue="102" Alpha="255" />

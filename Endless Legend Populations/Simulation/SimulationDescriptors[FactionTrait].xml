@@ -2,12 +2,12 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
 
 <!-- The traits must have the MinorTraitsAssimilated modifier-->
-  <SimulationDescriptor Name="FactionTraitEndlessKapakuHappiness" Type="FactionTraitMinor">
+  <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor">
     <Modifier TargetProperty="Happiness"       Operation="Addition" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"  />
 		<Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
-	<SimulationDescriptor Name="FactionTraitEndlessKapakuIndustry" Type="FactionTraitMinor">
+	<SimulationDescriptor Name="FactionTraitKapakuIndustry" Type="FactionTraitMinor">
     <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot" />
 		<Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>	

@@ -2,13 +2,13 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFactionPersonalityDefinition.xsd">
 
 
-  <MinorFactionPersonalityDefinition Name="FactionPersonalityEndlessKapaku">
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityKapaku">
         <MajorTrait Name="PersonalityTraitPragmatist"/>
         <MinorTrait Weight="50">
-            <Trait Name="FactionTraitEndlessKapakuHappiness"/>
+            <Trait Name="FactionTraitKapakuHappiness"/>
         </MinorTrait>
         <MinorTrait Weight="50">
-            <Trait Name="FactionTraitEndlessKapakuIndustry"/>
+            <Trait Name="FactionTraitKapakuIndustry"/>
         </MinorTrait>
     </MinorFactionPersonalityDefinition>    
     

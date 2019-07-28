@@ -2,49 +2,49 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
 
 
-    <PopulationModifiersTrait Name="PopulationModifiersTraitEndlessKapaku" SubCategory="Affinity" ShowInCustom="false">
+    <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
         <Modifiers>
             <Modifier Class="ClassPopulationEmpire">
-                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityEndlessKapaku"/>
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapaku"/>
             </Modifier>
             <Modifier Class="ClassPopulationStarSystem">
                 <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityEndlessKapaku"/>
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapaku"/>
             </Modifier>
         </Modifiers>
         <AssimilatedModifiers>
             <Modifier Class="ClassPopulationEmpire">
-                <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityEndlessKapaku"/>
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKapaku"/>
             </Modifier>
         </AssimilatedModifiers>
     </PopulationModifiersTrait>
 
-    <PopulationModifiersTrait Name="PopulationModifiersEndlessKapakuCount" SubCategory="Count">
+    <PopulationModifiersTrait Name="PopulationModifiersKapakuCount" SubCategory="Count">
         <Modifiers>
             <Modifier Class="ClassPopulationPlanet">
-                <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityEndlessKapakuCount"/>
+                <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKapakuCount"/>
             </Modifier>
             <Modifier Class="ClassPopulationStarSystem">
-                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityEndlessKapakuCount"/>
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapakuCount"/>
             </Modifier>
             <Modifier Class="ClassPopulationEmpire">
-                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityEndlessKapakuCount"/>
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapakuCount"/>
             </Modifier>
         </Modifiers>
     </PopulationModifiersTrait>
 	
-	<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryIndustryEndlessKapaku" SubCategory="Primary" ShowInCustom="true" Cost="25">
+	<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryIndustryKapaku" SubCategory="Primary" ShowInCustom="true" Cost="25">
         <Modifiers>
             <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku"/>
+                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
             </Modifier>
             <Modifier Class="ClassPopulationPlanet">
-                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryEndlessKapaku"/>
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
             </Modifier>
         </Modifiers>
         <AssimilatedModifiers>
             <Modifier Class="ClassPopulationPlanet"><!--Bonus given to the Population that assimilates them-->
-                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustryEndlessKapaku"/>
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustryKapaku"/>
             </Modifier>
         </AssimilatedModifiers>
     </PopulationModifiersTrait>

@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationDefinition.xsd">
 
 
-    <PopulationDefinition AffinityName="AffinityEndlessKapaku" Standard="true">
+    <PopulationDefinition AffinityName="AffinityKapaku" Standard="true">
         <DefaultPolitics>
             <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0"/>
         </DefaultPolitics>
@@ -11,17 +11,17 @@
         <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/>
         <Trait Name="PopulationPoliticalTraitEcologist"/>
 
-        <Trait Name="PopulationModifiersEndlessKapakuCount"/>
-        <Trait Name="PopulationModifiersTraitEndlessKapaku"/>
+        <Trait Name="PopulationModifiersKapakuCount"/>
+        <Trait Name="PopulationModifiersTraitKapaku"/>
 
         <Trait Name="PopulationModifiersTraitPrimaryHappiness"/> <!-- +2 Happiness -->
         <Trait Name="PopulationModifiersTraitSecondaryIndustryHot"/> <!-- +2 Industry on Hot -->
 
-        <Trait Name="PopulationCollectionBonusTraitEndlessKapaku" />
+        <Trait Name="PopulationCollectionBonusTraitKapaku" />
 
         <Desires></Desires>
         <Wills></Wills>
-        <AffinityMapping Name="AffinityMappingEndlessKapaku"/>
+        <AffinityMapping Name="AffinityMappingKapaku"/>
         <GrowthBoostLuxuryOptions>
             <Luxury>Luxury1</Luxury>
             <Luxury>Luxury2</Luxury>

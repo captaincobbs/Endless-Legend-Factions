@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFaction.xsd">
 
-    <MinorFaction Name="MinorFactionEndlessKapaku" Standard="true" Author="Captain Cobbs" Priority="100">
-        <Affinity Name="AffinityGameplayEndlessKapaku"/>
+    <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="100">
+        <Affinity Name="AffinityGameplayKapaku"/>
 
         <Trait Name="FamilyPrimitives"/>
         <Trait Name="IsMinorFaction"/>
-        <MajorPopulation Affinity="AffinityEndlessKapaku" Count="3"/>
+        <MajorPopulation Affinity="AffinityKapaku" Count="3"/>
 
-        <Personality Name="FactionPersonalityEndlessKapaku"/>
+        <Personality Name="FactionPersonalityKapaku"/>
         <Politics Name="Politics01"/>
 
         <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
