@@ -17,7 +17,7 @@
     <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="2" Path="./ClassColonizedStarSystem/PlanetTypeLava" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku3" Type="PopulationCollectionBonus">
-	  <BinaryModifier TargetProperty="NetSystemProduction" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
+	  <BinaryModifier TargetProperty="NetSystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
     <BinaryModifier TargetProperty="TerraformationModifier" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
   </SimulationDescriptor>
   
