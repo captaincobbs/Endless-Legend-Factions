@@ -1,38 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationDefinition.xsd">
 
+  <!-- Kapaku -->
+  <PopulationDefinition AffinityName="AffinityKapaku" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
 
-    <PopulationDefinition AffinityName="AffinityKapaku" Standard="true">
-        <DefaultPolitics>
-            <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0"/>
-        </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitIndustrialist"/>
+    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Trait Name="PopulationModifiersKapakuCount"/>
+    <Trait Name="PopulationModifiersTraitKapaku"/>
+    <Trait Name="PopulationModifiersTraitSecondaryHappinessHotKapaku"/> <!-- +2 Happiness On Hot-->
+    <Trait Name="PopulationModifiersTraitPrimaryIndustryHotKapaku"/> <!-- +1 Industry -->
+    <Trait Name="PopulationCollectionBonusTraitKapaku" />
 
-        <Trait Name="PopulationPoliticalTraitIndustrialist"/>
-        <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/>
-        <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Desires></Desires>
+    <Wills></Wills>
+    <AffinityMapping Name="AffinityMappingKapaku"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 
-        <Trait Name="PopulationModifiersKapakuCount"/>
-        <Trait Name="PopulationModifiersTraitKapaku"/>
+  <!-- Broken Lord -->
+  <PopulationDefinition AffinityName="AffinityLords" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
 
-        <Trait Name="PopulationModifiersTraitPrimaryHappinessHot"/> <!-- +2 Happiness -->
-        <Trait Name="PopulationModifiersTraitSecondaryIndustryHot"/> <!-- +2 Industry on Hot -->
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitPious"/>
+    <Trait Name="PopulationPoliticalTraitAggressive"/>
+    <Trait Name="PopulationModifiersLordsCount"/>
+    <Trait Name="PopulationModifiersTraitLords"/>
+    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/>  <!-- +50 Defense -->
+    <Trait Name="PopulationModifiersTraitSecondaryDustHappy"/> <!-- +2 Dust on Happy -->
+    <Trait Name="PopulationCollectionBonusTraitLords" />
 
-        <Trait Name="PopulationCollectionBonusTraitKapaku" />
-
-        <Desires></Desires>
-        <Wills></Wills>
-        <AffinityMapping Name="AffinityMappingKapaku"/>
-        <GrowthBoostLuxuryOptions>
-            <Luxury>Luxury1</Luxury>
-            <Luxury>Luxury2</Luxury>
-            <Luxury>Luxury3</Luxury>
-            <Luxury>Luxury4</Luxury>
-            <Luxury>Luxury5</Luxury>
-            <Luxury>Luxury6</Luxury>
-            <Luxury>Luxury7</Luxury>
-            <Luxury>Luxury8</Luxury>
-        </GrowthBoostLuxuryOptions>
-    </PopulationDefinition>
-
-
+    <Desires></Desires>
+    <Wills></Wills>
+    <AffinityMapping Name="AffinityMappingLords"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 </Datatable>
