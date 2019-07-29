@@ -2,18 +2,18 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
     
        
- <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="0" ShowInCustom="false"> <!--Thresholds set to 1, 2 and 3 for testing-->
-        <CollectionBonus Threshold="1">
+ <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="0" ShowInCustom="false">
+        <CollectionBonus Threshold="10">
             <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku1"/>
             <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
         </CollectionBonus>
 
-        <CollectionBonus Threshold="2">
+        <CollectionBonus Threshold="20">
             <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku2"/>
             <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
         </CollectionBonus>
 
-        <CollectionBonus Threshold="3">
+        <CollectionBonus Threshold="50">
             <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku3"/>
             <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
         </CollectionBonus>
