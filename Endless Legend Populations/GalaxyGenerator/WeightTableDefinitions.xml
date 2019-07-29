@@ -28,9 +28,22 @@
     <Entry Tag="MinorFactionHarmony"        Weight="1"/>
     <Entry Tag="MinorFactionBasryxo"        Weight="1"/>
 		<Entry Tag="MinorFactionKapaku"         Weight="5"/>
+    <Entry Tag="MinorFactionLords"          Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
 	<GalaxyGeneratorWeightTable Name="MinorFactionKapaku_PlanetTypes">
     <Entry Tag="PlanetTypeLava"                 Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionLords_PlanetTypes">
+    <Entry Tag="PlanetTypeDesert"               Weight="1"/>
+    <Entry Tag="PlanetTypeIce"                  Weight="10"/>
+    <Entry Tag="PlanetTypeBoreal"               Weight="10"/>
+    <Entry Tag="PlanetTypeTerran"               Weight="5"/>
+    <Entry Tag="PlanetTypeTundra"               Weight="5"/>
+    <Entry Tag="PlanetTypeSteppes"              Weight="5"/>
+    <Entry Tag="PlanetTypeSnow"                 Weight="15"/>
+    <Entry Tag="PlanetTypeArctic"               Weight="5"/>
+    <Entry Tag="PlanetTypeBarren"               Weight="3"/>
+    <Entry Tag="PlanetTypeForest"               Weight="2"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>
