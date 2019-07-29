@@ -6,7 +6,7 @@
 
         <Trait Name="FamilyPrimitives"/>
         <Trait Name="IsMinorFaction"/>
-        <MajorPopulation Affinity="AffinityKapaku" Count="3"/>
+        <MajorPopulation Affinity="AffinityKapaku" Count="2"/>
 
         <Personality Name="FactionPersonalityKapaku"/>
         <Politics Name="Politics01"/>
