@@ -28,7 +28,7 @@
   
   
   
-  <!--Industry-->
+  <!-- Industry On Hot -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku" Type="ClassPopulationPlanet">      <!-- Default output-->
     <Modifier       TargetProperty="BonusPopulationIndustry"      Operation="Addition"    Value="2" Path="./PlanetGameplayTypeHot" />
   </SimulationDescriptor>
@@ -42,27 +42,19 @@
     <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Addition"   Value="1" Property="-3" Path="./PlanetGameplayTypeHot"/>
   </SimulationDescriptor>
 
-
-  <!-- Food on temperate -->
-  <!-- If the path has something like PlanetGameplayType* or something like that then there needs to be a force operation which makes the output but has wrong tooltip so it is hidden, and then the Addition operation is solely for the tooltip.
-  because of that force operations need to have lower priority to get trigged later to overwrite the addition-->
-  
+  <!-- Happiness On Hot / Food On Hot -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" Type="ClassPopulationPlanet">       
-    <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
-    <Modifier       TargetProperty="Happiness"      Operation="Addition"    Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
+    <Modifier       TargetProperty="Happiness"      Operation="Force"    Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
+    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
   </SimulationDescriptor>
-
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="Happiness"      Operation="Force"       Value="-2" Priority="-4" Path="./PlanetGameplayTypeFertile/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile" TooltipHidden="true"/>
-    <Modifier       TargetProperty="Happiness"      Operation="Subtraction"    Value="2" Priority="-3" Path="./PlanetGameplayTypeFertile" />
-  </SimulationDescriptor>
-  
+ 
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"                                                 Type="WithPopulationPlanet">
-    <Modifier       TargetProperty="BonusPopulationFood"      Operation="Force"    Value="2" Priority="-3"        Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTemperate/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
-    <Modifier       TargetProperty="BonusPopulationFood"      Operation="Addition"    Value="2" Path="PlanetGameplayTypeHot" />
+    <Modifier       TargetProperty="Happiness"      Operation="Force"    Value="2" Priority="-3"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
+    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="2"                Path="PlanetGameplayTypeHot" />
   </SimulationDescriptor>
     
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetFoodOnHot" Type="ClassPopulationPlanet">      
-    <Modifier       TargetProperty="BonusPopulationFood"         Operation="Addition"    Value="1" Path="ClassPopulation"/>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetFoodOnHot" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="1" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
+    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="1" Path="./PlanetGameplayTypeHot"/>
   </SimulationDescriptor>
 </Datatable>

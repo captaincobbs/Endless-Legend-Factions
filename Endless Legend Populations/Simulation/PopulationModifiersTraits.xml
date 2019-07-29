@@ -49,8 +49,8 @@
         </AssimilatedModifiers>
     </PopulationModifiersTrait>
 	
-	<PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryFoodTemperate" SubCategory="Secondary" ShowInCustom="true" Cost="5">
-        <Tags>PlanetGameplayTypeTemperate,BonusPopulationGrowth</Tags>
+	<PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryFoodHot" SubCategory="Secondary" ShowInCustom="true" Cost="5">
+        <Tags>PlanetGameplayTypeHot,BonusPopulationGrowth</Tags>
         <Modifiers>
             <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
                 <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"/>
@@ -58,9 +58,6 @@
             <Modifier Class="ClassPopulationPlanet"><!-- +2 happiness per Population on Hot-->
                 <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
             </Modifier>
-          <Modifier Class="ClassPopulationPlanet"><!-- -2 happiness per population on Fertile-->
-             <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnFertile"/>            
-          </Modifier>
         </Modifiers>
 		<AssimilatedModifiers>
 			<Modifier Class="ClassPopulationPlanet">
