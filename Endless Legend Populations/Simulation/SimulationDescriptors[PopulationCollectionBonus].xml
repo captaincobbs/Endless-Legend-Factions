@@ -11,13 +11,14 @@
 	 -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku1" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics01"/>
-    <!--<Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="3" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/>-->
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.10" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityKapaku" SearchValueFromPath="true"/> <!-- Population Collection bonus 2, mostly increases one of the FIDSI by 15% if population is in system)-->
+    <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="2" Path="./ClassColonizedStarSystem/PlanetTypeLava" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku3" Type="PopulationCollectionBonus">
 	  <BinaryModifier TargetProperty="NetSystemProduction" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="TerraformationModifier" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
   </SimulationDescriptor>
   
 </Datatable>
