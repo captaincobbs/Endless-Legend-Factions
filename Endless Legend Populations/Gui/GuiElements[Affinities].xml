@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">  
+  <!-- Kapaku -->  
   <AffinityGuiElement Name="AffinityMappingKapaku">
     <Title>%AffinityGameplayKapakuTitle</Title>
     <Description>%AffinityGameplayKapakuDescription</Description>
@@ -11,6 +12,21 @@
       <Icon Size="Mood" Path="Gui/Kapaku/Mood.png" />                                                               <!--Image used when the faction is discovered 1324*712-->
     </Icons>
     <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Broken Lords -->
+  <AffinityGuiElement Name="AffinityMappingLords">
+    <Title>%AffinityGameplayLordsTitle</Title>
+    <Description>%AffinityGameplayLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/Lords/Small.png" />
+      <Icon Size="Medium" Path="Gui/Lords/Medium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/Lords/Large.png" />
+      <Icon Size="Mood" Path="Gui/Lords/Mood.png" />
+    </Icons>
+    <SymbolString>[custom00]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
 </Datatable>

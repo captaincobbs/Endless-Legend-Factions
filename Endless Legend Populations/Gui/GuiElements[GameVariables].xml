@@ -16,55 +16,107 @@ To use a special character from the Amplitude font properly copy the unicode cha
 I did it using FontForge, Right clicking the symbol I wanted to use, glyph info and copied "unicode char" from there
 If you know a better way to copy the unicode character (which I assume there is) let me know
 -->
-    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapaku">
-        <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
-        <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    </ExtendedGuiElement>
+  <!-- Kapaku -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapaku">
+    <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapakuCount">
-        <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
-        <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapakuCount">
+    <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapaku">
-        <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
-        <SymbolString>[custom02]</SymbolString>
-        <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapaku">
+    <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapakuCount">
-        <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
-        <SymbolString>[custom02]</SymbolString>
-        <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapakuCount">
+    <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapaku">
-        <Title>%PopulationKapakuTitle</Title>
-        <Description>%PopulationKapakuDescription</Description>
-        <SymbolString>[custom02]</SymbolString>
-        <Color Red="255" Green="255" Blue="255" Alpha="255" />
-        <AltTitle>%PopulationSowersTitle</AltTitle>
-    </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapaku">
+    <Title>%PopulationKapakuTitle</Title>
+    <Description>%PopulationKapakuDescription</Description>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationSowersTitle</AltTitle>
+  </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapakuCount">
-        <Title>%PopulationKapakuTitle</Title>
-        <Description>%PopulationKapakuDescription</Description>
-        <SymbolString>[custom02]</SymbolString>
-        <Color Red="255" Green="255" Blue="255" Alpha="255" />
-        <AltTitle>%PopulationKapakuTitle</AltTitle>
-    </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapakuCount">
+    <Title>%PopulationKapakuTitle</Title>
+    <Description>%PopulationKapakuDescription</Description>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
 
-    <ExtendedGuiElement Name="AffinityKapaku">
-        <Title>%AffinityKapakuTitle</Title>
-        <Description>%AffinityKapakuDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Gui/Kapaku/Small.png" />  <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
-            <Icon Size="Medium" Path="Gui/Kapaku/Medium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
-            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Not sure what this does -->
-            <Icon Size="Large" Path="Gui/Kapaku/Large.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
-        </Icons>
-        <SymbolString>[custom02]</SymbolString>
-        <Color Red="255" Green="141" Blue="102" Alpha="255" />
-    </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AffinityKapaku">
+    <Title>%AffinityKapakuTitle</Title>
+    <Description>%AffinityKapakuDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/Kapaku/Small.png" />  <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
+      <Icon Size="Medium" Path="Gui/Kapaku/Medium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Not sure what this does -->
+      <Icon Size="Large" Path="Gui/Kapaku/Large.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
+    </Icons>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+  
+  <!-- Broken Lord -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityLords">
+    <Title>%ClassPopulationEmpireAffinityLordsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
 
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityLordsCount">
+    <Title>%ClassPopulationEmpireAffinityLordsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLords">
+    <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLordsCount">
+    <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLords">
+    <Title>%PopulationLordsTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationSowersTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLordsCount">
+    <Title>%PopulationLordsTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationLordsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityLords">
+    <Title>%AffinityLordsTitle</Title>
+    <Description>%AffinityLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/Lords/Small.png" />
+      <Icon Size="Medium" Path="Gui/Lords/Medium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/Lords/Large.png" />
+    </Icons>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
 </Datatable>

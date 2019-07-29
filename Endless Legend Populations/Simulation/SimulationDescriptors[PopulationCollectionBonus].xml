@@ -9,9 +9,11 @@
 		Politics05 - Religious
 		Politics06 - Militarist
 	 -->
+  
+  <!-- Kapaku -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku1" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics01"/>
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="0.5" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="0.5" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="2" Path="./ClassColonizedStarSystem/PlanetTypeLava" SearchValueFromPath="true"/>
@@ -20,5 +22,16 @@
 	  <BinaryModifier TargetProperty="NetSystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
     <BinaryModifier TargetProperty="TerraformationModifier" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
   </SimulationDescriptor>
-  
+
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="PopulationCollectionBonusLords1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityLords" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusLords2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="150" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityLords" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="MaximumSystemManpowerBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityLords" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusLords3" Type="PopulationCollectionBonus">
+    <BinaryModifier TargetProperty="TroopDamageBonuses" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(HeroCount)" Path="./ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

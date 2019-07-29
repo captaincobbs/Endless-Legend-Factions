@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
   
-  
+  <!-- Kapaku -->
   <GuiElement Name="PopulationCollectionBonusKapaku1">
     <Title>%PopulationCollectionBonusKapaku1</Title>
   </GuiElement>
@@ -12,6 +12,20 @@
     <Title>%PopulationCollectionBonusKapaku3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusKapaku3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  
+  <!-- Broken Lords -->
+  <GuiElement Name="PopulationCollectionBonusLords1">
+    <Title>%PopulationCollectionBonusLords1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusLords2">
+    <Title>%PopulationCollectionBonusLords2</Title>
+  </GuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusLords3">
+    <Title>%PopulationCollectionBonusLords3</Title>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusLords3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 </Datatable>

@@ -1,27 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
 
-    <GuiElement Name="FactionTraitMinorKapaku">
-        <Title>%FactionTraitMinorKapakuTitle</Title>
-        <Description>%FactionTraitMinorKapakuDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
+  <!-- Kapaku -->
+  <GuiElement Name="FactionTraitMinorKapaku">
+    <Title>%FactionTraitMinorKapakuTitle</Title>
+    <Description>%FactionTraitMinorKapakuDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
     
-    <GuiElement Name="FactionTraitKapakuHappiness">
-        <Title>%FactionTraitKapakuHappinessTitle</Title>
-        <Description>%FactionTraitKapakuHappinessDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    <GuiElement Name="FactionTraitKapakuIndustry">
-        <Title>%FactionTraitKapakuIndustryTitle</Title>
-        <Description>%FactionTraitKapakuIndustryDescription</Description>
-        <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-    </GuiElement>
-    
+  <GuiElement Name="FactionTraitKapakuHappiness">
+    <Title>%FactionTraitKapakuHappinessTitle</Title>
+    <Description>%FactionTraitKapakuHappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="FactionTraitKapakuIndustry">
+    <Title>%FactionTraitKapakuIndustryTitle</Title>
+    <Description>%FactionTraitKapakuIndustryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+  
+  <!-- Broken Lords -->
+  <GuiElement Name="FactionTraitMinorLords">
+    <Title>%FactionTraitMinorLordsTitle</Title>
+    <Description>%FactionTraitMinorLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitLordsDust">
+    <Title>%FactionTraitLordsDustTitle</Title>
+    <Description>%FactionTraitLordsDustDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitLordsShipRegen">
+    <Title>%FactionTraitLordsShipRegenTitle</Title>
+    <Description>%FactionTraitLordsShipRegenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
 </Datatable>
