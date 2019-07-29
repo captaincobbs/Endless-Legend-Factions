@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
-  <LocalizationPair Name="%MinorFactionKapakuTitle">Kapaku</LocalizationPair>                                 <!--Minor Faction Name-->
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%MinorFactionKapakuTitle">Kapaku</LocalizationPair>                                              <!--Minor Faction Name-->
   <LocalizationPair Name="%MinorFactionKapakuDescription">The Kapaku have had a troubled past with planets. After their first one was terraformed into a disgusting lush forest, and their second one froze over, the Kapaku decided to find their own, perfect, planet.</LocalizationPair>                                 <!--Minor Faction Description-->
-  <LocalizationPair Name="%PopulationKapakuTitle">[custom02]</LocalizationPair>                                       <!--No idea-->
+  <LocalizationPair Name="%PopulationKapakuTitle">[custom02]</LocalizationPair>                                            <!--No idea-->
   <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle">[custom02]</LocalizationPair>                         <!--For Paths-->
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [industrycolored]</LocalizationPair>       <!--For Paths-->
-  <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                     <!--Population Name-->
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [industrycolored]</LocalizationPair> <!--For Paths-->
+  <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                                  <!--Population Name-->
   <LocalizationPair Name="%AffinityKapakuDescription">The Kapaku are strange race, with the unique ability to use geomancy, and a love for volcanic terrain.</LocalizationPair>
-  <LocalizationPair Name="%SystemEmpirePointTitle">[industrycolored]</LocalizationPair>                          <!--For tooltip from conversion of influence to industry-->
   <LocalizationPair Name="%FactionTraitKapakuHappinessTitle">Volcanic Paradise</LocalizationPair>                          <!--For Custom Trait-->
   <LocalizationPair Name="%FactionTraitKapakuIndustryTitle">Promethean Manufacturing</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription">The assimilation of the Kapaku leads to a similar disposition to Hot planets as the Kapaku themselves, which is one of awe and optimism.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuIndustryDescription">Mass-Production techniques known to only those who have evolved in Hadean environments are spread throughout your empire, resulting in massive boosts of industry.</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%MinorFactionLordsTitle">Broken Lords</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionLordsDescription">The Broken Lords in an emergency coalition of other factions, not to be outdone by the Vaulters, cooperated to develop spacecraft to escape Auriga. </LocalizationPair>
+  <LocalizationPair Name="%PopulationLordsTitle">[custom00]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle">[custom00]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle">Systems with [dustcolored]</LocalizationPair>
+  <LocalizationPair Name="%AffinityLordsTitle">Broken Lords</LocalizationPair>
+  <LocalizationPair Name="%AffinityLordsDescription">Once a proud nation of chivalrous knights, now crippled with a curse that traps their spirit within their armor. They have yet to break their curse, but have lost their motivation to do so.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsDustTitle">Non-Lethal Extraction</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenTitle">Dust Overcharging</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsDustDescription">Using the vampiric power of the Broken Lords, but combined with safer methods, you can passively extract non-lethal amounts of dust from citizens.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription">Using the restorative power of dust that the Broken Lords have come to learn, you can make all slowly repair themselves.</LocalizationPair>
 </Datatable>
