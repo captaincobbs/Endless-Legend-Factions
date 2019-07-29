@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
 
-<!-- The traits must have the MinorTraitsAssimilated modifier-->
+  <!-- Kapaku -->
   <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor">
-    <Modifier TargetProperty="Happiness"       Operation="Addition" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"  />
+    <Modifier TargetProperty="Happiness"       Operation="Addition" Value="3" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"  />
 		<Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
 	<SimulationDescriptor Name="FactionTraitKapakuIndustry" Type="FactionTraitMinor">
-    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="5" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot" />
+    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="3" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot" />
 		<Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
-  </SimulationDescriptor>	
+  </SimulationDescriptor>
+
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="FactionTraitLordsDust" Type="FactionTraitMinor">
+    <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.05" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitLordsShipRegen" Type="FactionTraitMinor">
+    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.02" Path="./ClassColonizedStarSystem/ClassGarrison/ClassShip" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>
