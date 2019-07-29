@@ -2,11 +2,10 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
  
  <!-- Renaming is enough for count and affinity, no idea how to make population traits. My bad attempt is below (crashed the game)-->
-    
+  <!-- Kapaku -->
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire"/>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem"/>
-
-<!---->
+  
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityKapakuCount" Type="ClassPopulationPlanet">
     <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityKapakuCount" TooltipHidden="true"/>
   </SimulationDescriptor>
@@ -25,35 +24,56 @@
 	<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
 	  <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
 	</SimulationDescriptor>
-  
-  
+
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLords" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLords" Type="ClassPopulationStarSystem"/>
+
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinityLordsCount" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityLordsCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLordsCount" Type="ClassPopulationStarSystem">
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityLordsCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLordsCount" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityLordsCount" Priority="100" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityLords" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityLords" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
   
   <!-- Industry On Hot -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku" Type="ClassPopulationPlanet">      <!-- Default output-->
-    <Modifier       TargetProperty="BonusPopulationIndustry"      Operation="Addition"    Value="2" Path="./PlanetGameplayTypeHot" />
+    <Modifier       TargetProperty="BonusPopulationIndustry"      Operation="Addition"    Value="1" /><!--Path="./PlanetGameplayTypeHot"-->
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku"                                                 Type="WithPopulationPlanet"> <!-- Bonus applied when boosted-->
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2"       Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku,ClassPopulation"/>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku" Type="WithPopulationPlanet"> <!-- Bonus applied when boosted-->
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="1"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku,ClassPopulation"/>
   </SimulationDescriptor>
     
   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetIndustryKapaku" Type="ClassPopulationPlanet"> <!-- For gene splicing -->
-    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Force"      Value="1" Property="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryIndustryOnHot" TooltipHidden="true"/>
-    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Addition"   Value="1" Property="-3" Path="./PlanetGameplayTypeHot"/>
+    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Force"      Value="1" Property="-4" TooltipHidden="true"/><!-- Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryIndustryOnHot"-->
+    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Addition"   Value="1" Property="-3" /><!--Path="./PlanetGameplayTypeHot"-->
   </SimulationDescriptor>
 
-  <!-- Happiness On Hot / Food On Hot -->
+  <!-- Happiness On Hot -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" Type="ClassPopulationPlanet">       
     <Modifier       TargetProperty="Happiness"      Operation="Force"    Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
     <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
   </SimulationDescriptor>
  
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"                                                 Type="WithPopulationPlanet">
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryHappinessOnHot"                                                 Type="WithPopulationPlanet">
     <Modifier       TargetProperty="Happiness"      Operation="Force"    Value="2" Priority="-3"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
     <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="2"                Path="PlanetGameplayTypeHot" />
   </SimulationDescriptor>
     
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetFoodOnHot" Type="ClassPopulationPlanet">
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetHappinessOnHot" Type="ClassPopulationPlanet">
     <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="1" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
     <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="1" Path="./PlanetGameplayTypeHot"/>
   </SimulationDescriptor>

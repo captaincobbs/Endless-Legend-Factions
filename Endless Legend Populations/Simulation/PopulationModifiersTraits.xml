@@ -1,71 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+  <!-- Kapaku -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapaku"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapaku"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKapaku"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
 
+  <PopulationModifiersTrait Name="PopulationModifiersKapakuCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKapakuCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapakuCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapakuCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
 
-    <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
-        <Modifiers>
-            <Modifier Class="ClassPopulationEmpire">
-                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapaku"/>
-            </Modifier>
-            <Modifier Class="ClassPopulationStarSystem">
-                <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapaku"/>
-            </Modifier>
-        </Modifiers>
-        <AssimilatedModifiers>
-            <Modifier Class="ClassPopulationEmpire">
-                <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKapaku"/>
-            </Modifier>
-        </AssimilatedModifiers>
-    </PopulationModifiersTrait>
+  <!-- Broken Lords -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitLords" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLords"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeDust"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLords"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityLords"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
 
-    <PopulationModifiersTrait Name="PopulationModifiersKapakuCount" SubCategory="Count">
-        <Modifiers>
-            <Modifier Class="ClassPopulationPlanet">
-                <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKapakuCount"/>
-            </Modifier>
-            <Modifier Class="ClassPopulationStarSystem">
-                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapakuCount"/>
-            </Modifier>
-            <Modifier Class="ClassPopulationEmpire">
-                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapakuCount"/>
-            </Modifier>
-        </Modifiers>
-    </PopulationModifiersTrait>
-	
+  <PopulationModifiersTrait Name="PopulationModifiersLordsCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityLordsCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLordsCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLordsCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+  
+  <!-- Kapaku Traits -->
 	<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryIndustryKapaku" SubCategory="Primary" ShowInCustom="true" Cost="25">
-        <Modifiers>
-            <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
-            </Modifier>
-            <Modifier Class="ClassPopulationPlanet">
-                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
-            </Modifier>
-        </Modifiers>
-        <AssimilatedModifiers>
-            <Modifier Class="ClassPopulationPlanet"><!--Bonus given to the Population that assimilates them-->
-                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustryKapaku"/>
-            </Modifier>
-        </AssimilatedModifiers>
-    </PopulationModifiersTrait>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet"><!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustryKapaku"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
 	
-	<PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryFoodHot" SubCategory="Secondary" ShowInCustom="true" Cost="5">
-        <Tags>PlanetGameplayTypeHot,BonusPopulationGrowth</Tags>
-        <Modifiers>
-            <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryFoodOnHot"/>
-            </Modifier>
-            <Modifier Class="ClassPopulationPlanet"><!-- +2 happiness per Population on Hot-->
-                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
-            </Modifier>
-        </Modifiers>
-		<AssimilatedModifiers>
-			<Modifier Class="ClassPopulationPlanet">
+	<PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryHappinessHotKapaku" SubCategory="Secondary" ShowInCustom="true" Cost="5">
+    <Tags>PlanetGameplayTypeHot,BonusPopulationGrowth</Tags>
+      <Modifiers>
+        <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+          <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
+        </Modifier>
+        <Modifier Class="ClassPopulationPlanet"><!-- +2 happiness per Population on Hot-->
+          <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
+        </Modifier>
+      </Modifiers>
+		  <AssimilatedModifiers>
+			  <Modifier Class="ClassPopulationPlanet">
 				<!--Bonus given to the Population that assimilates them, +1Food-->
-				<SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetFoodOnHot"/>
-			</Modifier>
-		</AssimilatedModifiers>
-    </PopulationModifiersTrait>
-
- 
+          <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetHappinessOnHot"/>
+			  </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
 </Datatable>
