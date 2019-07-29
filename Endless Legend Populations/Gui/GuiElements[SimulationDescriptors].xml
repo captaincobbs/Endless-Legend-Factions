@@ -8,7 +8,10 @@
   <GuiElement Name="PopulationCollectionBonusKapaku2">
     <Title>%PopulationCollectionBonusKapaku2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusKapaku3">
+  <ExtendedGuiElement Name="PopulationCollectionBonusKapaku3">
     <Title>%PopulationCollectionBonusKapaku3</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusKapaku3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>
