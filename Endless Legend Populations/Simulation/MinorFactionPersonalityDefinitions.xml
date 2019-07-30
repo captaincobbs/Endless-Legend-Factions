@@ -3,7 +3,7 @@
   <!-- Weight decides the chance that a faction will be chosen, the max isn't 10, but I suggest using lowest numbers possible for simplicity -->
   <!-- Kapaku -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityKapaku">
-    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MajorTrait Name="PersonalityTraitPragmatist"/> <!-- Determines what additional bonus they give. Pragmatist is science, Warmonger is manpower/ships, and Pacifist gives influence -->
     <MinorTrait Weight="6">
       <Trait Name="FactionTraitKapakuHappiness"/>
     </MinorTrait>
@@ -20,6 +20,17 @@
     </MinorTrait>
     <MinorTrait Weight="2">
       <Trait Name="FactionTraitLordsShipRegen"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Forgotten -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityForgotten">
+    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MinorTrait Weight="3">
+      <Trait Name="FactionTraitForgottenMoveSpeed"/>
+    </MinorTrait>
+    <MinorTrait Weight="7">
+      <Trait Name="FactionTraitForgottenAccuracy"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 </Datatable>
