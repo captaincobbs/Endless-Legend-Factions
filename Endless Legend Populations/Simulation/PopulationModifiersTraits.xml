@@ -3,7 +3,7 @@
   <!-- Links many files together,
        ClassPopulationEmpireAffinity is used in GuiElements[GameVariables]
        ClassPopulationStarSystemAffinity is used in GuiElements[GameVariables]
-       ClassPopulationStarSystemGrowthType can be set to Food or Industry (for industry thing Riftborn), I'm not sure if Dust/Money works
+       ClassPopulationStarSystemGrowthType can be set to Food or Industry (for industry think Riftborn), I'm not sure if Dust/Money works
        ClassPopulationAssimilatedEmpireAffinity is used in GuiElements[GameVariables]-->
   <!-- Kapaku -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
