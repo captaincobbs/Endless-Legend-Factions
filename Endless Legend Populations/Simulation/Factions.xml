@@ -5,7 +5,7 @@
     <Affinity Name="AffinityGameplayKapaku"/><!-- Defined in FactionTraits[Affinity] -->
     <Trait Name="FamilyPrimitives"/><!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
     <Trait Name="IsMinorFaction"/><!-- Confirms that the faction is a major factions -->
-    <MajorPopulation Affinity="AffinityKapaku" Count="2"/><!-- Affinity{Faction Name} determines the starting faction, Count is the number to start with, so in this case you will start with 2 Kapaku -->
+    <MajorPopulation Affinity="AffinityKapaku" Count="3"/><!-- Affinity{Faction Name} determines the starting faction, Count is the number to start with, so in this case you will start with 2 Kapaku -->
     <Personality Name="FactionPersonalityKapaku"/><!-- Defined in MinorFactionPersonalityDefinitions -->
     <Politics Name="Politics01"/>
     <!-- ^ Determines starting political faction and what it should focus towards -->
