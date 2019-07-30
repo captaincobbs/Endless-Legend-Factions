@@ -63,39 +63,4 @@
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
-  
-  <!-- Kapaku Traits -->
-	<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryIndustryKapaku" SubCategory="Primary" ShowInCustom="true" Cost="25">
-    <Modifiers>
-      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku"/>
-      </Modifier>
-    </Modifiers>
-    <AssimilatedModifiers>
-      <Modifier Class="ClassPopulationPlanet"><!--Bonus given to the Population that assimilates them-->
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetIndustryKapaku"/>
-      </Modifier>
-    </AssimilatedModifiers>
-  </PopulationModifiersTrait>
-	
-	<PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryHappinessHotKapaku" SubCategory="Secondary" ShowInCustom="true" Cost="5">
-    <Tags>PlanetGameplayTypeHot,BonusPopulationGrowth</Tags>
-      <Modifiers>
-        <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-          <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
-        </Modifier>
-        <Modifier Class="ClassPopulationPlanet"><!-- +2 happiness per Population on Hot-->
-          <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
-        </Modifier>
-      </Modifiers>
-		  <AssimilatedModifiers>
-			  <Modifier Class="ClassPopulationPlanet">
-				<!--Bonus given to the Population that assimilates them, +1Food-->
-          <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetHappinessOnHot"/>
-			  </Modifier>
-    </AssimilatedModifiers>
-  </PopulationModifiersTrait>
 </Datatable>

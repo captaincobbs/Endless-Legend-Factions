@@ -47,34 +47,4 @@
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityLords" Type="ClassPopulationAssimilated">
     <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
-  
-  <!-- Industry On Hot -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku" Type="ClassPopulationPlanet">      <!-- Default output-->
-    <Modifier       TargetProperty="BonusPopulationIndustry"      Operation="Addition"    Value="1" /><!--Path="./PlanetGameplayTypeHot"-->
-  </SimulationDescriptor>
-
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryIndustryKapaku" Type="WithPopulationPlanet"> <!-- Bonus applied when boosted-->
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="1"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryIndustryKapaku,ClassPopulation"/>
-  </SimulationDescriptor>
-    
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetIndustryKapaku" Type="ClassPopulationPlanet"> <!-- For gene splicing -->
-    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Force"      Value="1" Property="-4" TooltipHidden="true"/><!-- Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryIndustryOnHot"-->
-    <Modifier       TargetProperty="BonusPopulationIndustry"         Operation="Addition"   Value="1" Property="-3" /><!--Path="./PlanetGameplayTypeHot"-->
-  </SimulationDescriptor>
-
-  <!-- Happiness On Hot -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" Type="ClassPopulationPlanet">       
-    <Modifier       TargetProperty="Happiness"      Operation="Force"    Value="2" Priority="-4" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>
-    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="2" Priority="-3" Path="./PlanetGameplayTypeHot" />
-  </SimulationDescriptor>
- 
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryHappinessOnHot"                                                 Type="WithPopulationPlanet">
-    <Modifier       TargetProperty="Happiness"      Operation="Force"    Value="2" Priority="-3"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot" TooltipHidden="true"/>       
-    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="2"                Path="PlanetGameplayTypeHot" />
-  </SimulationDescriptor>
-    
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetHappinessOnHot" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="1" Path="./PlanetGameplayTypeHot/ClassPopulationPlanetModifiersTraitSecondaryHappinessOnHot"/>
-    <Modifier       TargetProperty="Happiness"      Operation="Addition" Value="1" Path="./PlanetGameplayTypeHot"/>
-  </SimulationDescriptor>
 </Datatable>

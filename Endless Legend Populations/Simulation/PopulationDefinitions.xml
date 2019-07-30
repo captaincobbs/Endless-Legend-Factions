@@ -12,8 +12,8 @@
     <Trait Name="PopulationPoliticalTraitEcologist"/>
     <Trait Name="PopulationModifiersKapakuCount"/>
     <Trait Name="PopulationModifiersTraitKapaku"/>
-    <Trait Name="PopulationModifiersTraitSecondaryHappinessHotKapaku"/> <!-- +2 Happiness On Hot-->
-    <Trait Name="PopulationModifiersTraitPrimaryIndustryHotKapaku"/> <!-- +1 Industry -->
+    <Trait Name="PopulationModifiersTraitSecondaryHappinessHot"/> <!-- +2 Happiness On Hot-->
+    <Trait Name="PopulationModifiersTraitPrimaryIndustry"/> <!-- +1 Industry -->
     <Trait Name="PopulationCollectionBonusTraitKapaku" />
 
     <Desires></Desires>
