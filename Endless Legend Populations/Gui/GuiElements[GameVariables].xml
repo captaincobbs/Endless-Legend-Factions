@@ -95,19 +95,19 @@ SymbolString should be set to the same thing each time as to not confuse people,
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLords">
-    <Title>%PopulationKapakuTitle</Title>
+    <Title>%PopulationLordsTitle</Title>
     <Description>%PopulationLordsDescription</Description>
     <SymbolString>[custom00]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationKapakuTitle</AltTitle> 
+    <AltTitle>%PopulationLordsTitle</AltTitle> 
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLordsCount">
-    <Title>%PopulationKapakuTitle</Title>
+    <Title>%PopulationLordsTitle</Title>
     <Description>%PopulationLordsDescription</Description>
     <SymbolString>[custom00]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationKapakuTitle</AltTitle>
+    <AltTitle>%PopulationLordsTitle</AltTitle>
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="AffinityLords">
@@ -120,6 +120,58 @@ SymbolString should be set to the same thing each time as to not confuse people,
       <Icon Size="Large" Path="Gui/LordsLarge.png" />
     </Icons>
     <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Forgotten -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityForgotten">
+    <Title>%ClassPopulationEmpireAffinityForgottenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityForgottenCount">
+    <Title>%ClassPopulationEmpireAffinityForgottenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityForgotten">
+    <Title>%ClassPopulationStarSystemAffinityForgottenTitle</Title>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityForgottenCount">
+    <Title>%ClassPopulationStarSystemAffinityForgottenTitle</Title>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityForgotten">
+    <Title>%PopulationForgottenTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityForgottenCount">
+    <Title>%PopulationForgottenTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationForgottenTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityForgotten">
+    <Title>%AffinityForgottenTitle</Title>
+    <Description>%AffinityForgottenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/ForgottenSmall.png" />
+      <Icon Size="Medium" Path="Gui/ForgottenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/ForgottenLarge.png" />
+    </Icons>
+    <SymbolString>[custom06]</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 </Datatable>

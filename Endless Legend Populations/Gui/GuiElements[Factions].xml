@@ -12,4 +12,10 @@
     <Title>%MinorFactionLordsTitle</Title>
     <Description>%MinorFactionLordsDescription</Description>
   </GuiElement>
+
+  <!-- Forgotten -->
+  <GuiElement Name="MinorFactionForgotten">
+    <Title>%MinorFactionForgottenTitle</Title>
+    <Description>%MinorFactionForgottenDescription</Description>
+  </GuiElement>
 </Datatable>

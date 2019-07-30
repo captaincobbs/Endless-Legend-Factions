@@ -10,4 +10,9 @@
   <FactionAffinityMapping Name="AffinityMappingLords" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingLords" />
   </FactionAffinityMapping>
+
+  <!-- Forgotten -->
+  <FactionAffinityMapping Name="AffinityMappingForgotten" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingForgotten" />
+  </FactionAffinityMapping>
 </Datatable>

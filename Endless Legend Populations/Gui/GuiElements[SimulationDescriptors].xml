@@ -33,4 +33,18 @@
       <EffectOverride>%PopulationCollectionBonusLords3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+
+  <!-- Forgotten -->
+  <GuiElement Name="PopulationCollectionBonusForgotten1">
+    <Title>%PopulationCollectionBonusForgotten1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusForgotten2">
+    <Title>%PopulationCollectionBonusForgotten2</Title>
+  </GuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusForgotten3">
+    <Title>%PopulationCollectionBonusForgotten3</Title>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusForgotten3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>

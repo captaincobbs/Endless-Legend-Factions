@@ -29,4 +29,19 @@
     <SymbolString>[custom00]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+  
+  <!-- Forgotten -->
+  <AffinityGuiElement Name="AffinityMappingForgotten">
+    <Title>%AffinityGameplayForgottenTitle</Title>
+    <Description>%AffinityGameplayForgottenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/ForgottenSmall.png" />
+      <Icon Size="Medium" Path="Gui/ForgottenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/ForgottenLarge.png" />
+      <Icon Size="Mood" Path="Gui/ForgottenMood.png" />
+    </Icons>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

@@ -4,4 +4,5 @@
        Just copying and pasting it should be fine. It's defined in SimulationDescriptors[FactionAffinityMapping]-->
   <SimulationDescriptor Name="AffinityMappingKapaku" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingLords" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingForgotten" Type="AffinityMapping"/>
 </Datatable>

@@ -26,4 +26,17 @@
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle">Dust Overcharging</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription">Using the vampiric power of the Broken Lords, but combined with safer methods, you can passively extract non-lethal amounts of dust from citizens.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenDescription">Using the restorative power of dust that the Broken Lords have come to learn, you can make all slowly repair themselves.</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%MinorFactionForgottenTitle">Forgotten</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionForgottenDescription">Slowly escaping Auriga via sneakily stowing away on Exploration Vessels in generous numbers, the Forgotten eventually decided to start anew and dispersed throughout the galaxy. Eventually though they become disgusted at how similarly they were treated in these new lands that they decided to congregate and form their own nation once again.</LocalizationPair>
+  <LocalizationPair Name="%PopulationForgottenTitle">[custom06]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityForgottenTitle">[custom06]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityForgottenTitle">Systems with [dustcolored]</LocalizationPair>
+  <LocalizationPair Name="%AffinityForgottenTitle">Forgotten</LocalizationPair>
+  <LocalizationPair Name="%AffinityForgottenDescription">Rogues and spies with a unique ability to turn invisible at will, the Forgotten use dirty tricks and thievery to get what they want.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle">Quick Maneuvering</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle">Eagle Eye</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription">The Forgotten have a truly amazing tactic for making pilots fly their ships faster: Threathen them.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription">Having an expertise in infiltration and spying has its perks, and making the Forgotten gunners makes weaponry for more likely to hit.</LocalizationPair>
 </Datatable>

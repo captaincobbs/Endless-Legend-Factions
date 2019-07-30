@@ -5,4 +5,5 @@
        used for. -->
   <SimulationDescriptor Name="AffinityKapaku" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityLords" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityForgotten" Type="Affinity"></SimulationDescriptor>
 </Datatable>

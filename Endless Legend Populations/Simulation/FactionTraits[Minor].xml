@@ -17,4 +17,12 @@
   <FactionTrait Name="FactionTraitLordsShipRegen" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitLordsShipRegen"/>
   </FactionTrait>
+
+  <!-- Forgotten -->
+  <FactionTrait Name="FactionTraitForgottenMoveSpeed" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitForgottenMoveSpeed"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitForgottenAccuracy" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitForgottenAccuracy"/>
+  </FactionTrait>
 </Datatable>
