@@ -23,4 +23,15 @@
     <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.02" Path="./ClassColonizedStarSystem/ClassGarrison/ClassShip" />
     <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="FactionTraitForgottenMoveSpeed" Type="FactionTraitMinor">
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitForgottenAccuracy" Type="FactionTraitMinor">
+    <Modifier TargetProperty="Accuracy"  Operation="Addition"  Value="0.08"  Path="ClassShip/ClassSection/ClassModuleWeapon"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>
