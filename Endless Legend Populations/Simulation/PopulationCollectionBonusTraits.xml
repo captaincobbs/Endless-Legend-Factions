@@ -37,4 +37,22 @@
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
+
+  <!-- Forgotten -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="0" ShowInCustom="false">
+    <CollectionBonus Threshold="1">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLords1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="2">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLords2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="3">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLords3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
 </Datatable>
