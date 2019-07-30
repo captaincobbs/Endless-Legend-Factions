@@ -1,5 +1,0 @@
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <!--<LocalizationPair Name="%PopulationCollectionBonusTraitKapaku3Title">Naturalist Collection</LocalizationPair>-->
-  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+10% [industrycolored] added to [foodcolored] on Systems</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on weapon modules.</LocalizationPair>
-</Datatable>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFactionPersonalityDefinition.xsd">
-
+  <!-- Weight decides the chance that a faction will be chosen, the max isn't 10, but I suggest using lowest numbers possible for simplicity -->
   <!-- Kapaku -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityKapaku">
     <MajorTrait Name="PersonalityTraitPragmatist"/>
-    <MinorTrait Weight="50">
+    <MinorTrait Weight="6">
       <Trait Name="FactionTraitKapakuHappiness"/>
     </MinorTrait>
-    <MinorTrait Weight="50">
+    <MinorTrait Weight="4">
       <Trait Name="FactionTraitKapakuIndustry"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
@@ -15,10 +15,10 @@
   <!-- Broken Lords -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityLords">
     <MajorTrait Name="PersonalityTraitWarmonger"/>
-    <MinorTrait Weight="50">
+    <MinorTrait Weight="8">
       <Trait Name="FactionTraitLordsDust"/>
     </MinorTrait>
-    <MinorTrait Weight="50">
+    <MinorTrait Weight="2">
       <Trait Name="FactionTraitLordsShipRegen"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>

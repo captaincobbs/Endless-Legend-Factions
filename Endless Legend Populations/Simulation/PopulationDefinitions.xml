@@ -1,25 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationDefinition.xsd">
-
   <!-- Kapaku -->
-  <PopulationDefinition AffinityName="AffinityKapaku" Standard="true">
-    <DefaultPolitics>
+  <PopulationDefinition AffinityName="AffinityKapaku" Standard="true"> <!-- "AffinityKapaku" is the definition for the Population, very important -->
+    <DefaultPolitics> <!-- Politics = Base Political Party, Basescore is the starting strength of the political party, and I think trend is how fast it will automatically grow -->
       <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0"/>
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitIndustrialist"/>
-    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/>
-    <Trait Name="PopulationPoliticalTraitEcologist"/>
-    <Trait Name="PopulationModifiersKapakuCount"/>
-    <Trait Name="PopulationModifiersTraitKapaku"/>
+    <Trait Name="PopulationPoliticalTraitIndustrialist"/> <!-- This line -->
+    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/> <!-- This line -->
+    <Trait Name="PopulationPoliticalTraitEcologist"/> <!-- And this line are used to define political traits -->
+    <Trait Name="PopulationModifiersKapakuCount"/> <!-- This line is used for the total population count -->
+    <Trait Name="PopulationModifiersTraitKapaku"/> <!-- Defined in PopulationModifiersTraits -->
     <Trait Name="PopulationModifiersTraitSecondaryHappinessHot"/> <!-- +2 Happiness On Hot-->
     <Trait Name="PopulationModifiersTraitPrimaryIndustry"/> <!-- +1 Industry -->
     <Trait Name="PopulationCollectionBonusTraitKapaku" />
 
-    <Desires></Desires>
-    <Wills></Wills>
-    <AffinityMapping Name="AffinityMappingKapaku"/>
-    <GrowthBoostLuxuryOptions>
+    <AffinityMapping Name="AffinityMappingKapaku"/> <!-- Defined in SimulationDescriptors[FactionAffinityMapping] -->
+    <GrowthBoostLuxuryOptions> <!-- Luxuries that can be used to boost population, goes for 1-16, game randomly chooses one each time -->
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury2</Luxury>
       <Luxury>Luxury3</Luxury>
@@ -46,8 +43,6 @@
     <Trait Name="PopulationModifiersTraitSecondaryDustHappy"/> <!-- +2 Dust on Happy -->
     <Trait Name="PopulationCollectionBonusTraitLords" />
 
-    <Desires></Desires>
-    <Wills></Wills>
     <AffinityMapping Name="AffinityMappingLords"/>
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>

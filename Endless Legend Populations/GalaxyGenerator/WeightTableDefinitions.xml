@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
-
+  <!-- Chances for Minor Factions to be spawned, if set to 0 or not included in the list, they will not spawn. -->
   <GalaxyGeneratorWeightTable Name="MinorFactions">
     <Entry Tag="MinorFactionAmoeba"         Weight="1"/>
     <Entry Tag="MinorFactionBots"           Weight="1"/>
@@ -31,6 +31,8 @@
     <Entry Tag="MinorFactionLords"          Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
+  <!-- Determines the chance for different types of starting planets
+       Supposedly StarTypes is a thing, but I couldn't get it to work -->
 	<GalaxyGeneratorWeightTable Name="MinorFactionKapaku_PlanetTypes">
     <Entry Tag="PlanetTypeLava"                 Weight="1"/>
   </GalaxyGeneratorWeightTable>

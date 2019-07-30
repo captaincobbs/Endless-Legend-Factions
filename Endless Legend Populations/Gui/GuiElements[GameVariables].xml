@@ -15,6 +15,9 @@ FF01 - 10106 (?): Noto Sans CJK
 To use a special character from the Amplitude font properly copy the unicode character directly into the symbol string to prevent the game messing it up in population screen. 
 I did it using FontForge, Right clicking the symbol I wanted to use, glyph info and copied "unicode char" from there
 If you know a better way to copy the unicode character (which I assume there is) let me know
+
+This is used to display text in certain areas, while I'm not sure what these areas are, I'm pretty sure they work
+SymbolString should be set to the same thing each time as to not confuse people, so I made the Population Title defined in ES2_Localization_Assets_Locales the default.
 -->
   <!-- Kapaku -->
   <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapaku">
@@ -29,20 +32,20 @@ If you know a better way to copy the unicode character (which I assume there is)
 
   <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapaku">
     <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
-    <SymbolString>[custom02]</SymbolString>
+    <SymbolString>%PopulationKapakuTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapakuCount">
     <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
-    <SymbolString>[custom02]</SymbolString>
+    <SymbolString>%PopulationKapakuTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapaku">
     <Title>%PopulationKapakuTitle</Title>
     <Description>%PopulationKapakuDescription</Description>
-    <SymbolString>[custom02]</SymbolString>
+    <SymbolString>%PopulationKapakuTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%PopulationSowersTitle</AltTitle>
   </ExtendedGuiElement>
@@ -50,7 +53,7 @@ If you know a better way to copy the unicode character (which I assume there is)
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapakuCount">
     <Title>%PopulationKapakuTitle</Title>
     <Description>%PopulationKapakuDescription</Description>
-    <SymbolString>[custom02]</SymbolString>
+    <SymbolString>%PopulationKapakuTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%PopulationKapakuTitle</AltTitle>
   </ExtendedGuiElement>
@@ -64,7 +67,7 @@ If you know a better way to copy the unicode character (which I assume there is)
       <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Not sure what this does -->
       <Icon Size="Large" Path="Gui/Kapaku/Large.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
     </Icons>
-    <SymbolString>[custom02]</SymbolString>
+    <SymbolString>%PopulationKapakuTitle</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
   
@@ -81,20 +84,20 @@ If you know a better way to copy the unicode character (which I assume there is)
 
   <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLords">
     <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
-    <SymbolString>[custom00]</SymbolString>
+    <SymbolString>%PopulationLordsTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLordsCount">
     <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
-    <SymbolString>[custom00]</SymbolString>
+    <SymbolString>%PopulationLordsTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLords">
     <Title>%PopulationLordsTitle</Title>
     <Description>%PopulationLordsDescription</Description>
-    <SymbolString>[custom00]</SymbolString>
+    <SymbolString>%PopulationLordsTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%PopulationSowersTitle</AltTitle>
   </ExtendedGuiElement>
@@ -102,7 +105,7 @@ If you know a better way to copy the unicode character (which I assume there is)
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLordsCount">
     <Title>%PopulationLordsTitle</Title>
     <Description>%PopulationLordsDescription</Description>
-    <SymbolString>[custom00]</SymbolString>
+    <SymbolString>%PopulationLordsTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%PopulationLordsTitle</AltTitle>
   </ExtendedGuiElement>
@@ -116,7 +119,7 @@ If you know a better way to copy the unicode character (which I assume there is)
       <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
       <Icon Size="Large" Path="Gui/Lords/Large.png" />
     </Icons>
-    <SymbolString>[custom00]</SymbolString>
+    <SymbolString>%PopulationLordsTitle</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 </Datatable>

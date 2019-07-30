@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFaction.xsd">
-
-  <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="100">
-    <Affinity Name="AffinityGameplayKapaku"/>
-    <Trait Name="FamilyPrimitives"/>
-    <Trait Name="IsMinorFaction"/>
-    <MajorPopulation Affinity="AffinityKapaku" Count="2"/>
-    <Personality Name="FactionPersonalityKapaku"/>
+  <!-- Kapaku -->
+  <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="100"> <!-- I'm not entirely sure what priority does-->
+    <Affinity Name="AffinityGameplayKapaku"/> <!-- Defined in FactionTraits[Affinity] -->
+    <Trait Name="FamilyPrimitives"/> <!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
+    <Trait Name="IsMinorFaction"/> <!-- Confirms that the faction is a major factions -->
+    <MajorPopulation Affinity="AffinityKapaku" Count="2"/> <!-- Affinity{Faction Name} determines the starting faction, Count is the number to start with, so in this case you will start with 2 Kapaku -->
+    <Personality Name="FactionPersonalityKapaku"/> <!-- Defined in MinorFactionPersonalityDefinitions -->
     <Politics Name="Politics01"/>
-
+    <!-- ^ Determines starting political faction and what it should focus towards -->
+    <!-- v I'm not sure what this does, all minor factions have this set to 0 -->
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
     <ColonizablePlanet Type="PlanetTypeArctic" Priority="0"/>
     <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0"/>
@@ -38,13 +39,13 @@
   </MinorFaction>
   
   <!-- Broken Lords -->
-  <MinorFaction Name="MinorFactionLords" Standard="true" Author="Captain Cobbs" Priority="100">
+  <MinorFaction Name="MinorFactionLords" Standard="true" Author="Captain Cobbs" Priority="90">
     <Affinity Name="AffinityGameplayLords"/>
     <Trait Name="FamilyPrimitives"/>
     <Trait Name="IsMinorFaction"/>
     <MajorPopulation Affinity="AffinityLords" Count="3"/>
     <Personality Name="FactionPersonalityLords"/>
-    <Politics Name="Politics01"/>
+    <Politics Name="Politics04"/>
 
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
     <ColonizablePlanet Type="PlanetTypeArctic" Priority="0"/>

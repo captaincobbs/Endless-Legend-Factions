@@ -5,13 +5,13 @@
     <Title>%AffinityGameplayKapakuTitle</Title>
     <Description>%AffinityGameplayKapakuDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Gui/Kapaku/Small.png" />                                                             <!--Symbol that is displayed on system view screen 24*24-->
+      <Icon Size="Small" Path="Gui/Kapaku/Small.png" />                                                             <!-- Symbol that is displayed on system view screen 24*24-->
       <Icon Size="Medium" Path="Gui/Kapaku/Medium.png" />                                                           <!-- Symbol that the minor faction uses on galaxy screen 54*54-->
       <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- No idea what it does -->
       <Icon Size="Large" Path="Gui/Kapaku/Large.png" />                                                             <!-- Image used on population and minor faction diplomacy screen 540*270-->
-      <Icon Size="Mood" Path="Gui/Kapaku/Mood.png" />                                                               <!--Image used when the faction is discovered 1324*712-->
+      <Icon Size="Mood" Path="Gui/Kapaku/Mood.png" />                                                               <!-- Image used when the faction is discovered 1324*712-->
     </Icons>
-    <SymbolString>[custom02]</SymbolString>
+    <SymbolString>%PopulationKapakuTitle</SymbolString>                                                             <!-- Icon used for faction in interfaces -->
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
 
@@ -26,7 +26,7 @@
       <Icon Size="Large" Path="Gui/Lords/Large.png" />
       <Icon Size="Mood" Path="Gui/Lords/Mood.png" />
     </Icons>
-    <SymbolString>[custom00]</SymbolString>
+    <SymbolString>%PopulationLordsTitle</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
 </Datatable>
