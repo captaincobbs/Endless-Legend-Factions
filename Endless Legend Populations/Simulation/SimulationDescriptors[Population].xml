@@ -26,11 +26,18 @@
 	</SimulationDescriptor>
 
   <!-- Broken Lords -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLords" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLords" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="CanBeBoosted" Operation="Force" Value="0" TooltipHidden="true"/>
+  </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLords" Type="ClassPopulationStarSystem"/>
 
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityLordsCount" Type="ClassPopulationPlanet">
     <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityLordsCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinityLords" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="ShouldPopulationGrow"          Operation="Force"    Value="-1" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationWithGrowth"          Operation="Subtraction"    Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
+    <Modifier       TargetProperty="MaximumSystemMoney" Operation="Force" Value="$(MaximumSystemGrowthStock)" Path="../ClassColonizedStarSystem,ColonizedStarSystemStateOutpost" SearchValueFromPath="true" Priority="1" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLordsCount" Type="ClassPopulationStarSystem">
     <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityLordsCount" TooltipHidden="true"/>
