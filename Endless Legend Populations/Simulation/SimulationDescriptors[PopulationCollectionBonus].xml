@@ -24,7 +24,7 @@
 
   <!-- Broken Lords -->
   <SimulationDescriptor Name="PopulationCollectionBonusLords1" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityLords" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityLords" TooltipOverride="%TooltipOverridePositivePolitics06"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusLords2" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="150" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityLords" SearchValueFromPath="true"/>
