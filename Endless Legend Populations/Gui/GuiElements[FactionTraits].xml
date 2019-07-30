@@ -10,7 +10,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement> -->
-    
+
   <GuiElement Name="FactionTraitKapakuHappiness">
     <Title>%FactionTraitKapakuHappinessTitle</Title>
     <Description>%FactionTraitKapakuHappinessDescription</Description>
@@ -18,7 +18,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
-  
+
   <GuiElement Name="FactionTraitKapakuIndustry">
     <Title>%FactionTraitKapakuIndustryTitle</Title>
     <Description>%FactionTraitKapakuIndustryDescription</Description>
@@ -26,7 +26,7 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
-  
+
   <!-- Broken Lords -->
   <!-- <GuiElement Name="FactionTraitMinorLords">
     <Title>%FactionTraitMinorLordsTitle</Title>

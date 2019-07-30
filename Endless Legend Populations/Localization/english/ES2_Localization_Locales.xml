@@ -1,5 +1,6 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+10% [industrycolored] added to [foodcolored] on Systems</LocalizationPair> <!-- Tooltip overrides for PopulationCollectionBonus3 -->
-  <LocalizationPair Name="%PopulationCollectionBonusKapaku2EffectOverride">+2 Population Slots on Lava Planets</LocalizationPair>                      <!-- Manually made by me since not all collection bonuses show up -->
+  <!-- I pretty much just use this file for overrides, you don't need it if you aren't using them -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+10% [industrycolored] added to [foodcolored] on Systems</LocalizationPair>  <!-- Tooltip overrides for PopulationCollectionBonus3 -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapaku2EffectOverride">+2 Population Slots on Lava Planets</LocalizationPair>  <!-- Manually made by me since not all collection bonuses show up -->
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on weapon modules.</LocalizationPair>
 </Datatable>
