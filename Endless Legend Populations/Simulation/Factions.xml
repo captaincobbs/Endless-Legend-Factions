@@ -3,11 +3,9 @@
 
   <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="100">
     <Affinity Name="AffinityGameplayKapaku"/>
-
     <Trait Name="FamilyPrimitives"/>
     <Trait Name="IsMinorFaction"/>
     <MajorPopulation Affinity="AffinityKapaku" Count="2"/>
-
     <Personality Name="FactionPersonalityKapaku"/>
     <Politics Name="Politics01"/>
 
@@ -42,11 +40,9 @@
   <!-- Broken Lords -->
   <MinorFaction Name="MinorFactionLords" Standard="true" Author="Captain Cobbs" Priority="100">
     <Affinity Name="AffinityGameplayLords"/>
-
     <Trait Name="FamilyPrimitives"/>
     <Trait Name="IsMinorFaction"/>
     <MajorPopulation Affinity="AffinityLords" Count="3"/>
-
     <Personality Name="FactionPersonalityLords"/>
     <Politics Name="Politics01"/>
 
