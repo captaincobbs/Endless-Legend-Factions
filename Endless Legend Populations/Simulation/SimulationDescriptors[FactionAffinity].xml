@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-
-  <SimulationDescriptor Name="AffinityKapaku" Type="Affinity"/>
-  <SimulationDescriptor Name="AffinityLords" Type="Affinity"/>
+  <!-- From what I can see, there are two ways to write this out, and I chose the way that most of the minor factions use just in case
+       This is defined in PopulationDefinitions, and you should be fine just copying and pasting this, but I'm not entirely sure what it is
+       used for. -->
+  <SimulationDescriptor Name="AffinityKapaku" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityLords" Type="Affinity"></SimulationDescriptor>
 </Datatable>

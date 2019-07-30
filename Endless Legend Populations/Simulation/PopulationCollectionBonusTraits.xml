@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
-    
+  <!-- Mapping for the Population Collection Bonuses, defined in SimulationDescriptors[PopulationCollectionBonus]
+       Threshold is the population required to reach that level, 10 for level 1, 20 for 2, and 50 for 3 are the defaults -->
   <!-- Kapaku -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="0" ShowInCustom="false">
     <CollectionBonus Threshold="10">

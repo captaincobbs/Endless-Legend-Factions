@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
-
+  <!-- This defines all the mod info displayed in game
+        Just a note, Description overrides your mod description on steam -->
   <RuntimeModule Name="ELP" Type="Extension" Version="1.1">
 
-    
-        <Title>Endless Legend Populations</Title>
-        <Description>Adds various Endless Legend races as Minor Factions.
+    <Title>Endless Legend Populations</Title>
+    <Description>Adds various Endless Legend races as Minor Factions.
 
-          Read [url=https://steamcommunity.com/workshop/filedetails/discussion/1816492263/3158630999996373337/]About[/url] for more details!
+    Read [url=https://steamcommunity.com/workshop/filedetails/discussion/1816492263/3158630999996373337/]About[/url] for more details!
 
-          If you enjoy the mod, consider liking! It would mean a lot 👍</Description>
-        <Author>Captain Cobbs</Author>
-        <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
-        <PreviewImageFile>ModIcon.png</PreviewImageFile>
-        <ReleaseNotes>Broke things, possibly including the Broken Lords</ReleaseNotes>
-        <Tags>Minor Faction, Endless Legend</Tags>
+    If you enjoy the mod, consider liking! It would mean a lot 👍</Description>
+    <Author>Captain Cobbs</Author>
+    <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
+    <PreviewImageFile>ModIcon.png</PreviewImageFile>
+    <ReleaseNotes>Broke things, possibly including the Broken Lords</ReleaseNotes>
+    <Tags>Minor Faction, Endless Legend</Tags>
 
+    <!-- Don't touch anything below this unless you understand what you are doing -->
 		<Plugins>			
-			
-			
-			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-				<FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+		  <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+		    <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
 			</DatabasePlugin>
 			
 			<DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
 				<FilePath>Simulation/MinorFactionPersonalityDefinitions.xml</FilePath>
 			</DatabasePlugin>
-			
-			
+
+
 			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
-			    <ExtraTypes>
-                    <ExtraType DataType="FactionAffinity, Assembly-CSharp"/>
+			  <ExtraTypes>
+          <ExtraType DataType="FactionAffinity, Assembly-CSharp"/>
 					<ExtraType DataType="FactionAffinityMapping, Assembly-CSharp"/>
-                </ExtraTypes>
+        </ExtraTypes>
 				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
 			</DatabasePlugin>
-			
+
 			<DatabasePlugin DataType="Faction, Assembly-CSharp">
-			    <ExtraTypes>
-                    <ExtraType DataType="MinorFaction, Assembly-CSharp"/>
-                </ExtraTypes>
+			  <ExtraTypes>
+          <ExtraType DataType="MinorFaction, Assembly-CSharp"/>
+        </ExtraTypes>
 				<FilePath>Simulation/Factions.xml</FilePath>
 			</DatabasePlugin>
-			
+
 			<DatabasePlugin DataType="MinorFaction, Assembly-CSharp">
-                <FilePath>Simulation/Factions.xml</FilePath>
-            </DatabasePlugin>
+        <FilePath>Simulation/Factions.xml</FilePath>
+      </DatabasePlugin>
 
-			
+
 			<DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
-                <ExtraTypes>
-                    <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp"/>
-                    <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
-                    <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
-                </ExtraTypes>
-                <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
-                <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
-            </DatabasePlugin>
+        <ExtraTypes>
+          <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp"/>
+          <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
+          <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
+        </ExtraTypes>
+        <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
+        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+      </DatabasePlugin>
 
-            <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
+      <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
 				<FilePath>Simulation/PopulationDefinitions.xml</FilePath>
 			</DatabasePlugin>
 			
@@ -67,17 +66,16 @@
 			</DatabasePlugin>
 			
 			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
-			    <ExtraTypes>
-                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+			  <ExtraTypes>
+          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
 					<ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
-                </ExtraTypes>
+        </ExtraTypes>
 				<FilePath>Gui/GuiElements[*].xml</FilePath>
 			</DatabasePlugin>
-			
+
 			<LocalizationPlugin DefaultLanguage="English">
-                <Directory>Localization</Directory>
-            </LocalizationPlugin>
-			
+        <Directory>Localization</Directory>
+      </LocalizationPlugin>
 		</Plugins>
 	</RuntimeModule>
 </Datatable>

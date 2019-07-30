@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
- 
- <!-- Renaming is enough for count and affinity, no idea how to make population traits. My bad attempt is below (crashed the game)-->
+  <!-- I'm gonna be honest, no idea what this does. Just copy and paste it and change the values and you should be good
+       Just a note though, PopulationsAssimilated is required -->
   <!-- Kapaku -->
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire"/>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem"/>

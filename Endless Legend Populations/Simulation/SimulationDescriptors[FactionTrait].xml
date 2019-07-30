@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-
+  <!-- These are used in FactionTraits[Minor] and GuiElements[GameVariables]
+       If you are confused as to how these work, try looking at examples in the Public game files -->
   <!-- Kapaku -->
   <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor">
     <Modifier TargetProperty="Happiness"       Operation="Addition" Value="3" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"  />

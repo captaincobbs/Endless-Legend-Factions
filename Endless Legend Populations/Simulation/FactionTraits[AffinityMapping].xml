@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
-  
+  <!-- The definition defined here is used in PopulationDefinitions -->
   <!-- Kapaku -->
   <FactionAffinityMapping Name="AffinityMappingKapaku" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingKapaku" />

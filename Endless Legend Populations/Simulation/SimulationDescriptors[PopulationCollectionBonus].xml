@@ -8,19 +8,18 @@
 		Politics04 - Ecologist
 		Politics05 - Religious
 		Politics06 - Militarist
-	 -->
-  
+	 -->  
   <!-- Kapaku -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku1" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="0.5" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics01"/>
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="0.5" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="0.5" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics01"/> <!-- Politics type to be boosted, TooltipOverride is what displays the up arrow and the colored party name -->
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="0.5" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/> <!-- Collection Bonus 1 MUST be a political power boost -->
   </SimulationDescriptor>
-  <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="2" Path="./ClassColonizedStarSystem/PlanetTypeLava" SearchValueFromPath="true"/>
-  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus"> <!-- Increases max pop on lava planets by 2 -->
+    <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="2" Path="./ClassColonizedStarSystem/PlanetTypeLava" SearchValueFromPath="true"/> <!-- Bonus 2 & 3 can be whatever you want -->
+  </SimulationDescriptor>                                                                                                                                        <!-- Look under the public version of this in the game files for examples -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku3" Type="PopulationCollectionBonus">
-	  <BinaryModifier TargetProperty="NetSystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
-    <BinaryModifier TargetProperty="TerraformationModifier" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
+    <BinaryModifier TargetProperty="NetSystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="TerraformationModifier" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>                                               <!-- If you want to make collection bonus 3 a law, you don't put anything here -->
   </SimulationDescriptor>
 
   <!-- Broken Lords -->

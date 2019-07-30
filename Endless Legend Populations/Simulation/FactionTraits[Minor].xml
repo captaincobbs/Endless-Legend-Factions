@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
-  
+  <!-- These are where the Faction Traits defined in SimulationDescriptors[FactionTrait] are linked to
+       These are the faction assimilation bonuses for the minor factions -->
   <!-- Kapaku -->
   <FactionTrait Name="FactionTraitKapakuIndustry" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitKapakuIndustry"/>

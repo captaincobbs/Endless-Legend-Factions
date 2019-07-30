@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
-
+  <!-- Defined in ES2_Localization_Assets_Locales, used for display faction name, title, and description -->
   <!-- Kapaku -->
   <GuiElement Name="MinorFactionKapaku">
     <Title>%MinorFactionKapakuTitle</Title>

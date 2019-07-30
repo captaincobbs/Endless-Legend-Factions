@@ -2,15 +2,15 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
   
   <!-- Kapaku -->
-  <LocalizationPair Name="%MinorFactionKapakuTitle">Kapaku</LocalizationPair>                                              <!--Minor Faction Name-->
+  <LocalizationPair Name="%MinorFactionKapakuTitle">Kapaku</LocalizationPair>                                              <!--< Minor Faction diplomacy name--> <!-- Minor Faction diplomacy description v -->
   <LocalizationPair Name="%MinorFactionKapakuDescription">The Kapaku have had a troubled past with planets. After their first one was terraformed into a disgusting lush forest, and their second one froze over, the Kapaku decided to find their own, perfect, planet.</LocalizationPair>                                 <!--Minor Faction Description-->
   <LocalizationPair Name="%PopulationKapakuTitle">[custom02]</LocalizationPair>                                            <!--No idea-->
-  <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle">[custom02]</LocalizationPair>                         <!--For Paths-->
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [industrycolored]</LocalizationPair> <!--For Paths-->
-  <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                                  <!--Population Name-->
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle">[custom02]</LocalizationPair>                         <!--Minor Faction population icon in menus-->
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [industrycolored]</LocalizationPair> <!--Used in GuiElements[GameVariables]-->
+  <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                                  <!--< Population Name--> <!-- Population Description v -->
   <LocalizationPair Name="%AffinityKapakuDescription">The Kapaku are strange race, with the unique ability to use geomancy, and a love for volcanic terrain.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitKapakuHappinessTitle">Volcanic Paradise</LocalizationPair>                          <!--For Custom Trait-->
-  <LocalizationPair Name="%FactionTraitKapakuIndustryTitle">Promethean Manufacturing</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitKapakuHappinessTitle">Volcanic Paradise</LocalizationPair>                          <!-- < Custom Trait display names-->
+  <LocalizationPair Name="%FactionTraitKapakuIndustryTitle">Promethean Manufacturing</LocalizationPair>                    <!-- Custom Trait descriptions v -->
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription">The assimilation of the Kapaku leads to a similar disposition to Hot planets as the Kapaku themselves, which is one of awe and optimism.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuIndustryDescription">Mass-Production techniques known to only those who have evolved in Hadean environments are spread throughout your empire, resulting in massive boosts of industry.</LocalizationPair>
 

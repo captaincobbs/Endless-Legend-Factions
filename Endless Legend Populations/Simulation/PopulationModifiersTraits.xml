@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+  <!-- Links many files together,
+       ClassPopulationEmpireAffinity is used in GuiElements[GameVariables]
+       ClassPopulationStarSystemAffinity is used in GuiElements[GameVariables]
+       ClassPopulationStarSystemGrowthType can be set to Food or Industry (for industry thing Riftborn), I'm not sure if Dust/Money works
+       ClassPopulationAssimilatedEmpireAffinity is used in GuiElements[GameVariables]-->
   <!-- Kapaku -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
