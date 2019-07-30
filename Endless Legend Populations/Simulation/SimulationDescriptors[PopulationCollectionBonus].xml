@@ -33,4 +33,15 @@
   <SimulationDescriptor Name="PopulationCollectionBonusLords3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="TroopDamageBonuses" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(HeroCount)" Path="./ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Forgotten-->
+  <SimulationDescriptor Name="PopulationCollectionBonusForgotten1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics06ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityForgotten" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
+    <BinaryModifier TargetProperty="NetEmpireResearch" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(EmpireMoney)" Path="./ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>
