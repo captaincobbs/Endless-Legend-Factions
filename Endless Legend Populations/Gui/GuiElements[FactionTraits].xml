@@ -12,17 +12,17 @@
 
 
   <!-- Kapaku-->
-  <GuiElement Name="FactionTraitKapakuHappiness">
+  <ExtendedGuiElement Name="FactionTraitKapakuHappiness">
     <Title>%FactionTraitKapakuHappinessTitle</Title>
     <Description>%FactionTraitKapakuHappinessDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
-  </GuiElement>
+  </ExtendedGuiElement>
 
-  <GuiElement Name="FactionTraitKapakuIndustry">
-    <Title>%FactionTraitKapakuIndustryTitle</Title>
-    <Description>%FactionTraitKapakuIndustryDescription</Description>
+  <GuiElement Name="FactionTraitKapakuTerraforming">
+    <Title>%FactionTraitKapakuTerraformingTitle</Title>
+    <Description>%FactionTraitKapakuTerraformingDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>

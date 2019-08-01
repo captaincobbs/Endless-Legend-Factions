@@ -36,9 +36,8 @@
 
     <Trait Name="PopulationPoliticalTraitMilitarist"/>
     <Trait Name="PopulationPoliticalTraitPious"/>
-    <Trait Name="PopulationPoliticalTraitAggressive"/>
+    <Trait Name="PopulationPoliticalTraitAntiIndustrialist"/>
     <Trait Name="PopulationModifiersLordsCount"/>
-    <Trait Name="FactionTraitInimical"/>
     <Trait Name="PopulationModifiersTraitLords"/>
     <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/>  <!-- +50 Defense -->
     <Trait Name="PopulationModifiersTraitSecondaryDustHappy"/> <!-- +2 Dust on Happy -->

@@ -6,20 +6,20 @@
   <LocalizationPair Name="%MinorFactionKapakuDescription">The Kapaku have had a troubled past with planets. After their first one was terraformed into a disgusting lush forest, and their second one froze over, the Kapaku decided to find their own, perfect, planet.</LocalizationPair>                                 <!--Minor Faction Description-->
   <LocalizationPair Name="%PopulationKapakuTitle">[custom02]</LocalizationPair>                                            <!--No idea-->
   <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle">[custom02]</LocalizationPair>                         <!--Minor Faction population icon in menus-->
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [industrycolored]</LocalizationPair> <!--Used in GuiElements[GameVariables]-->
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [custom02]</LocalizationPair> <!--Used in GuiElements[GameVariables]-->
   <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                                  <!--< Population Name--> <!-- Population Description v -->
   <LocalizationPair Name="%AffinityKapakuDescription">The Kapaku are strange race, with the unique ability to use geomancy, and a love for volcanic terrain.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessTitle">Volcanic Paradise</LocalizationPair>                          <!-- < Custom Trait display names-->
-  <LocalizationPair Name="%FactionTraitKapakuIndustryTitle">Promethean Manufacturing</LocalizationPair>                    <!-- Custom Trait descriptions v -->
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle">Terraforming Expertise</LocalizationPair>                    <!-- Custom Trait descriptions v -->
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription">The assimilation of the Kapaku leads to a similar disposition to Hot planets as the Kapaku themselves, which is one of awe and optimism.</LocalizationPair> 
-  <LocalizationPair Name="%FactionTraitKapakuIndustryDescription">Mass-Production techniques known to only those who have evolved in Hadean environments are spread throughout your empire, resulting in massive boosts of industry.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription">The Kapaku have had Terraforming technology for much longer than most other races, and therefore, understand how to apply it more efficiently.</LocalizationPair>
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle">Broken Lords</LocalizationPair>
   <LocalizationPair Name="%MinorFactionLordsDescription">The Broken Lords in an emergency coalition of other factions, not to be outdone by the Vaulters, cooperated to develop spacecraft to escape Auriga. </LocalizationPair>
   <LocalizationPair Name="%PopulationLordsTitle">[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle">[custom00]</LocalizationPair>
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle">Systems with [dustcolored]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle">Systems with [custom00]</LocalizationPair>
   <LocalizationPair Name="%AffinityLordsTitle">Broken Lords</LocalizationPair>
   <LocalizationPair Name="%AffinityLordsDescription">Once a proud nation of chivalrous knights, now crippled with a curse that traps their spirit within their armor. They have yet to break their curse, but have lost their motivation to do so.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustTitle">Non-Lethal Extraction</LocalizationPair>
@@ -32,7 +32,7 @@
   <LocalizationPair Name="%MinorFactionForgottenDescription">Slowly escaping Auriga via sneakily stowing away on Exploration Vessels in generous numbers, the Forgotten eventually decided to start anew and dispersed throughout the galaxy. Eventually though they become disgusted at how similarly they were treated in these new lands that they decided to congregate and form their own nation once again.</LocalizationPair>
   <LocalizationPair Name="%PopulationForgottenTitle">[custom06]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityForgottenTitle">[custom06]</LocalizationPair>
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityForgottenTitle">Systems with [dustcolored]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityForgottenTitle">Systems with [custom06]</LocalizationPair>
   <LocalizationPair Name="%AffinityForgottenTitle">Forgotten</LocalizationPair>
   <LocalizationPair Name="%AffinityForgottenDescription">Rogues and spies with a unique ability to turn invisible at will, the Forgotten use dirty tricks and thievery to get what they want.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle">Quick Maneuvering</LocalizationPair>

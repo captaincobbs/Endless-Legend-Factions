@@ -3,8 +3,8 @@
   <!-- These are where the Faction Traits defined in SimulationDescriptors[FactionTrait] are linked to
        These are the faction assimilation bonuses for the minor factions -->
   <!-- Kapaku -->
-  <FactionTrait Name="FactionTraitKapakuIndustry" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitKapakuIndustry"/>
+  <FactionTrait Name="FactionTraitKapakuTerraforming" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitKapakuTerraforming"/>
   </FactionTrait>
   <FactionTrait Name="FactionTraitKapakuHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitKapakuHappiness"/>

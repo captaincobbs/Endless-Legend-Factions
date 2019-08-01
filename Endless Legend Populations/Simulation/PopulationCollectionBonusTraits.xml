@@ -4,41 +4,23 @@
        Threshold is the population required to reach that level, 10 for level 1, 20 for 2, and 50 for 3 are the defaults -->
   <!-- Kapaku -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="0" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
+    <CollectionBonus Threshold="1">
       <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="20">
+    <CollectionBonus Threshold="2">
       <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku2"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="50">
+    <CollectionBonus Threshold="3">
       <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait> 
     
   <!-- Broken Lords -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="0" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLords1"/>
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLords2"/>
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLords3"/>
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Forgotten -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="0" ShowInCustom="false">
     <CollectionBonus Threshold="1">
       <SimulationDescriptorReference Name="PopulationCollectionBonusLords1"/>
@@ -52,6 +34,24 @@
 
     <CollectionBonus Threshold="3">
       <SimulationDescriptorReference Name="PopulationCollectionBonusLords3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Forgotten -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitForgotten" Cost="0" ShowInCustom="false">
+    <CollectionBonus Threshold="1">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="2">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="3">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait>

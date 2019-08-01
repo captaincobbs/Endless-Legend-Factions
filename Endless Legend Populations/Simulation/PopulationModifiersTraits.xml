@@ -44,7 +44,7 @@
         <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLords"/>
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeDust"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot"/>
         <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLords"/>
       </Modifier>
     </Modifiers>

@@ -2,6 +2,6 @@
   <!-- I pretty much just use this file for overrides, you don't need it if you aren't using them -->
   <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+25% [industrycolored] added to [foodcolored] on Systems</LocalizationPair>  <!-- Tooltip overrides for PopulationCollectionBonus3 -->
   <LocalizationPair Name="%PopulationCollectionBonusKapaku2EffectOverride">+2 Population Slots on Lava Planets</LocalizationPair>  <!-- Manually made by me since not all collection bonuses show up -->
-  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on weapon modules.</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on [ship] weapon modules.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride">+5% [sciencecolored] added to [dustcolored]</LocalizationPair>
 </Datatable>

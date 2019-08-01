@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <!-- These are used in FactionTraits[Minor] and GuiElements[GameVariables]
-       If you are confused as to how these work, try looking at examples in the Public game files -->
+       If you are confused as to how these work, try looking at examples in the Public game files
+       Left="5" BinaryOperation="Multiplication" Right="$(Population)"-->
   <!-- Kapaku -->
   <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor">
-    <Modifier TargetProperty="Happiness"       Operation="Addition" Value="3" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot"  />
-		<Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
+    <Modifier TargetProperty="Happiness"          Operation="Addition" Value="5" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem/PlanetGameplayTypeHot" TooltipHidden="true"/>
+    <Modifier TargetProperty="Happiness"          Operation="Addition" Value="5" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem/PlanetGameplayTypeMeager" TooltipHidden="true"/>
+		<Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
-	<SimulationDescriptor Name="FactionTraitKapakuIndustry" Type="FactionTraitMinor">
-    <Modifier TargetProperty="PlanetRawIndustry" Operation="Addition" Value="3" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetGameplayTypeHot" />
-		<Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+	<SimulationDescriptor Name="FactionTraitKapakuTerraforming" Type="FactionTraitMinor">
+    <Modifier TargetProperty="TerraformationModifier"    Operation="Percent" Value="-0.5" Path="ClassEmpire"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!-- Broken Lords -->
   <SimulationDescriptor Name="FactionTraitLordsDust" Type="FactionTraitMinor">
-    <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.05" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" />
     <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 

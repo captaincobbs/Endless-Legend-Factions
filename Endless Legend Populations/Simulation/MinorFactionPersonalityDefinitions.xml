@@ -4,11 +4,11 @@
   <!-- Kapaku -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityKapaku">
     <MajorTrait Name="PersonalityTraitPragmatist"/> <!-- Determines what additional bonus they give. Pragmatist is science, Warmonger is manpower/ships, and Pacifist gives influence -->
-    <MinorTrait Weight="6">
+    <MinorTrait Weight="7">
       <Trait Name="FactionTraitKapakuHappiness"/>
     </MinorTrait>
-    <MinorTrait Weight="4">
-      <Trait Name="FactionTraitKapakuIndustry"/>
+    <MinorTrait Weight="3">
+      <Trait Name="FactionTraitKapakuTerraforming"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
