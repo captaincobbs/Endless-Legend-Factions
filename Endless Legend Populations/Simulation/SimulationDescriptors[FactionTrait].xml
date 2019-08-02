@@ -2,13 +2,14 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <!-- These are used in FactionTraits[Minor] and GuiElements[GameVariables]
        If you are confused as to how these work, try looking at examples in the Public game files
+       Meager = Sterile, Teeming = Fertile
        Left="5" BinaryOperation="Multiplication" Right="$(Population)"-->
   <!-- Kapaku -->
   <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor">
-    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
-    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
-    <Modifier TargetProperty="Happiness"          Operation="Addition" Value="5" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem/PlanetGameplayTypeHot" TooltipHidden="true"/>
-    <Modifier TargetProperty="Happiness"          Operation="Addition" Value="5" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassColonizedStarSystem/PlanetGameplayTypeMeager" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/> <!-- From what I can tell, most things don't need tooltip overrides if you do this -->
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeHot"/>
+    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager" TooltipHidden="true"/>
 		<Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
