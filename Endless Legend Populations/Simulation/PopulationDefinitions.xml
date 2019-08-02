@@ -67,8 +67,8 @@
     <Trait Name="PopulationPoliticalTraitAntiScientist"/>
     <Trait Name="PopulationModifiersForgottenCount"/>
     <Trait Name="PopulationModifiersTraitForgotten"/>
-    <Trait Name="PopulationModifiersTraitPrimaryDust"/><!-- +1 Dust -->
-    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile"/><!-- +2 Dust on Happy -->
+    <Trait Name="PopulationModifiersTraitPrimaryFood01"/><!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryHackingSpeedForgotten"/><!-- +0.5 Hacking Speed -->
     <Trait Name="PopulationCollectionBonusTraitForgotten" />
 
     <AffinityMapping Name="AffinityMappingForgotten"/>
