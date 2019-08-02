@@ -65,4 +65,17 @@
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityForgotten" Type="ClassPopulationAssimilated">
     <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- PopulationPlanet descriptors (Bonuses applied to the population, used by Collection and Boost bonuses!) -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryHackingSpeedForgotten" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="HackingSpeedPercentMultiplier" Operation="Addition" Value="0.05" Path="../ClassEmpire"/>
+  </SimulationDescriptor>
+  <!-- PopulationEmpire descriptors (Population Boost bonuses). -->
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryHackingSpeedForgotten" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="HackingSpeedPercentMultiplier" Operation="Addition" Value="0.02" Path="../ClassEmpire"/>
+  </SimulationDescriptor>
+  <!-- Assimilated populations descriptors (Gene Splicing Bonus). -->
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetSecondaryHackingSpeedForgotten" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="HackingSpeedPercentMultiplier" Operation="Addition" Value="0.02" Path="../ClassEmpire"/>
+  </SimulationDescriptor>
 </Datatable>
