@@ -31,7 +31,7 @@
 
   <!-- Forgotten -->
   <SimulationDescriptor Name="FactionTraitForgottenMoveSpeed" Type="FactionTraitMinor">
-    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="1" Path="ClassEmpire/ClassGarrison/ClassShip" TooltipHidden="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 

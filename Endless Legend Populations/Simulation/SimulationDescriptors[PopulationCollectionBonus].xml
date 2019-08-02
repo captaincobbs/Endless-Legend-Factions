@@ -38,7 +38,7 @@
     <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="ClassShip" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="NetEmpireResearch" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(EmpireMoney)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipHidden="true"/>
