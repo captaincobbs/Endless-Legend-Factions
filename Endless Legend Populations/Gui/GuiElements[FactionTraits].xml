@@ -46,13 +46,16 @@
   </GuiElement>
 
   <!-- Forgotten -->
-  <GuiElement Name="FactionTraitForgottenMoveSpeed">
+  <ExtendedGuiElement Name="FactionTraitForgottenMoveSpeed">
     <Title>%FactionTraitForgottenMoveSpeedTitle</Title>
     <Description>%FactionTraitForgottenMoveSpeedDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 
   <GuiElement Name="FactionTraitForgottenAccuracy">
     <Title>%FactionTraitForgottenAccuracyTitle</Title>

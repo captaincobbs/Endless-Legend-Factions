@@ -6,4 +6,5 @@
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on [ship] weapon modules.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride">+5% [sciencecolored] added to [dustcolored]</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryHackingSpeedForgottenTitle">Tech Savante</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride">+1 [move] on Ships</LocalizationPair>
 </Datatable>
