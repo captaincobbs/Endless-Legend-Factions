@@ -61,4 +61,8 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+
+  <GuiElement Name="PopulationModifiersTraitSecondaryHackingSpeedForgotten">
+    <Title>%PopulationModifiersTraitSecondaryHackingSpeedForgottenTitle</Title>
+  </GuiElement>
 </Datatable>
