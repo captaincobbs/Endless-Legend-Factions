@@ -100,24 +100,4 @@
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
-
-  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryHackingSpeedForgotten" SubCategory="Primary" ShowInCustom="true" Cost="5">
-    <Modifiers>
-      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
-        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryHackingSpeedForgotten"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHackingSpeedForgotten"/>
-      </Modifier>
-      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryHackingSpeedForgotten"/>
-      </Modifier>
-    </Modifiers>
-
-    <AssimilatedModifiers>
-      <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetSecondaryHackingSpeedForgotten"/>
-      </Modifier>
-    </AssimilatedModifiers>
-  </PopulationModifiersTrait>
 </Datatable>
