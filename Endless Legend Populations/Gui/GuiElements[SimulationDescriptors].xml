@@ -7,12 +7,9 @@
   <GuiElement Name="PopulationCollectionBonusKapaku1">
     <Title>%PopulationCollectionBonusKapaku1</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusKapaku2">
+  <GuiElement Name="PopulationCollectionBonusKapaku2">
     <Title>%PopulationCollectionBonusKapaku2</Title>
-    <TooltipElement>
-      <EffectOverride>%PopulationCollectionBonusKapaku2EffectOverride</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
+  </GuiElement>
   <ExtendedGuiElement Name="PopulationCollectionBonusKapaku3">
     <Title>%PopulationCollectionBonusKapaku3</Title>
     <TooltipElement>
@@ -38,9 +35,12 @@
   <GuiElement Name="PopulationCollectionBonusForgotten1">
     <Title>%PopulationCollectionBonusForgotten1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusForgotten2">
+  <ExtendedGuiElement Name="PopulationCollectionBonusForgotten2">
     <Title>%PopulationCollectionBonusForgotten2</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusForgotten2EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
   <ExtendedGuiElement Name="PopulationCollectionBonusForgotten3">
     <Title>%PopulationCollectionBonusForgotten3</Title>
     <TooltipElement>
