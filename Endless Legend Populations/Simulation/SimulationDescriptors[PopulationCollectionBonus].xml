@@ -13,12 +13,11 @@
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku1" Type="PopulationCollectionBonus"><!-- Politics type to be boosted, TooltipOverride is what displays the up arrow and the colored party name -->
   <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/> <!-- Collection Bonus 1 MUST be a political power boost -->
   </SimulationDescriptor>
-  <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus"> <!-- Increases max pop on lava planets by 2 -->
-    <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="2" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeLava" SearchValueFromPath="true" TooltipHidden="true"/> <!-- Bonus 2 & 3 can be whatever you want -->
-    <Modifier TargetProperty="RawMaximumPopulation" Operation="Addition" Value="1" Path="../ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet,PlanetTypeAsh" SearchValueFromPath="true" TooltipHidden="true"/>
+  <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus"> <!-- +15% Production on Systems with Kapaku-->
+    <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityKapaku" SearchValueFromPath="true"/>
   </SimulationDescriptor>                                                                                                                                       <!-- Look under the public version of this in the game files for examples -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="NetSystemGrowth" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(NetSystemProduction)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/> <!-- If you want to make collection bonus 3 a law, you don't put anything here -->
+    <BinaryModifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(NetSystemProduction)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/> <!-- If you want to make collection bonus 3 a law, you don't put anything here -->
   </SimulationDescriptor>
 
   <!-- Broken Lords -->
@@ -38,9 +37,9 @@
     <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="NetEmpireResearch" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(EmpireMoney)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
 </Datatable>
