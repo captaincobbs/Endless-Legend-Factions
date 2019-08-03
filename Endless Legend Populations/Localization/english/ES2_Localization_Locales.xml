@@ -1,10 +1,8 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- I pretty much just use this file for overrides, you don't need it if you aren't using them -->
   <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+25% [industrycolored] added to [foodcolored] on Systems</LocalizationPair>  <!-- Tooltip overrides for PopulationCollectionBonus3 -->
-  <LocalizationPair Name="%PopulationCollectionBonusKapaku2EffectOverride">+2 Population Slots on Lava Planets
-+1 Population Slot on Ash Planets</LocalizationPair>  <!-- Manually made by me since not all collection bonuses show up -->
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on [ship] weapon modules.</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride">+5% [sciencecolored] added to [dustcolored]</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitSecondaryHackingSpeedForgottenTitle">Tech Savante</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride">+3 [move] on Ships</LocalizationPair>
+  <LocalizationOaur Name="%PopulationCollectionBonusForogtten3EffectOverride">5% of [sciencecolored] is converted to [dustcolored] on systems.</LocalizationOaur>
   <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride">+1 [move] on Ships</LocalizationPair>
 </Datatable>
