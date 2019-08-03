@@ -10,7 +10,7 @@
   <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                                  <!--< Population Name--> <!-- Population Description v -->
   <LocalizationPair Name="%AffinityKapakuDescription">The Kapaku are strange race, with the unique ability to use geomancy, and a love for volcanic terrain.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessTitle">Volcanic Paradise</LocalizationPair>                          <!-- < Custom Trait display names-->
-  <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle">Terraforming Expertise</LocalizationPair>                    <!-- Custom Trait descriptions v -->
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle">Terraforming Expertise</LocalizationPair>                  <!-- Custom Trait descriptions v -->
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription">The assimilation of the Kapaku leads to a similar disposition to Hot planets as the Kapaku themselves, which is one of awe and optimism.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription">The Kapaku have had Terraforming technology for much longer than most other races, and therefore, understand how to apply it more efficiently.</LocalizationPair>
 
@@ -38,5 +38,5 @@
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle">Quick Maneuvering</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle">Eagle Eye</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription">The Forgotten have a truly amazing tactic for making pilots fly their ships faster: Threathen them.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription">Having an expertise in infiltration and spying has its perks, and making the Forgotten gunners makes weaponry for more likely to hit.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription">Having an expertise in infiltration and spying has its perks, and making the Forgotten gunners makes weaponry more likely to hit.</LocalizationPair>
 </Datatable>
