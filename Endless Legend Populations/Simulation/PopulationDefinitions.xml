@@ -67,8 +67,8 @@
     <Trait Name="PopulationPoliticalTraitAntiScientist"/>
     <Trait Name="PopulationModifiersForgottenCount"/>
     <Trait Name="PopulationModifiersTraitForgotten"/>
+    <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01"/><!-- +1 Processing Power -->
     <Trait Name="PopulationModifiersTraitPrimaryFood01"/><!-- +1 Food -->
-    <Trait Name="PopulationModifiersTraitSecondaryHackingSpeedForgotten"/><!-- +0.5 Hacking Speed -->
     <Trait Name="PopulationCollectionBonusTraitForgotten" />
 
     <AffinityMapping Name="AffinityMappingForgotten"/>
