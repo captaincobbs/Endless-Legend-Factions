@@ -15,10 +15,10 @@
   <!-- Broken Lords -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityLords">
     <MajorTrait Name="PersonalityTraitWarmonger"/>
-    <MinorTrait Weight="8">
+    <MinorTrait Weight="7">
       <Trait Name="FactionTraitLordsDust"/>
     </MinorTrait>
-    <MinorTrait Weight="2">
+    <MinorTrait Weight="3">
       <Trait Name="FactionTraitLordsShipRegen"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
