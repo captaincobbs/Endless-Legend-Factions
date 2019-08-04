@@ -3,6 +3,6 @@
   <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+25% [industrycolored] added to [foodcolored] on Systems</LocalizationPair>  <!-- Tooltip overrides for PopulationCollectionBonus3 -->
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on [ship] weapon modules.</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride">+3 [move] on Ships</LocalizationPair>
-  <LocalizationOaur Name="%PopulationCollectionBonusForogtten3EffectOverride">5% of [sciencecolored] is converted to [dustcolored] on systems.</LocalizationOaur>
+  <LocalizationOaur Name="%PopulationCollectionBonusForgotten3EffectOverride">5% of [sciencecolored] is converted to [dustcolored] on systems.</LocalizationOaur>
   <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride">+1 [move] on Ships</LocalizationPair>
 </Datatable>
