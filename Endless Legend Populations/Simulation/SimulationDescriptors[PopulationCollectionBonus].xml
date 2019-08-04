@@ -17,7 +17,7 @@
     <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityKapaku" SearchValueFromPath="true"/>
   </SimulationDescriptor>                                                                                                                                       <!-- Look under the public version of this in the game files for examples -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(NetSystemProduction)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/> <!-- If you want to make collection bonus 3 a law, you don't put anything here -->
+    <BinaryModifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Left="2.00" BinaryOperation="Multiplication" Right="$(NetSystemProduction)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/> <!-- If you want to make collection bonus 3 a law, you don't put anything here -->
   </SimulationDescriptor>
 
   <!-- Broken Lords -->
@@ -29,7 +29,7 @@
     <Modifier TargetProperty="MaximumSystemManpowerBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityLords" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusLords3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="TroopDamageBonuses" Operation="Addition" Left="0.01" BinaryOperation="Multiplication" Right="$(HeroCount)" SearchValueFromPath="true" Path="../ClassEmpire" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="TroopDamageBonuses" Operation="Addition" Left="2.00" BinaryOperation="Multiplication" Right="$(HeroCount)" SearchValueFromPath="true" Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!-- Forgotten-->
@@ -40,6 +40,6 @@
     <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Left="2.00" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
 </Datatable>
