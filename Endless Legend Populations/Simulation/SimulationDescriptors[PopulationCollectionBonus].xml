@@ -14,7 +14,7 @@
   <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/> <!-- Collection Bonus 1 MUST be a political power boost -->
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus"> <!-- +15% Production on Systems with Kapaku-->
-    <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityKapaku" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem" SearchValueFromPath="true"/>
   </SimulationDescriptor>                                                                                                                                       <!-- Look under the public version of this in the game files for examples -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="SystemGrowth" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemProduction)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/> <!-- If you want to make collection bonus 3 a law, you don't put anything here -->
@@ -40,6 +40,17 @@
     <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="EmpireMoney" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(EmpireResearch)" Path="../ClassEmpire" SearchValueFromPath="true" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="SystemMoney" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Drakken -->
+  <SimulationDescriptor Name="PopulationCollectionBonusDrakken1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityDrakken" TooltipOverride="%TooltipOverridePositivePolitics03"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusDrakken2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusDrakken3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="LawUpkeepMultiplier" Operation="Percent" Value="-0.5" Path="ClassEmpire"/>
   </SimulationDescriptor>
 </Datatable>
