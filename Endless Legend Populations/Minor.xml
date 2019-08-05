@@ -13,8 +13,8 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile>
-    <ReleaseNotes>Adds the Forgotten faction</ReleaseNotes>
-    <Tags>Minor Faction, Endless Legend</Tags>
+    <ReleaseNotes>Adds the Drakken faction, (TBI) adds Broken Lords reproduction.</ReleaseNotes>
+    <Tags>MinorFactions</Tags>
 
     <!-- Don't touch anything below this unless you understand what you are doing -->
 		<Plugins>			
