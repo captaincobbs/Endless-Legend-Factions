@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="WithPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationInfluence"   Operation="Addition"    Value="2"   Path="FAKEFORGUI/./PlanetAnomaly"/>
+    <Modifier TargetProperty="BonusPopulationInfluence"   Operation="Addition"    Value="2"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetAnomaly/ClassPopulationPlanetModifiersTraitSecondaryScienceAnomaly01,ClassPopulation" TooltipHidden="true"/>
+  </SimulationDescriptor>
+</Datatable>
