@@ -65,7 +65,23 @@
     </Icons>
   </GuiElement>
 
-  <GuiElement Name="PopulationModifiersTraitSecondaryHackingSpeedForgotten">
-    <Title>%PopulationModifiersTraitSecondaryHackingSpeedForgottenTitle</Title>
+  <!-- Drakken -->
+  <ExtendedGuiElement Name="FactionTraitDrakkenDiplomacy">
+    <Title>%FactionTraitDrakkenDiplomacyTitle</Title>
+    <Description>%FactionTraitDrakkenDiplomacyDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusDiplomacyDrakkenEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <GuiElement Name="FactionTraitDrakkenConversion">
+    <Title>%FactionTraitDrakkenConversionTitle</Title>
+    <Description>%FactionTraitDrakkenConversionDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
   </GuiElement>
 </Datatable>
