@@ -44,4 +44,19 @@
     <SymbolString>[custom06]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Drakken -->
+  <AffinityGuiElement Name="AffinityMappingDrakken">
+    <Title>%AffinityGameplayDrakkenTitle</Title>
+    <Description>%AffinityGameplayDrakkenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/DrakkenSmall.png" />
+      <Icon Size="Medium" Path="Gui/DrakkenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/DrakkenLarge.png" />
+      <Icon Size="Mood" Path="Gui/DrakkenMood.png" />
+    </Icons>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

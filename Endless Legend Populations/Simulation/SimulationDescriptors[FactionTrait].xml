@@ -39,4 +39,15 @@
     <Modifier TargetProperty="Accuracy"  Operation="Addition"  Value="0.08"  Path="ClassShip/ClassSection/ClassModuleWeapon"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Drakken -->
+  <SimulationDescriptor Name="FactionTraitDrakkenDiplomacy" Type="FactionTraitMinor">
+    <Modifier TargetProperty="PeacefulTreatyCostReduction" Operation="Addition" Value="-0.2" Path="Empire"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitDrakkenConversion" Type="FactionTraitMinor">
+    <Modifier TargetProperty="InfluenceConversionRateModifier"  Operation="Percent"    Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

@@ -15,4 +15,9 @@
   <FactionAffinityMapping Name="AffinityMappingForgotten" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingForgotten" />
   </FactionAffinityMapping>
+
+  <!-- Drakken -->
+  <FactionAffinityMapping Name="AffinityMappingDrakken" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingDrakken" />
+  </FactionAffinityMapping>
 </Datatable>

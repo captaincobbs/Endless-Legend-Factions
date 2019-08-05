@@ -47,4 +47,15 @@
       <EffectOverride>%PopulationCollectionBonusForgotten3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+
+  <!-- Drakken -->
+  <GuiElement Name="PopulationCollectionBonusDrakken1">
+    <Title>%PopulationCollectionBonusDrakken1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusDrakken2">
+    <Title>%PopulationCollectionBonusDrakken2</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusDrakken3">
+    <Title>%PopulationCollectionBonusDrakken3</Title>
+  </GuiElement>
 </Datatable>

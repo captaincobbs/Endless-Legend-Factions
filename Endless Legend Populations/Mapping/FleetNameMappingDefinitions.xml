@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FleetNameMappingDefinition.xsd">
+  <!-- I think this determines what type of ships they can build. Not including it has no serious consequences from what I can tell -->
   <FleetNameMappingDefinition Name="AffinityMappingKapaku">
     <FleetNameTitle LocalizationKey="%MinorFactionKapakuTitle">
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
@@ -32,6 +33,21 @@
 
   <FleetNameMappingDefinition Name="AffinityMappingForgotten">
     <FleetNameTitle LocalizationKey="%MinorFactionForgottenTitle">
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor03" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor04" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor05" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor06" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor07" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor08" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
+    </FleetNameTitle>
+  </FleetNameMappingDefinition>
+
+  <FleetNameMappingDefinition Name="AffinityMappingDrakken">
+    <FleetNameTitle LocalizationKey="%MinorFactionDrakkenTitle">
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />

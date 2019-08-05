@@ -83,4 +83,32 @@
       <Luxury>Luxury8</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
+
+  <!-- Drakken -->
+  <PopulationDefinition AffinityName="AffinityDrakken" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitCurious"/>
+    <Trait Name="PopulationPoliticalTraitAntiMilitarist"/>
+    <Trait Name="PopulationModifiersDrakkenCount"/>
+    <Trait Name="PopulationModifiersTraitDrakken"/>
+    <Trait Name="PopulationModifiersTraitPrimaryScience01"/> <!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01"/> <!-- +2 Influence on Anomaly -->
+    <Trait Name="PopulationCollectionBonusTraitDrakken" />
+
+    <AffinityMapping Name="AffinityMappingDrakken"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury9</Luxury>
+      <Luxury>Luxury10</Luxury>
+      <Luxury>Luxury11</Luxury>
+      <Luxury>Luxury12</Luxury>
+      <Luxury>Luxury13</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury16</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 </Datatable>

@@ -6,4 +6,5 @@
   <SimulationDescriptor Name="AffinityKapaku" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityLords" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityForgotten" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityDrakken" Type="Affinity"></SimulationDescriptor>
 </Datatable>

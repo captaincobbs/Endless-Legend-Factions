@@ -100,4 +100,56 @@
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
+
+  <!-- Drakken -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDrakken" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakken"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakken"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityDrakken"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersDrakkenCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDrakkenCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakkenCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakkenCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Drakken +2 Influence on Anomalies -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" SubCategory="Secondary" ShowInCustom="false" Cost="0">
+    <Tags>PlanetAnomaly,BonusPopulationInfluence</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" DisplayWhenBoostedOnly="true">
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet">
+        <!--+2 Influence per Population on Planet on Anomalies-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01"/>
+      </Modifier>
+    </Modifiers>
+    
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetInfluenceAnomaly01"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
 </Datatable>

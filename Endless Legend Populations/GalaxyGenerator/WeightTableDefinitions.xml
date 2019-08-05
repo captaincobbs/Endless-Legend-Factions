@@ -30,13 +30,14 @@
 		<Entry Tag="MinorFactionKapaku"         Weight="5"/>
     <Entry Tag="MinorFactionLords"          Weight="5"/>
     <Entry Tag="MinorFactionForgotten"      Weight="5"/>
+    <Entry Tag="MinorFactionDrakken"        Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
        Supposedly StarTypes is a thing, but I couldn't get it to work -->
 	<GalaxyGeneratorWeightTable Name="MinorFactionKapaku_PlanetTypes">
     <Entry Tag="PlanetTypeLava"                 Weight="9"/>
-    <Entry Tag="PlanetTypeAsh"                 Weight="1"/>
+    <Entry Tag="PlanetTypeAsh"                  Weight="1"/>
   </GalaxyGeneratorWeightTable>
   <GalaxyGeneratorWeightTable Name="MinorFactionLords_PlanetTypes">
     <Entry Tag="PlanetTypeDesert"               Weight="1"/>
@@ -67,5 +68,14 @@
     <Entry Tag="PlanetTypeSwamp"                Weight="4"/>
     <Entry Tag="PlanetTypeJungle"               Weight="3"/>
     <Entry Tag="PlanetTypeArid"                 Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionDrakken_PlanetTypes">
+    <Entry Tag="PlanetTypeArid"                 Weight="3"/>
+    <Entry Tag="PlanetTypeDesert"               Weight="2"/>
+    <Entry Tag="PlanetTypeVeldt"                Weight="1"/>
+    <Entry Tag="PlanetTypeAtoll"                Weight="1"/>
+    <Entry Tag="PlanetTypeJungle"               Weight="1"/>
+    <Entry Tag="PlanetTypeTropical"             Weight="1"/>
+    <Entry Tag="PlanetTypeTerran"               Weight="1"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>

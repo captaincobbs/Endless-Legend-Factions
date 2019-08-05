@@ -174,4 +174,56 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <SymbolString>[custom06]</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
+
+  <!-- Drakken -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityDrakken">
+    <Title>%ClassPopulationEmpireAffinityDrakkenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityDrakkenCount">
+    <Title>%ClassPopulationEmpireAffinityDrakkenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityDrakken">
+    <Title>%ClassPopulationStarSystemAffinityDrakkenTitle</Title>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityDrakkenCount">
+    <Title>%ClassPopulationStarSystemAffinityDrakkenTitle</Title>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrakken">
+    <Title>%PopulationDrakkenTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrakkenCount">
+    <Title>%PopulationDrakkenTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationDrakkenTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityDrakken">
+    <Title>%AffinityDrakkenTitle</Title>
+    <Description>%AffinityDrakkenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/DrakkenSmall.png" />
+      <Icon Size="Medium" Path="Gui/DrakkenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/DrakkenLarge.png" />
+    </Icons>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
 </Datatable>

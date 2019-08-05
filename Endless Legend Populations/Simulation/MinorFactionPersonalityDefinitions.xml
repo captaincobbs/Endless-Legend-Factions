@@ -33,4 +33,15 @@
       <Trait Name="FactionTraitForgottenAccuracy"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Drakken -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityDrakken">
+    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MinorTrait Weight="5">
+      <Trait Name="FactionTraitDrakkenDiplomacy"/>
+    </MinorTrait>
+    <MinorTrait Weight="5">
+      <Trait Name="FactionTraitDrakkenConversion"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

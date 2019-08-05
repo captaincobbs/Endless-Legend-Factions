@@ -25,4 +25,12 @@
   <FactionTrait Name="FactionTraitForgottenAccuracy" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitForgottenAccuracy"/>
   </FactionTrait>
+
+  <!-- Drakken -->
+  <FactionTrait Name="FactionTraitDrakkenDiplomacy" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitDrakkenDiplomacy"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitDrakkenConversion" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitDrakkenConversion"/>
+  </FactionTrait>
 </Datatable>

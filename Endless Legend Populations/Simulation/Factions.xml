@@ -5,7 +5,7 @@
     <Affinity Name="AffinityGameplayKapaku"/><!-- Defined in FactionTraits[Affinity] -->
     <Trait Name="FamilyPrimitives"/><!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
     <Trait Name="IsMinorFaction"/><!-- Confirms that the faction is a major factions -->
-    <MajorPopulation Affinity="AffinityKapaku" Count="3"/><!-- Affinity{Faction Name} determines the starting faction, Count is the number to start with, so in this case you will start with 2 Kapaku -->
+    <MajorPopulation Affinity="AffinityKapaku" Count="3"/><!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 2 Kapaku -->
     <Personality Name="FactionPersonalityKapaku"/><!-- Defined in MinorFactionPersonalityDefinitions -->
     <Politics Name="Politics01"/>
     <!-- ^ Determines starting political faction and what it should focus towards -->
@@ -82,6 +82,43 @@
     <Trait Name="IsMinorFaction"/>
     <MajorPopulation Affinity="AffinityForgotten" Count="3"/>
     <Personality Name="FactionPersonalityForgotten"/>
+    <Politics Name="Politics03"/>
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0"/>
+  </MinorFaction>
+
+  <!-- Drakken -->
+  <MinorFaction Name="MinorFactionDrakken" Standard="true" Author="Captain Cobbs" Priority="70">
+    <Affinity Name="AffinityGameplayDrakken"/>
+    <Trait Name="FamilyPrimitives"/>
+    <Trait Name="IsMinorFaction"/>
+    <MajorPopulation Affinity="AffinityDrakken" Count="3"/>
+    <Personality Name="FactionPersonalityDrakken"/>
     <Politics Name="Politics03"/>
 
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
