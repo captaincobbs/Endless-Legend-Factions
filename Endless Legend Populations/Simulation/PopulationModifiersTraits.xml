@@ -135,7 +135,7 @@
 
   <!-- Drakken +2 Influence on Anomalies -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" SubCategory="Secondary" ShowInCustom="false" Cost="0">
-    <Tags>PlanetAnomaly,BonusPopulationInfluence</Tags>
+    <Tags>PlanetAnomaly,BonusPopulationPrestige</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet" DisplayWhenBoostedOnly="true">
         <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01"/>
