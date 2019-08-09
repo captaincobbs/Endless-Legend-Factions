@@ -52,10 +52,16 @@
   <GuiElement Name="PopulationCollectionBonusDrakken1">
     <Title>%PopulationCollectionBonusDrakken1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusDrakken2">
+  <ExtendedGuiElement Name="PopulationCollectionBonusDrakken2">
     <Title>%PopulationCollectionBonusDrakken2</Title>
-  </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusDrakken3">
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusDrakken2EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusDrakken3">
     <Title>%PopulationCollectionBonusDrakken3</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusDrakken3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>

@@ -5,4 +5,6 @@
   <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride">+3 [move] on Ships</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride">5% of [sciencecolored] is added to [dustcolored] on systems.</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride">+1 [move] on Ships</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride">+15% [prestigecolored] bonus on Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride">-50% Law Upkeep [prestigecolored] cost on Empire</LocalizationPair>
 </Datatable>
