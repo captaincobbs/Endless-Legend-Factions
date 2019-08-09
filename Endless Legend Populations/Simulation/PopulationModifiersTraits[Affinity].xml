@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+  <!-- Links many files together
+       ClassPopulationEmpireAffinity is used in GuiElements[GameVariables]
+       ClassPopulationStarSystemAffinity is used in GuiElements[GameVariables]
+       ClassPopulationStarSystemGrowthType can be set to Food or Industry (for industry think Riftborn), I'm not sure if Dust/Money works
+       ClassPopulationAssimilatedEmpireAffinity is used in GuiElements[GameVariables]-->
+  <!-- Kapaku -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapaku"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapaku"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKapaku"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersKapakuCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKapakuCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapakuCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapakuCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Broken Lords -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitLords" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLords"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLords"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityLords"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersLordsCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityLordsCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLordsCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLordsCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Forgotten -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitForgotten" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityForgotten"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityForgotten"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityForgotten"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersForgottenCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityForgottenCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityForgottenCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityForgottenCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Drakken -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDrakken" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakken"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakken"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityDrakken"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersDrakkenCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDrakkenCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakkenCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakkenCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+</Datatable>
