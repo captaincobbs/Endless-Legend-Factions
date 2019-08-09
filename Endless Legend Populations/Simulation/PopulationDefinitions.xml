@@ -5,18 +5,21 @@
     <DefaultPolitics> <!-- Politics = Base Political Party, Basescore is the starting strength of the political party, and I think trend is how fast it will automatically grow -->
       <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0"/>
     </DefaultPolitics>
-
+    <!-- Political Traits-->
     <Trait Name="PopulationPoliticalTraitIndustrialist"/> <!-- This line -->
     <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/> <!-- This line -->
     <Trait Name="PopulationPoliticalTraitEcologist"/> <!-- And this line are used to define political traits -->
+    <!-- Required stuff -->
     <Trait Name="PopulationModifiersKapakuCount"/> <!-- This line is used for the total population count -->
     <Trait Name="PopulationModifiersTraitKapaku"/> <!-- Defined in PopulationModifiersTraits -->
+    <!-- Population Bonus traits (custom ones defined in PopulationModifiersTraits) -->
     <Trait Name="PopulationModifiersTraitSecondaryHappinessHot"/> <!-- +2 Happiness On Hot-->
     <Trait Name="PopulationModifiersTraitPrimaryIndustry"/> <!-- +1 Industry -->
+    <!-- Collection Bonus Used -->
     <Trait Name="PopulationCollectionBonusTraitKapaku" />
 
     <AffinityMapping Name="AffinityMappingKapaku"/> <!-- Defined in SimulationDescriptors[FactionAffinityMapping] -->
-    <GrowthBoostLuxuryOptions> <!-- Luxuries that can be used to boost population, goes for 1-16, game randomly chooses one each time -->
+    <GrowthBoostLuxuryOptions> <!-- Luxuries that can be used to boost population, goes for 1-16, game randomly chooses one each time based off of provided list here -->
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury2</Luxury>
       <Luxury>Luxury3</Luxury>
@@ -37,10 +40,13 @@
     <Trait Name="PopulationPoliticalTraitMilitarist"/>
     <Trait Name="PopulationPoliticalTraitPious"/>
     <Trait Name="PopulationPoliticalTraitAntiIndustrialist"/>
+    
     <Trait Name="PopulationModifiersLordsCount"/>
     <Trait Name="PopulationModifiersTraitLords"/>
+    
     <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/>  <!-- +50 Defense -->
     <Trait Name="PopulationModifiersTraitSecondaryDustHappy"/> <!-- +2 Dust on Happy -->
+    
     <Trait Name="PopulationCollectionBonusTraitLords" />
 
     <AffinityMapping Name="AffinityMappingLords"/>
@@ -65,10 +71,13 @@
     <Trait Name="PopulationPoliticalTraitPacifist"/>
     <Trait Name="PopulationPoliticalTraitHedonist"/>
     <Trait Name="PopulationPoliticalTraitAntiScientist"/>
+    
     <Trait Name="PopulationModifiersForgottenCount"/>
     <Trait Name="PopulationModifiersTraitForgotten"/>
+    
     <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01"/><!-- +1 Processing Power -->
     <Trait Name="PopulationModifiersTraitPrimaryFood01"/><!-- +1 Food -->
+    
     <Trait Name="PopulationCollectionBonusTraitForgotten" />
 
     <AffinityMapping Name="AffinityMappingForgotten"/>
@@ -93,10 +102,13 @@
     <Trait Name="PopulationPoliticalTraitPacifist"/>
     <Trait Name="PopulationPoliticalTraitCurious"/>
     <Trait Name="PopulationPoliticalTraitAntiMilitarist"/>
+    
     <Trait Name="PopulationModifiersDrakkenCount"/>
     <Trait Name="PopulationModifiersTraitDrakken"/>
+    
     <Trait Name="PopulationModifiersTraitPrimaryScience01"/> <!-- +1 Science -->
     <Trait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01"/> <!-- +2 Influence on Anomaly -->
+    
     <Trait Name="PopulationCollectionBonusTraitDrakken" />
 
     <AffinityMapping Name="AffinityMappingDrakken"/>
