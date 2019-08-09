@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
   <!-- Definitions for custom population modifier traits -->
   <!-- Drakken +2 Influence on Anomalies -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" SubCategory="Secondary" ShowInCustom="true" Cost="5">
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" SubCategory="Secondary" ShowInCustom="true" Cost="10">
     <Tags>PlanetAnomaly,BonusPopulationPrestige</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
