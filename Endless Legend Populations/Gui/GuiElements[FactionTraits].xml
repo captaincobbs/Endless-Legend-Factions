@@ -84,4 +84,12 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+  <!-- Influence on Anomaly Trait -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01">
+    <Title>%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title</Title>
+  </GuiElement>
+
+  <GuiElement Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01">
+    <Title>%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title</Title>
+  </GuiElement>
 </Datatable>
