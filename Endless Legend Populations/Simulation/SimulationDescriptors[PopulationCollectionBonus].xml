@@ -48,7 +48,7 @@
     <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityDrakken" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusDrakken2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusDrakken3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="LawUpkeepMultiplier" Operation="Percent" Value="-0.5" Path="../ClassEmpire" TooltipHidden="true"/>
