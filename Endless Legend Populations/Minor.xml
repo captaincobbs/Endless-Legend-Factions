@@ -16,7 +16,7 @@
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile>
     <ReleaseNotes>Adds the Drakken faction, (TBI) adds Broken Lords reproduction.</ReleaseNotes>
-    <Tags>MinorFactions</Tags>
+    <Tags>MinorFactions,Other,Art</Tags>
 
     <!-- Don't touch anything below this unless you understand what you are doing -->
 		<Plugins>			
@@ -48,14 +48,18 @@
         <FilePath>Simulation/Factions.xml</FilePath>
       </DatabasePlugin>
 
+      <DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
+        <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
+      </DatabasePlugin>
 
-			<DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
+      <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp"/>
           <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
           <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
         </ExtraTypes>
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
+        <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
         <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
 
