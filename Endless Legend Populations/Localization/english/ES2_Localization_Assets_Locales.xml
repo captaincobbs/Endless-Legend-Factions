@@ -52,4 +52,5 @@
   <LocalizationPair Name="%FactionTraitDrakkenConversionTitle">Stubborn Patriots</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription">The Drakken are skilled at diplomacy, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenConversionDescription">Using their unnatural prowess at speechcraft, the Drakken are able to rile the people up in resisting the cultural takeover of other empires.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01TItle">Dominant Figure</LocalizationPair>
 </Datatable>
