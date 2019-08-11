@@ -58,7 +58,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitMorgawrIndustry" Type="FactionTraitMinor">
-    <BinaryModifier TargetProperty="SystemIndustry"   Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" Path="ClassEmpire/ClassColonizedStarSystem"/>
-    <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <BinaryModifier		TargetProperty="SystemProduction" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" SearchValueFromPath="true" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 </Datatable>
