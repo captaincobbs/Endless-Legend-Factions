@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
-  <!-- No idea what the difference is but you seem to need both -->
+  <!-- Used to make custom population bonuses -->
+  <!-- No idea what the difference is but you seem to need both, FAKEFORGUI does exactly what it sounds like though -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="ClassPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationPrestige"       Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetAnomaly"/>
     <BinaryModifier TargetProperty="BonusPopulationPrestige" Operation="Addition" Left="5"  BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" Path="ClassPopulation"/>
