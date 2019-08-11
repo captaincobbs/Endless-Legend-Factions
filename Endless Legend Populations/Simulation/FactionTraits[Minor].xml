@@ -38,7 +38,7 @@
   <FactionTrait Name="FactionTraitMorgawrInfluence" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitMorgawrInfluence"/>
   </FactionTrait>
-  <FactionTrait Name="FactionTraitMorgawrProduction" SubCategory="FactionTrait" Hidden="false" Cost="0">
+  <FactionTrait Name="FactionTraitMorgawrIndustry" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitMorgawrProduction"/>
   </FactionTrait>
 </Datatable>
