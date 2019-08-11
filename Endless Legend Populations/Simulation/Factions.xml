@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFaction.xsd">
+  <!--
+  Political definitions:
+  Politics01 - Industrialist
+  Politics02 - Scientist
+  Politics03 - Pacifist
+  Politics04 - Ecologist
+  Politics05 - Religious
+  Politics06 - Militarist
+  -->
   <!-- Kapaku -->
   <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="100"><!-- I'm not entirely sure what priority does-->
     <Affinity Name="AffinityGameplayKapaku"/><!-- Defined in FactionTraits[Affinity] -->
@@ -120,6 +129,43 @@
     <MajorPopulation Affinity="AffinityDrakken" Count="3"/>
     <Personality Name="FactionPersonalityDrakken"/>
     <Politics Name="Politics03"/>
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0"/>
+  </MinorFaction>
+
+  <!-- Morgawr -->
+  <MinorFaction Name="MinorFactionMorgawr" Standard="true" Author="Captain Cobbs" Priority="60">
+    <Affinity Name="AffinityGameplayMorgawr"/>
+    <Trait Name="FamilyPrimitives"/>
+    <Trait Name="IsMinorFaction"/>
+    <MajorPopulation Affinity="AffinityMorgawr" Count="3"/>
+    <Personality Name="FactionPersonalityMorgawr"/>
+    <Politics Name="Politics02"/>
 
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
     <ColonizablePlanet Type="PlanetTypeArctic" Priority="0"/>
