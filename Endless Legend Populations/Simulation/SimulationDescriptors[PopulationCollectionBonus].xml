@@ -37,7 +37,7 @@
     <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="MaximumMovement" Operation="Addition" Value="3" Path="../ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="2" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="SystemMoney" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
@@ -59,9 +59,9 @@
     <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityMorgawr" TooltipOverride="%TooltipOverridePositivePolitics02"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr2" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="MaximumMovement" Operation="Addition" Left="0.5" BinaryOperation="Multiplication" Right="$(PeaceCount)" Path="ClassEmpire"/>
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr3" Type="PopulationCollectionBonus">
-    <BinaryModifier TargetProperty="TechnologyCostReduction" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(AllianceCount)" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="ShipProductionCostReduction" Operation="Subtraction" Left="0.15" Path="../ClassEmpire/ClassColonizedStarSystem"/>
   </SimulationDescriptor>
 </Datatable>
