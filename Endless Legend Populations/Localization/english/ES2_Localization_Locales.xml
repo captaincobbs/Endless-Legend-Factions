@@ -7,4 +7,7 @@
   <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride">+1 [move] on Ships</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride">+15% [prestigecolored] bonus on Empire</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride">-50% Law Upkeep [prestigecolored] cost on Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawr2EffectOverride">+15% [prestigecolored] bonus on Systems with [custom10]</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride">-15% Ship [industrycolored] cost on Systems</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride">+20 Industry per Fertile Planet on Systems</LocalizationPair>
 </Datatable>
