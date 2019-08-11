@@ -6,4 +6,5 @@
   <SimulationDescriptor Name="AffinityMappingLords" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingForgotten" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingDrakken" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingMorgawr" Type="AffinityMapping"/>
 </Datatable>

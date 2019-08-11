@@ -7,4 +7,5 @@
   <SimulationDescriptor Name="AffinityLords" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityForgotten" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityDrakken" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityMorgawr" Type="Affinity"></SimulationDescriptor>
 </Datatable>

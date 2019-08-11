@@ -24,4 +24,10 @@
     <Title>%MinorFactionDrakkenTitle</Title>
     <Description>%MinorFactionDrakkenDescription</Description>
   </GuiElement>
+
+  <!-- Morgawr -->
+  <GuiElement Name="MinorFactionMorgawr">
+    <Title>%MinorFactionMorgawrTitle</Title>
+    <Description>%MinorFactionMorgawrDescription</Description>
+  </GuiElement>
 </Datatable>

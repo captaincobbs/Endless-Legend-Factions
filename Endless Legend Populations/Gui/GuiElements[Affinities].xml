@@ -59,4 +59,19 @@
     <SymbolString>[custom09]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Morgawr -->
+  <AffinityGuiElement Name="AffinityMappingMorgawr">
+    <Title>%AffinityGameplayMorgawrTitle</Title>
+    <Description>%AffinityGameplayMorgawrDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MorgawrSmall.png" />
+      <Icon Size="Medium" Path="Gui/MorgawrMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MorgawrLarge.png" />
+      <Icon Size="Mood" Path="Gui/MorgawrMood.png" />
+    </Icons>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

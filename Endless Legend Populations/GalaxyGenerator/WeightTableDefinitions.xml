@@ -31,6 +31,7 @@
     <Entry Tag="MinorFactionLords"          Weight="5"/>
     <Entry Tag="MinorFactionForgotten"      Weight="5"/>
     <Entry Tag="MinorFactionDrakken"        Weight="5"/>
+    <Entry Tag="MinorFactionMorgawr"        Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
@@ -76,6 +77,10 @@
     <Entry Tag="PlanetTypeAtoll"                Weight="1"/>
     <Entry Tag="PlanetTypeJungle"               Weight="1"/>
     <Entry Tag="PlanetTypeTropical"             Weight="1"/>
+    <Entry Tag="PlanetTypeTerran"               Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionMorgawr_PlanetTypes">
+    <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
     <Entry Tag="PlanetTypeTerran"               Weight="1"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>

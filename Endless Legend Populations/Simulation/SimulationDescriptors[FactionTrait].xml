@@ -50,4 +50,15 @@
     <Modifier TargetProperty="InfluenceConversionRateModifier"  Operation="Percent"    Value="-0.5" Path="ClassEmpire/ClassColonizedStarSystem"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="FactionTraitMorgawrInfluence" Type="FactionTraitMinor">
+    <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AnomalyCount)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitMorgawrIndustry" Type="FactionTraitMinor">
+    <BinaryModifier TargetProperty="SystemIndustry"   Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

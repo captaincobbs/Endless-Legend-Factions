@@ -92,4 +92,24 @@
   <GuiElement Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01">
     <Title>%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title</Title>
   </GuiElement>
+  
+    <!-- Morgawr -->
+  <ExtendedGuiElement Name="FactionTraitMorgawrInfluence">
+    <Title>%FactionTraitMorgawrInfluenceTitle</Title>
+    <Description>%FactionTraitMorgawrInfluenceDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+</ExtendedGuiElement>
+
+  <GuiElement Name="FactionTraitMorgawrIndustry">
+    <Title>%FactionTraitMorgawrIndustryTitle</Title>
+    <Description>%FactionTraitMorgawrIndustryDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusIndustryMorgawrEffectOverride</EffectOverride>
+    </TooltipElement>
+  </GuiElement>
 </Datatable>

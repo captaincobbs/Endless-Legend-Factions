@@ -64,4 +64,21 @@
       <EffectOverride>%PopulationCollectionBonusDrakken3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+
+  <!-- Morgawr -->
+  <GuiElement Name="PopulationCollectionBonusMorgawr1">
+    <Title>%PopulationCollectionBonusMorgawr1</Title>
+  </GuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusMorgawr2">
+    <Title>%PopulationCollectionBonusMorgawr2</Title>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusMorgawr2EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusMorgawr3">
+    <Title>%PopulationCollectionBonusMorgawr3</Title>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusMorgawr3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>

@@ -60,4 +60,19 @@
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
     </FleetNameTitle>
   </FleetNameMappingDefinition>
+
+  <FleetNameMappingDefinition Name="AffinityMappingMorgawr">
+    <FleetNameTitle LocalizationKey="%MinorFactionMorgawrTitle">
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor03" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor04" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor05" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor06" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor07" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor08" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
+    </FleetNameTitle>
+  </FleetNameMappingDefinition>
 </Datatable>

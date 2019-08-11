@@ -33,4 +33,12 @@
   <FactionTrait Name="FactionTraitDrakkenConversion" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitDrakkenConversion"/>
   </FactionTrait>
+
+  <!-- Morgawr -->
+  <FactionTrait Name="FactionTraitMorgawrInfluence" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitMorgawrInfluence"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitMorgawrProduction" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitMorgawrProduction"/>
+  </FactionTrait>
 </Datatable>

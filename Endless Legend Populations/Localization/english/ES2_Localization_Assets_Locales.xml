@@ -53,4 +53,17 @@
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription">The Drakken are skilled at diplomacy, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenConversionDescription">Using their unnatural prowess at speechcraft, the Drakken are able to rile the people up in resisting the cultural takeover of other empires.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01TItle">Dominant Figure</LocalizationPair>
+
+<!-- Morgawr -->
+  <LocalizationPair Name="%MinorFactionMorgawrTitle">Morgawr</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMorgawrDescription">The Morgawr have always been confined... to the waters, and to Auriga. But now, Morgawr are free, free to embrace their curious nature.</LocalizationPair>
+  <LocalizationPair Name="%PopulationMorgawrTitle">[custom10]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityMorgawrTitle">[custom10]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityMorgawrTitle">Systems with [custom10]</LocalizationPair>
+  <LocalizationPair Name="%AffinityMorgawrTitle">Morgawr</LocalizationPair>
+  <LocalizationPair Name="%AffinityMorgawrDescription">The Morgawr, experiments of the Endless, resemble mutated fish. They crave Freedom over everything else, and prefer Ocean planets.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceTitle">Catspaw</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryTitle">Hydrophilic</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription">Using their manipulation of lesser minds for social engineering, the Morgawr can vastly improve your societal structure.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription">The Morgawr's affinity for water rubs off on your other citizens, vastly improving production on Ocean planets.</LocalizationPair>
 </Datatable>

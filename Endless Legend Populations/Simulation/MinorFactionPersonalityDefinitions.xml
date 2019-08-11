@@ -44,4 +44,15 @@
       <Trait Name="FactionTraitDrakkenConversion"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Morgawr -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityMorgawr">
+    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MinorTrait Weight="8">
+      <Trait Name="FactionTraitMorgawrInfluence"/>
+    </MinorTrait>
+    <MinorTrait Weight="2">
+      <Trait Name="FactionTraitMorgawrIndustry"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

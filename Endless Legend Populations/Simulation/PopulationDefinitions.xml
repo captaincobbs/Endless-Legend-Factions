@@ -123,4 +123,35 @@
       <Luxury>Luxury16</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
+
+  <!-- Morgawr -->
+  <PopulationDefinition AffinityName="AffinityMorgawr" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitScientist"/>
+    <Trait Name="PopulationPoliticalTraitCurious"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+
+    <Trait Name="PopulationModifiersMorgawrCount"/>
+    <Trait Name="PopulationModifiersTraitMorgawr"/>
+
+    <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile"/><!-- +2 Industry on Fertile -->
+
+    <Trait Name="PopulationCollectionBonusTraitMorgawr" />
+
+    <AffinityMapping Name="AffinityMappingDrakken"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury9</Luxury>
+      <Luxury>Luxury10</Luxury>
+      <Luxury>Luxury11</Luxury>
+      <Luxury>Luxury12</Luxury>
+      <Luxury>Luxury13</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury16</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 </Datatable>

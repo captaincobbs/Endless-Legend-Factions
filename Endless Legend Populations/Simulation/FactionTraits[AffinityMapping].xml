@@ -20,4 +20,9 @@
   <FactionAffinityMapping Name="AffinityMappingDrakken" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingDrakken" />
   </FactionAffinityMapping>
+
+  <!-- Morgawr -->
+  <FactionAffinityMapping Name="AffinityMappingMorgawr" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingMorgawr" />
+  </FactionAffinityMapping>
 </Datatable>
