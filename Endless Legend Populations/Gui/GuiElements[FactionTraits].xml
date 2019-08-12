@@ -63,6 +63,9 @@
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusAccuracyForgottenEffectOverride</EffectOverride>
+    </TooltipElement>
   </GuiElement>
 
   <!-- Drakken -->
@@ -100,6 +103,9 @@
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
+    <TooltipElement>
+      <EffectOverride>%PopulationAssimilationBonusInfluenceMorgawrEffectOverride</EffectOverride>
+    </TooltipElement>
 </ExtendedGuiElement>
 
   <GuiElement Name="FactionTraitMorgawrIndustry">
