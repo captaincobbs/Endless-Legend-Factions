@@ -59,9 +59,9 @@
     <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityMorgawr" TooltipOverride="%TooltipOverridePositivePolitics02"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr3" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="ShipProductionCostReduction" Operation="Subtraction" Left="0.15" Path="../ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="ShipProductionCostReduction" Operation="Subtraction" Left="0.15" Path="../ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
   </SimulationDescriptor>
 </Datatable>
