@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <!-- Used to make custom population bonuses -->
-  <!-- No idea what the difference is but you seem to need both, FAKEFORGUI does exactly what it sounds like though -->
+  <!-- First one is for the actual bonus -->
+  <!-- Second one is for population boosts -->
+  <!-- Last one "ClassPopulationAssimilated" is for Horatio Gene Splicing -->
+  <!-- Drakken +5 Influence on Anomalies -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="ClassPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationPrestige"       Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetAnomaly"/>
     <BinaryModifier TargetProperty="BonusPopulationPrestige" Operation="Addition" Left="5"  BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" Path="ClassPopulation"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="WithPopulationPlanet">
     <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"  Value="5"  Path="FAKEFORGUI/./PlanetAnomaly"/>
-    <BinaryModifier TargetProperty="BonusPopulationPrestige"  Operation="Addition"  Left="5"   BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestige"  Operation="Addition"  Left="5"   BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01"  TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetInfluenceAnomaly01" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"  Value="2"  Path="FAKEFORGUI/./PlanetAnomaly"/>
+    <BinaryModifier TargetProperty="BonusPopulationPrestige"  Operation="Addition"  Left="2"   BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Wild Walkers +5 Industry on Fertile -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" Type="ClassPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="5" Path="ClassPopulation" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitWalkersIndustry" Type="WithPopulationPlanet">
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetWalkersIndustry" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition"  Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+    <Modifier TargetProperty="BonusPopulationIndustry"  Operation="Addition" Value="3" TooltipHidden="true" Path="ClassPopulation"/>
   </SimulationDescriptor>
 </Datatable>
