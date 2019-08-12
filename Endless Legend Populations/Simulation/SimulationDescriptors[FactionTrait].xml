@@ -53,7 +53,7 @@
 
   <!-- Morgawr -->
   <SimulationDescriptor Name="FactionTraitMorgawrInfluence" Type="FactionTraitMinor">
-    <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AnomalyCount)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AnomalyCount)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
