@@ -76,7 +76,7 @@
     <Trait Name="PopulationModifiersTraitForgotten"/>
     
     <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01"/><!-- +1 Processing Power -->
-    <Trait Name="PopulationModifiersTraitPrimaryFood01"/><!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitPrimaryStrategicToFood01"/><!-- +1 Food -->
     
     <Trait Name="PopulationCollectionBonusTraitForgotten" />
 
