@@ -12,13 +12,13 @@
 
 
   <!-- Kapaku-->
-  <ExtendedGuiElement Name="FactionTraitKapakuHappiness">
+  <GuiElement Name="FactionTraitKapakuHappiness">
     <Title>%FactionTraitKapakuHappinessTitle</Title>
     <Description>%FactionTraitKapakuHappinessDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
-  </ExtendedGuiElement>
+  </GuiElement>
 
   <GuiElement Name="FactionTraitKapakuTerraforming">
     <Title>%FactionTraitKapakuTerraformingTitle</Title>
@@ -106,7 +106,7 @@
     <TooltipElement>
       <EffectOverride>%PopulationAssimilationBonusInfluenceMorgawrEffectOverride</EffectOverride>
     </TooltipElement>
-</ExtendedGuiElement>
+  </ExtendedGuiElement>
 
   <GuiElement Name="FactionTraitMorgawrIndustry">
     <Title>%FactionTraitMorgawrIndustryTitle</Title>
@@ -117,5 +117,22 @@
     <TooltipElement>
       <EffectOverride>%PopulationAssimilationBonusIndustryMorgawrEffectOverride</EffectOverride>
     </TooltipElement>
+  </GuiElement>
+
+  <!-- Wild Walkers-->
+  <GuiElement Name="FactionTraitWalkersBuilding">
+    <Title>%FactionTraitWalkersBuildingTitle</Title>
+    <Description>%FactionTraitWalkersBuildingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitWalkersSight">
+    <Title>%FactionTraitWalkersSightTitle</Title>
+    <Description>%FactionTraitWalkersSightDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
   </GuiElement>
 </Datatable>

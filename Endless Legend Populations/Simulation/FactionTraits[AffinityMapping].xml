@@ -25,4 +25,9 @@
   <FactionAffinityMapping Name="AffinityMappingMorgawr" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingMorgawr" />
   </FactionAffinityMapping>
+
+  <!-- Wild Walkers -->
+  <FactionAffinityMapping Name="AffinityMappingWalkers" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingWalkers" />
+  </FactionAffinityMapping>
 </Datatable>

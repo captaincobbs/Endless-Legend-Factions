@@ -41,4 +41,12 @@
   <FactionTrait Name="FactionTraitMorgawrIndustry" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitMorgawrProduction"/>
   </FactionTrait>
+
+  <!-- Wild Walkers -->
+  <FactionTrait Name="FactionTraitWalkersBuilding" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitWalkersBuilding"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitWalkersSight" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitWalkersSight"/>
+  </FactionTrait>
 </Datatable>

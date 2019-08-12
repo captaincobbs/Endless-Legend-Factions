@@ -194,4 +194,41 @@
     <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0"/>
     <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0"/>
   </MinorFaction>
+
+  <!-- Wild Walkers -->
+  <MinorFaction Name="MinorFactionWalkers" Standard="true" Author="Captain Cobbs" Priority="60">
+    <Affinity Name="AffinityGameplayWalkers"/>
+    <Trait Name="FamilyPrimitives"/>
+    <Trait Name="IsMinorFaction"/>
+    <MajorPopulation Affinity="AffinityWalkers" Count="3"/>
+    <Personality Name="FactionPersonalityWalkers"/>
+    <Politics Name="Politics01"/>
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0"/>
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0"/>
+  </MinorFaction>
 </Datatable>

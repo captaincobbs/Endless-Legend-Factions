@@ -66,4 +66,17 @@
   <LocalizationPair Name="%FactionTraitMorgawrIndustryTitle">Hydrophilic</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription">Using their manipulation of lesser minds for social engineering, the Morgawr can vastly improve your societal structure.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription">The Morgawr's affinity for water rubs off on your other citizens, vastly improving production on Ocean planets.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%MinorFactionWalkersTitle">Wild Walkers</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionWalkersDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationWalkersTitle">[custom07]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityWalkersTitle">[custom10]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityWalkersTitle">Systems with [custom07]</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersTitle">Wild Walkers</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingTitle">Growing Buildings</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightTitle">The Sharing</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightDescription">TBI</LocalizationPair>
 </Datatable>

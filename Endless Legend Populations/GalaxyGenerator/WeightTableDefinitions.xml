@@ -32,6 +32,7 @@
     <Entry Tag="MinorFactionForgotten"      Weight="5"/>
     <Entry Tag="MinorFactionDrakken"        Weight="5"/>
     <Entry Tag="MinorFactionMorgawr"        Weight="5"/>
+    <Entry Tag="MinorFactionWalkers"        Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
@@ -80,7 +81,18 @@
     <Entry Tag="PlanetTypeTerran"               Weight="1"/>
   </GalaxyGeneratorWeightTable>
   <GalaxyGeneratorWeightTable Name="MinorFactionMorgawr_PlanetTypes">
-    <Entry Tag="PlanetTypeOcean"                 Weight="3"/>
-    <Entry Tag="PlanetTypeTerran"               Weight="1"/>
+    <Entry Tag="PlanetTypeOcean"                 Weight="5"/>
+    <Entry Tag="PlanetTypeTerran"                Weight="1"/>
+    <Entry Tag="PlanetTypeTropical"              Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionWalkers_PlanetTypes">
+    <Entry Tag="PlanetTypeForest"                Weight="10"/>
+    <Entry Tag="PlanetTypeTerran"                Weight="5"/>
+    <Entry Tag="PlanetTypeTropical"              Weight="5"/>
+    <Entry Tag="PlanetTypeTerran"                Weight="5"/>
+    <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
+    <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>

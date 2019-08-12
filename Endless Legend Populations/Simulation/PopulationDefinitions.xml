@@ -154,4 +154,35 @@
       <Luxury>Luxury16</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
+
+  <!-- Wild Walkers -->
+  <PopulationDefinition AffinityName="AffinityWalkers" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToIndustrialist"/>
+    <Trait Name="PopulationPoliticalTraitReligiousToPacifist"/>
+
+    <Trait Name="PopulationModifiersWalkersCount"/>
+    <Trait Name="PopulationModifiersTraitWalkers"/>
+
+    <Trait Name="PopulationModifiersTraitWalkersIndustry"/><!-- +5 industry on fertile-->
+    <Trait Name="PopulationModifiersTraitPrimaryFood02"/><!-- +2 food -->
+
+    <Trait Name="PopulationCollectionBonusTraitWalkers" />
+
+    <AffinityMapping Name="AffinityMappingWalkers"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury10</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury12</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury16</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 </Datatable>

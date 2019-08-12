@@ -64,4 +64,15 @@
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="ShipProductionCostReduction" Operation="Subtraction" Left="0.15" Path="../ClassEmpire/ClassColonizedStarSystem" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="PopulationCollectionBonusWalkers1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityWalkers" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusWalkers2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="15" Path="../ClassEmpire/ClassStarSystem" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusWalkers3" Type="PopulationCollectionBonus">
+    <BinaryModifier TargetProperty="SystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

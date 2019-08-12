@@ -74,4 +74,19 @@
     <SymbolString>[custom10]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Wild Walkers -->
+  <AffinityGuiElement Name="AffinityMappingWalkers">
+    <Title>%AffinityGameplayWalkersTitle</Title>
+    <Description>%AffinityGameplayWalkersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/WalkersSmall.png" />
+      <Icon Size="Medium" Path="Gui/WalkersMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/WalkersLarge.png" />
+      <Icon Size="Mood" Path="Gui/WalkersMood.png" />
+    </Icons>
+    <SymbolString>[custom07]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

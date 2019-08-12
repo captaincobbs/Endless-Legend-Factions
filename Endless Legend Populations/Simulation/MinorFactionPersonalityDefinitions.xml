@@ -55,4 +55,15 @@
       <Trait Name="FactionTraitMorgawrIndustry"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+  
+  <!-- Wild Walkers -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityWalkers">
+    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MinorTrait Weight="5">
+      <Trait Name="FactionTraitWalkersBuilding"/>
+    </MinorTrait>
+    <MinorTrait Weight="5">
+      <Trait Name="FactionTraitWalkersSight"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

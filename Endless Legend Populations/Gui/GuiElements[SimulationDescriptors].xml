@@ -81,4 +81,18 @@
       <EffectOverride>%PopulationCollectionBonusMorgawr3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+
+  <!-- Wild Walkers -->
+  <GuiElement Name="PopulationCollectionBonusWalkers1">
+    <Title>%PopulationCollectionBonusWalkers1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusWalkers2">
+    <Title>%PopulationCollectionBonusWalkers2</Title>
+  </GuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusWalkers3">
+    <Title>%PopulationCollectionBonusWalkers3</Title>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusWalkers3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>

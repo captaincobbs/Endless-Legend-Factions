@@ -61,4 +61,15 @@
     <BinaryModifier		TargetProperty="SystemProduction" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" SearchValueFromPath="true" Path="ClassEmpire/ClassColonizedStarSystem"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="FactionTraitWalkersBuilding" Type="FactionTraitMinor">
+    <Modifier TargetProperty="BuildingProductionCostReduction"      Operation="Addition" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem"      Priority="-5"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitWalkersSight" Type="FactionTraitMinor">
+    <Modifier TargetProperty="VisionRange"	Operation="Addition" Value="10" Path="Class/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>
