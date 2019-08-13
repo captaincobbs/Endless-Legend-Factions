@@ -137,17 +137,17 @@
   </GuiElement>
 
   <!-- Roving Clans -->
-  <GuiElement Name="FactionTraitRovingBuilding">
-    <Title>%FactionTraitRovingBuildingTitle</Title>
-    <Description>%FactionTraitRovingBuildingDescription</Description>
+  <GuiElement Name="FactionTraitRovingUpkeepSystems">
+    <Title>%FactionTraitRovingUpkeepSystemsTitle</Title>
+    <Description>%FactionTraitRovingUpkeepSystemsDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
 
-  <GuiElement Name="FactionTraitRovingSight">
-    <Title>%FactionTraitRovingSightTitle</Title>
-    <Description>%FactionTraitRovingSightDescription</Description>
+  <GuiElement Name="FactionTraitRovingUpkeepMilitary">
+    <Title>%FactionTraitRovingUpkeepMilitaryTitle</Title>
+    <Description>%FactionTraitRovingUpkeepMilitaryDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
