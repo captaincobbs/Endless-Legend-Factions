@@ -70,9 +70,20 @@
     <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityWalkers" TooltipOverride="%TooltipOverridePositivePolitics01"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusWalkers2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="VisionRange" Operation="Addition" Value="15" Path="../ClassEmpire/ClassStarSystem" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassStarSystem" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusWalkers3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="SystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="PopulationCollectionBonusRoving1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics03ToPolitics03"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityRoving" TooltipOverride="%TooltipOverridePositivePolitics03"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusRoving2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusRoving3" Type="PopulationCollectionBonus">
+    <BinaryModifier TargetProperty="DustInflationModifier" Operation="Percent" Left="-0.15" BinaryOperation="Multiplication" Right="$(NumberOfTradingCompanyHeadquarters)"  Path="ClassEmpire" />
   </SimulationDescriptor>
 </Datatable>
