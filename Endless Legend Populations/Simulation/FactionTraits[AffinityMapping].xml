@@ -30,4 +30,9 @@
   <FactionAffinityMapping Name="AffinityMappingWalkers" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingWalkers" />
   </FactionAffinityMapping>
+
+  <!-- Roving Clans -->
+  <FactionAffinityMapping Name="AffinityMappingRoving" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingRoving" />
+  </FactionAffinityMapping>
 </Datatable>

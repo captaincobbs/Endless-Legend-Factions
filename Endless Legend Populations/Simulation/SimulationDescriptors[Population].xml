@@ -104,4 +104,20 @@
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityWalkers" Type="ClassPopulationAssimilated">
     <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityRoving" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityRoving" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinityRovingCount" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityRovingCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityRovingCount" Type="ClassPopulationStarSystem">
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityRovingCount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityRovingCount" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityRovingCount" Priority="100" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityRoving" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

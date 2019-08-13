@@ -196,4 +196,36 @@
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
+
+  <!-- Roving Clans -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitRoving" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityRoving"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityRoving"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityRoving"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersRovingCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityRovingCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityRovingCount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityRovingCount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
 </Datatable>
