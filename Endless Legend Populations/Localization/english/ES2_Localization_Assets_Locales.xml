@@ -54,9 +54,9 @@
   <LocalizationPair Name="%FactionTraitDrakkenConversionDescription">Using their unnatural prowess at speechcraft, the Drakken are able to rile the people up in resisting the cultural takeover of other empires.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01TItle">Dominant Figure</LocalizationPair>
 
-<!-- Morgawr -->
+  <!-- Morgawr -->
   <LocalizationPair Name="%MinorFactionMorgawrTitle">Morgawr</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionMorgawrDescription">The Morgawr have always been confined... to the waters, and to Auriga. But now, Morgawr are free, free to embrace their curious nature.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMorgawrDescription">The Morgawr have always been confined to the waters, and to Auriga... But now, Morgawr are free, free to embrace their curious nature.</LocalizationPair>
   <LocalizationPair Name="%PopulationMorgawrTitle">[custom10]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMorgawrTitle">[custom10]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMorgawrTitle">Systems with [custom10]</LocalizationPair>
@@ -69,14 +69,27 @@
 
   <!-- Wild Walkers -->
   <LocalizationPair Name="%MinorFactionWalkersTitle">Wild Walkers</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionWalkersDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionWalkersDescription">Once stranded on the dying Auriga, the Wild Walkers turned to the stars in a last ditch effort, using any resources they had left to escape with the remaining Vaulters.</LocalizationPair>
   <LocalizationPair Name="%PopulationWalkersTitle">[custom07]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityWalkersTitle">[custom10]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityWalkersTitle">Systems with [custom07]</LocalizationPair>
   <LocalizationPair Name="%AffinityWalkersTitle">Wild Walkers</LocalizationPair>
-  <LocalizationPair Name="%AffinityWalkersDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersDescription">Once mere hunter-gatherers, they have an uncanny ability to shape rocks and trees into great buildings, and an unnatural bond to animals.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersBuildingTitle">Growing Buildings</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersSightTitle">The Sharing</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitWalkersBuildingDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitWalkersSightDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingDescription">Using their affinity to nature, the Wild Walkers can replace the need for materials such as Steel or Titanium with naturally growing and regenerative substances, greatly decreasing production costs.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightDescription">Finding their exceptional natural connection to beasts still applies off of Auriga, the Wild Walkers use their understanding bond to animals create a wide web of sight, greatly enchancing detection range.</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%MinorFactionRovingTitle">Roving Clans</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionRovingDescription">Unsetlled by the mysteries of the Galaxy, the Clans focused more on internal infrastructure and economics, becoming masters at each with ease.</LocalizationPair>
+  <LocalizationPair Name="%PopulationRovingTitle">[custom11]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityRovingTitle">[custom11]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityRovingTitle">Systems with [custom11]</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingTitle">Roving Clans</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingDescription">Once simple nomadic traders, explorers, and adventurers, the Clans have since modernized into something more professional.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsTitle">Organized Efficiency</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryTitle">Strategic Cuts</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsDescription">Using their natural understanding of economics, the Roving Clans can pinpoint miniscule inefficiencies in system economies, squashing a major percentage of costs.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryDescription">Treating the military like a business, the Clans can repurpose, organize, and trim their way to perfect efficiency.</LocalizationPair>
 </Datatable>
