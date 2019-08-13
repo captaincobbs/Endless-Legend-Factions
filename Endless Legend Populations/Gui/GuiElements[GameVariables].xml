@@ -330,4 +330,56 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <SymbolString>[custom07]</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
+
+  <!-- Roving Clan -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityRoving">
+    <Title>%ClassPopulationEmpireAffinityRovingTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityRovingCount">
+    <Title>%ClassPopulationEmpireAffinityRovingTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityRoving">
+    <Title>%ClassPopulationStarSystemAffinityRovingTitle</Title>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityRovingCount">
+    <Title>%ClassPopulationStarSystemAffinityRovingTitle</Title>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityRoving">
+    <Title>%PopulationRovingTitle</Title>
+    <Description>%PopulationRovingDescription</Description>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationRovingTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityRovingCount">
+    <Title>%PopulationRovingTitle</Title>
+    <Description>%PopulationRovingDescription</Description>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationRovingTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityRoving">
+    <Title>%AffinityRovingTitle</Title>
+    <Description>%AffinityRovingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/RovingSmall.png" />
+      <Icon Size="Medium" Path="Gui/RovingMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/RovingLarge.png" />
+    </Icons>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
 </Datatable>

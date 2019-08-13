@@ -95,4 +95,18 @@
       <EffectOverride>%PopulationCollectionBonusWalkers3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
+
+  <!-- Roving Clan -->
+  <GuiElement Name="PopulationCollectionBonusRoving1">
+    <Title>%PopulationCollectionBonusRoving1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusRoving2">
+    <Title>%PopulationCollectionBonusRoving2</Title>
+  </GuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusRoving3">
+    <Title>%PopulationCollectionBonusRoving3</Title>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusRoving3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>

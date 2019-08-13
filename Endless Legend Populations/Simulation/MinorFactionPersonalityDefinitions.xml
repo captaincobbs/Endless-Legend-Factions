@@ -66,4 +66,15 @@
       <Trait Name="FactionTraitWalkersSight"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Roving Clans -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityRoving">
+    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MinorTrait Weight="5">
+      <Trait Name="FactionTraitRovingUpkeepSystems"/>
+    </MinorTrait>
+    <MinorTrait Weight="5">
+      <Trait Name="FactionTraitRovingUpkeepMilitary"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

@@ -89,4 +89,19 @@
     <SymbolString>[custom07]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Roving Clans -->
+  <AffinityGuiElement Name="AffinityMappingRoving">
+    <Title>%AffinityGameplayRovingTitle</Title>
+    <Description>%AffinityGameplayRovingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/RovingSmall.png" />
+      <Icon Size="Medium" Path="Gui/RovingMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/RovingLarge.png" />
+      <Icon Size="Mood" Path="Gui/RovingMood.png" />
+    </Icons>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

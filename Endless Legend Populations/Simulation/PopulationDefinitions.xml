@@ -187,33 +187,33 @@
   </PopulationDefinition>
 
   <!-- Roving Clans -->
-  <PopulationDefinition AffinityName="AffinityWalkers" Standard="true">
+  <PopulationDefinition AffinityName="AffinityRoving" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitEcologist"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToIndustrialist"/>
-    <Trait Name="PopulationPoliticalTraitReligiousToPacifist"/>
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitIndustrialistToPacifist"/>
+    <Trait Name="PopulationPoliticalTraitPacifistToIndustrialist"/>
 
-    <Trait Name="PopulationModifiersWalkersCount"/>
-    <Trait Name="PopulationModifiersTraitWalkers"/>
+    <Trait Name="PopulationModifiersRovingCount"/>
+    <Trait Name="PopulationModifiersTraitRoving"/>
 
-    <Trait Name="PopulationModifiersTraitWalkersIndustry"/><!-- +5 industry on fertile-->
-    <Trait Name="PopulationModifiersTraitPrimaryFood02"/><!-- +2 food -->
+    <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryDustSterile"/><!-- +5 Dust on Sterile -->
 
-    <Trait Name="PopulationCollectionBonusTraitWalkers" />
+    <Trait Name="PopulationCollectionBonusTraitRoving"/><!-- Using the PopColBonus from Lumeris -->
 
-    <AffinityMapping Name="AffinityMappingWalkers"/>
+    <AffinityMapping Name="AffinityMappingRoving"/>
     <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
       <Luxury>Luxury2</Luxury>
-      <Luxury>Luxury9</Luxury>
+      <Luxury>Luxury3</Luxury>
       <Luxury>Luxury4</Luxury>
-      <Luxury>Luxury11</Luxury>
-      <Luxury>Luxury6</Luxury>
       <Luxury>Luxury13</Luxury>
-      <Luxury>Luxury8</Luxury>
+      <Luxury>Luxury14</Luxury>
       <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury16</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
 </Datatable>

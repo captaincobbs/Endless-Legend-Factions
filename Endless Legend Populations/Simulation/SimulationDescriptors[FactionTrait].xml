@@ -72,4 +72,15 @@
     <Modifier TargetProperty="VisionRange"	Operation="Addition" Value="10" Path="Class/ClassColonizedStarSystem"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="FactionTraitRovingUpkeepSystems" Type="FactionTraitMinor">
+    <Modifier TargetProperty="SystemMoneyUpkeep"      Operation="Percent" Value="-0.15" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitRovingUpkeepMilitary" Type="FactionTraitMinor">
+    <Modifier TargetProperty="GarrisonMoneyUpkeep"	Operation="Percent" Value="-0.15" Path="ClassEmpire"/>
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

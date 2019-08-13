@@ -119,7 +119,7 @@
     </TooltipElement>
   </GuiElement>
 
-  <!-- Wild Walkers-->
+  <!-- Wild Walkers -->
   <GuiElement Name="FactionTraitWalkersBuilding">
     <Title>%FactionTraitWalkersBuildingTitle</Title>
     <Description>%FactionTraitWalkersBuildingDescription</Description>
@@ -131,6 +131,23 @@
   <GuiElement Name="FactionTraitWalkersSight">
     <Title>%FactionTraitWalkersSightTitle</Title>
     <Description>%FactionTraitWalkersSightDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Roving Clans -->
+  <GuiElement Name="FactionTraitRovingBuilding">
+    <Title>%FactionTraitRovingBuildingTitle</Title>
+    <Description>%FactionTraitRovingBuildingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitRovingSight">
+    <Title>%FactionTraitRovingSightTitle</Title>
+    <Description>%FactionTraitRovingSightDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>

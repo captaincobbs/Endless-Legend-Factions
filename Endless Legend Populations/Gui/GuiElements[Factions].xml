@@ -36,4 +36,10 @@
     <Title>%MinorFactionWalkersTitle</Title>
     <Description>%MinorFactionWalkersDescription</Description>
   </GuiElement>
+
+  <!-- Roving Clan -->
+  <GuiElement Name="MinorFactionRoving">
+    <Title>%MinorFactionRovingTitle</Title>
+    <Description>%MinorFactionRovingDescription</Description>
+  </GuiElement>
 </Datatable>
