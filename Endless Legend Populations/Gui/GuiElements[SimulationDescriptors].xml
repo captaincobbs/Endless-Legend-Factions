@@ -103,10 +103,7 @@
   <GuiElement Name="PopulationCollectionBonusRoving2">
     <Title>%PopulationCollectionBonusRoving2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusRoving3">
+  <GuiElement Name="PopulationCollectionBonusRoving3">
     <Title>%PopulationCollectionBonusRoving3</Title>
-    <TooltipElement>
-      <EffectOverride>%PopulationCollectionBonusRoving3EffectOverride</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
+  </GuiElement>
 </Datatable>
