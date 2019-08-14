@@ -95,21 +95,21 @@
 
   <!-- Mykara -->
   <LocalizationPair Name="%MinorFactionMykaraTitle">Mykara</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionMykaraDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMykaraDescription">A single, vast plantlike organism that manipulates its many children, even from afar. Since ancient times, they have had a symbiotic relationship with the Urkans, and even managed to save one from Auriga's frost.</LocalizationPair>
   <LocalizationPair Name="%PopulationMykaraTitle">[custom05]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMykaraTitle">[custom05]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMykaraTitle">Systems with [custom05]</LocalizationPair>
   <LocalizationPair Name="%AffinityMykaraTitle">Mykara</LocalizationPair>
-  <LocalizationPair Name="%AffinityMykaraDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraDescription">Ancient dwellers of a subterranean realm lost to Auriga, the Mykara, being made of plants themselves, have a special gift at agriculture.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMykaraFoodTitle">Hyperorganic Sustenance</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMykaraManpowerTitle">Creeping Presence</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMykaraFoodDescription">Having an intimate understanding of Anatomy and Biology, the Mykara can make eating as efficient as possible by creating enhanced foods.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMykaraManpowerDescription">By growing plant-based soldiers, you can have a near infinite amount of soldiers for little to no cost.</LocalizationPair>
 
   <!-- Urkan A | Kazar -->
-  <LocalizationPair Name="%PopulationUrkanATitle">[v]</LocalizationPair>
-  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle">[v]</LocalizationPair>
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle">Systems with [v]</LocalizationPair>
+  <LocalizationPair Name="%PopulationUrkanATitle"></LocalizationPair> <!-- The  character is the [v] character -->
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle"></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle">Systems with </LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanATitle">Kazar</LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanADescription">The largest of the three great beasts, Kazar moves with an unhurried gait that belies its great strength and arrogance. Often crusted with precious ores when emerging from the depths, Kazar is sometimes the target of brave, or foolhardy, adventures who attempt to liberate the valuable stones.</LocalizationPair>
 </Datatable>
