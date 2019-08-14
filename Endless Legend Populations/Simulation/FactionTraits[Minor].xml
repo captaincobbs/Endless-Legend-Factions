@@ -52,9 +52,17 @@
 
   <!-- Roving Clans -->
   <FactionTrait Name="FactionTraitRovingUpkeepSystems" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitWalkersBuilding"/>
+    <SimulationDescriptorReference Name="FactionTraitUpkeepSystems"/>
   </FactionTrait>
   <FactionTrait Name="FactionTraitRovingUpkeepMilitary" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitWalkersSight"/>
+    <SimulationDescriptorReference Name="FactionTraitUpkeepMilitary"/>
+  </FactionTrait>
+
+  <!-- Mykara -->
+  <FactionTrait Name="FactionTraitMykaraFood" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitMykaraFood"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitMykaraManpower" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitMykaraManpower"/>
   </FactionTrait>
 </Datatable>
