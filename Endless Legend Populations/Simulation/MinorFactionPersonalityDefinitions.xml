@@ -77,4 +77,15 @@
       <Trait Name="FactionTraitRovingUpkeepMilitary"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Mykara -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityMykara">
+    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MinorTrait Weight="6">
+      <Trait Name="FactionTraitMykaraFood"/>
+    </MinorTrait>
+    <MinorTrait Weight="4">
+      <Trait Name="FactionTraitRovingMykaraManpower"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

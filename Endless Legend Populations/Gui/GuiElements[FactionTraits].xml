@@ -152,4 +152,21 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+  
+  <!-- Mykara -->
+  <GuiElement Name="FactionTraitMykaraFood">
+    <Title>%FactionTraitMykaraFoodTitle</Title>
+    <Description>%FactionTraitMykaraFoodDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitMykaraManpower">
+    <Title>%FactionTraitMykaraManpowerTitle</Title>
+    <Description>%FactionTraitMykaraManpowerDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
 </Datatable>

@@ -42,4 +42,10 @@
     <Title>%MinorFactionRovingTitle</Title>
     <Description>%MinorFactionRovingDescription</Description>
   </GuiElement>
+
+  <!-- Mykara -->
+  <GuiElement Name="MinorFactionMykara">
+    <Title>%MinorFactionMykaraTitle</Title>
+    <Description>%MinorFactionMykaraDescription</Description>
+  </GuiElement>
 </Datatable>

@@ -86,4 +86,16 @@
   <SimulationDescriptor Name="PopulationCollectionBonusRoving3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="DustInflationModifier" Operation="Percent" Left="-0.05" BinaryOperation="Multiplication" Right="$(NumberOfTradingCompanyHeadquarters)"  Path="ClassEmpire" />
   </SimulationDescriptor>
+
+  <!-- Mykara -->
+  <SimulationDescriptor Name="PopulationCollectionBonusMykara1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics01ToPolitics01"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityMykara" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusMykara2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMykara" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusMykara3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMykara" SearchValueFromPath="true" />
+    <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="PopulationCollectionBonusMykara2,ClassPopulationEmpireAffinityMykaraCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMykara" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

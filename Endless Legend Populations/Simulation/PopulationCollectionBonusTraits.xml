@@ -94,17 +94,17 @@
 
   <!-- Wild Walkers -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitWalkers" Cost="0" ShowInCustom="false">
-    <CollectionBonus Threshold="1">
+    <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="2">
+    <CollectionBonus Threshold="20">
       <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers2"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="3">
+    <CollectionBonus Threshold="50">
       <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
@@ -112,18 +112,36 @@
   
   <!-- Roving Clans -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitRoving" Cost="0" ShowInCustom="false">
-    <CollectionBonus Threshold="1">
+    <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusRoving1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="2">
+    <CollectionBonus Threshold="20">
       <SimulationDescriptorReference Name="PopulationCollectionBonusRoving2"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="3">
+    <CollectionBonus Threshold="50">
       <SimulationDescriptorReference Name="PopulationCollectionBonusRoving3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Mykara -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMykara" Cost="0" ShowInCustom="false">
+    <CollectionBonus Threshold="1">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="2">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="3">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
