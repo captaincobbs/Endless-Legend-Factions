@@ -448,20 +448,20 @@ SymbolString should be set to the same thing each time as to not confuse people,
 
   <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanA">
     <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
-    <SymbolString>[v]</SymbolString>
+    <SymbolString></SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanACount">
     <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
-    <SymbolString>[v]</SymbolString>
+    <SymbolString></SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanA">
     <Title>%PopulationUrkanATitle</Title>
     <Description>%PopulationUrkanADescription</Description>
-    <SymbolString>[v]</SymbolString>
+    <SymbolString></SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%PopulationUrkanATitle</AltTitle>
   </ExtendedGuiElement>
@@ -469,7 +469,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
   <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanACount">
     <Title>%PopulationUrkanATitle</Title>
     <Description>%PopulationUrkanADescription</Description>
-    <SymbolString>[v]</SymbolString>
+    <SymbolString></SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
     <AltTitle>%PopulationUrkanATitle</AltTitle>
   </ExtendedGuiElement>
@@ -483,7 +483,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
       <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
       <Icon Size="Large" Path="Gui/UrkanLarge.png" />
     </Icons>
-    <SymbolString>[v]</SymbolString>
+    <SymbolString></SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 </Datatable>
