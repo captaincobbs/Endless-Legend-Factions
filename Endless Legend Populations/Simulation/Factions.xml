@@ -274,8 +274,8 @@
     <Affinity Name="AffinityGameplayMykara"/>
     <Trait Name="FamilyInsectoids"/>
     <Trait Name="IsMinorFaction"/>
-    <MajorPopulation Affinity="AffinityMykara" Count="2"/>
-    <MajorPopulation Affinity="AffinityUrkanA" Count="1"/><!-- Kazar -->
+    <Trait Name="FactionTraitMinorUrkanA"/>
+    <MajorPopulation Affinity="AffinityMykara" Count="3"/>
     <Personality Name="FactionPersonalityMykara"/>
     <Politics Name="Politics04"/>
 
