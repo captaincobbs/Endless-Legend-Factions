@@ -40,4 +40,9 @@
   <FactionAffinityMapping Name="AffinityMappingMykara" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingMykara" />
   </FactionAffinityMapping>
+
+  <!-- Urkan A | Kazar -->
+  <FactionAffinityMapping Name="AffinityMappingUrkanA" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingUrkanA" />
+  </FactionAffinityMapping>
 </Datatable>

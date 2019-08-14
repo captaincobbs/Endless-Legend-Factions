@@ -260,4 +260,36 @@
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
+
+  <!-- Urkan A | Kazar -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitUrkanA" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanA"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanA"/>
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUrkanA"/>
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersUrkanACount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanACount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanACount"/>
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanACount"/>
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
 </Datatable>

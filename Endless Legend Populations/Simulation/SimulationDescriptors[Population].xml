@@ -136,4 +136,20 @@
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityMykara" Type="ClassPopulationAssimilated">
     <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Urkan A | Kazar -->
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanA" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanA" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanACount" Type="ClassPopulationPlanet">
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanACount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanACount" Type="ClassPopulationStarSystem">
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanACount" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanACount" Type="ClassPopulationEmpire">
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanACount" Priority="100" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUrkanA" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

@@ -6,7 +6,7 @@
   <LocalizationPair Name="%MinorFactionKapakuDescription">The Kapaku have had a troubled past with planets. After their first one was terraformed into a disgusting lush forest, and their second one froze over, the Kapaku decided to find their own, perfect, planet.</LocalizationPair>                                 <!--Minor Faction Description-->
   <LocalizationPair Name="%PopulationKapakuTitle">[custom02]</LocalizationPair>                                            <!--No idea-->
   <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle">[custom02]</LocalizationPair>                         <!--Minor Faction population icon in menus-->
-  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [custom02]</LocalizationPair> <!--Used in GuiElements[GameVariables]-->
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle">Systems with [custom02]</LocalizationPair>        <!--Used in GuiElements[GameVariables]-->
   <LocalizationPair Name="%AffinityKapakuTitle">Kapaku</LocalizationPair>                                                  <!--< Population Name--> <!-- Population Description v -->
   <LocalizationPair Name="%AffinityKapakuDescription">The Kapaku are strange race, with the unique ability to use geomancy, and a love for volcanic terrain.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessTitle">Volcanic Paradise</LocalizationPair>                          <!-- < Custom Trait display names-->
@@ -82,7 +82,7 @@
 
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle">Roving Clans</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionRovingDescription">Unsetlled by the mysteries of the Galaxy, the Clans focused more on internal infrastructure and economics, becoming masters at each with ease.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionRovingDescription">Unsettled by the mysteries of the Galaxy, the Clans focused more on internal infrastructure and economics, becoming masters at each with ease.</LocalizationPair>
   <LocalizationPair Name="%PopulationRovingTitle">[custom11]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityRovingTitle">[custom11]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityRovingTitle">Systems with [custom11]</LocalizationPair>
@@ -92,4 +92,24 @@
   <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryTitle">Strategic Cuts</LocalizationPair>
   <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsDescription">Using their natural understanding of economics, the Roving Clans can pinpoint miniscule inefficiencies in system economies, squashing a major percentage of costs.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryDescription">Treating the military like a business, the Clans can repurpose, organize, and trim their way to perfect efficiency.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%MinorFactionMykaraTitle">Mykara</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMykaraDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationMykaraTitle">[custom05]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityMykaraTitle">[custom05]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityMykaraTitle">Systems with [custom05]</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraTitle">Mykara</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraFoodTitle">Hyperorganic Sustenance</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraManpowerTitle">Creeping Presence</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraFoodDescription">Having an intimate understanding of Anatomy and Biology, the Mykara can make eating as efficient as possible by creating enhanced foods.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraManpowerDescription">By growing plant-based soldiers, you can have a near infinite amount of soldiers for little to no cost.</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%PopulationUrkanATitle">[v]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle">[v]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle">Systems with [v]</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanATitle">Kazar</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanADescription">The largest of the three great beasts, Kazar moves with an unhurried gait that belies its great strength and arrogance. Often crusted with precious ores when emerging from the depths, Kazar is sometimes the target of brave, or foolhardy, adventures who attempt to liberate the valuable stones.</LocalizationPair>
 </Datatable>

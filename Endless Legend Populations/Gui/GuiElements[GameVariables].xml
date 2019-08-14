@@ -382,4 +382,108 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <SymbolString>[custom11]</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
+
+  <!-- Mykara -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMykara">
+    <Title>%ClassPopulationEmpireAffinityMykaraTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMykaraCount">
+    <Title>%ClassPopulationEmpireAffinityMykaraTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMykara">
+    <Title>%ClassPopulationStarSystemAffinityMykaraTitle</Title>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMykaraCount">
+    <Title>%ClassPopulationStarSystemAffinityMykaraTitle</Title>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMykara">
+    <Title>%PopulationMykaraTitle</Title>
+    <Description>%PopulationMykaraDescription</Description>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMykaraTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMykaraCount">
+    <Title>%PopulationMykaraTitle</Title>
+    <Description>%PopulationMykaraDescription</Description>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMykaraTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityMykara">
+    <Title>%AffinityMykaraTitle</Title>
+    <Description>%AffinityMykaraDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MykaraSmall.png" />
+      <Icon Size="Medium" Path="Gui/MykaraMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MykaraLarge.png" />
+    </Icons>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+  
+  <!-- Urkan A | Kazar -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanA">
+    <Title>%ClassPopulationEmpireAffinityUrkanATitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanACount">
+    <Title>%ClassPopulationEmpireAffinityUrkanATitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanA">
+    <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
+    <SymbolString>[v]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanACount">
+    <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
+    <SymbolString>[v]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanA">
+    <Title>%PopulationUrkanATitle</Title>
+    <Description>%PopulationUrkanADescription</Description>
+    <SymbolString>[v]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanATitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanACount">
+    <Title>%PopulationUrkanATitle</Title>
+    <Description>%PopulationUrkanADescription</Description>
+    <SymbolString>[v]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanATitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityUrkanA">
+    <Title>%AffinityUrkanATitle</Title>
+    <Description>%AffinityUrkanADescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/UrkanASmall.png" />
+      <Icon Size="Medium" Path="Gui/UrkanAMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
+    </Icons>
+    <SymbolString>[v]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
 </Datatable>
