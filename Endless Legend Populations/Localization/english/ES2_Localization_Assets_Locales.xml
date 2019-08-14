@@ -87,7 +87,7 @@
   <LocalizationPair Name="%ClassPopulationEmpireAffinityRovingTitle">[custom11]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityRovingTitle">Systems with [custom11]</LocalizationPair>
   <LocalizationPair Name="%AffinityRovingTitle">Roving Clans</LocalizationPair>
-  <LocalizationPair Name="%AffinityRovingDescription">Once simple nomadic traders, explorers, and adventurers, the Clans have since modernized into something more professional.</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingDescription">No longer simple nomadic traders, explorers, and adventurers, the Clans have since modernized into something more professional.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsTitle">Organized Efficiency</LocalizationPair>
   <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryTitle">Strategic Cuts</LocalizationPair>
   <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsDescription">Using their natural understanding of economics, the Roving Clans can pinpoint miniscule inefficiencies in system economies, squashing a major percentage of costs.</LocalizationPair>
