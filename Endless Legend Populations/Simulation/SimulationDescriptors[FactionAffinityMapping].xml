@@ -9,4 +9,5 @@
   <SimulationDescriptor Name="AffinityMappingMorgawr" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping"/>
 </Datatable>

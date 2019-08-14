@@ -34,6 +34,7 @@
     <Entry Tag="MinorFactionMorgawr"        Weight="5"/>
     <Entry Tag="MinorFactionWalkers"        Weight="5"/>
     <Entry Tag="MinorFactionRoving"         Weight="5"/>
+    <Entry Tag="MinorFactionMykara"         Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
@@ -95,6 +96,7 @@
     <Entry Tag="PlanetTypeTerran"                Weight="5"/>
     <Entry Tag="PlanetTypeOcean"                 Weight="2"/>
     <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+    <Entry Tag="PlanetTypeMonsoon"               Weight="2"/>
   </GalaxyGeneratorWeightTable>
   <GalaxyGeneratorWeightTable Name="MinorFactionRoving_PlanetTypes">
     <Entry Tag="PlanetTypeDesert"                Weight="10"/>
@@ -102,5 +104,11 @@
     <Entry Tag="PlanetTypeVeldt"                 Weight="6"/>
     <Entry Tag="PlanetTypeTerran"                Weight="4"/>
     <Entry Tag="PlanetTypeAtoll"                 Weight="2"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionMykara_PlanetTypes">
+    <Entry Tag="PlanetTypeForest"                Weight="10"/>
+    <Entry Tag="PlanetTypeVeldt"                 Weight="7"/>
+    <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+    <Entry Tag="PlanetTypeTerran"                Weight="1"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>

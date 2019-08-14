@@ -104,4 +104,19 @@
     <SymbolString>[custom11]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Mykara -->
+  <AffinityGuiElement Name="AffinityMappingMykara">
+    <Title>%AffinityGameplayMykaraTitle</Title>
+    <Description>%AffinityGameplayMykaraDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MykaraSmall.png" />
+      <Icon Size="Medium" Path="Gui/MykaraMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MykaraLarge.png" />
+      <Icon Size="Mood" Path="Gui/MykaraMood.png" />
+    </Icons>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

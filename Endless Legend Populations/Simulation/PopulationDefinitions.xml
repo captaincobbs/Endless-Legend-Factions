@@ -202,9 +202,40 @@
     <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
     <Trait Name="PopulationModifiersTraitSecondaryDustSterile"/><!-- +5 Dust on Sterile -->
 
-    <Trait Name="PopulationCollectionBonusTraitRoving"/><!-- Using the PopColBonus from Lumeris -->
+    <Trait Name="PopulationCollectionBonusTraitRoving"/>
 
     <AffinityMapping Name="AffinityMappingRoving"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury13</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury16</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Mykara -->
+  <PopulationDefinition AffinityName="AffinityMykara" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitIndustrialistToPacifist"/>
+    <Trait Name="PopulationPoliticalTraitPacifistToIndustrialist"/>
+
+    <Trait Name="PopulationModifiersMykaraCount"/>
+    <Trait Name="PopulationModifiersTraitMykara"/>
+
+    <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryDustSterile"/><!-- +5 Dust on Sterile -->
+
+    <Trait Name="PopulationCollectionBonusTraitMykara"/>
+
+    <AffinityMapping Name="AffinityMappingMykara"/>
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury2</Luxury>

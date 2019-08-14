@@ -10,4 +10,5 @@
   <SimulationDescriptor Name="AffinityMorgawr" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityWalkers" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityRoving" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityMykara" Type="Affinity"></SimulationDescriptor>
 </Datatable>

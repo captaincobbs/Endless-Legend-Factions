@@ -35,4 +35,9 @@
   <FactionAffinityMapping Name="AffinityMappingRoving" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingRoving" />
   </FactionAffinityMapping>
+
+  <!-- Mykara -->
+  <FactionAffinityMapping Name="AffinityMappingMykara" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingMykara" />
+  </FactionAffinityMapping>
 </Datatable>

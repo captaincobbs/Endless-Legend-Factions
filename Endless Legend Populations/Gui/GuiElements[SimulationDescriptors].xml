@@ -106,4 +106,15 @@
   <GuiElement Name="PopulationCollectionBonusRoving3">
     <Title>%PopulationCollectionBonusRoving3</Title>
   </GuiElement>
+
+  <!-- Mykara -->
+  <GuiElement Name="PopulationCollectionBonusMykara1">
+    <Title>%PopulationCollectionBonusMykara1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusMykara2">
+    <Title>%PopulationCollectionBonusMykara2</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusMykara3">
+    <Title>%PopulationCollectionBonusMykara3</Title>
+  </GuiElement>
 </Datatable>
