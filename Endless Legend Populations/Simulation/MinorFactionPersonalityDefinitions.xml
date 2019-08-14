@@ -85,7 +85,7 @@
       <Trait Name="FactionTraitMykaraFood"/>
     </MinorTrait>
     <MinorTrait Weight="4">
-      <Trait Name="FactionTraitRovingMykaraManpower"/>
+      <Trait Name="FactionTraitMykaraManpower"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 </Datatable>

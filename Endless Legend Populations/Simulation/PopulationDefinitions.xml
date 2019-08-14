@@ -226,8 +226,8 @@
     <Trait Name="PopulationModifiersMykaraCount"/>
     <Trait Name="PopulationModifiersTraitMykara"/>
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryDustSterile"/><!-- +5 Dust on Sterile -->
+    <Trait Name="PopulationModifiersTraitPrimaryFood03"/><!-- +5 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01"/><!-- +3 Food on Fertile --> 
 
     <Trait Name="PopulationCollectionBonusTraitMykara"/>
 
@@ -253,7 +253,10 @@
     <Trait Name="PopulationModifiersUrkanACount"/>
     <Trait Name="PopulationModifiersTraitUrkanA"/>
 
-    <Trait Name="PopulationModifiersTraitGuardiansPrimary"/><!-- Standin -->
+    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/>
+    <Trait Name="PopulationModifiersTraitSecondaryManpower"/>
+    <Trait Name="PopulationModifiersTraitPrimaryDefense"/>
+    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile"/>
 
     <AffinityMapping Name="AffinityMappingUrkanA"/>
     <GrowthBoostLuxuryOptions>

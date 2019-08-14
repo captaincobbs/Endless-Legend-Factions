@@ -95,4 +95,6 @@
     <Modifier TargetProperty="EmpireManpower"		        Operation="Addition" Value="500" Path="ClassEmpire"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitMinorUrkanA"    Type="FactionTrait"/>
 </Datatable>

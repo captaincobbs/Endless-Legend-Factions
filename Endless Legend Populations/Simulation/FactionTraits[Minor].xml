@@ -52,10 +52,10 @@
 
   <!-- Roving Clans -->
   <FactionTrait Name="FactionTraitRovingUpkeepSystems" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitUpkeepSystems"/>
+    <SimulationDescriptorReference Name="FactionTraitRovingUpkeepSystems"/>
   </FactionTrait>
   <FactionTrait Name="FactionTraitRovingUpkeepMilitary" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitUpkeepMilitary"/>
+    <SimulationDescriptorReference Name="FactionTraitRovingUpkeepMilitary"/>
   </FactionTrait>
 
   <!-- Mykara -->
@@ -64,5 +64,11 @@
   </FactionTrait>
   <FactionTrait Name="FactionTraitMykaraManpower" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitMykaraManpower"/>
+  </FactionTrait>
+  
+  <!-- Urkan A | Bazar -->
+  <FactionTrait Name="FactionTraitMinorUrkanA" SubCategory="FactionTrait" Hidden="true" Cost="0">
+    <Command Name="AddMinorPopulation" Arguments="AffinityUrkanA,1" Priority="100"/>
+    <SimulationDescriptorReference Name="FactionTraitMinorUrkanA"/>
   </FactionTrait>
 </Datatable>
