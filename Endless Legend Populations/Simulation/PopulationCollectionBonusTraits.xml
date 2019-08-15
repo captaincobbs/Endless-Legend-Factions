@@ -130,18 +130,36 @@
 
   <!-- Mykara -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMykara" Cost="0" ShowInCustom="false">
-    <CollectionBonus Threshold="1">
+    <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusMykara1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="2">
+    <CollectionBonus Threshold="20">
       <SimulationDescriptorReference Name="PopulationCollectionBonusMykara2"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="3">
+    <CollectionBonus Threshold="50">
       <SimulationDescriptorReference Name="PopulationCollectionBonusMykara3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Cultists -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCultists" Cost="0" ShowInCustom="false">
+    <CollectionBonus Threshold="10">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait>

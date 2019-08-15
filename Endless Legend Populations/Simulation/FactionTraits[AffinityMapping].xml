@@ -45,4 +45,9 @@
   <FactionAffinityMapping Name="AffinityMappingUrkanA" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingUrkanA" />
   </FactionAffinityMapping>
+
+  <!-- Cultists -->
+  <FactionAffinityMapping Name="AffinityMappingCultists" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingCultists" />
+  </FactionAffinityMapping>
 </Datatable>

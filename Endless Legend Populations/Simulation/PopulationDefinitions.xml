@@ -264,6 +264,37 @@
       <Luxury>Luxury2</Luxury>
       <Luxury>Luxury3</Luxury>
       <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Cultists -->
+  <PopulationDefinition AffinityName="AffinityCultists" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Trait Name="PopulationPoliticalTraitScientificToEcologist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+
+    <Trait Name="PopulationModifiersCultistsCount"/>
+    <Trait Name="PopulationModifiersTraitCultists"/>
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood03"/><!-- +5 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01"/><!-- +3 Food on Fertile -->
+
+    <Trait Name="PopulationCollectionBonusTraitCultists"/>
+
+    <AffinityMapping Name="AffinityMappingCultists"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury9</Luxury>
+      <Luxury>Luxury17</Luxury>
+      <Luxury>Luxury11</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
 </Datatable>
