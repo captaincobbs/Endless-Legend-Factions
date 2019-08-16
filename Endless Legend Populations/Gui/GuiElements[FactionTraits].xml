@@ -169,4 +169,21 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+
+  <!-- Cultists -->
+  <GuiElement Name="FactionTraitCultistsShipHealth">
+    <Title>%FactionTraitCultistsShipHealthTitle</Title>
+    <Description>%FactionTraitCultistsShipHealthDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitCultistsPopulation">
+    <Title>%FactionTraitCultistsPopulationTitle</Title>
+    <Description>%FactionTraitCultistsPopulationDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
 </Datatable>

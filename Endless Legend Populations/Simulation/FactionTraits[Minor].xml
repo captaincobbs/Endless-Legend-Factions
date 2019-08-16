@@ -71,4 +71,12 @@
     <Command Name="AddMinorPopulation" Arguments="AffinityUrkanA,1" Priority="100"/>
     <SimulationDescriptorReference Name="FactionTraitMinorUrkanA"/>
   </FactionTrait>
+
+  <!-- Cultists -->
+  <FactionTrait Name="FactionTraitCultistsShipHealth" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitCultistsShipHealth"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitCultistsPopulation" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitCultistsPopulation"/>
+  </FactionTrait>
 </Datatable>

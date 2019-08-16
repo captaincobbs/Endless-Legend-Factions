@@ -98,4 +98,16 @@
     <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMykara" SearchValueFromPath="true" />
     <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="PopulationCollectionBonusMykara2,ClassPopulationEmpireAffinityMykaraCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMykara" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
+  
+  <!-- Cultists -->
+  <SimulationDescriptor Name="PopulationCollectionBonusCultists1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics01ToPolitics01"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCultists" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusCultists2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusCultists3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" />
+    <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="PopulationCollectionBonusCultists2,ClassPopulationEmpireAffinityCultistsCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

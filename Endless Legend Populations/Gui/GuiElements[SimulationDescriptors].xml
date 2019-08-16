@@ -117,4 +117,15 @@
   <GuiElement Name="PopulationCollectionBonusMykara3">
     <Title>%PopulationCollectionBonusMykara3</Title>
   </GuiElement>
+
+  <!-- Cultists -->
+  <GuiElement Name="PopulationCollectionBonusCultists1">
+    <Title>%PopulationCollectionBonusCultists1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusCultists2">
+    <Title>%PopulationCollectionBonusCultists2</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusCultists3">
+    <Title>%PopulationCollectionBonusCultists3</Title>
+  </GuiElement>
 </Datatable>

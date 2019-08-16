@@ -65,7 +65,7 @@
   <LocalizationPair Name="%FactionTraitMorgawrInfluenceTitle">Catspaw</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMorgawrIndustryTitle">Hydrophilic</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription">Using their manipulation of lesser minds for social engineering, the Morgawr can vastly improve your societal structure.</LocalizationPair> 
-  <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription">The Morgawr's affinity for water rubs off on your other citizens, vastly improving production on Ocean planets.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription">The Morgawr's affinity for water rubs off on your other citizens, vastly improving production on Fertile planets.</LocalizationPair>
 
   <!-- Wild Walkers -->
   <LocalizationPair Name="%MinorFactionWalkersTitle">Wild Walkers</LocalizationPair>
@@ -112,4 +112,17 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle">Systems with </LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanATitle">Kazar</LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanADescription">The largest of the three great beasts, Kazar moves with an unhurried gait that belies its great strength and arrogance. Often crusted with precious ores when emerging from the depths, Kazar is sometimes the target of brave, or foolhardy, adventures who attempt to liberate the valuable stones.</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%MinorFactionCultistsTitle">Cultists of the Eternal End</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionCultistsDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationCultistsTitle">[custom01]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityCultistsTitle">[custom01]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle">Systems with [custom01]</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsTitle">Cultists</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle">Weapons of Faith</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationTitle">High Seat of the Queen</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationDescription">TBI</LocalizationPair>
 </Datatable>

@@ -88,4 +88,15 @@
       <Trait Name="FactionTraitMykaraManpower"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Cultists -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityCultists">
+    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MinorTrait Weight="1">
+      <Trait Name="FactionTraitCultistsShipHealth"/>
+    </MinorTrait>
+    <MinorTrait Weight="9">
+      <Trait Name="FactionTraitCultistsPopulation"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

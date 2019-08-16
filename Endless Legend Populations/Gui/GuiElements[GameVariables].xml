@@ -486,4 +486,56 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <SymbolString></SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
+
+  <!-- Cultists -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultists">
+    <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultistsCount">
+    <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityCultists">
+    <Title>%ClassPopulationStarSystemAffinityCultistsTitle</Title>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityCultistsCount">
+    <Title>%ClassPopulationStarSystemAffinityCultistsTitle</Title>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityCultists">
+    <Title>%PopulationCultistsTitle</Title>
+    <Description>%PopulationCultistsDescription</Description>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationCultistsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityCultistsCount">
+    <Title>%PopulationCultistsTitle</Title>
+    <Description>%PopulationCultistsDescription</Description>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationCultistsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityCultists">
+    <Title>%AffinityCultistsTitle</Title>
+    <Description>%AffinityCultistsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/CultistsSmall.png" />
+      <Icon Size="Medium" Path="Gui/CultistsMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/CultistsLarge.png" />
+    </Icons>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
 </Datatable>

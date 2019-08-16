@@ -10,4 +10,5 @@
   <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingCultists" Type="AffinityMapping"/>
 </Datatable>
