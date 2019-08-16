@@ -277,24 +277,24 @@
       <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitEcologist"/>
-    <Trait Name="PopulationPoliticalTraitScientificToEcologist"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitReligious"/>
+    <Trait Name="PopulationPoliticalTraitIndustrialistToReligious"/>
+    <Trait Name="PopulationPoliticalTraitMilitaristToReligious"/>
 
     <Trait Name="PopulationModifiersCultistsCount"/>
     <Trait Name="PopulationModifiersTraitCultists"/>
 
-    <Trait Name="PopulationModifiersTraitPrimaryFood03"/><!-- +5 Food -->
-    <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01"/><!-- +3 Food on Fertile -->
+    <Trait Name="PopulationModifiersTraitPrimaryFIDSI"/><!-- +2 FIDSI -->
+    <Trait Name="PopulationModifiersTraitSecondaryDefenseFertile"/><!-- +50 Defense on Fertile (Change to +50 Manpower on Fertile on Systems) -->
 
     <Trait Name="PopulationCollectionBonusTraitCultists"/>
 
     <AffinityMapping Name="AffinityMappingCultists"/>
     <GrowthBoostLuxuryOptions>
-      <Luxury>Luxury1</Luxury>
-      <Luxury>Luxury9</Luxury>
-      <Luxury>Luxury17</Luxury>
-      <Luxury>Luxury11</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury20</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
 </Datatable>
