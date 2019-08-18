@@ -171,7 +171,7 @@
   </GuiElement>
 
   <!-- Cultists -->
-  <GuiElement Name="FactionTraitCultistsShipHealth">
+  <ExtendedGuiElement Name="FactionTraitCultistsShipHealth">
     <Title>%FactionTraitCultistsShipHealthTitle</Title>
     <Description>%FactionTraitCultistsShipHealthDescription</Description>
     <Icons>
@@ -180,7 +180,7 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitCultistsShipHealthEffectOverride</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <GuiElement Name="FactionTraitCultistsPopulation">
     <Title>%FactionTraitCultistsPopulationTitle</Title>
