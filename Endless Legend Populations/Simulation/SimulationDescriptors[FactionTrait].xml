@@ -100,13 +100,11 @@
 
   <!-- Cultists -->
   <SimulationDescriptor Name="FactionTraitCultistsShipHealth" Type="FactionTraitMinor">
-    <Modifier TargetProperty="MinorTraitsAssimilated"    Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitCultistsPopulation" Type="FactionTraitMinor">
-    <Modifier TargetProperty="EmpireManpower"		        Operation="Addition" Value="500" Path="ClassEmpire"/>
+    <Modifier TargetProperty="RawMaximumPopulation"		  Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
-
-  <SimulationDescriptor Name="FactionTraitMinorUrkanA"    Type="FactionTrait"/>
 </Datatable>

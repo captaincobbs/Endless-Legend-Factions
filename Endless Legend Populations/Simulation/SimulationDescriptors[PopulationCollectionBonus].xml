@@ -104,10 +104,9 @@
     <Modifier TargetProperty="Politics01ToPolitics01"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCultists" TooltipOverride="%TooltipOverridePositivePolitics01"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists3" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" />
-    <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="PopulationCollectionBonusCultists2,ClassPopulationEmpireAffinityCultistsCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
   </SimulationDescriptor>
 </Datatable>
