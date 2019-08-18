@@ -13,4 +13,5 @@
   <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride">+5 [prestigecolored] per Anomaly on Systems</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride">+20 Industry per Fertile planet on Systems</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride">+25% [foodcolored] added to [industrycolored] on Systems</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride">+10% Maximum Health on Ships</LocalizationPair>
 </Datatable>
