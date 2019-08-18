@@ -92,10 +92,10 @@
   <!-- Cultists -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityCultists">
     <MajorTrait Name="PersonalityTraitPragmatist"/>
-    <MinorTrait Weight="1">
+    <MinorTrait Weight="9">
       <Trait Name="FactionTraitCultistsShipHealth"/>
     </MinorTrait>
-    <MinorTrait Weight="9">
+    <MinorTrait Weight="1">
       <Trait Name="FactionTraitCultistsPopulation"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
