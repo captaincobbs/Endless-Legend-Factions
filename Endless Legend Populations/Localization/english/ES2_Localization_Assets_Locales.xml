@@ -115,14 +115,14 @@
 
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle">Cultists of the Eternal End</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionCultistsDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionCultistsDescription">The Cultists of the Eternal End are led by The Queen and the Unspoken and will go to all ends to ensure that its will is carried out through the conversion of lesser groups.</LocalizationPair>
   <LocalizationPair Name="%PopulationCultistsTitle">[custom01]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityCultistsTitle">[custom01]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle">Systems with [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle">Cultists</LocalizationPair>
-  <LocalizationPair Name="%AffinityCultistsDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle">Weapons of Faith</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsPopulationTitle">High Seat of the Queen</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsPopulationDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsDescription">Vigilant and hyperproductive in all aspects, with an unwavering support for the queen, the Cultists make excellent citizens as long as you don't let too many of them go in the same space.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle">Plating of Faith</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationTitle">Sanctums of the Queen</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription">Pouring their heart and faith into masterwork ship plating, your ships gain a large boost in durability.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationDescription">A single, massive sanctum is built on every planet in your empire, serving as a center for mass-housing, but also a center of worship to the Cultists.</LocalizationPair>
 </Datatable>
