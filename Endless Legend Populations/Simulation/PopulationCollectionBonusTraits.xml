@@ -148,17 +148,17 @@
 
   <!-- Cultists -->
   <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCultists" Cost="0" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
+    <CollectionBonus Threshold="1">
       <SimulationDescriptorReference Name="PopulationCollectionBonusCultists1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="20">
+    <CollectionBonus Threshold="2">
       <SimulationDescriptorReference Name="PopulationCollectionBonusCultists2"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
     </CollectionBonus>
 
-    <CollectionBonus Threshold="50">
+    <CollectionBonus Threshold="3">
       <SimulationDescriptorReference Name="PopulationCollectionBonusCultists3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
