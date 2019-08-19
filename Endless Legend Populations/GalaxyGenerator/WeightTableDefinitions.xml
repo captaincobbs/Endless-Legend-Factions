@@ -36,6 +36,7 @@
     <Entry Tag="MinorFactionRoving"         Weight="5"/>
     <Entry Tag="MinorFactionMykara"         Weight="5"/>
     <Entry Tag="MinorFactionCultists"       Weight="5"/>
+    <Entry Tag="MinorFactionAllayi"          Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
@@ -133,5 +134,12 @@
     <Entry Tag="PlanetTypeAsh"                  Weight="1"/>
     <Entry Tag="PlanetTypeVeldt"                Weight="1"/>
     <Entry Tag="PlanetTypeTropical"             Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionMykara_PlanetTypes">
+    <Entry Tag="PlanetTypeBoreal"                Weight="4"/>
+    <Entry Tag="PlanetTypeTundra"                Weight="4"/>
+    <Entry Tag="PlanetTypeSnow"                  Weight="5"/>
+    <Entry Tag="PlanetTypeIce"                   Weight="5"/>
+    <Entry Tag="PlanetTypeArctic"                Weight="5"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>
