@@ -3,7 +3,7 @@
   <!-- Mapping for the Population Collection Bonuses, defined in SimulationDescriptors[PopulationCollectionBonus]
        Threshold is the population required to reach that level, 10 for level 1, 20 for 2, and 50 for 3 are the defaults -->
   <!-- Kapaku -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -21,7 +21,7 @@
   </PopulationCollectionBonusTrait> 
     
   <!-- Broken Lords -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusLords1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -39,7 +39,7 @@
   </PopulationCollectionBonusTrait>
 
   <!-- Forgotten -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitForgotten" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitForgotten" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -57,7 +57,7 @@
   </PopulationCollectionBonusTrait>
 
   <!-- Drakken -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitDrakken" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitDrakken" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -75,7 +75,7 @@
   </PopulationCollectionBonusTrait>
 
   <!-- Morgawr -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMorgawr" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMorgawr" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -93,7 +93,7 @@
   </PopulationCollectionBonusTrait>
 
   <!-- Wild Walkers -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitWalkers" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitWalkers" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -111,7 +111,7 @@
   </PopulationCollectionBonusTrait>
   
   <!-- Roving Clans -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitRoving" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitRoving" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusRoving1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -129,7 +129,7 @@
   </PopulationCollectionBonusTrait>
 
   <!-- Mykara -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMykara" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMykara" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="10">
       <SimulationDescriptorReference Name="PopulationCollectionBonusMykara1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -147,7 +147,7 @@
   </PopulationCollectionBonusTrait>
 
   <!-- Cultists -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCultists" Cost="0" ShowInCustom="false">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCultists" Cost="10" ShowInCustom="false">
     <CollectionBonus Threshold="1">
       <SimulationDescriptorReference Name="PopulationCollectionBonusCultists1"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
@@ -160,6 +160,24 @@
 
     <CollectionBonus Threshold="3">
       <SimulationDescriptorReference Name="PopulationCollectionBonusCultists3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Allayi -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitAllayi" Cost="10" ShowInCustom="false">
+    <CollectionBonus Threshold="1">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusAllayi1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="2">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusAllayi2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="3">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusAllayi3"/>
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
