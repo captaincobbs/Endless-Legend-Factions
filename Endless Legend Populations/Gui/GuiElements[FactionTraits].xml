@@ -189,4 +189,21 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+
+  <!-- Allayi-->
+  <GuiElement Name="FactionTraitAllayiOwnership">
+    <Title>%FactionTraitAllayiOwnershipTitle</Title>
+    <Description>%FactionTraitAllayiOwnershipDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitAllayiHappiness">
+    <Title>%FactionTraitAllayiHappinessTitle</Title>
+    <Description>%FactionTraitAllayiHappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
 </Datatable>

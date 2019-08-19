@@ -128,4 +128,15 @@
   <GuiElement Name="PopulationCollectionBonusCultists3">
     <Title>%PopulationCollectionBonusCultists3</Title>
   </GuiElement>
+
+  <!-- Allayi -->
+  <GuiElement Name="PopulationCollectionBonusAllayi1">
+    <Title>%PopulationCollectionBonusAllayi1</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusAllayi2">
+    <Title>%PopulationCollectionBonusAllayi2</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationCollectionBonusAllayi3">
+    <Title>%PopulationCollectionBonusAllayi3</Title>
+  </GuiElement>
 </Datatable>

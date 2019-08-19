@@ -119,4 +119,34 @@
     <SymbolString>[custom05]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Cultists -->
+  <AffinityGuiElement Name="AffinityMappingCultists">
+    <Title>%AffinityGameplayCultistsTitle</Title>
+    <Description>%AffinityGameplayCultistsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/CultistsSmall.png" />
+      <Icon Size="Medium" Path="Gui/CultistsMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/CultistsLarge.png" />
+      <Icon Size="Mood" Path="Gui/CultistsMood.png" />
+    </Icons>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Allayi -->
+  <AffinityGuiElement Name="AffinityMappingAllayi">
+    <Title>%AffinityGameplayAllayiTitle</Title>
+    <Description>%AffinityGameplayAllayiDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/AllayiSmall.png" />
+      <Icon Size="Medium" Path="Gui/AllayiMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/AllayiLarge.png" />
+      <Icon Size="Mood" Path="Gui/AllayiMood.png" />
+    </Icons>
+    <SymbolString>[custom08]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>
