@@ -48,4 +48,16 @@
     <Title>%MinorFactionMykaraTitle</Title>
     <Description>%MinorFactionMykaraDescription</Description>
   </GuiElement>
+
+  <!-- Cultists -->
+  <GuiElement Name="MinorFactionCultists">
+    <Title>%MinorFactionCultistsTitle</Title>
+    <Description>%MinorFactionCultistsDescription</Description>
+  </GuiElement>
+
+  <!-- Allayi -->
+  <GuiElement Name="MinorFactionAllayi">
+    <Title>%MinorFactionAllayiTitle</Title>
+    <Description>%MinorFactionAllayiDescription</Description>
+  </GuiElement>
 </Datatable>
