@@ -297,4 +297,31 @@
       <Luxury>Luxury20</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
+
+  <!-- Allayi -->
+  <PopulationDefinition AffinityName="AffinityAllayi" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitReligious"/>
+    <Trait Name="PopulationPoliticalTraitMilitaristToEcologist"/>
+    <Trait Name="PopulationPoliticalTraitRelativist"/>
+
+    <Trait Name="PopulationModifiersAllayiCount"/>
+    <Trait Name="PopulationModifiersTraitAllayi"/>
+
+    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/><!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitSecondaryScienceCold"/><!-- +3 Science on Cold -->
+
+    <Trait Name="PopulationCollectionBonusTraitAllayi"/>
+
+    <AffinityMapping Name="AffinityMappingAllayi"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury20</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 </Datatable>

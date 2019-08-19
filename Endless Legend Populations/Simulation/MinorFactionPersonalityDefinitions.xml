@@ -99,4 +99,15 @@
       <Trait Name="FactionTraitCultistsPopulation"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Allayi -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityAllayi">
+    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MinorTrait Weight="4">
+      <Trait Name="FactionTraitAllayiOwnership"/>
+    </MinorTrait>
+    <MinorTrait Weight="6">
+      <Trait Name="FactionTraitAllayiHappiness"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

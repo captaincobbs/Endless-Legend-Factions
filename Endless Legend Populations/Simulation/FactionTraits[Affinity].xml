@@ -244,4 +244,31 @@
     <SimulationDescriptorReference Name="AffinityCultists"/>
     <AutomatedShip>ShipDesignAutomatedShip</AutomatedShip>
   </FactionAffinity>
+
+  <!-- Allayi -->
+  <FactionAffinity Name="AffinityGameplayAllayi" SubCategory="MinorFactionAffinity" Hidden="false" Cost="0">
+    <Command Name="TransferResources"               Arguments="EmpireManpower,1000"/>
+    <Command Name="SetHomeSystemManpowerPercentage" Arguments="1"/>
+    <Command Name="UnlockPlay"                      Arguments="PlayDefensiveMediumLongRangeDefense"/>
+    <Command Name="UnlockPlay"                      Arguments="PlayDefensiveShortHullPlatingIncrease"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ComputeShipExperience"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyShipDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_SetInitialMilitaryPower"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ComputeEndBattleStatus"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_Retreat"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_Retreat_RecoverMovementPoint"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ReinforcementFlotilla_OnOwnShipDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_MainFlotilla_OnOwnShipDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_SetInitialMoraleBonus"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyFlotillaDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnFlotillaDestruction"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_ReportFlotillaDamageAppliedCurrentPhase"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_PhaseRepairShipCoreSection"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_RepairShipCoreSection"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyShipDeactivation"/>
+    <Command Name="UnlockBattleAction"              Arguments="Group_MainFlotilla_OnOwnShipDeactivation"/>
+
+    <SimulationDescriptorReference Name="AffinityAllayi"/>
+    <AutomatedShip>ShipDesignAutomatedShip</AutomatedShip>
+  </FactionAffinity>
 </Datatable>

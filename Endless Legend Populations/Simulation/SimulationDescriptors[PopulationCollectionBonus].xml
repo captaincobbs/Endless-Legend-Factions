@@ -109,4 +109,15 @@
   <SimulationDescriptor Name="PopulationCollectionBonusCultists3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
   </SimulationDescriptor>
+
+  <!-- Allayi -->
+  <SimulationDescriptor Name="PopulationCollectionBonusAllayi1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics04ToPolitics04"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityAllayi" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusAllayi2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAllayi" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusAllayi3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
+  </SimulationDescriptor>
 </Datatable>

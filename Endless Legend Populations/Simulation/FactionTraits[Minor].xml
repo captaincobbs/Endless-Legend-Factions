@@ -79,4 +79,12 @@
   <FactionTrait Name="FactionTraitCultistsPopulation" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitCultistsPopulation"/>
   </FactionTrait>
+
+  <!-- Allayi -->
+  <FactionTrait Name="FactionTraitAllayiOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitAllayiOwnership"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitAllayiHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitAllayiHappiness"/>
+  </FactionTrait>
 </Datatable>
