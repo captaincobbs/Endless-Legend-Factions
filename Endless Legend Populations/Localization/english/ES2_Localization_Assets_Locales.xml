@@ -125,4 +125,17 @@
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle">Sanctums of the Queen</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription">Pouring their heart and faith into masterwork ship plating, your ships gain a large boost in durability.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription">A single, massive sanctum is built on every planet in your empire, serving as a center for mass-housing, but also a center of worship to the Cultists.</LocalizationPair>
+
+  <!-- Allayi -->
+  <LocalizationPair Name="%MinorFactionAllayiTitle">Allayi</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionAllayiDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationAllayiTitle">[custom08]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityAllayiTitle">[custom08]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle">Systems with [custom08]</LocalizationPair>
+  <LocalizationPair Name="%AffinityAllayiTitle">Allayi</LocalizationPair>
+  <LocalizationPair Name="%AffinityAllayiDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiShipHealthTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiPopulationTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiShipHealthDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiPopulationDescription">TBI</LocalizationPair>
 </Datatable>
