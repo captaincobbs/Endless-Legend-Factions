@@ -324,4 +324,58 @@
       <Luxury>Luxury20</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
+
+  <!-- Ardent Mages -->
+  <PopulationDefinition AffinityName="AffinityArdent" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitWarmonger"/>
+    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/>
+
+    <Trait Name="PopulationModifiersArdentCount"/>
+    <Trait Name="PopulationModifiersTraitArdent"/>
+
+    <Trait Name="PopulationModifiersTraitPrimaryIDS"/><!-- +5 Industry, Dust, Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryDefenseSterile"/><!-- +30 Defense on Sterile -->
+
+    <Trait Name="PopulationCollectionBonusTraitArdent"/>
+
+    <AffinityMapping Name="AffinityMappingArdent"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury20</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Necrophages -->
+  <PopulationDefinition AffinityName="AffinityPhages" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitAggressive"/>
+
+    <Trait Name="PopulationModifiersPhagesCount"/>
+    <Trait Name="PopulationModifiersTraitPhages"/>
+
+    <Trait Name="PopulationModifiersTraitPrimaryDefense"/><!-- +1 Manpower -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower"/><!-- +20 Manpower Max -->
+
+    <Trait Name="PopulationCollectionBonusTraitPhages"/>
+
+    <AffinityMapping Name="AffinityMappingPhages"/>
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury14</Luxury>
+      <Luxury>Luxury15</Luxury>
+      <Luxury>Luxury20</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
 </Datatable>

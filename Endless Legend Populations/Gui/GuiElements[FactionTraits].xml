@@ -206,4 +206,38 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+
+  <!-- Ardent Mages -->
+  <GuiElement Name="FactionTraitArdentOwnership">
+    <Title>%FactionTraitArdentOwnershipTitle</Title>
+    <Description>%FactionTraitArdentOwnershipDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitArdentHappiness">
+    <Title>%FactionTraitArdentHappinessTitle</Title>
+    <Description>%FactionTraitArdentHappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <!-- Necrophages-->
+  <GuiElement Name="FactionTraitPhagesOwnership">
+    <Title>%FactionTraitPhagesOwnershipTitle</Title>
+    <Description>%FactionTraitPhagesOwnershipDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitPhagesHappiness">
+    <Title>%FactionTraitPhagesHappinessTitle</Title>
+    <Description>%FactionTraitPhagesHappinessDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+    </Icons>
+  </GuiElement>
 </Datatable>

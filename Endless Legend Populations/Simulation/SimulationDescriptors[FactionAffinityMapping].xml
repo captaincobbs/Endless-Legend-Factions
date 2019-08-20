@@ -12,4 +12,6 @@
   <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingCultists" Type="AffinityMapping"/>
   <SimulationDescriptor Name="AffinityMappingAllayi" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingArdent" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingPhages" Type="AffinityMapping"/>
 </Datatable>

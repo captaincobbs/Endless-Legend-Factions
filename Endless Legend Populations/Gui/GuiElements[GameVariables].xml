@@ -590,4 +590,108 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <SymbolString>[custom08]</SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
+
+  <!-- Ardent Mages -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityArdent">
+    <Title>%ClassPopulationEmpireAffinityArdentTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityArdentCount">
+    <Title>%ClassPopulationEmpireAffinityArdentTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityArdent">
+    <Title>%ClassPopulationStarSystemAffinityArdentTitle</Title>
+    <SymbolString>[custom03]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityArdentCount">
+    <Title>%ClassPopulationStarSystemAffinityArdentTitle</Title>
+    <SymbolString>[custom03]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityArdent">
+    <Title>%PopulationArdentTitle</Title>
+    <Description>%PopulationArdentDescription</Description>
+    <SymbolString>[custom03]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationArdentTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityArdentCount">
+    <Title>%PopulationArdentTitle</Title>
+    <Description>%PopulationArdentDescription</Description>
+    <SymbolString>[custom03]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationArdentTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityArdent">
+    <Title>%AffinityArdentTitle</Title>
+    <Description>%AffinityArdentDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/ArdentSmall.png" />
+      <Icon Size="Medium" Path="Gui/ArdentMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/ArdentLarge.png" />
+    </Icons>
+    <SymbolString>[custom03]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Necrophages -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityPhages">
+    <Title>%ClassPopulationEmpireAffinityPhagesTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityPhagesCount">
+    <Title>%ClassPopulationEmpireAffinityPhagesTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityPhages">
+    <Title>%ClassPopulationStarSystemAffinityPhagesTitle</Title>
+    <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityPhagesCount">
+    <Title>%ClassPopulationStarSystemAffinityPhagesTitle</Title>
+    <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityPhages">
+    <Title>%PopulationPhagesTitle</Title>
+    <Description>%PopulationPhagesDescription</Description>
+    <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationPhagesTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityPhagesCount">
+    <Title>%PopulationPhagesTitle</Title>
+    <Description>%PopulationPhagesDescription</Description>
+    <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationPhagesTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityPhages">
+    <Title>%AffinityPhagesTitle</Title>
+    <Description>%AffinityPhagesDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/PhagesSmall.png" />
+      <Icon Size="Medium" Path="Gui/PhagesMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/PhagesLarge.png" />
+    </Icons>
+    <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
 </Datatable>

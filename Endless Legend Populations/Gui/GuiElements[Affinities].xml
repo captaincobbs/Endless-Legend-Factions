@@ -149,4 +149,34 @@
     <SymbolString>[custom08]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
+
+  <!-- Ardent Mages -->
+  <AffinityGuiElement Name="AffinityMappingArdent">
+    <Title>%AffinityGameplayArdentTitle</Title>
+    <Description>%AffinityGameplayArdentDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/ArdentSmall.png" />
+      <Icon Size="Medium" Path="Gui/ArdentMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/ArdentLarge.png" />
+      <Icon Size="Mood" Path="Gui/ArdentMood.png" />
+    </Icons>
+    <SymbolString>[custom03]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Necrophages -->
+  <AffinityGuiElement Name="AffinityMappingPhages">
+    <Title>%AffinityGameplayPhagesTitle</Title>
+    <Description>%AffinityGameplayPhagesDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/PhagesSmall.png" />
+      <Icon Size="Medium" Path="Gui/PhagesMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/PhagesLarge.png" />
+      <Icon Size="Mood" Path="Gui/PhagesMood.png" />
+    </Icons>
+    <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
 </Datatable>

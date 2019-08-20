@@ -110,4 +110,26 @@
       <Trait Name="FactionTraitAllayiHappiness"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Ardent Mages -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityArdent">
+    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MinorTrait Weight="4">
+      <Trait Name="FactionTraitArdentOwnership"/>
+    </MinorTrait>
+    <MinorTrait Weight="6">
+      <Trait Name="FactionTraitArdentHappiness"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Necrophages -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityPhages">
+    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MinorTrait Weight="4">
+      <Trait Name="FactionTraitPhagesOwnership"/>
+    </MinorTrait>
+    <MinorTrait Weight="6">
+      <Trait Name="FactionTraitPhagesHappiness"/>
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
 </Datatable>

@@ -60,4 +60,16 @@
     <Title>%MinorFactionAllayiTitle</Title>
     <Description>%MinorFactionAllayiDescription</Description>
   </GuiElement>
+
+  <!-- Ardent Mages -->
+  <GuiElement Name="MinorFactionArdent">
+    <Title>%MinorFactionArdentTitle</Title>
+    <Description>%MinorFactionArdentDescription</Description>
+  </GuiElement>
+
+  <!-- Necrophages -->
+  <GuiElement Name="MinorFactionPhages">
+    <Title>%MinorFactionPhagesTitle</Title>
+    <Description>%MinorFactionPhagesDescription</Description>
+  </GuiElement>
 </Datatable>

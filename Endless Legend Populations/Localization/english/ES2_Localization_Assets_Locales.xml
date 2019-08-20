@@ -134,8 +134,34 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle">Systems with [custom08]</LocalizationPair>
   <LocalizationPair Name="%AffinityAllayiTitle">Allayi</LocalizationPair>
   <LocalizationPair Name="%AffinityAllayiDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiShipHealthTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiPopulationTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiShipHealthDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiPopulationDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription">TBI</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%MinorFactionArdentTitle">Ardent Mages</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionArdentDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationArdentTitle">[custom03]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityArdentTitle">[custom03]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle">Systems with [custom03]</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentTitle">Ardent Mage</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentHappinessTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentOwnershipTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentHappinessDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentOwnershipDescription">TBI</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%MinorFactionPhagesTitle">Phages</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionPhagesDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationPhagesTitle">[custom04]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityPhagesTitle">[custom04]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityPhagesTitle">Systems with [custom04]</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesTitle">Phages</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesHappinessTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesOwnershipTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesHappinessDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesOwnershipDescription">TBI</LocalizationPair>
 </Datatable>

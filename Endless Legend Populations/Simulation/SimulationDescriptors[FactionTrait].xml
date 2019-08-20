@@ -119,4 +119,22 @@
     <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeCold" SearchValueFromPath="true" TooltipHidden="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="FactionTraitArdentOwnership" Type="FactionTraitMinor">
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitArdentHappiness" Type="FactionTraitMinor">
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="FactionTraitPhagesOwnership" Type="FactionTraitMinor">
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitPhagesHappiness" Type="FactionTraitMinor">
+    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

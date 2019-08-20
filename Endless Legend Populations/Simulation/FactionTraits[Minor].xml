@@ -87,4 +87,20 @@
   <FactionTrait Name="FactionTraitAllayiHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
     <SimulationDescriptorReference Name="FactionTraitAllayiHappiness"/>
   </FactionTrait>
+
+  <!-- Ardent Mages -->
+  <FactionTrait Name="FactionTraitArdentOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitArdentOwnership"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitArdentHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitArdentHappiness"/>
+  </FactionTrait>
+
+  <!-- Necrophages -->
+  <FactionTrait Name="FactionTraitPhagesOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitPhagesOwnership"/>
+  </FactionTrait>
+  <FactionTrait Name="FactionTraitPhagesHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitPhagesHappiness"/>
+  </FactionTrait>
 </Datatable>

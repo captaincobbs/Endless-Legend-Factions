@@ -120,4 +120,26 @@
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
   </SimulationDescriptor>
+
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="PopulationCollectionBonusArdent1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics04ToPolitics04"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityArdent" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusArdent2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityArdent" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusArdent3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
+  </SimulationDescriptor>
+
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="PopulationCollectionBonusPhages1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics04ToPolitics04"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityPhages" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusPhages2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityPhages" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusPhages3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
+  </SimulationDescriptor>
 </Datatable>
