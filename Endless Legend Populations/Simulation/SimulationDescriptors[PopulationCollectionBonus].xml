@@ -101,14 +101,14 @@
   
   <!-- Cultists -->
   <SimulationDescriptor Name="PopulationCollectionBonusCultists1" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Politics01ToPolitics01"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCultists" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+    <Modifier TargetProperty="Politics05ToPolitics05"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCultists" TooltipOverride="%TooltipOverridePositivePolitics05"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists2" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" />
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusTerrans2,ClassPopulationEmpireAffinityCultistsCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists3" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition"  Value="25"   Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists"/>
   </SimulationDescriptor>
 
   <!-- Allayi -->
