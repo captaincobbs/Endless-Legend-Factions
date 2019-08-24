@@ -151,18 +151,27 @@
   <GuiElement Name="PopulationCollectionBonusArdent2">
     <Title>%PopulationCollectionBonusArdent2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusArdent3">
+  <ExtendedGuiElement Name="PopulationCollectionBonusArdent3">
     <Title>%PopulationCollectionBonusArdent3</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusArdent3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 
   <!-- Necrophages -->
   <GuiElement Name="PopulationCollectionBonusPhages1">
     <Title>%PopulationCollectionBonusPhages1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusPhages2">
+  <ExtendedGuiElement Name="PopulationCollectionBonusPhages2">
     <Title>%PopulationCollectionBonusPhages2</Title>
-  </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusPhages3">
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusPhages2EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="PopulationCollectionBonusPhages3">
     <Title>%PopulationCollectionBonusPhages3</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusPhages3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>
