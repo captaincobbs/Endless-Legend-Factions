@@ -128,14 +128,14 @@
 
   <!-- Allayi -->
   <LocalizationPair Name="%MinorFactionAllayiTitle">Allayi</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionAllayiDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionAllayiDescription">One of the original races of Auriga, the Allayi struggled greatly with their exodus from the planet. Once intrinsically linked to the planet, they have adapted to feel a similar bond to any planet they reside on.</LocalizationPair>
   <LocalizationPair Name="%PopulationAllayiTitle">[custom08]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityAllayiTitle">[custom08]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle">Systems with [custom08]</LocalizationPair>
   <LocalizationPair Name="%AffinityAllayiTitle">Allayi</LocalizationPair>
-  <LocalizationPair Name="%AffinityAllayiDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiShipHealthTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiPopulationTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiShipHealthDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiPopulationDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%AffinityAllayiDescription">With a unique ability to phase between different forms, the Allayi are adaptable and ferocious when threatened.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle">We Chosen Few</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessTitle">Gift of Auriga</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription">Close-knight and loyal, the strategically located Allayi can have a tremendous effect on loyalty when taking solar systems.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription">Though Auriga is gone, she left one final gift to the Allayi that they pass onto you.</LocalizationPair>
 </Datatable>
