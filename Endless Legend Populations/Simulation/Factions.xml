@@ -126,6 +126,7 @@
     <Affinity Name="AffinityGameplayDrakken" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitStartWithPositiveAnomaly"/>
     <MajorPopulation Affinity="AffinityDrakken" Count="3" />
     <Personality Name="FactionPersonalityDrakken" />
     <Politics Name="Politics03" />
