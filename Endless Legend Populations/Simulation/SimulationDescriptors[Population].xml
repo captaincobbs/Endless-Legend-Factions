@@ -3,221 +3,214 @@
   <!-- I'm gonna be honest, no idea what this does. Just copy and paste it and change the values and you should be good
        Just a note though, PopulationsAssimilated is required -->
   <!-- Kapaku -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapaku" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapaku" Type="ClassPopulationStarSystem" />
     <SimulationDescriptor Name="ClassPopulationPlanetAffinityKapakuCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityKapakuCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityKapakuCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityKapakuCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityKapakuCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityKapakuCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityKapakuCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityKapakuCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityKapakuCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityKapaku" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Broken Lords -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLords" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="CanBeBoosted" Operation="Force" Value="0" TooltipHidden="true"/>
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLords" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityLords" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLords" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityLordsCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityLordsCount" TooltipHidden="true"/>
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationPlanetAffinityLords" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="ShouldPopulationGrow"          Operation="Force"    Value="-1" TooltipHidden="true"/>
-    <Modifier       TargetProperty="PopulationWithGrowth"          Operation="Subtraction"    Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
-    <Modifier       TargetProperty="MaximumSystemMoney" Operation="Force" Value="$(MaximumSystemGrowthStock)" Path="../ClassColonizedStarSystem,ColonizedStarSystemStateOutpost" SearchValueFromPath="true" Priority="1" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityLordsCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityLordsCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityLordsCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityLordsCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityLordsCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityLordsCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityLordsCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityLords" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Forgotten -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityForgotten" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityForgotten" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityForgotten" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityForgotten" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityForgottenCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityForgottenCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityForgottenCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityForgottenCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityForgottenCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityForgottenCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityForgottenCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityForgottenCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityForgottenCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityForgotten" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Drakken -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrakken" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrakken" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrakken" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrakken" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityDrakkenCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityDrakkenCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityDrakkenCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityDrakkenCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityDrakkenCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityDrakkenCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityDrakkenCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrakkenCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityDrakkenCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityDrakken" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Morgawr -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityMorgawr" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMorgawr" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityMorgawr" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMorgawr" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityMorgawrCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityMorgawrCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityMorgawrCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMorgawrCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityMorgawrCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityMorgawrCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityMorgawrCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityMorgawrCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityMorgawrCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityMorgawr" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Wild Walkers -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityWalkers" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityWalkers" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityWalkers" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityWalkers" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityWalkersCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityWalkersCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityWalkersCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityWalkersCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityWalkersCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityWalkersCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityWalkersCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityWalkersCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityWalkersCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityWalkers" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Roving Clans -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityRoving" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityRoving" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityRoving" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityRoving" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityRovingCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityRovingCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityRovingCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityRovingCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityRovingCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityRovingCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityRovingCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityRovingCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityRovingCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityRoving" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Mykara -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityMykara" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMykara" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityMykara" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMykara" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityMykaraCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityMykaraCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityMykaraCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMykaraCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityMykaraCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityMykaraCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityMykaraCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityMykaraCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityMykaraCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityMykara" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Urkan A | Kazar -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanA" Type="ClassPopulationEmpire"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanA" Type="ClassPopulationEmpire" />
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanA" Type="ClassPopulationStarSystem">
-    <Modifier TargetProperty="CannotMigrate"     		Operation="Force"       Value="1"   TooltipHidden="true"/>
-    <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true"/>
-    <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
+    <Modifier TargetProperty="CannotMigrate"     		Operation="Force"       Value="1"   TooltipHidden="true" />
+    <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true" />
+    <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanACount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanACount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanACount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanACount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanACount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanACount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanACount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanACount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanACount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUrkanA" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Cultists -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityCultists" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCultists" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityCultists" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCultists" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityCultistsCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityCultistsCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityCultistsCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCultistsCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityCultistsCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityCultistsCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityCultistsCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityCultistsCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityCultistsCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityCultists" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Allayi -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityAllayi" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityAllayi" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityAllayi" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityAllayi" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityAllayiCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityAllayiCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityAllayiCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityAllayiCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityAllayiCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityAllayiCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityAllayiCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityAllayiCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityAllayiCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityAllayi" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Ardent Mages -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityArdent" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityArdent" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityArdent" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityArdent" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityArdentCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityArdentCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityArdentCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityArdentCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityArdentCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityArdentCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityArdentCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityArdentCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityArdentCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityArdent" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Necrophages -->
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityPhages" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityPhages" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityPhages" Type="ClassPopulationEmpire" />
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityPhages" Type="ClassPopulationStarSystem" />
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityPhagesCount" Type="ClassPopulationPlanet">
-    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityPhagesCount" TooltipHidden="true"/>
+    <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityPhagesCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityPhagesCount" Type="ClassPopulationStarSystem">
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityPhagesCount" TooltipHidden="true"/>
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityPhagesCount" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityPhagesCount" Type="ClassPopulationEmpire">
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityPhagesCount" Priority="100" TooltipHidden="true"/>
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityPhagesCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityPhages" Type="ClassPopulationAssimilated">
-    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 </Datatable>
