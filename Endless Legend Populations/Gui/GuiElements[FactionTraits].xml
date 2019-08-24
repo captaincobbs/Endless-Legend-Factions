@@ -152,6 +152,15 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
+
+  <!-- Food on Fertile Trait -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitWalkersIndustry">
+    <Title>%PopulationModifiersTraitWalkersIndustryTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="PopulationModifiersTraitWalkersIndustry">
+    <Title>%PopulationModifiersTraitWalkersIndustryTitle</Title>
+  </GuiElement>
   
   <!-- Mykara -->
   <GuiElement Name="FactionTraitMykaraFood">
@@ -208,36 +217,48 @@
   </GuiElement>
 
   <!-- Ardent Mages -->
-  <GuiElement Name="FactionTraitArdentOwnership">
-    <Title>%FactionTraitArdentOwnershipTitle</Title>
-    <Description>%FactionTraitArdentOwnershipDescription</Description>
+  <GuiElement Name="FactionTraitArdentTrascend">
+    <Title>%FactionTraitArdentTrascendTitle</Title>
+    <Description>%FactionTraitArdentTrascendDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
 
-  <GuiElement Name="FactionTraitArdentHappiness">
-    <Title>%FactionTraitArdentHappinessTitle</Title>
-    <Description>%FactionTraitArdentHappinessDescription</Description>
+  <GuiElement Name="FactionTraitArdentScience">
+    <Title>%FactionTraitArdentScienceTitle</Title>
+    <Description>%FactionTraitArdentScienceDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
 
   <!-- Necrophages -->
-  <GuiElement Name="FactionTraitPhagesOwnership">
-    <Title>%FactionTraitPhagesOwnershipTitle</Title>
-    <Description>%FactionTraitPhagesOwnershipDescription</Description>
+  <GuiElement Name="FactionTraitPhagesRecruiting">
+    <Title>%FactionTraitPhagesRecruitingTitle</Title>
+    <Description>%FactionTraitPhagesRecruitingDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
 
-  <GuiElement Name="FactionTraitPhagesHappiness">
-    <Title>%FactionTraitPhagesHappinessTitle</Title>
-    <Description>%FactionTraitPhagesHappinessDescription</Description>
+  <ExtendedGuiElement Name="FactionTraitPhagesFood">
+    <Title>%FactionTraitPhagesFoodTitle</Title>
+    <Description>%FactionTraitPhagesFoodDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
+      <TooltipElement>
+      <EffectOverride>%FactionTraitPhagesFoodEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  <!-- Subtract Food Necrophages -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitPhagesFood">
+    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
+  </GuiElement>
+
+  <GuiElement Name="PopulationModifiersTraitPhagesFood">
+    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
   </GuiElement>
 </Datatable>

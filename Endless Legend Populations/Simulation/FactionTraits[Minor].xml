@@ -97,10 +97,10 @@
   </FactionTrait>
 
   <!-- Necrophages -->
-  <FactionTrait Name="FactionTraitPhagesOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitPhagesOwnership" />
+  <FactionTrait Name="FactionTraitPhagesRecruiting" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitPhagesRecruiting" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitPhagesHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitPhagesHappiness" />
+  <FactionTrait Name="FactionTraitPhagesFood" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitPhagesFood" />
   </FactionTrait>
 </Datatable>

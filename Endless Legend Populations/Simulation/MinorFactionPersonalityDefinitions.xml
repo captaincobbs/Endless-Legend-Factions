@@ -3,133 +3,133 @@
   <!-- Weight decides the chance that a faction will be chosen, the max isn't 10, but I suggest using lowest numbers possible for simplicity -->
   <!-- Kapaku -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityKapaku">
-    <MajorTrait Name="PersonalityTraitPragmatist"/> <!-- Determines what additional bonus they give. Pragmatist is science, Warmonger is manpower/ships, and Pacifist gives influence -->
+    <MajorTrait Name="PersonalityTraitPragmatist" /> <!-- Determines what additional bonus they give. Pragmatist is science, Warmonger is manpower/ships, and Pacifist gives influence -->
     <MinorTrait Weight="7">
-      <Trait Name="FactionTraitKapakuHappiness"/>
+      <Trait Name="FactionTraitKapakuHappiness" />
     </MinorTrait>
     <MinorTrait Weight="3">
-      <Trait Name="FactionTraitKapakuTerraforming"/>
+      <Trait Name="FactionTraitKapakuTerraforming" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Broken Lords -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityLords">
-    <MajorTrait Name="PersonalityTraitWarmonger"/>
+    <MajorTrait Name="PersonalityTraitWarmonger" />
     <MinorTrait Weight="7">
-      <Trait Name="FactionTraitLordsDust"/>
+      <Trait Name="FactionTraitLordsDust" />
     </MinorTrait>
     <MinorTrait Weight="3">
-      <Trait Name="FactionTraitLordsShipRegen"/>
+      <Trait Name="FactionTraitLordsShipRegen" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Forgotten -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityForgotten">
-    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MajorTrait Name="PersonalityTraitPacifist" />
     <MinorTrait Weight="3">
-      <Trait Name="FactionTraitForgottenMoveSpeed"/>
+      <Trait Name="FactionTraitForgottenMoveSpeed" />
     </MinorTrait>
     <MinorTrait Weight="7">
-      <Trait Name="FactionTraitForgottenAccuracy"/>
+      <Trait Name="FactionTraitForgottenAccuracy" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Drakken -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityDrakken">
-    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MajorTrait Name="PersonalityTraitPacifist" />
     <MinorTrait Weight="5">
-      <Trait Name="FactionTraitDrakkenDiplomacy"/>
+      <Trait Name="FactionTraitDrakkenDiplomacy" />
     </MinorTrait>
     <MinorTrait Weight="5">
-      <Trait Name="FactionTraitDrakkenConversion"/>
+      <Trait Name="FactionTraitDrakkenConversion" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Morgawr -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityMorgawr">
-    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MajorTrait Name="PersonalityTraitPragmatist" />
     <MinorTrait Weight="8">
-      <Trait Name="FactionTraitMorgawrInfluence"/>
+      <Trait Name="FactionTraitMorgawrInfluence" />
     </MinorTrait>
     <MinorTrait Weight="2">
-      <Trait Name="FactionTraitMorgawrIndustry"/>
+      <Trait Name="FactionTraitMorgawrIndustry" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
   
   <!-- Wild Walkers -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityWalkers">
-    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MajorTrait Name="PersonalityTraitPragmatist" />
     <MinorTrait Weight="5">
-      <Trait Name="FactionTraitWalkersBuilding"/>
+      <Trait Name="FactionTraitWalkersBuilding" />
     </MinorTrait>
     <MinorTrait Weight="5">
-      <Trait Name="FactionTraitWalkersSight"/>
+      <Trait Name="FactionTraitWalkersSight" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Roving Clans -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityRoving">
-    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MajorTrait Name="PersonalityTraitPacifist" />
     <MinorTrait Weight="5">
-      <Trait Name="FactionTraitRovingUpkeepSystems"/>
+      <Trait Name="FactionTraitRovingUpkeepSystems" />
     </MinorTrait>
     <MinorTrait Weight="5">
-      <Trait Name="FactionTraitRovingUpkeepMilitary"/>
+      <Trait Name="FactionTraitRovingUpkeepMilitary" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Mykara -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityMykara">
-    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MajorTrait Name="PersonalityTraitPragmatist" />
     <MinorTrait Weight="6">
-      <Trait Name="FactionTraitMykaraFood"/>
+      <Trait Name="FactionTraitMykaraFood" />
     </MinorTrait>
     <MinorTrait Weight="4">
-      <Trait Name="FactionTraitMykaraManpower"/>
+      <Trait Name="FactionTraitMykaraManpower" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Cultists -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityCultists">
-    <MajorTrait Name="PersonalityTraitPragmatist"/>
+    <MajorTrait Name="PersonalityTraitPragmatist" />
     <MinorTrait Weight="9">
-      <Trait Name="FactionTraitCultistsShipHealth"/>
+      <Trait Name="FactionTraitCultistsShipHealth" />
     </MinorTrait>
     <MinorTrait Weight="1">
-      <Trait Name="FactionTraitCultistsPopulation"/>
+      <Trait Name="FactionTraitCultistsPopulation" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Allayi -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityAllayi">
-    <MajorTrait Name="PersonalityTraitPacifist"/>
+    <MajorTrait Name="PersonalityTraitPacifist" />
     <MinorTrait Weight="6">
-      <Trait Name="FactionTraitAllayiOwnership"/>
+      <Trait Name="FactionTraitAllayiOwnership" />
     </MinorTrait>
     <MinorTrait Weight="4">
-      <Trait Name="FactionTraitAllayiHappiness"/>
+      <Trait Name="FactionTraitAllayiHappiness" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Ardent Mages -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityArdent">
-    <MajorTrait Name="PersonalityTraitPacifist"/>
-    <MinorTrait Weight="6">
-      <Trait Name="FactionTraitArdentOwnership"/>
+    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MinorTrait Weight="2">
+      <Trait Name="FactionTraitArdentTrascend" />
     </MinorTrait>
-    <MinorTrait Weight="4">
-      <Trait Name="FactionTraitArdentHappiness"/>
+    <MinorTrait Weight="8">
+      <Trait Name="FactionTraitArdentScience" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 
   <!-- Necrophages -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityPhages">
-    <MajorTrait Name="PersonalityTraitPacifist"/>
-    <MinorTrait Weight="6">
-      <Trait Name="FactionTraitPhagesOwnership"/>
+    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MinorTrait Weight="8">
+      <Trait Name="FactionTraitPhagesRecruiting" />
     </MinorTrait>
-    <MinorTrait Weight="4">
-      <Trait Name="FactionTraitPhagesHappiness"/>
+    <MinorTrait Weight="2">
+      <Trait Name="FactionTraitPhagesFood" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 </Datatable>
