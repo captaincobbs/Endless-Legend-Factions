@@ -103,10 +103,10 @@
   <!-- Allayi -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityAllayi">
     <MajorTrait Name="PersonalityTraitPacifist"/>
-    <MinorTrait Weight="4">
+    <MinorTrait Weight="6">
       <Trait Name="FactionTraitAllayiOwnership"/>
     </MinorTrait>
-    <MinorTrait Weight="6">
+    <MinorTrait Weight="4">
       <Trait Name="FactionTraitAllayiHappiness"/>
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
