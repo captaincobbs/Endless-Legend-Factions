@@ -1,7 +1,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- I pretty much just use this file for overrides, you don't need it if you aren't using them -->
   <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride">+25% [industrycolored] added to [foodcolored] on Systems</LocalizationPair>  <!-- Tooltip overrides for PopulationCollectionBonus3 -->
-  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on troops.</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride">+1% Damage per Hero on troops</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride">+1 [move] on Ships</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride">5% of [sciencecolored] is added to [dustcolored] on systems.</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusAccuracyForgottenEffectOverride">+10% Accuracy on Weapon Modules</LocalizationPair>
@@ -15,4 +15,7 @@
   <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride">+25% [foodcolored] added to [industrycolored] on Systems</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride">+15% Maximum Health on Ships</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusAllayi3EffectOverride">+3 [move] on Ships</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride">Rebellion progresses 25% Slower</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride">-25% [upkeepcolored] on fleets and heroes</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride">+30% damage on weapon modules</LocalizationPair>
 </Datatable>
