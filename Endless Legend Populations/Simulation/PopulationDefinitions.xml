@@ -27,22 +27,22 @@
   <!-- Kapaku -->
   <PopulationDefinition AffinityName="AffinityKapaku" Standard="true"> <!-- "AffinityKapaku" is the definition for the Population, very important -->
     <DefaultPolitics> <!-- Politics = Base Political Party, Basescore is the starting strength of the political party, and I think trend is how fast it will automatically grow -->
-      <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
     <!-- Political Traits-->
-    <Trait Name="PopulationPoliticalTraitIndustrialist"/> <!-- This line -->
-    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/> <!-- This line -->
-    <Trait Name="PopulationPoliticalTraitEcologist"/> <!-- And this line are used to define political traits -->
+    <Trait Name="PopulationPoliticalTraitIndustrialist" /> <!-- This line -->
+    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist" /> <!-- This line -->
+    <Trait Name="PopulationPoliticalTraitEcologist" /> <!-- And this line are used to define political traits -->
     <!-- Required stuff -->
-    <Trait Name="PopulationModifiersKapakuCount"/> <!-- This line is used for the total population count -->
-    <Trait Name="PopulationModifiersTraitKapaku"/> <!-- Defined in PopulationModifiersTraits -->
+    <Trait Name="PopulationModifiersKapakuCount" /> <!-- This line is used for the total population count -->
+    <Trait Name="PopulationModifiersTraitKapaku" /> <!-- Defined in PopulationModifiersTraits -->
     <!-- Population Bonus traits (custom ones defined in PopulationModifiersTraits) -->
-    <Trait Name="PopulationModifiersTraitSecondaryHappinessHot"/> <!-- +2 Happiness On Hot-->
-    <Trait Name="PopulationModifiersTraitPrimaryIndustry"/> <!-- +1 Industry -->
+    <Trait Name="PopulationModifiersTraitSecondaryHappinessHot" /> <!-- +2 Happiness On Hot-->
+    <Trait Name="PopulationModifiersTraitPrimaryIndustry" /> <!-- +1 Industry -->
     <!-- Collection Bonus Used -->
     <Trait Name="PopulationCollectionBonusTraitKapaku" />
 
-    <AffinityMapping Name="AffinityMappingKapaku"/> <!-- Defined in SimulationDescriptors[FactionAffinityMapping] -->
+    <AffinityMapping Name="AffinityMappingKapaku" /> <!-- Defined in SimulationDescriptors[FactionAffinityMapping] -->
     <GrowthBoostLuxuryOptions> <!-- Luxuries that can be used to boost population, goes for 1-16, game randomly chooses one each time based off of provided list here -->
       <Luxury>Luxury2</Luxury>
       <Luxury>Luxury10</Luxury>
@@ -54,22 +54,22 @@
   <!-- Broken Lord -->
   <PopulationDefinition AffinityName="AffinityLords" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitMilitarist"/>
-    <Trait Name="PopulationPoliticalTraitPious"/>
-    <Trait Name="PopulationPoliticalTraitAntiIndustrialist"/>
+    <Trait Name="PopulationPoliticalTraitMilitarist" />
+    <Trait Name="PopulationPoliticalTraitPious" />
+    <Trait Name="PopulationPoliticalTraitAntiIndustrialist" />
     
-    <Trait Name="PopulationModifiersLordsCount"/>
-    <Trait Name="PopulationModifiersTraitLords"/>
+    <Trait Name="PopulationModifiersLordsCount" />
+    <Trait Name="PopulationModifiersTraitLords" />
     
-    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/>  <!-- +50 Defense -->
-    <Trait Name="PopulationModifiersTraitSecondaryDustHappy"/> <!-- +2 Dust on Happy -->
+    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage" />  <!-- +50 Defense -->
+    <Trait Name="PopulationModifiersTraitSecondaryDustHappy" /> <!-- +2 Dust on Happy -->
     
     <Trait Name="PopulationCollectionBonusTraitLords" />
 
-    <AffinityMapping Name="AffinityMappingLords"/>
+    <AffinityMapping Name="AffinityMappingLords" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury3</Luxury>
       <Luxury>Luxury7</Luxury>
@@ -81,22 +81,22 @@
   <!-- Forgotten -->
   <PopulationDefinition AffinityName="AffinityForgotten" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitPacifist"/>
-    <Trait Name="PopulationPoliticalTraitHedonist"/>
-    <Trait Name="PopulationPoliticalTraitAntiScientist"/>
+    <Trait Name="PopulationPoliticalTraitPacifist" />
+    <Trait Name="PopulationPoliticalTraitHedonist" />
+    <Trait Name="PopulationPoliticalTraitAntiScientist" />
     
-    <Trait Name="PopulationModifiersForgottenCount"/>
-    <Trait Name="PopulationModifiersTraitForgotten"/>
+    <Trait Name="PopulationModifiersForgottenCount" />
+    <Trait Name="PopulationModifiersTraitForgotten" />
     
-    <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01"/><!-- +1 Processing Power -->
-    <Trait Name="PopulationModifiersTraitPrimaryStrategicToFood01"/><!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01" /><!-- +1 Processing Power -->
+    <Trait Name="PopulationModifiersTraitPrimaryStrategicToFood01" /><!-- +1 Food -->
     
     <Trait Name="PopulationCollectionBonusTraitForgotten" />
 
-    <AffinityMapping Name="AffinityMappingForgotten"/>
+    <AffinityMapping Name="AffinityMappingForgotten" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury5</Luxury>
       <Luxury>Luxury13</Luxury>
@@ -108,22 +108,22 @@
   <!-- Drakken -->
   <PopulationDefinition AffinityName="AffinityDrakken" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitPacifist"/>
-    <Trait Name="PopulationPoliticalTraitCurious"/>
-    <Trait Name="PopulationPoliticalTraitAntiMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitPacifist" />
+    <Trait Name="PopulationPoliticalTraitCurious" />
+    <Trait Name="PopulationPoliticalTraitAntiMilitarist" />
     
-    <Trait Name="PopulationModifiersDrakkenCount"/>
-    <Trait Name="PopulationModifiersTraitDrakken"/>
+    <Trait Name="PopulationModifiersDrakkenCount" />
+    <Trait Name="PopulationModifiersTraitDrakken" />
     
-    <Trait Name="PopulationModifiersTraitPrimaryScience01"/> <!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01"/> <!-- +2 Influence on Anomaly -->
+    <Trait Name="PopulationModifiersTraitPrimaryScience01" /> <!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" /> <!-- +2 Influence on Anomaly -->
     
     <Trait Name="PopulationCollectionBonusTraitDrakken" />
 
-    <AffinityMapping Name="AffinityMappingDrakken"/>
+    <AffinityMapping Name="AffinityMappingDrakken" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury4</Luxury>
       <Luxury>Luxury5</Luxury>
@@ -135,22 +135,22 @@
   <!-- Morgawr -->
   <PopulationDefinition AffinityName="AffinityMorgawr" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitScientist"/>
-    <Trait Name="PopulationPoliticalTraitCurious"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitScientist" />
+    <Trait Name="PopulationPoliticalTraitCurious" />
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
 
-    <Trait Name="PopulationModifiersMorgawrCount"/>
-    <Trait Name="PopulationModifiersTraitMorgawr"/>
+    <Trait Name="PopulationModifiersMorgawrCount" />
+    <Trait Name="PopulationModifiersTraitMorgawr" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile"/><!-- +2 Industry on Fertile -->
+    <Trait Name="PopulationModifiersTraitPrimaryScience01" /><!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile" /><!-- +2 Industry on Fertile -->
 
     <Trait Name="PopulationCollectionBonusTraitMorgawr" />
 
-    <AffinityMapping Name="AffinityMappingDrakken"/>
+    <AffinityMapping Name="AffinityMappingDrakken" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury10</Luxury>
@@ -162,22 +162,22 @@
   <!-- Wild Walkers -->
   <PopulationDefinition AffinityName="AffinityWalkers" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitEcologist"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToIndustrialist"/>
-    <Trait Name="PopulationPoliticalTraitReligiousToPacifist"/>
+    <Trait Name="PopulationPoliticalTraitEcologist" />
+    <Trait Name="PopulationPoliticalTraitEcologistToIndustrialist" />
+    <Trait Name="PopulationPoliticalTraitReligiousToPacifist" />
 
-    <Trait Name="PopulationModifiersWalkersCount"/>
-    <Trait Name="PopulationModifiersTraitWalkers"/>
+    <Trait Name="PopulationModifiersWalkersCount" />
+    <Trait Name="PopulationModifiersTraitWalkers" />
 
-    <Trait Name="PopulationModifiersTraitWalkersIndustry"/><!-- +5 industry on fertile-->
-    <Trait Name="PopulationModifiersTraitPrimaryFood02"/><!-- +2 food -->
+    <Trait Name="PopulationModifiersTraitWalkersIndustry" /><!-- +5 industry on fertile-->
+    <Trait Name="PopulationModifiersTraitPrimaryFood02" /><!-- +2 food -->
 
     <Trait Name="PopulationCollectionBonusTraitWalkers" />
 
-    <AffinityMapping Name="AffinityMappingWalkers"/>
+    <AffinityMapping Name="AffinityMappingWalkers" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury10</Luxury>
@@ -189,22 +189,22 @@
   <!-- Roving Clans -->
   <PopulationDefinition AffinityName="AffinityRoving" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitPacifist"/>
-    <Trait Name="PopulationPoliticalTraitIndustrialistToPacifist"/>
-    <Trait Name="PopulationPoliticalTraitPacifistToIndustrialist"/>
+    <Trait Name="PopulationPoliticalTraitPacifist" />
+    <Trait Name="PopulationPoliticalTraitIndustrialistToPacifist" />
+    <Trait Name="PopulationPoliticalTraitPacifistToIndustrialist" />
 
-    <Trait Name="PopulationModifiersRovingCount"/>
-    <Trait Name="PopulationModifiersTraitRoving"/>
+    <Trait Name="PopulationModifiersRovingCount" />
+    <Trait Name="PopulationModifiersTraitRoving" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience01"/><!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryDustSterile"/><!-- +5 Dust on Sterile -->
+    <Trait Name="PopulationModifiersTraitPrimaryScience01" /><!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryDustSterile" /><!-- +5 Dust on Sterile -->
 
-    <Trait Name="PopulationCollectionBonusTraitRoving"/>
+    <Trait Name="PopulationCollectionBonusTraitRoving" />
 
-    <AffinityMapping Name="AffinityMappingRoving"/>
+    <AffinityMapping Name="AffinityMappingRoving" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury3</Luxury>
       <Luxury>Luxury8</Luxury>
@@ -216,22 +216,22 @@
   <!-- Mykara -->
   <PopulationDefinition AffinityName="AffinityMykara" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitEcologist"/>
-    <Trait Name="PopulationPoliticalTraitScientificToEcologist"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologist" />
+    <Trait Name="PopulationPoliticalTraitScientificToEcologist" />
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
 
-    <Trait Name="PopulationModifiersMykaraCount"/>
-    <Trait Name="PopulationModifiersTraitMykara"/>
+    <Trait Name="PopulationModifiersMykaraCount" />
+    <Trait Name="PopulationModifiersTraitMykara" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryFood03"/><!-- +5 Food -->
-    <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01"/><!-- +3 Food on Fertile --> 
+    <Trait Name="PopulationModifiersTraitPrimaryFood03" /><!-- +5 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01" /><!-- +3 Food on Fertile --> 
 
-    <Trait Name="PopulationCollectionBonusTraitMykara"/>
+    <Trait Name="PopulationCollectionBonusTraitMykara" />
 
-    <AffinityMapping Name="AffinityMappingMykara"/>
+    <AffinityMapping Name="AffinityMappingMykara" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury9</Luxury>
@@ -243,22 +243,22 @@
   <!-- Urkan A | Kazar -->
   <PopulationDefinition AffinityName="AffinityUrkanA" IsInvincible="true" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitMilitarist"/>
-    <Trait Name="PopulationPoliticalTraitAggressive"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitMilitarist" />
+    <Trait Name="PopulationPoliticalTraitAggressive" />
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
 
-    <Trait Name="PopulationModifiersUrkanACount"/>
-    <Trait Name="PopulationModifiersTraitUrkanA"/>
+    <Trait Name="PopulationModifiersUrkanACount" />
+    <Trait Name="PopulationModifiersTraitUrkanA" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/>
-    <Trait Name="PopulationModifiersTraitSecondaryManpower"/>
-    <Trait Name="PopulationModifiersTraitPrimaryDefense"/>
-    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile"/>
+    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage" />
+    <Trait Name="PopulationModifiersTraitSecondaryManpower" />
+    <Trait Name="PopulationModifiersTraitPrimaryDefense" />
+    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile" />
 
-    <AffinityMapping Name="AffinityMappingUrkanA"/>
+    <AffinityMapping Name="AffinityMappingUrkanA" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury2</Luxury>
@@ -274,22 +274,22 @@
   <!-- Cultists -->
   <PopulationDefinition AffinityName="AffinityCultists" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitReligious"/>
-    <Trait Name="PopulationPoliticalTraitIndustrialistToReligious"/>
-    <Trait Name="PopulationPoliticalTraitMilitaristToReligious"/>
+    <Trait Name="PopulationPoliticalTraitReligious" />
+    <Trait Name="PopulationPoliticalTraitIndustrialistToReligious" />
+    <Trait Name="PopulationPoliticalTraitMilitaristToReligious" />
 
-    <Trait Name="PopulationModifiersCultistsCount"/>
-    <Trait Name="PopulationModifiersTraitCultists"/>
+    <Trait Name="PopulationModifiersCultistsCount" />
+    <Trait Name="PopulationModifiersTraitCultists" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryFIDSI"/><!-- +2 FIDSI -->
-    <Trait Name="PopulationModifiersTraitSecondaryDefenseFertile"/><!-- +50 Defense on Fertile (Change to +50 Manpower on Fertile on Systems) -->
+    <Trait Name="PopulationModifiersTraitPrimaryFIDSI" /><!-- +2 FIDSI -->
+    <Trait Name="PopulationModifiersTraitSecondaryDefenseFertile" /><!-- +50 Defense on Fertile (Change to +50 Manpower on Fertile on Systems) -->
 
-    <Trait Name="PopulationCollectionBonusTraitCultists"/>
+    <Trait Name="PopulationCollectionBonusTraitCultists" />
 
-    <AffinityMapping Name="AffinityMappingCultists"/>
+    <AffinityMapping Name="AffinityMappingCultists" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury6</Luxury>
       <Luxury>Luxury14</Luxury>
@@ -301,22 +301,22 @@
   <!-- Allayi -->
   <PopulationDefinition AffinityName="AffinityAllayi" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitReligious"/>
-    <Trait Name="PopulationPoliticalTraitMilitaristToEcologist"/>
-    <Trait Name="PopulationPoliticalTraitRelativist"/>
+    <Trait Name="PopulationPoliticalTraitReligious" />
+    <Trait Name="PopulationPoliticalTraitMilitaristToEcologist" />
+    <Trait Name="PopulationPoliticalTraitRelativist" />
 
-    <Trait Name="PopulationModifiersAllayiCount"/>
-    <Trait Name="PopulationModifiersTraitAllayi"/>
+    <Trait Name="PopulationModifiersAllayiCount" />
+    <Trait Name="PopulationModifiersTraitAllayi" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/><!-- +1 Influence -->
-    <Trait Name="PopulationModifiersTraitSecondaryScienceCold"/><!-- +3 Science on Cold -->
+    <Trait Name="PopulationModifiersTraitPrimaryInfluence" /><!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitSecondaryScienceCold" /><!-- +3 Science on Cold -->
 
-    <Trait Name="PopulationCollectionBonusTraitAllayi"/>
+    <Trait Name="PopulationCollectionBonusTraitAllayi" />
 
-    <AffinityMapping Name="AffinityMappingAllayi"/>
+    <AffinityMapping Name="AffinityMappingAllayi" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury9</Luxury>
@@ -329,22 +329,22 @@
   <!-- Ardent Mages -->
   <PopulationDefinition AffinityName="AffinityArdent" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitMilitarist"/>
-    <Trait Name="PopulationPoliticalTraitWarmonger"/>
-    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitMilitarist" />
+    <Trait Name="PopulationPoliticalTraitWarmonger" />
+    <Trait Name="PopulationPoliticalTraitReligiousToMilitarist" />
 
-    <Trait Name="PopulationModifiersArdentCount"/>
-    <Trait Name="PopulationModifiersTraitArdent"/>
+    <Trait Name="PopulationModifiersArdentCount" />
+    <Trait Name="PopulationModifiersTraitArdent" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryIDS"/><!-- +5 Industry, Dust, Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryDefenseSterile"/><!-- +30 Defense on Sterile -->
+    <Trait Name="PopulationModifiersTraitPrimaryIDS" /><!-- +5 Industry, Dust, Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryDefenseSterile" /><!-- +30 Defense on Sterile -->
 
-    <Trait Name="PopulationCollectionBonusTraitArdent"/>
+    <Trait Name="PopulationCollectionBonusTraitArdent" />
 
-    <AffinityMapping Name="AffinityMappingArdent"/>
+    <AffinityMapping Name="AffinityMappingArdent" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury4</Luxury>
       <Luxury>Luxury15</Luxury>
@@ -356,22 +356,23 @@
   <!-- Necrophages -->
   <PopulationDefinition AffinityName="AffinityPhages" Standard="true">
     <DefaultPolitics>
-      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
-    <Trait Name="PopulationPoliticalTraitMilitarist"/>
-    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
-    <Trait Name="PopulationPoliticalTraitAggressive"/>
+    <Trait Name="PopulationPoliticalTraitMilitarist" />
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
+    <Trait Name="PopulationPoliticalTraitAggressive" />
 
-    <Trait Name="PopulationModifiersPhagesCount"/>
-    <Trait Name="PopulationModifiersTraitPhages"/>
+    <Trait Name="PopulationModifiersPhagesCount" />
+    <Trait Name="PopulationModifiersTraitPhages" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryDefense"/><!-- +1 Manpower -->
-    <Trait Name="PopulationModifiersTraitSecondaryManpower"/><!-- +20 Manpower Max -->
+    <Trait Name="PopulationModifiersTraitPrimaryDefense" /><!-- +1 Manpower -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower" /><!-- +20 Manpower Max -->
+    <Trait Name="PopulationModifiersTraitPhagesFood" /><!-- -2 Food -->
 
-    <Trait Name="PopulationCollectionBonusTraitPhages"/>
+    <Trait Name="PopulationCollectionBonusTraitPhages" />
 
-    <AffinityMapping Name="AffinityMappingPhages"/>
+    <AffinityMapping Name="AffinityMappingPhages" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury7</Luxury>
       <Luxury>Luxury15</Luxury>
