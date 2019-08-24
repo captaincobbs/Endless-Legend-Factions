@@ -2,16 +2,16 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <!-- Not sure what this is used for, but it looks like its the mapping to the AI or something?
        Just copying and pasting it should be fine. It's defined in SimulationDescriptors[FactionAffinityMapping]-->
-  <SimulationDescriptor Name="AffinityMappingKapaku" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingLords" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingForgotten" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingDrakken" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingMorgawr" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingCultists" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingAllayi" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingArdent" Type="AffinityMapping"/>
-  <SimulationDescriptor Name="AffinityMappingPhages" Type="AffinityMapping"/>
+  <SimulationDescriptor Name="AffinityMappingKapaku" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingLords" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingForgotten" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingDrakken" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingMorgawr" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingCultists" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingAllayi" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingArdent" Type="AffinityMapping" />
+  <SimulationDescriptor Name="AffinityMappingPhages" Type="AffinityMapping" />
 </Datatable>

@@ -4,103 +4,103 @@
        These are the faction assimilation bonuses for the minor factions -->
   <!-- Kapaku -->
   <FactionTrait Name="FactionTraitKapakuTerraforming" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitKapakuTerraforming"/>
+    <SimulationDescriptorReference Name="FactionTraitKapakuTerraforming" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitKapakuHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitKapakuHappiness"/>
+    <SimulationDescriptorReference Name="FactionTraitKapakuHappiness" />
   </FactionTrait>
 
   <!-- Broken Lords -->
   <FactionTrait Name="FactionTraitLordsDust" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitLordsDust"/>
+    <SimulationDescriptorReference Name="FactionTraitLordsDust" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitLordsShipRegen" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitLordsShipRegen"/>
+    <SimulationDescriptorReference Name="FactionTraitLordsShipRegen" />
   </FactionTrait>
 
   <!-- Forgotten -->
   <FactionTrait Name="FactionTraitForgottenMoveSpeed" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitForgottenMoveSpeed"/>
+    <SimulationDescriptorReference Name="FactionTraitForgottenMoveSpeed" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitForgottenAccuracy" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitForgottenAccuracy"/>
+    <SimulationDescriptorReference Name="FactionTraitForgottenAccuracy" />
   </FactionTrait>
 
   <!-- Drakken -->
   <FactionTrait Name="FactionTraitDrakkenDiplomacy" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitDrakkenDiplomacy"/>
+    <SimulationDescriptorReference Name="FactionTraitDrakkenDiplomacy" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitDrakkenConversion" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitDrakkenConversion"/>
+    <SimulationDescriptorReference Name="FactionTraitDrakkenConversion" />
   </FactionTrait>
 
   <!-- Morgawr -->
   <FactionTrait Name="FactionTraitMorgawrInfluence" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitMorgawrInfluence"/>
+    <SimulationDescriptorReference Name="FactionTraitMorgawrInfluence" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitMorgawrIndustry" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitMorgawrProduction"/>
+    <SimulationDescriptorReference Name="FactionTraitMorgawrProduction" />
   </FactionTrait>
 
   <!-- Wild Walkers -->
   <FactionTrait Name="FactionTraitWalkersBuilding" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitWalkersBuilding"/>
+    <SimulationDescriptorReference Name="FactionTraitWalkersBuilding" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitWalkersSight" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitWalkersSight"/>
+    <SimulationDescriptorReference Name="FactionTraitWalkersSight" />
   </FactionTrait>
 
   <!-- Roving Clans -->
   <FactionTrait Name="FactionTraitRovingUpkeepSystems" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitRovingUpkeepSystems"/>
+    <SimulationDescriptorReference Name="FactionTraitRovingUpkeepSystems" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitRovingUpkeepMilitary" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitRovingUpkeepMilitary"/>
+    <SimulationDescriptorReference Name="FactionTraitRovingUpkeepMilitary" />
   </FactionTrait>
 
   <!-- Mykara -->
   <FactionTrait Name="FactionTraitMykaraFood" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitMykaraFood"/>
+    <SimulationDescriptorReference Name="FactionTraitMykaraFood" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitMykaraManpower" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitMykaraManpower"/>
+    <SimulationDescriptorReference Name="FactionTraitMykaraManpower" />
   </FactionTrait>
   
   <!-- Urkan A | Bazar -->
   <FactionTrait Name="FactionTraitMinorUrkanA" SubCategory="FactionTrait" Hidden="true" Cost="0">
-    <Command Name="AddMinorPopulation" Arguments="AffinityUrkanA,1" Priority="100"/>
-    <SimulationDescriptorReference Name="FactionTraitMinorUrkanA"/>
+    <Command Name="AddMinorPopulation" Arguments="AffinityUrkanA,1" Priority="100" />
+    <SimulationDescriptorReference Name="FactionTraitMinorUrkanA" />
   </FactionTrait>
 
   <!-- Cultists -->
   <FactionTrait Name="FactionTraitCultistsShipHealth" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitCultistsShipHealth"/>
+    <SimulationDescriptorReference Name="FactionTraitCultistsShipHealth" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitCultistsPopulation" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitCultistsPopulation"/>
+    <SimulationDescriptorReference Name="FactionTraitCultistsPopulation" />
   </FactionTrait>
 
   <!-- Allayi -->
   <FactionTrait Name="FactionTraitAllayiOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitAllayiOwnership"/>
+    <SimulationDescriptorReference Name="FactionTraitAllayiOwnership" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitAllayiHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitAllayiHappiness"/>
+    <SimulationDescriptorReference Name="FactionTraitAllayiHappiness" />
   </FactionTrait>
 
   <!-- Ardent Mages -->
-  <FactionTrait Name="FactionTraitArdentOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitArdentOwnership"/>
+  <FactionTrait Name="FactionTraitArdentTrascend" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitArdentTrascend" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitArdentHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitArdentHappiness"/>
+  <FactionTrait Name="FactionTraitArdentScience" SubCategory="FactionTrait" Hidden="false" Cost="0">
+    <SimulationDescriptorReference Name="FactionTraitArdentScience" />
   </FactionTrait>
 
   <!-- Necrophages -->
   <FactionTrait Name="FactionTraitPhagesOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitPhagesOwnership"/>
+    <SimulationDescriptorReference Name="FactionTraitPhagesOwnership" />
   </FactionTrait>
   <FactionTrait Name="FactionTraitPhagesHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0">
-    <SimulationDescriptorReference Name="FactionTraitPhagesHappiness"/>
+    <SimulationDescriptorReference Name="FactionTraitPhagesHappiness" />
   </FactionTrait>
 </Datatable>

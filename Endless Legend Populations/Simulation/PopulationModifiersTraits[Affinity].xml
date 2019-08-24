@@ -10,16 +10,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitKapaku" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapaku"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapaku" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapaku"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapaku" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKapaku"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKapaku" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -27,13 +27,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersKapakuCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKapakuCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKapakuCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapakuCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKapakuCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapakuCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKapakuCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -42,16 +42,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitLords" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLords"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLords" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLords"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLords" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityLords"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityLords" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -59,13 +59,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersLordsCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityLordsCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityLordsCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLordsCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityLordsCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLordsCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityLordsCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -74,16 +74,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitForgotten" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityForgotten"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityForgotten" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityForgotten"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityForgotten" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityForgotten"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityForgotten" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -91,13 +91,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersForgottenCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityForgottenCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityForgottenCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityForgottenCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityForgottenCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityForgottenCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityForgottenCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -106,16 +106,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitDrakken" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakken"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakken" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakken"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakken" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityDrakken"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityDrakken" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -123,13 +123,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersDrakkenCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDrakkenCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDrakkenCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakkenCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDrakkenCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakkenCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDrakkenCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -138,16 +138,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitMorgawr" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMorgawr"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMorgawr" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMorgawr"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMorgawr" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityMorgawr"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityMorgawr" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -155,13 +155,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersMorgawrCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityMorgawrCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityMorgawrCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMorgawrCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMorgawrCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMorgawrCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMorgawrCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -170,16 +170,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitWalkers" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityWalkers"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityWalkers" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityWalkers"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityWalkers" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityWalkers"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityWalkers" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -187,13 +187,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersWalkersCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityWalkersCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityWalkersCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityWalkersCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityWalkersCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityWalkersCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityWalkersCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -202,16 +202,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitRoving" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityRoving"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityRoving" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityRoving"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityRoving" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityRoving"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityRoving" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -219,13 +219,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersRovingCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityRovingCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityRovingCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityRovingCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityRovingCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityRovingCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityRovingCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -234,16 +234,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitMykara" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMykara"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMykara" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMykara"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMykara" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityMykara"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityMykara" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -251,13 +251,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersMykaraCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityMykaraCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityMykaraCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMykaraCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMykaraCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMykaraCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMykaraCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -266,16 +266,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitUrkanA" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanA"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanA" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanA"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanA" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUrkanA"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUrkanA" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -283,13 +283,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersUrkanACount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanACount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanACount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanACount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanACount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanACount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanACount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -298,16 +298,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitCultists" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityCultists"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityCultists" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityCultists"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityCultists" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityCultists"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityCultists" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -315,13 +315,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersCultistsCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityCultistsCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityCultistsCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityCultistsCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityCultistsCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityCultistsCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityCultistsCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -330,16 +330,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitAllayi" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityAllayi"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityAllayi" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityAllayi"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityAllayi" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityAllayi"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityAllayi" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -347,13 +347,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersAllayiCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityAllayiCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityAllayiCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityAllayiCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityAllayiCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityAllayiCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityAllayiCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -362,16 +362,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitArdent" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityArdent"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityArdent" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityArdent"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityArdent" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityArdent"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityArdent" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -379,13 +379,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersArdentCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityArdentCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityArdentCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityArdentCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityArdentCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityArdentCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityArdentCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
@@ -394,16 +394,16 @@
   <PopulationModifiersTrait Name="PopulationModifiersTraitPhages" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityPhages"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityPhages" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityPhages"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityPhages" />
       </Modifier>
     </Modifiers>
     <AssimilatedModifiers>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityPhages"/>
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityPhages" />
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
@@ -411,13 +411,13 @@
   <PopulationModifiersTrait Name="PopulationModifiersPhagesCount" SubCategory="Count">
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet">
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityPhagesCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityPhagesCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem">
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityPhagesCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityPhagesCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire">
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityPhagesCount"/>
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityPhagesCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
