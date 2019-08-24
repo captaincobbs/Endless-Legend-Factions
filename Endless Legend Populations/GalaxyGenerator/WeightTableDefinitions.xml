@@ -37,6 +37,8 @@
     <Entry Tag="MinorFactionMykara"         Weight="5"/>
     <Entry Tag="MinorFactionCultists"       Weight="5"/>
     <Entry Tag="MinorFactionAllayi"         Weight="5"/>
+    <Entry Tag="MinorFactionArdent"         Weight="5"/>
+    <Entry Tag="MinorFactionPhages"         Weight="5"/>
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
@@ -141,5 +143,17 @@
     <Entry Tag="PlanetTypeSnow"                  Weight="5"/>
     <Entry Tag="PlanetTypeIce"                   Weight="5"/>
     <Entry Tag="PlanetTypeArctic"                Weight="5"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionArdent_PlanetTypes">
+    <Entry Tag="PlanetTypeForest"                Weight="10"/>
+    <Entry Tag="PlanetTypeVeldt"                 Weight="7"/>
+    <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+    <Entry Tag="PlanetTypeTerran"                Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+  <GalaxyGeneratorWeightTable Name="MinorFactionPhages_PlanetTypes">
+    <Entry Tag="PlanetTypeForest"                Weight="10"/>
+    <Entry Tag="PlanetTypeVeldt"                 Weight="7"/>
+    <Entry Tag="PlanetTypeOcean"                 Weight="4"/>
+    <Entry Tag="PlanetTypeTerran"                Weight="1"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>
