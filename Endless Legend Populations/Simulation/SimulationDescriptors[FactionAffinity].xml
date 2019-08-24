@@ -13,4 +13,6 @@
   <SimulationDescriptor Name="AffinityMykara" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityCultists" Type="Affinity"></SimulationDescriptor>
   <SimulationDescriptor Name="AffinityAllayi" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityArdent" Type="Affinity"></SimulationDescriptor>
+  <SimulationDescriptor Name="AffinityPhages" Type="Affinity"></SimulationDescriptor>
 </Datatable>

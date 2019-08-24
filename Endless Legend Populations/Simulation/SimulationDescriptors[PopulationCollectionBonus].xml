@@ -122,4 +122,28 @@
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="3" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="PopulationCollectionBonusArdent1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics02ToPolitics02"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityArdent" TooltipOverride="%TooltipOverridePositivePolitics02"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusArdent2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityArdent" SearchValueFromPath="true" />
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityArdent" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusArdent3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="3" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="PopulationCollectionBonusPhages1" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="Politics06ToPolitics06"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityPhages" TooltipOverride="%TooltipOverridePositivePolitics06"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusPhages2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityPhages" SearchValueFromPath="true" />
+    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityPhages" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusPhages3" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="3" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>

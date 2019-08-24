@@ -181,4 +181,40 @@
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
+
+  <!-- Ardent Mages -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitArdent" Cost="10" ShowInCustom="false">
+    <CollectionBonus Threshold="1">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusArdent1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="2">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusArdent2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="3">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusArdent3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Necrophages -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitPhages" Cost="10" ShowInCustom="false">
+    <CollectionBonus Threshold="1">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusPhages1"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="2">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusPhages2"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="3">
+      <SimulationDescriptorReference Name="PopulationCollectionBonusPhages3"/>
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
 </Datatable>

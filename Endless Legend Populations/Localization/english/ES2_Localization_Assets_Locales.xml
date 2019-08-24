@@ -138,4 +138,30 @@
   <LocalizationPair Name="%FactionTraitAllayiHappinessTitle">Gift of Auriga</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription">Close-knight and loyal, the strategically located Allayi can have a tremendous effect on loyalty when taking solar systems.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiHappinessDescription">Though Auriga is gone, she left one final gift to the Allayi that they pass onto you.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%MinorFactionArdentTitle">Ardent Mages</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionArdentDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationArdentTitle">[custom03]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityArdentTitle">[custom03]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle">Systems with [custom03]</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentTitle">Ardent Mages</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentOwnershipTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentHappinessTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentOwnershipDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentHappinessDescription">TBI</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%MinorFactionPhagesTitle">Necrophages</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionPhagesDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%PopulationPhagesTitle">[custom04]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityPhagesTitle">[custom04]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityPhagesTitle">Systems with [custom04]</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesTitle">Necrophages</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesOwnershipTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesHappinessTitle">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesOwnershipDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesHappinessDescription">TBI</LocalizationPair>
 </Datatable>

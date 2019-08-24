@@ -58,4 +58,14 @@
   <FactionAffinityMapping Name="AffinityMappingAllayi" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingAllayi" />
   </FactionAffinityMapping>
+
+  <!-- Ardent Mages -->
+  <FactionAffinityMapping Name="AffinityMappingArdent" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingArdent" />
+  </FactionAffinityMapping>
+
+  <!-- Necrophages -->
+  <FactionAffinityMapping Name="AffinityMappingPhages" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingPhages" />
+  </FactionAffinityMapping>
 </Datatable>
