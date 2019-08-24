@@ -139,7 +139,11 @@
 
   <!-- Urkan A | Kazar -->
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanA" Type="ClassPopulationEmpire"/>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanA" Type="ClassPopulationStarSystem"/>
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanA" Type="ClassPopulationStarSystem">
+    <Modifier TargetProperty="CannotMigrate"     		Operation="Force"       Value="1"   TooltipHidden="true"/>
+    <Modifier TargetProperty="ShouldPopulationGrow" Operation="Force"       Value="-1"  TooltipHidden="true"/>
+    <Modifier TargetProperty="PopulationWithGrowth" Operation="Subtraction" Value="$(PopulationCount)" Path="./ClassStarSystem" TooltipHidden="true"/>
+  </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanACount" Type="ClassPopulationPlanet">
     <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanACount" TooltipHidden="true"/>
   </SimulationDescriptor>
