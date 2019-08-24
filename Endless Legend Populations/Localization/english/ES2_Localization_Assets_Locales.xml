@@ -52,7 +52,7 @@
   <LocalizationPair Name="%FactionTraitDrakkenConversionTitle">Stubborn Patriots</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription">The Drakken are skilled at diplomacy, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenConversionDescription">Using their unnatural prowess at speechcraft, the Drakken are able to rile the people up in resisting the cultural takeover of other empires.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01TItle">Dominant Figure</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title">[custom09]</LocalizationPair>
 
   <!-- Morgawr -->
   <LocalizationPair Name="%MinorFactionMorgawrTitle">Morgawr</LocalizationPair>
@@ -71,7 +71,7 @@
   <LocalizationPair Name="%MinorFactionWalkersTitle">Wild Walkers</LocalizationPair>
   <LocalizationPair Name="%MinorFactionWalkersDescription">Once stranded on the dying Auriga, the Wild Walkers turned to the stars in a last ditch effort, using any resources they had left to escape with the remaining Vaulters.</LocalizationPair>
   <LocalizationPair Name="%PopulationWalkersTitle">[custom07]</LocalizationPair>
-  <LocalizationPair Name="%ClassPopulationEmpireAffinityWalkersTitle">[custom10]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityWalkersTitle">[custom07]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityWalkersTitle">Systems with [custom07]</LocalizationPair>
   <LocalizationPair Name="%AffinityWalkersTitle">Wild Walkers</LocalizationPair>
   <LocalizationPair Name="%AffinityWalkersDescription">Once mere hunter-gatherers, they have an uncanny ability to shape rocks and trees into great buildings, and an unnatural bond to animals.</LocalizationPair>
@@ -79,6 +79,7 @@
   <LocalizationPair Name="%FactionTraitWalkersSightTitle">The Sharing</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersBuildingDescription">Using their affinity to nature, the Wild Walkers can replace the need for materials such as Steel or Titanium with naturally growing and regenerative substances, greatly decreasing production costs.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersSightDescription">Finding their exceptional natural connection to beasts still applies off of Auriga, the Wild Walkers use their understanding bond to animals create a wide web of sight, greatly enchancing detection range.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle">[custom07]</LocalizationPair>
 
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle">Roving Clans</LocalizationPair>
@@ -141,27 +142,28 @@
 
   <!-- Ardent Mages -->
   <LocalizationPair Name="%MinorFactionArdentTitle">Ardent Mages</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionArdentDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionArdentDescription">Though they control great powers, they pay a great price to do so. To manipulate the powers of Dust, an Ardent Mage must dissociate their mind from their body. For this they have developed elaborate pain rituals, for the more they are able to withstand the agony and ignore their physical discomfort, the deeper their relationship with Dust becomes. Pain has become a fundamental element of their society, to the point where children are taught from a young age to withstand it.</LocalizationPair>
   <LocalizationPair Name="%PopulationArdentTitle">[custom03]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityArdentTitle">[custom03]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle">Systems with [custom03]</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentTitle">Ardent Mages</LocalizationPair>
-  <LocalizationPair Name="%AffinityArdentDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentOwnershipTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentHappinessTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentOwnershipDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentHappinessDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentDescription">Having survived a long history of slaughter and starvation, the powers that the Ardent Mages discovered - and that permitted them to survive - were those based on Dust magic, agony, and rage.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTrascendTitle">Altar of Trascendence</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentScienceTitle">Verda's Temple</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTrascendDescription">Becoming as the great Virtual Endless did, we can abandon the need for physical bodies and focus on the </LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentScienceDescription">The subtleties of Dust are numerous and easy to overlook. Only through its methodical study will its secrets be discovered. This temple, replete with terrifying contraptions, will aid that endeavor.</LocalizationPair>
 
   <!-- Necrophages -->
   <LocalizationPair Name="%MinorFactionPhagesTitle">Necrophages</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionPhagesDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionPhagesDescription">Abandoned on Auriga by the races that escaped, the Necrophages waited patiently for a dim-witted explorer to come to their planet so they could escape.</LocalizationPair>
   <LocalizationPair Name="%PopulationPhagesTitle">[custom04]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityPhagesTitle">[custom04]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityPhagesTitle">Systems with [custom04]</LocalizationPair>
   <LocalizationPair Name="%AffinityPhagesTitle">Necrophages</LocalizationPair>
-  <LocalizationPair Name="%AffinityPhagesDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesOwnershipTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesHappinessTitle">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesOwnershipDescription">TBI</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesHappinessDescription">TBI</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesDescription">A hive-people that survive by ingesting or converting others as they infect them with their plague, the Necrophages are scavengers and survivors. Always hungry and always hostile, they are viewed as a scourge by other people.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle">Veteran Warriors</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodTitle">Slave Driving</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription">Extremes of evolution and environment can teach advanced organisms the secrets of combat.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodDescription">Through the use of brutal enslavement of other peoples, the Necrophages can force a minimum amount of food to be produced if times get tough.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle">[custom04]</LocalizationPair>
 </Datatable>
