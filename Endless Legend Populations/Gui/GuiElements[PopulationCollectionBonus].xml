@@ -2,7 +2,8 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
   <!-- Overrides are stored in EST_Localization_Locales
        Population Collection Bonuses are created in SimulationDescriptors[PopulationCollectionBonus]
-       Overrides are used to make effects that don't automatically get a tooltip get a manual tooltip -->
+       Overrides are used to make effects that don't automatically get a tooltip get a manual tooltip
+       If you are looking for resources about this, under Public it is called GuiElements[SimulationDescriptors].xml -->
   <!-- Kapaku -->
   <GuiElement Name="PopulationCollectionBonusKapaku1">
     <Title>%PopulationCollectionBonusKapaku1</Title>
@@ -136,7 +137,10 @@
   <GuiElement Name="PopulationCollectionBonusAllayi2">
     <Title>%PopulationCollectionBonusAllayi2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusAllayi3">
+  <ExtendedGuiElement Name="PopulationCollectionBonusAllayi3">
     <Title>%PopulationCollectionBonusAllayi3</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%PopulationCollectionBonusAllayi3EffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 </Datatable>

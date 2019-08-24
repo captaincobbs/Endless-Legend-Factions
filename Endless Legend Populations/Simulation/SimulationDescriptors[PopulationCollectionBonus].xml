@@ -37,7 +37,7 @@
     <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="2" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="1" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus">
     <BinaryModifier TargetProperty="SystemMoney" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true"/>
@@ -104,7 +104,8 @@
     <Modifier TargetProperty="Politics01ToPolitics01"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCultists" TooltipOverride="%TooltipOverridePositivePolitics01"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" />
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusTerrans2,ClassPopulationEmpireAffinityCultistsCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
@@ -115,9 +116,10 @@
     <Modifier TargetProperty="Politics04ToPolitics04"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityAllayi" TooltipOverride="%TooltipOverridePositivePolitics04"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAllayi" SearchValueFromPath="true" />
     <Modifier TargetProperty="SystemEmpirePointsBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAllayi" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi3" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Happiness" Operation="Addition"  Value="25"   Path="ClassEmpire/ClassColonizedStarSystem"/>
+    <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="3" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true"/>
   </SimulationDescriptor>
 </Datatable>
