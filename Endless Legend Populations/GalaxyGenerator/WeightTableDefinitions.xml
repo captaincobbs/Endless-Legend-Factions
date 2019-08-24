@@ -145,15 +145,35 @@
     <Entry Tag="PlanetTypeArctic"                Weight="5" />
   </GalaxyGeneratorWeightTable>
   <GalaxyGeneratorWeightTable Name="MinorFactionArdent_PlanetTypes">
-    <Entry Tag="PlanetTypeForest"                Weight="10" />
-    <Entry Tag="PlanetTypeVeldt"                 Weight="7" />
-    <Entry Tag="PlanetTypeOcean"                 Weight="4" />
-    <Entry Tag="PlanetTypeTerran"                Weight="1" />
+    <Entry Tag="PlanetTypeDesert"               Weight="1" />
+    <Entry Tag="PlanetTypeIce"                  Weight="2" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="2" />
+    <Entry Tag="PlanetTypeTerran"               Weight="2" />
+    <Entry Tag="PlanetTypeTundra"               Weight="3" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="1" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="3" />
+    <Entry Tag="PlanetTypeArctic"               Weight="1" />
+    <Entry Tag="PlanetTypeBarren"               Weight="1" />
+    <Entry Tag="PlanetTypeMonsoon"              Weight="2" />
+    <Entry Tag="PlanetTypeForest"               Weight="3" />
+    <Entry Tag="PlanetTypeOcean"                Weight="2" />
+    <Entry Tag="PlanetTypeSwamp"                Weight="4" />
+    <Entry Tag="PlanetTypeJungle"               Weight="3" />
+    <Entry Tag="PlanetTypeArid"                 Weight="1" />
+    <Entry Tag="PlanetTypeLava"                 Weight="3" />
+    <Entry Tag="PlanetTypeAtoll"                Weight="1" />
+    <Entry Tag="PlanetTypeJungle"               Weight="1" />
+    <Entry Tag="PlanetTypeAsh"                  Weight="1" />
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeTropical"             Weight="1" />
   </GalaxyGeneratorWeightTable>
   <GalaxyGeneratorWeightTable Name="MinorFactionPhages_PlanetTypes">
-    <Entry Tag="PlanetTypeForest"                Weight="10" />
-    <Entry Tag="PlanetTypeVeldt"                 Weight="7" />
-    <Entry Tag="PlanetTypeOcean"                 Weight="4" />
-    <Entry Tag="PlanetTypeTerran"                Weight="1" />
+    <Entry Tag="PlanetTypeForest"               Weight="5" />
+    <Entry Tag="PlanetTypeVeldt"                Weight="3" />
+    <Entry Tag="PlanetTypeOcean"                Weight="4" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeSwamp"                Weight="5" />
+    <Entry Tag="PlanetTypeJungle"               Weight="2" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="3" />
   </GalaxyGeneratorWeightTable>
 </Datatable>
