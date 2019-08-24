@@ -182,13 +182,16 @@
     </TooltipElement>
   </ExtendedGuiElement>
 
-  <GuiElement Name="FactionTraitCultistsPopulation">
+  <ExtendedGuiElement Name="FactionTraitCultistsPopulation">
     <Title>%FactionTraitCultistsPopulationTitle</Title>
     <Description>%FactionTraitCultistsPopulationDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitCultistsPopulationEffectOverride</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 
   <!-- Allayi-->
   <GuiElement Name="FactionTraitAllayiOwnership">

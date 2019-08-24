@@ -105,13 +105,14 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitCultistsPopulation" Type="FactionTraitMinor">
-    <Modifier TargetProperty="RawMaximumPopulation"		  Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
+    <Modifier TargetProperty="RawMaximumPopulation"     Operation="Addition"  Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <!-- Allayi -->
   <SimulationDescriptor Name="FactionTraitAllayiOwnership" Type="FactionTraitMinor">
-    <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
+    <Modifier TargetProperty="OwnerShipRecoveryRate"  Operation="Percent" Value="0.25" Path="./ClassEmpire/ClassColonizedStarSystem"  />
+    <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true"/>
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitAllayiHappiness" Type="FactionTraitMinor">
