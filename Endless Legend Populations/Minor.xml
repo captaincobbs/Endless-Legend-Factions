@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
   <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam -->
-  <RuntimeModule Name="ELP" Type="Extension" Version="1.5">
+  <RuntimeModule Name="ELP" Type="Extension" Version="1.6">
 
     <Title>Endless Legend Populations - Indev</Title>
     <Description>Adds various Endless Legend races as Minor Factions.
@@ -15,7 +15,7 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile>
-    <ReleaseNotes>Added Cultists and Allayi, Minor Rebalancing, Urkan population Fixes</ReleaseNotes>
+    <ReleaseNotes>Added Ardent Mages and Necrophages</ReleaseNotes>
     <Tags>MinorFactions,Other,Art</Tags>
 
     <!-- Don't touch anything below this unless you understand what you are doing -->
