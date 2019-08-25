@@ -294,6 +294,70 @@
     </Modifiers>
   </PopulationModifiersTrait>
 
+  <!-- Urkan B | Chaka -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitUrkanB" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanB" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanB" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUrkanB" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersUrkanBCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanBCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanBCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanBCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Urkan C | Fakir -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitUrkanC" SubCategory="Affinity" ShowInCustom="false">
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanC" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeNot" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanC" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUrkanC" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersUrkanCCount" SubCategory="Count">
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet">
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanCCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem">
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanCCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire">
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanCCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
   <!-- Cultists -->
   <PopulationModifiersTrait Name="PopulationModifiersTraitCultists" SubCategory="Affinity" ShowInCustom="false">
     <Modifiers>

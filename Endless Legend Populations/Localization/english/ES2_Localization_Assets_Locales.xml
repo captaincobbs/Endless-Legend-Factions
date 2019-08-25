@@ -108,11 +108,25 @@
   <LocalizationPair Name="%FactionTraitMykaraManpowerDescription">By growing plant-based soldiers, you can have a near infinite amount of soldiers for little to no cost.</LocalizationPair>
 
   <!-- Urkan A | Kazar -->
-  <LocalizationPair Name="%PopulationUrkanATitle"></LocalizationPair> <!-- The  character is the [v] character -->
+  <LocalizationPair Name="%PopulationUrkanATitle"></LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle"></LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle">Systems with </LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanATitle">Kazar</LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanADescription">The largest of the three great beasts, Kazar moves with an unhurried gait that belies its great strength and arrogance. Often crusted with precious ores when emerging from the depths, Kazar is sometimes the target of brave, or foolhardy, adventures who attempt to liberate the valuable stones.</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%PopulationUrkanBTitle"></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanBTitle"></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanBTitle">Systems with </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanBTitle">Chaka</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanBDescription">Legends have it that Chaka is the shyest of the Urkans, reputedly roaming Auriga's emptier regions, and enjoying solitude more than conflict. Equally, however, Chaka is said to be the most ferocious of the three beasts, and there are many tales of its rage and destruction.</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%PopulationUrkanCTitle"></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanCTitle"></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanCTitle">Systems with </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanCTitle">Fakir</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanCDescription">Of the three Urkans who are the eternal adversaries of the Mykara, Fakir is the one who strikes the greatest fear into the fungal collective. Blessed with a extremely keen olfactory senses, legend has it that Fakir can track subterranean rhizome paths for leagues upon leagues.</LocalizationPair>
 
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle">Cultists of the Eternal End</LocalizationPair>

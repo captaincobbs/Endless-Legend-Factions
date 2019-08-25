@@ -20,65 +20,164 @@
   <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride">+30% damage on weapon modules</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride">Set the [foodcolored] on Systems in Empire to 5 if natural value is lower than that</LocalizationPair>
   
-  <!-- Custom Faction mess -->
+  <!-- Custom Faction Population Collection -->
+  <!-- Kapaku -->
   <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom1">[custom02] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom2">[custom02] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom3">[custom02] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomTitle">Kapaku Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomDescription">This collection focuses on industry in harsh environments</LocalizationPair>
+  
+  <!-- Broken Lords -->
   <LocalizationPair Name="%PopulationCollectionBonusLordsCustom1">[custom00] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusLordsCustom2">[custom00] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusLordsCustom3">[custom00] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomTitle">Broken Lords Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomDescription">This collection focuses on sheer military strength</LocalizationPair>
+  
+  <!-- Forgotten -->
   <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom1">[custom06] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom2">[custom06] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom3">[custom06] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomTitle">Forgotten Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomDescription">This collection focuses on dust and exploration</LocalizationPair>
+  
+  <!-- Drakken -->
   <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom1">[custom09] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom2">[custom09] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom3">[custom09] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomTitle">Drakken Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomDescription">This collection focuses on diplomacy and culture</LocalizationPair>
+
+  <!-- Morgawr -->
   <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom1">[custom10] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom2">[custom10] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom3">[custom10] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomTitle">Morgawr Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomDescription">This collection focuses on culture and industry</LocalizationPair>
+  
+  <!-- Wild Walkers -->
   <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom1">[custom07] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom2">[custom07] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom3">[custom07] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomTitle">Wild Walkers Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomDescription">This collection focuses on industry and exploration</LocalizationPair>
+  
+  <!-- Roving Clans -->
   <LocalizationPair Name="%PopulationCollectionBonusRovingCustom1">[custom11] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusRovingCustom2">[custom11] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusRovingCustom3">[custom11] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomTitle">Roving Clans Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomDescription">This collection focuses on trading and wealth</LocalizationPair>
+  
+  <!-- Mykara -->
   <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom1">[custom05] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom2">[custom05] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom3">[custom05] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomTitle">Mykara Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomDescription">This collection focuses on adaptability and generalization</LocalizationPair>
+  
+  <!-- Cultists -->
   <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom1">[custom01] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom2">[custom01] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom3">[custom01] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomTitle">Cultists Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomDescription">This collection focuses on empire-wide stability</LocalizationPair>
+  
+  <!-- Allayi -->
   <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom1">[custom08] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom2">[custom08] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom3">[custom08] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomTitle">Allayi Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomDescription">This collection focuses on exploration and seclusion</LocalizationPair>
+  
+  <!-- Ardent Mages -->
   <LocalizationPair Name="%PopulationCollectionBonusArdentCustom1">[custom03] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusArdentCustom2">[custom03] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusArdentCustom3">[custom03] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomTitle">Ardent Mages Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomDescription">This collection focuses on advancement and stability</LocalizationPair>
+  
+  <!-- Necrophages -->
   <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom1">[custom04] Collection Bonus I</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom2">[custom04] Collection Bonus II</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom3">[custom04] Collection Bonus III</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomTitle">Necrophages Collection</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomDescription">This collection focuses on military and wealth</LocalizationPair>
+  
+  <!-- Custom Faction Population Trait -->
+  <!-- Kapaku -->
+  <LocalizationPair Name="%FactionTraitMinorKapakuTitle">Kapaku Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuDescription">The faction starts with Kapaku population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuTooltipEffect">+1 [custom02] on your home system</LocalizationPair>
+  
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%FactionTraitMinorLordsTitle">Broken Lords Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsDescription">The faction starts with Broken Lords population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsTooltipEffect">+1 [custom00] on your home system</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%FactionTraitMinorForgottenTitle">Forgotten Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenDescription">The faction starts with Forgotten population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenTooltipEffect">+1 [custom06] on your home system</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTitle">Drakken Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenDescription">The faction starts with Drakken population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTooltipEffect">+1 [custom09] on your home system</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTitle">Morgawr Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrDescription">The faction starts with Morgawr population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTooltipEffect">+1 [custom10] on your home system</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%FactionTraitMinorWalkersTitle">Wild Walkers Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersDescription">The faction starts with Wild Walkers population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersTooltipEffect">+1 [custom07] on your home system</LocalizationPair>
+  
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%FactionTraitMinorRovingTitle">Roving Clans Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingDescription">The faction starts with Roving Clans population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingTooltipEffect">+1 [custom11] on your home system</LocalizationPair>
+  
+  <!-- Mykara -->
+  <LocalizationPair Name="%FactionTraitMinorMykaraTitle">Mykara Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraDescription">The faction starts with Mykara population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraTooltipEffect">+1 [custom05] on your home system</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanATitle">Kazar Citizen</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanADescription">The faction starts with Kazar population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanATooltipEffect">+1  on your home system</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTitle">Chaka Citizen</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBDescription">The faction starts with Chaka population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTooltipEffect">+1  on your home system</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTitle">Fakir Citizen</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCDescription">The faction starts with Fakir population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTooltipEffect">+1  on your home system</LocalizationPair>
+  
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitMinorCultistsTitle">Cultist Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsDescription">The faction starts with Cultists population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsTooltipEffect">+1 [custom01] on your home system</LocalizationPair>
+
+  <!-- Allayi -->
+  <LocalizationPair Name="%FactionTraitMinorAllayiTitle">Allayi Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiDescription">The faction starts with Allayi population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiTooltipEffect">+1 [custom08] on your home system</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%FactionTraitMinorArdentTitle">Ardent Mage Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentDescription">The faction starts with Ardent Mage population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentTooltipEffect">+1 [custom03] on your home system</LocalizationPair>
+  
+  <!-- Necrophages -->
+  <LocalizationPair Name="%FactionTraitMinorPhagesTitle">Necrophages Citizens</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesDescription">The faction starts with Necrophages population on their home planet</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesTooltipEffect">+1 [custom04] on your home system</LocalizationPair>
 </Datatable>

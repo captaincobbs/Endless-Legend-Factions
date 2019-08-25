@@ -246,19 +246,78 @@
       <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
     </DefaultPolitics>
 
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitXenophobic"/>
+
+    <Trait Name="PopulationModifiersUrkanACount" />
+    <Trait Name="PopulationModifiersTraitUrkanA" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryIDS"/>
+    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamage01"/>
+
+    <AffinityMapping Name="AffinityMappingUrkanA" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Urkan B | Chaka -->
+  <PopulationDefinition AffinityName="AffinityUrkanB" IsInvincible="true" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+
     <Trait Name="PopulationPoliticalTraitMilitarist" />
     <Trait Name="PopulationPoliticalTraitAggressive" />
     <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
 
-    <Trait Name="PopulationModifiersUrkanACount" />
-    <Trait Name="PopulationModifiersTraitUrkanA" />
+    <Trait Name="PopulationModifiersUrkanBCount" />
+    <Trait Name="PopulationModifiersTraitUrkanB" />
 
     <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage" />
     <Trait Name="PopulationModifiersTraitSecondaryManpower" />
     <Trait Name="PopulationModifiersTraitPrimaryDefense" />
     <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile" />
 
-    <AffinityMapping Name="AffinityMappingUrkanA" />
+    <AffinityMapping Name="AffinityMappingUrkanB" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Urkan C | Fakir -->
+  <PopulationDefinition AffinityName="AffinityUrkanC" IsInvincible="true" Standard="true">
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitCurious"/>
+
+    <Trait Name="PopulationModifiersUrkanCCount" />
+    <Trait Name="PopulationModifiersTraitUrkanC" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFIDSI"/>
+    <Trait Name="PopulationModifiersTraitSecondaryManpower"/>
+    <Trait Name="PopulationModifiersTraitPrimaryDefense" />
+
+    <AffinityMapping Name="AffinityMappingUrkanC" />
     <GrowthBoostLuxuryOptions>
       <Luxury>Luxury1</Luxury>
       <Luxury>Luxury2</Luxury>

@@ -66,10 +66,22 @@
     <SimulationDescriptorReference Name="FactionTraitMykaraManpower" />
   </FactionTrait>
   
-  <!-- Urkan A | Bazar -->
-  <FactionTrait Name="FactionTraitMinorUrkanA" SubCategory="FactionTrait" Hidden="true" Cost="0">
+  <!-- Urkan A | Kazar -->
+  <FactionTrait Name="FactionTraitMinorUrkanAMinor" SubCategory="FactionTrait" Hidden="true" Cost="0">
     <Command Name="AddMinorPopulation" Arguments="AffinityUrkanA,1" Priority="100" />
-    <SimulationDescriptorReference Name="FactionTraitMinorUrkanA" />
+    <SimulationDescriptorReference Name="FactionTraitMinorUrkanAMinor" />
+  </FactionTrait>
+
+  <!-- Urkan B | Chaka -->
+  <FactionTrait Name="FactionTraitMinorUrkanBMinor" SubCategory="FactionTrait" Hidden="true" Cost="0">
+    <Command Name="AddMinorPopulation" Arguments="AffinityUrkanB,1" Priority="100" />
+    <SimulationDescriptorReference Name="FactionTraitMinorUrkanBMinor" />
+  </FactionTrait>
+
+  <!-- Urkan C | Fakir -->
+  <FactionTrait Name="FactionTraitMinorUrkanCMinor" SubCategory="FactionTrait" Hidden="true" Cost="0">
+    <Command Name="AddMinorPopulation" Arguments="AffinityUrkanC,1" Priority="100" />
+    <SimulationDescriptorReference Name="FactionTraitMinorUrkanCMinor" />
   </FactionTrait>
 
   <!-- Cultists -->

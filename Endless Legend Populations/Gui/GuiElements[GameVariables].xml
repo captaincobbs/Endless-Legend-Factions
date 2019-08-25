@@ -487,6 +487,110 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 
+  <!-- Urkan B | Chaka -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanB">
+    <Title>%ClassPopulationEmpireAffinityUrkanBTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanBCount">
+    <Title>%ClassPopulationEmpireAffinityUrkanBTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanB">
+    <Title>%ClassPopulationStarSystemAffinityUrkanBTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanBCount">
+    <Title>%ClassPopulationStarSystemAffinityUrkanBTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanB">
+    <Title>%PopulationUrkanBTitle</Title>
+    <Description>%PopulationUrkanBDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanBTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanBCount">
+    <Title>%PopulationUrkanBTitle</Title>
+    <Description>%PopulationUrkanBDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanBTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityUrkanB">
+    <Title>%AffinityUrkanBTitle</Title>
+    <Description>%AffinityUrkanBDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/UrkanBSmall.png" />
+      <Icon Size="Medium" Path="Gui/UrkanBMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
+    </Icons>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Urkan C | Fakir -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanC">
+    <Title>%ClassPopulationEmpireAffinityUrkanCTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanCCount">
+    <Title>%ClassPopulationEmpireAffinityUrkanCTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanC">
+    <Title>%ClassPopulationStarSystemAffinityUrkanCTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanCCount">
+    <Title>%ClassPopulationStarSystemAffinityUrkanCTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanC">
+    <Title>%PopulationUrkanCTitle</Title>
+    <Description>%PopulationUrkanCDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanCTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanCCount">
+    <Title>%PopulationUrkanCTitle</Title>
+    <Description>%PopulationUrkanCDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanCTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityUrkanC">
+    <Title>%AffinityUrkanCTitle</Title>
+    <Description>%AffinityUrkanCDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/UrkanCSmall.png" />
+      <Icon Size="Medium" Path="Gui/UrkanCMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
+    </Icons>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
   <!-- Cultists -->
   <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultists">
     <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>

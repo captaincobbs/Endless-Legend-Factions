@@ -49,6 +49,16 @@
     <SimulationDescriptorReference Name="AffinityMappingUrkanA" />
   </FactionAffinityMapping>
 
+  <!-- Urkan B | Chaka -->
+  <FactionAffinityMapping Name="AffinityMappingUrkanB" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingUrkanB" />
+  </FactionAffinityMapping>
+
+  <!-- Urkan C | Fakir -->
+  <FactionAffinityMapping Name="AffinityMappingUrkanC" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+    <SimulationDescriptorReference Name="AffinityMappingUrkanC" />
+  </FactionAffinityMapping>
+
   <!-- Cultists -->
   <FactionAffinityMapping Name="AffinityMappingCultists" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
     <SimulationDescriptorReference Name="AffinityMappingCultists" />
