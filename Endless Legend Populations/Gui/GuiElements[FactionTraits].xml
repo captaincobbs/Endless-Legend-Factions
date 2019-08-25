@@ -2,15 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
   <!-- Title and Description are both in ES2_Localization_Assets_Locales
        I'm not entirely sure what FactionTraitMinor{Faction Name} does, and the game seems to run fine without it (I've saved it below just in case)
-       <GuiElement Name="FactionTraitMinorKapaku">
-        <Title>%FactionTraitMinorKapakuTitle</Title>
-        <Description>%FactionTraitMinorKapakuDescription</Description>
-        <Icons>
-          <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
-        </Icons>
-      </GuiElement> -->
-
-
+  -->
   <!-- Kapaku-->
   <GuiElement Name="FactionTraitKapakuHappiness">
     <Title>%FactionTraitKapakuHappinessTitle</Title>
