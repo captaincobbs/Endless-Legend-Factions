@@ -340,7 +340,6 @@
     <Trait Name="PopulationModifiersTraitArdent" />
 
     <Trait Name="PopulationModifiersTraitPrimaryIDS" /><!-- +5 Industry, Dust, Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryDefenseSterile" /><!-- +30 Defense on Sterile -->
 
     <Trait Name="PopulationCollectionBonusTraitArdent" />
 
