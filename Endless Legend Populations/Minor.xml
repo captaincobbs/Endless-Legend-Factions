@@ -3,7 +3,7 @@
   <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
-  <RuntimeModule Name="ELP" Type="Extension" Version="1.7">
+  <RuntimeModule Name="ELP" Type="Extension" Version="1.8">
 
     <Title>Endless Legend Populations - Indev</Title>
     <Description>Adds various Endless Legend races as Minor Factions.
