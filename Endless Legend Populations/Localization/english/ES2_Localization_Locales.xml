@@ -15,7 +15,7 @@
   <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride">+25% [foodcolored] added to [industrycolored] on Systems</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride">+15% Maximum Health on Ships</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusAllayi3EffectOverride">+3 [move] on Ships</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride">Rebellion progresses 25% Slower</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride">Rebellions progress 25% slower</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride">-25% [upkeepcolored] on fleets and heroes</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride">+30% damage on weapon modules</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride">Set the [foodcolored] on Systems in Empire to 5 if natural value is lower than that</LocalizationPair>
