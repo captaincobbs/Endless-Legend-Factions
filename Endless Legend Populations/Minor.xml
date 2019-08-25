@@ -14,14 +14,20 @@
       If you enjoy the mod and want to support, consider liking the mod!</Description>
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
+    <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
     <PreviewImageFile>ModIcon.png</PreviewImageFile>
     <ReleaseNotes>Added Ardent Mages and Necrophages, fixed Population Trait bugs</ReleaseNotes>
-    <Tags>MinorFactions,Other,Art</Tags>
+    <Tags>MinorFactions,Other,Art,Gameplay</Tags>
 
-    <!-- Don't touch anything below this unless you understand what you are doing -->
 		<Plugins>			
 		  <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-		    <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+		    <FilePath>Simulation/SimulationDescriptors[FactionAffinity].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[FactionAffinityMapping].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[FactionTrait].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[Population].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[PopulationCollectionBonus].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[PopulationCollectionBonusCustom].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[PopulationModifierTraits].xml</FilePath>
 			</DatabasePlugin>
 			
 			<DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
@@ -34,7 +40,9 @@
           <ExtraType DataType="FactionAffinity, Assembly-CSharp" />
 					<ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
         </ExtraTypes>
-				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
+				<FilePath>Simulation/FactionTraits[Affinity].xml</FilePath>
+        <FilePath>Simulation/FactionTraits[AffinityMapping].xml</FilePath>
+        <FilePath>Simulation/FactionTraits[Minor].xml</FilePath>
 			</DatabasePlugin>
 
 			<DatabasePlugin DataType="Faction, Assembly-CSharp">
@@ -60,7 +68,8 @@
         </ExtraTypes>
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
         <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
-        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+        <FilePath>Simulation/PopulationCollectionBonusTraits[Minor].xml</FilePath>
+        <FilePath>Simulation/PopulationCollectionBonusTraits[Custom].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
@@ -76,7 +85,13 @@
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
 					<ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
         </ExtraTypes>
-				<FilePath>Gui/GuiElements[*].xml</FilePath>
+				<FilePath>Gui/GuiElements[Affinities].xml</FilePath>
+        <FilePath>Gui/GuiElements[Factions].xml</FilePath>
+        <FilePath>Gui/GuiElements[FactionTraits].xml</FilePath>
+        <FilePath>Gui/GuiElements[GameVariables].xml</FilePath>
+        <FilePath>Gui/GuiElements[PopulationCollectionBonus].xml</FilePath>
+        <FilePath>Gui/GuiElements[PopulationCollectionBonusCustom].xml</FilePath>
+        <FilePath>Gui/GuiElements[PopulationTrait].xml</FilePath>
 			</DatabasePlugin>
 
 			<LocalizationPlugin DefaultLanguage="English">
