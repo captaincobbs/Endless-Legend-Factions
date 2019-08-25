@@ -113,7 +113,7 @@
 
   <!-- Ardent Mages -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityArdent">
-    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MajorTrait Name="PersonalityTraitWarmonger" />
     <MinorTrait Weight="2">
       <Trait Name="FactionTraitArdentTrascend" />
     </MinorTrait>
@@ -124,7 +124,7 @@
 
   <!-- Necrophages -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityPhages">
-    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MajorTrait Name="PersonalityTraitWarmonger" />
     <MinorTrait Weight="8">
       <Trait Name="FactionTraitPhagesRecruiting" />
     </MinorTrait>
