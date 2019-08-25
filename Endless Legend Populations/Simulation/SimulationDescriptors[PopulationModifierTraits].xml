@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
   <!-- Used to make custom population bonuses -->
   <!-- First one is for the actual bonus -->
   <!-- Second one is for population boosts -->
   <!-- Last one "ClassPopulationAssimilated" is for Horatio Gene Splicing -->
   <!-- Drakken +5 Influence on Anomalies -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="ClassPopulationPlanet">
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="ClassPopulationPlanet" >
     <Modifier TargetProperty="BonusPopulationPrestige"       Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetAnomaly" />
     <BinaryModifier TargetProperty="BonusPopulationPrestige" Operation="Addition" Left="5"  BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" Path="ClassPopulation" />
   </SimulationDescriptor>
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="WithPopulationPlanet">
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" Type="WithPopulationPlanet" >
     <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"  Value="5"  Path="FAKEFORGUI/./PlanetAnomaly" />
-    <Modifier TargetProperty="BonusPopulationScience"   Operation="Addition"    Value="5"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetAnomaly/ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" TooltipHidden="true"/>
+    <Modifier TargetProperty="BonusPopulationScience"   Operation="Addition"    Value="5"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetAnomaly/ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" TooltipHidden="true" />
   </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetInfluenceAnomaly01" Type="ClassPopulationAssimilated">
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetInfluenceAnomaly01" Type="ClassPopulationAssimilated" >
     <Modifier TargetProperty="BonusPopulationPrestige"        Operation="Addition"  Value="2"  Path="FAKEFORGUI/./PlanetAnomaly" />
     <BinaryModifier TargetProperty="BonusPopulationPrestige"  Operation="Addition"  Left="2"   BinaryOperation="Multiplication" Right="$(PlanetHasAnomaly)" TooltipHidden="true" />
   </SimulationDescriptor>
 
+  <!-- Necrophages -2 Food -->
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPhagesFood" Type="ClassPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationFood" Operation="Subtraction" Value="2" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPhagesFood" Type="WithPopulationPlanet" >
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPhagesFood" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetPhagesFood" Type="ClassPopulationAssimilated" >
+    <Modifier TargetProperty="BonusPopulationFood" Operation="Subtraction" Value="1" Path="ClassPopulation" />
+  </SimulationDescriptor>
+  
   <!-- Wild Walkers +5 Industry on Fertile -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" Type="ClassPopulationPlanet">
+  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" Type="ClassPopulationPlanet" >
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="5" Path="ClassPopulation" TooltipHidden="true" />
   </SimulationDescriptor>
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitWalkersIndustry" Type="WithPopulationPlanet">
+  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitWalkersIndustry" Type="WithPopulationPlanet" >
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" TooltipHidden="true" />
   </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetWalkersIndustry" Type="ClassPopulationAssimilated">
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetWalkersIndustry" Type="ClassPopulationAssimilated" >
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition"  Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" TooltipHidden="true" Path="ClassPopulation" />
-  </SimulationDescriptor>
-
-  <!-- Necrophages -2 Food -->
-  <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPhagesFood" Type="ClassPopulationPlanet">
-    <Modifier TargetProperty="BonusPopulationFood" Operation="Subtraction" Value="2" Path="ClassPopulation" />
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPhagesFood" Type="WithPopulationPlanet">
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPhagesFood" />
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetPhagesFood" Type="ClassPopulationAssimilated">
-    <Modifier TargetProperty="BonusPopulationFood" Operation="Subtraction" Value="1" Path="ClassPopulation" />
   </SimulationDescriptor>
 </Datatable>

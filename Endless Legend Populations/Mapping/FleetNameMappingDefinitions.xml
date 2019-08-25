@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FleetNameMappingDefinition.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FleetNameMappingDefinition.xsd" >
   <!-- I think this determines what type of ships they can build. Not including it has no serious consequences from what I can tell -->
-  <FleetNameMappingDefinition Name="AffinityMappingKapaku">
-    <FleetNameTitle LocalizationKey="%MinorFactionKapakuTitle">
+  <!-- Allayi -->
+  <FleetNameMappingDefinition Name="AffinityMappingAllayi" >
+    <FleetNameTitle LocalizationKey="%MinorFactionAllayiTitle" >
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor03" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor04" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor05" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor06" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor07" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor08" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
+    </FleetNameTitle>
+  </FleetNameMappingDefinition>
+  
+  <!-- Ardent Mages -->
+  <FleetNameMappingDefinition Name="AffinityMappingArdent" >
+    <FleetNameTitle LocalizationKey="%MinorFactionAllayiTitle" >
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor03" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor04" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor05" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor06" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor07" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor08" />
+      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
+    </FleetNameTitle>
+  </FleetNameMappingDefinition>
+  
+  <!-- Broken Lords -->
+  <FleetNameMappingDefinition Name="AffinityMappingLords" >
+    <FleetNameTitle LocalizationKey="%MinorFactionLordsTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -16,8 +49,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingLords">
-    <FleetNameTitle LocalizationKey="%MinorFactionLordsTitle">
+  <!-- Cultists -->
+  <FleetNameMappingDefinition Name="AffinityMappingCultists" >
+    <FleetNameTitle LocalizationKey="%MinorFactionCultistsTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -31,8 +65,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingForgotten">
-    <FleetNameTitle LocalizationKey="%MinorFactionForgottenTitle">
+  <!-- Drakken -->
+  <FleetNameMappingDefinition Name="AffinityMappingDrakken" >
+    <FleetNameTitle LocalizationKey="%MinorFactionDrakkenTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -46,8 +81,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingDrakken">
-    <FleetNameTitle LocalizationKey="%MinorFactionDrakkenTitle">
+  <!-- Forgotten -->
+  <FleetNameMappingDefinition Name="AffinityMappingForgotten" >
+    <FleetNameTitle LocalizationKey="%MinorFactionForgottenTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -61,8 +97,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingMorgawr">
-    <FleetNameTitle LocalizationKey="%MinorFactionMorgawrTitle">
+  <!-- Kapaku -->
+  <FleetNameMappingDefinition Name="AffinityMappingKapaku" >
+    <FleetNameTitle LocalizationKey="%MinorFactionKapakuTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -76,8 +113,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingWalkers">
-    <FleetNameTitle LocalizationKey="%MinorFactionWalkersTitle">
+  <!-- Morgawr -->
+  <FleetNameMappingDefinition Name="AffinityMappingMorgawr" >
+    <FleetNameTitle LocalizationKey="%MinorFactionMorgawrTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -91,8 +129,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingRoving">
-    <FleetNameTitle LocalizationKey="%MinorFactionRovingTitle">
+  <!-- Mykara -->
+  <FleetNameMappingDefinition Name="AffinityMappingMykara" >
+    <FleetNameTitle LocalizationKey="%MinorFactionMykaraTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -106,8 +145,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingMykara">
-    <FleetNameTitle LocalizationKey="%MinorFactionMykaraTitle">
+  <!-- Necrophages -->
+  <FleetNameMappingDefinition Name="AffinityMappingPhages" >
+    <FleetNameTitle LocalizationKey="%MinorFactionAllayiTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -121,8 +161,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingCultists">
-    <FleetNameTitle LocalizationKey="%MinorFactionCultistsTitle">
+  <!-- Roving Clans -->
+  <FleetNameMappingDefinition Name="AffinityMappingRoving" >
+    <FleetNameTitle LocalizationKey="%MinorFactionRovingTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
@@ -136,38 +177,9 @@
     </FleetNameTitle>
   </FleetNameMappingDefinition>
 
-  <FleetNameMappingDefinition Name="AffinityMappingAllayi">
-    <FleetNameTitle LocalizationKey="%MinorFactionAllayiTitle">
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor03" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor04" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor05" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor06" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor07" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor08" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
-    </FleetNameTitle>
-  </FleetNameMappingDefinition>
-
-  <FleetNameMappingDefinition Name="AffinityMappingArdent">
-    <FleetNameTitle LocalizationKey="%MinorFactionAllayiTitle">
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor03" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor04" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor05" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor06" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor07" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor08" />
-      <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor09" />
-    </FleetNameTitle>
-  </FleetNameMappingDefinition>
-
-  <FleetNameMappingDefinition Name="AffinityMappingPhages">
-    <FleetNameTitle LocalizationKey="%MinorFactionAllayiTitle">
+  <!-- Wild Walkers -->
+  <FleetNameMappingDefinition Name="AffinityMappingWalkers" >
+    <FleetNameTitle LocalizationKey="%MinorFactionWalkersTitle" >
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor00" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor01" />
       <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveMinor02" />

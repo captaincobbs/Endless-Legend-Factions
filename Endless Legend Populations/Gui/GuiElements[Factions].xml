@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd" >
   <!-- Defined in ES2_Localization_Assets_Locales, used for display faction name, title, and description -->
-  <!-- Kapaku -->
-  <GuiElement Name="MinorFactionKapaku">
-    <Title>%MinorFactionKapakuTitle</Title>
-    <Description>%MinorFactionKapakuDescription</Description>
-  </GuiElement>
-
-  <!-- Broken Lords -->
-  <GuiElement Name="MinorFactionLords">
-    <Title>%MinorFactionLordsTitle</Title>
-    <Description>%MinorFactionLordsDescription</Description>
-  </GuiElement>
-
-  <!-- Forgotten -->
-  <GuiElement Name="MinorFactionForgotten">
-    <Title>%MinorFactionForgottenTitle</Title>
-    <Description>%MinorFactionForgottenDescription</Description>
-  </GuiElement>
-  
-  <!-- Drakken -->
-  <GuiElement Name="MinorFactionDrakken">
-    <Title>%MinorFactionDrakkenTitle</Title>
-    <Description>%MinorFactionDrakkenDescription</Description>
-  </GuiElement>
-
-  <!-- Morgawr -->
-  <GuiElement Name="MinorFactionMorgawr">
-    <Title>%MinorFactionMorgawrTitle</Title>
-    <Description>%MinorFactionMorgawrDescription</Description>
-  </GuiElement>
-
-  <!-- Wild Walkers -->
-  <GuiElement Name="MinorFactionWalkers">
-    <Title>%MinorFactionWalkersTitle</Title>
-    <Description>%MinorFactionWalkersDescription</Description>
-  </GuiElement>
-
-  <!-- Roving Clan -->
-  <GuiElement Name="MinorFactionRoving">
-    <Title>%MinorFactionRovingTitle</Title>
-    <Description>%MinorFactionRovingDescription</Description>
-  </GuiElement>
-
-  <!-- Mykara -->
-  <GuiElement Name="MinorFactionMykara">
-    <Title>%MinorFactionMykaraTitle</Title>
-    <Description>%MinorFactionMykaraDescription</Description>
-  </GuiElement>
-
-  <!-- Cultists -->
-  <GuiElement Name="MinorFactionCultists">
-    <Title>%MinorFactionCultistsTitle</Title>
-    <Description>%MinorFactionCultistsDescription</Description>
-  </GuiElement>
-
   <!-- Allayi -->
-  <GuiElement Name="MinorFactionAllayi">
+  <GuiElement Name="MinorFactionAllayi" >
     <Title>%MinorFactionAllayiTitle</Title>
     <Description>%MinorFactionAllayiDescription</Description>
   </GuiElement>
 
   <!-- Ardent Mages -->
-  <GuiElement Name="MinorFactionArdent">
+  <GuiElement Name="MinorFactionArdent" >
     <Title>%MinorFactionArdentTitle</Title>
     <Description>%MinorFactionArdentDescription</Description>
   </GuiElement>
 
+  <!-- Broken Lords -->
+  <GuiElement Name="MinorFactionLords" >
+    <Title>%MinorFactionLordsTitle</Title>
+    <Description>%MinorFactionLordsDescription</Description>
+  </GuiElement>
+
+  <!-- Cultists -->
+  <GuiElement Name="MinorFactionCultists" >
+    <Title>%MinorFactionCultistsTitle</Title>
+    <Description>%MinorFactionCultistsDescription</Description>
+  </GuiElement>
+
+  <!-- Drakken -->
+  <GuiElement Name="MinorFactionDrakken" >
+    <Title>%MinorFactionDrakkenTitle</Title>
+    <Description>%MinorFactionDrakkenDescription</Description>
+  </GuiElement>
+  
+  <!-- Forgotten -->
+  <GuiElement Name="MinorFactionForgotten" >
+    <Title>%MinorFactionForgottenTitle</Title>
+    <Description>%MinorFactionForgottenDescription</Description>
+  </GuiElement>
+
+  <!-- Kapaku -->
+  <GuiElement Name="MinorFactionKapaku" >
+    <Title>%MinorFactionKapakuTitle</Title>
+    <Description>%MinorFactionKapakuDescription</Description>
+  </GuiElement>
+
+  <!-- Morgawr -->
+  <GuiElement Name="MinorFactionMorgawr" >
+    <Title>%MinorFactionMorgawrTitle</Title>
+    <Description>%MinorFactionMorgawrDescription</Description>
+  </GuiElement>
+
+  <!-- Mykara -->
+  <GuiElement Name="MinorFactionMykara" >
+    <Title>%MinorFactionMykaraTitle</Title>
+    <Description>%MinorFactionMykaraDescription</Description>
+  </GuiElement>
+
   <!-- Necrophages -->
-  <GuiElement Name="MinorFactionPhages">
+  <GuiElement Name="MinorFactionPhages" >
     <Title>%MinorFactionPhagesTitle</Title>
     <Description>%MinorFactionPhagesDescription</Description>
+  </GuiElement>
+
+  <!-- Roving Clan -->
+  <GuiElement Name="MinorFactionRoving" >
+    <Title>%MinorFactionRovingTitle</Title>
+    <Description>%MinorFactionRovingDescription</Description>
+  </GuiElement>
+
+  <!-- Wild Walkers -->
+  <GuiElement Name="MinorFactionWalkers" >
+    <Title>%MinorFactionWalkersTitle</Title>
+    <Description>%MinorFactionWalkersDescription</Description>
   </GuiElement>
 </Datatable>

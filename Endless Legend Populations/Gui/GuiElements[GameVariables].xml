@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd" >
 
 <!-- Symbol Strings can be any character from the fonts which are included in the fonts folder in these ranges (according to MonAmiral)
 Default font (latin): Source Sans Pro
@@ -19,654 +19,30 @@ If you know a better way to copy the unicode character (which I assume there is)
 This is used to display text in certain areas, while I'm not sure what these areas are, I'm pretty sure they work
 SymbolString should be set to the same thing each time as to not confuse people, so I made the Population Title defined in ES2_Localization_Assets_Locales the default.
 -->
-  <!-- Kapaku -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapaku">
-    <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapakuCount">
-    <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapaku">
-    <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
-    <SymbolString>[custom02]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapakuCount">
-    <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
-    <SymbolString>[custom02]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapaku">
-    <Title>%PopulationKapakuTitle</Title>
-    <Description>%PopulationKapakuDescription</Description>
-    <SymbolString>[custom02]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationKapakuTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapakuCount">
-    <Title>%PopulationKapakuTitle</Title>
-    <Description>%PopulationKapakuDescription</Description>
-    <SymbolString>[custom02]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationKapakuTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityKapaku">
-    <Title>%AffinityKapakuTitle</Title>
-    <Description>%AffinityKapakuDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/KapakuSmall.png" />  <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
-      <Icon Size="Medium" Path="Gui/KapakuMedium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Not sure what this does -->
-      <Icon Size="Large" Path="Gui/KapakuLarge.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
-    </Icons>
-    <SymbolString>[custom02]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-  
-  <!-- Broken Lord -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityLords">
-    <Title>%ClassPopulationEmpireAffinityLordsTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityLordsCount">
-    <Title>%ClassPopulationEmpireAffinityLordsTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLords">
-    <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
-    <SymbolString>[custom00]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLordsCount">
-    <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
-    <SymbolString>[custom00]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLords">
-    <Title>%PopulationLordsTitle</Title>
-    <Description>%PopulationLordsDescription</Description>
-    <SymbolString>[custom00]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationLordsTitle</AltTitle> 
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLordsCount">
-    <Title>%PopulationLordsTitle</Title>
-    <Description>%PopulationLordsDescription</Description>
-    <SymbolString>[custom00]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationLordsTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityLords">
-    <Title>%AffinityLordsTitle</Title>
-    <Description>%AffinityLordsDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/LordsSmall.png" />
-      <Icon Size="Medium" Path="Gui/LordsMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/LordsLarge.png" />
-    </Icons>
-    <SymbolString>[custom00]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Forgotten -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityForgotten">
-    <Title>%ClassPopulationEmpireAffinityForgottenTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityForgottenCount">
-    <Title>%ClassPopulationEmpireAffinityForgottenTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityForgotten">
-    <Title>%ClassPopulationStarSystemAffinityForgottenTitle</Title>
-    <SymbolString>[custom06]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityForgottenCount">
-    <Title>%ClassPopulationStarSystemAffinityForgottenTitle</Title>
-    <SymbolString>[custom06]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityForgotten">
-    <Title>%PopulationForgottenTitle</Title>
-    <Description>%PopulationLordsDescription</Description>
-    <SymbolString>[custom06]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationKapakuTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityForgottenCount">
-    <Title>%PopulationForgottenTitle</Title>
-    <Description>%PopulationLordsDescription</Description>
-    <SymbolString>[custom06]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationForgottenTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityForgotten">
-    <Title>%AffinityForgottenTitle</Title>
-    <Description>%AffinityForgottenDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/ForgottenSmall.png" />
-      <Icon Size="Medium" Path="Gui/ForgottenMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/ForgottenLarge.png" />
-    </Icons>
-    <SymbolString>[custom06]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Drakken -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityDrakken">
-    <Title>%ClassPopulationEmpireAffinityDrakkenTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityDrakkenCount">
-    <Title>%ClassPopulationEmpireAffinityDrakkenTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityDrakken">
-    <Title>%ClassPopulationStarSystemAffinityDrakkenTitle</Title>
-    <SymbolString>[custom09]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityDrakkenCount">
-    <Title>%ClassPopulationStarSystemAffinityDrakkenTitle</Title>
-    <SymbolString>[custom09]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrakken">
-    <Title>%PopulationDrakkenTitle</Title>
-    <Description>%PopulationDrakkenDescription</Description>
-    <SymbolString>[custom09]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationKapakuTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrakkenCount">
-    <Title>%PopulationDrakkenTitle</Title>
-    <Description>%PopulationDrakkenDescription</Description>
-    <SymbolString>[custom09]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationDrakkenTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityDrakken">
-    <Title>%AffinityDrakkenTitle</Title>
-    <Description>%AffinityDrakkenDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/DrakkenSmall.png" />
-      <Icon Size="Medium" Path="Gui/DrakkenMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/DrakkenLarge.png" />
-    </Icons>
-    <SymbolString>[custom09]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Morgawr -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMorgawr">
-    <Title>%ClassPopulationEmpireAffinityMorgawrTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMorgawrCount">
-    <Title>%ClassPopulationEmpireAffinityMorgawrTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMorgawr">
-    <Title>%ClassPopulationStarSystemAffinityMorgawrTitle</Title>
-    <SymbolString>[custom10]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMorgawrCount">
-    <Title>%ClassPopulationStarSystemAffinityMorgawrTitle</Title>
-    <SymbolString>[custom10]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMorgawr">
-    <Title>%PopulationMorgawrTitle</Title>
-    <Description>%PopulationMorgawrDescription</Description>
-    <SymbolString>[custom10]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationMorgawrTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMorgawrCount">
-    <Title>%PopulationMorgawrTitle</Title>
-    <Description>%PopulationMorgawrDescription</Description>
-    <SymbolString>[custom10]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationMorgawrTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityMorgawr">
-    <Title>%AffinityMorgawrTitle</Title>
-    <Description>%AffinityMorgawrDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/MorgawrSmall.png" />
-      <Icon Size="Medium" Path="Gui/MorgawrMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/MorgawrLarge.png" />
-    </Icons>
-    <SymbolString>[custom10]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Wild Walkers -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityWalkers">
-    <Title>%ClassPopulationEmpireAffinityWalkersTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityWalkersCount">
-    <Title>%ClassPopulationEmpireAffinityWalkersTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityWalkers">
-    <Title>%ClassPopulationStarSystemAffinityWalkersTitle</Title>
-    <SymbolString>[custom07]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityWalkersCount">
-    <Title>%ClassPopulationStarSystemAffinityWalkersTitle</Title>
-    <SymbolString>[custom07]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityWalkers">
-    <Title>%PopulationWalkersTitle</Title>
-    <Description>%PopulationWalkersDescription</Description>
-    <SymbolString>[custom07]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationWalkersTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityWalkersCount">
-    <Title>%PopulationWalkersTitle</Title>
-    <Description>%PopulationWalkersDescription</Description>
-    <SymbolString>[custom07]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationWalkersTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityWalkers">
-    <Title>%AffinityWalkersTitle</Title>
-    <Description>%AffinityWalkersDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/WalkersSmall.png" />
-      <Icon Size="Medium" Path="Gui/WalkersMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/WalkersLarge.png" />
-    </Icons>
-    <SymbolString>[custom07]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Roving Clan -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityRoving">
-    <Title>%ClassPopulationEmpireAffinityRovingTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityRovingCount">
-    <Title>%ClassPopulationEmpireAffinityRovingTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityRoving">
-    <Title>%ClassPopulationStarSystemAffinityRovingTitle</Title>
-    <SymbolString>[custom11]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityRovingCount">
-    <Title>%ClassPopulationStarSystemAffinityRovingTitle</Title>
-    <SymbolString>[custom11]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityRoving">
-    <Title>%PopulationRovingTitle</Title>
-    <Description>%PopulationRovingDescription</Description>
-    <SymbolString>[custom11]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationRovingTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityRovingCount">
-    <Title>%PopulationRovingTitle</Title>
-    <Description>%PopulationRovingDescription</Description>
-    <SymbolString>[custom11]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationRovingTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityRoving">
-    <Title>%AffinityRovingTitle</Title>
-    <Description>%AffinityRovingDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/RovingSmall.png" />
-      <Icon Size="Medium" Path="Gui/RovingMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/RovingLarge.png" />
-    </Icons>
-    <SymbolString>[custom11]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Mykara -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMykara">
-    <Title>%ClassPopulationEmpireAffinityMykaraTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMykaraCount">
-    <Title>%ClassPopulationEmpireAffinityMykaraTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMykara">
-    <Title>%ClassPopulationStarSystemAffinityMykaraTitle</Title>
-    <SymbolString>[custom05]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMykaraCount">
-    <Title>%ClassPopulationStarSystemAffinityMykaraTitle</Title>
-    <SymbolString>[custom05]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMykara">
-    <Title>%PopulationMykaraTitle</Title>
-    <Description>%PopulationMykaraDescription</Description>
-    <SymbolString>[custom05]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationMykaraTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMykaraCount">
-    <Title>%PopulationMykaraTitle</Title>
-    <Description>%PopulationMykaraDescription</Description>
-    <SymbolString>[custom05]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationMykaraTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityMykara">
-    <Title>%AffinityMykaraTitle</Title>
-    <Description>%AffinityMykaraDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/MykaraSmall.png" />
-      <Icon Size="Medium" Path="Gui/MykaraMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/MykaraLarge.png" />
-    </Icons>
-    <SymbolString>[custom05]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-  
-  <!-- Urkan A | Kazar -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanA">
-    <Title>%ClassPopulationEmpireAffinityUrkanATitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanACount">
-    <Title>%ClassPopulationEmpireAffinityUrkanATitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanA">
-    <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanACount">
-    <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanA">
-    <Title>%PopulationUrkanATitle</Title>
-    <Description>%PopulationUrkanADescription</Description>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationUrkanATitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanACount">
-    <Title>%PopulationUrkanATitle</Title>
-    <Description>%PopulationUrkanADescription</Description>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationUrkanATitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityUrkanA">
-    <Title>%AffinityUrkanATitle</Title>
-    <Description>%AffinityUrkanADescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/UrkanASmall.png" />
-      <Icon Size="Medium" Path="Gui/UrkanAMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
-    </Icons>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Urkan B | Chaka -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanB">
-    <Title>%ClassPopulationEmpireAffinityUrkanBTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanBCount">
-    <Title>%ClassPopulationEmpireAffinityUrkanBTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanB">
-    <Title>%ClassPopulationStarSystemAffinityUrkanBTitle</Title>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanBCount">
-    <Title>%ClassPopulationStarSystemAffinityUrkanBTitle</Title>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanB">
-    <Title>%PopulationUrkanBTitle</Title>
-    <Description>%PopulationUrkanBDescription</Description>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationUrkanBTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanBCount">
-    <Title>%PopulationUrkanBTitle</Title>
-    <Description>%PopulationUrkanBDescription</Description>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationUrkanBTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityUrkanB">
-    <Title>%AffinityUrkanBTitle</Title>
-    <Description>%AffinityUrkanBDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/UrkanBSmall.png" />
-      <Icon Size="Medium" Path="Gui/UrkanBMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
-    </Icons>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Urkan C | Fakir -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanC">
-    <Title>%ClassPopulationEmpireAffinityUrkanCTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanCCount">
-    <Title>%ClassPopulationEmpireAffinityUrkanCTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanC">
-    <Title>%ClassPopulationStarSystemAffinityUrkanCTitle</Title>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanCCount">
-    <Title>%ClassPopulationStarSystemAffinityUrkanCTitle</Title>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanC">
-    <Title>%PopulationUrkanCTitle</Title>
-    <Description>%PopulationUrkanCDescription</Description>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationUrkanCTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanCCount">
-    <Title>%PopulationUrkanCTitle</Title>
-    <Description>%PopulationUrkanCDescription</Description>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationUrkanCTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityUrkanC">
-    <Title>%AffinityUrkanCTitle</Title>
-    <Description>%AffinityUrkanCDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/UrkanCSmall.png" />
-      <Icon Size="Medium" Path="Gui/UrkanCMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
-    </Icons>
-    <SymbolString></SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <!-- Cultists -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultists">
-    <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultistsCount">
-    <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityCultists">
-    <Title>%ClassPopulationStarSystemAffinityCultistsTitle</Title>
-    <SymbolString>[custom01]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityCultistsCount">
-    <Title>%ClassPopulationStarSystemAffinityCultistsTitle</Title>
-    <SymbolString>[custom01]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityCultists">
-    <Title>%PopulationCultistsTitle</Title>
-    <Description>%PopulationCultistsDescription</Description>
-    <SymbolString>[custom01]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationCultistsTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityCultistsCount">
-    <Title>%PopulationCultistsTitle</Title>
-    <Description>%PopulationCultistsDescription</Description>
-    <SymbolString>[custom01]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-    <AltTitle>%PopulationCultistsTitle</AltTitle>
-  </ExtendedGuiElement>
-
-  <ExtendedGuiElement Name="AffinityCultists">
-    <Title>%AffinityCultistsTitle</Title>
-    <Description>%AffinityCultistsDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/CultistsSmall.png" />
-      <Icon Size="Medium" Path="Gui/CultistsMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/CultistsLarge.png" />
-    </Icons>
-    <SymbolString>[custom01]</SymbolString>
-    <Color Red="255" Green="141" Blue="102" Alpha="255" />
-  </ExtendedGuiElement>
-
   <!-- Allayi -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityAllayi">
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityAllayi" >
     <Title>%ClassPopulationEmpireAffinityAllayiTitle</Title>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityAllayiCount">
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityAllayiCount" >
     <Title>%ClassPopulationEmpireAffinityAllayiTitle</Title>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityAllayi">
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityAllayi" >
     <Title>%ClassPopulationStarSystemAffinityAllayiTitle</Title>
     <SymbolString>[custom08]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityAllayiCount">
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityAllayiCount" >
     <Title>%ClassPopulationStarSystemAffinityAllayiTitle</Title>
     <SymbolString>[custom08]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityAllayi">
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityAllayi" >
     <Title>%PopulationAllayiTitle</Title>
     <Description>%PopulationAllayiDescription</Description>
     <SymbolString>[custom08]</SymbolString>
@@ -674,7 +50,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <AltTitle>%PopulationAllayiTitle</AltTitle>
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityAllayiCount">
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityAllayiCount" >
     <Title>%PopulationAllayiTitle</Title>
     <Description>%PopulationAllayiDescription</Description>
     <SymbolString>[custom08]</SymbolString>
@@ -682,7 +58,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <AltTitle>%PopulationAllayiTitle</AltTitle>
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="AffinityAllayi">
+  <ExtendedGuiElement Name="AffinityAllayi" >
     <Title>%AffinityAllayiTitle</Title>
     <Description>%AffinityAllayiDescription</Description>
     <Icons>
@@ -696,29 +72,29 @@ SymbolString should be set to the same thing each time as to not confuse people,
   </ExtendedGuiElement>
 
   <!-- Ardent Mages -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityArdent">
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityArdent" >
     <Title>%ClassPopulationEmpireAffinityArdentTitle</Title>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityArdentCount">
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityArdentCount" >
     <Title>%ClassPopulationEmpireAffinityArdentTitle</Title>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityArdent">
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityArdent" >
     <Title>%ClassPopulationStarSystemAffinityArdentTitle</Title>
     <SymbolString>[custom03]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityArdentCount">
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityArdentCount" >
     <Title>%ClassPopulationStarSystemAffinityArdentTitle</Title>
     <SymbolString>[custom03]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityArdent">
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityArdent" >
     <Title>%PopulationArdentTitle</Title>
     <Description>%PopulationArdentDescription</Description>
     <SymbolString>[custom03]</SymbolString>
@@ -726,7 +102,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <AltTitle>%PopulationArdentTitle</AltTitle>
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityArdentCount">
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityArdentCount" >
     <Title>%PopulationArdentTitle</Title>
     <Description>%PopulationArdentDescription</Description>
     <SymbolString>[custom03]</SymbolString>
@@ -734,7 +110,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <AltTitle>%PopulationArdentTitle</AltTitle>
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="AffinityArdent">
+  <ExtendedGuiElement Name="AffinityArdent" >
     <Title>%AffinityArdentTitle</Title>
     <Description>%AffinityArdentDescription</Description>
     <Icons>
@@ -747,30 +123,394 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 
+  <!-- Broken Lord -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityLords" >
+    <Title>%ClassPopulationEmpireAffinityLordsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityLordsCount" >
+    <Title>%ClassPopulationEmpireAffinityLordsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLords" >
+    <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityLordsCount" >
+    <Title>%ClassPopulationStarSystemAffinityLordsTitle</Title>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLords" >
+    <Title>%PopulationLordsTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationLordsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityLordsCount" >
+    <Title>%PopulationLordsTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationLordsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityLords" >
+    <Title>%AffinityLordsTitle</Title>
+    <Description>%AffinityLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/LordsSmall.png" />
+      <Icon Size="Medium" Path="Gui/LordsMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/LordsLarge.png" />
+    </Icons>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Cultists -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultists" >
+    <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityCultistsCount" >
+    <Title>%ClassPopulationEmpireAffinityCultistsTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityCultists" >
+    <Title>%ClassPopulationStarSystemAffinityCultistsTitle</Title>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityCultistsCount" >
+    <Title>%ClassPopulationStarSystemAffinityCultistsTitle</Title>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityCultists" >
+    <Title>%PopulationCultistsTitle</Title>
+    <Description>%PopulationCultistsDescription</Description>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationCultistsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityCultistsCount" >
+    <Title>%PopulationCultistsTitle</Title>
+    <Description>%PopulationCultistsDescription</Description>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationCultistsTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityCultists" >
+    <Title>%AffinityCultistsTitle</Title>
+    <Description>%AffinityCultistsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/CultistsSmall.png" />
+      <Icon Size="Medium" Path="Gui/CultistsMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/CultistsLarge.png" />
+    </Icons>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Drakken -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityDrakken" >
+    <Title>%ClassPopulationEmpireAffinityDrakkenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityDrakkenCount" >
+    <Title>%ClassPopulationEmpireAffinityDrakkenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityDrakken" >
+    <Title>%ClassPopulationStarSystemAffinityDrakkenTitle</Title>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityDrakkenCount" >
+    <Title>%ClassPopulationStarSystemAffinityDrakkenTitle</Title>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrakken" >
+    <Title>%PopulationDrakkenTitle</Title>
+    <Description>%PopulationDrakkenDescription</Description>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityDrakkenCount" >
+    <Title>%PopulationDrakkenTitle</Title>
+    <Description>%PopulationDrakkenDescription</Description>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationDrakkenTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityDrakken" >
+    <Title>%AffinityDrakkenTitle</Title>
+    <Description>%AffinityDrakkenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/DrakkenSmall.png" />
+      <Icon Size="Medium" Path="Gui/DrakkenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/DrakkenLarge.png" />
+    </Icons>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Forgotten -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityForgotten" >
+    <Title>%ClassPopulationEmpireAffinityForgottenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityForgottenCount" >
+    <Title>%ClassPopulationEmpireAffinityForgottenTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityForgotten" >
+    <Title>%ClassPopulationStarSystemAffinityForgottenTitle</Title>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityForgottenCount" >
+    <Title>%ClassPopulationStarSystemAffinityForgottenTitle</Title>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityForgotten" >
+    <Title>%PopulationForgottenTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityForgottenCount" >
+    <Title>%PopulationForgottenTitle</Title>
+    <Description>%PopulationLordsDescription</Description>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationForgottenTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityForgotten" >
+    <Title>%AffinityForgottenTitle</Title>
+    <Description>%AffinityForgottenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/ForgottenSmall.png" />
+      <Icon Size="Medium" Path="Gui/ForgottenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/ForgottenLarge.png" />
+    </Icons>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Kapaku -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapaku" >
+    <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityKapakuCount" >
+    <Title>%ClassPopulationEmpireAffinityKapakuTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapaku" >
+    <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityKapakuCount" >
+    <Title>%ClassPopulationStarSystemAffinityKapakuTitle</Title>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapaku" >
+    <Title>%PopulationKapakuTitle</Title>
+    <Description>%PopulationKapakuDescription</Description>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityKapakuCount" >
+    <Title>%PopulationKapakuTitle</Title>
+    <Description>%PopulationKapakuDescription</Description>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationKapakuTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityKapaku" >
+    <Title>%AffinityKapakuTitle</Title>
+    <Description>%AffinityKapakuDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/KapakuSmall.png" /> <!--Symbol that is displayed on system view screen 24*24 Should be an exported png from the character used as a symbol string-->
+      <Icon Size="Medium" Path="Gui/KapakuMedium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54  Should be an exported png from the character used as a symbol string-->
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- Not sure what this does -->
+      <Icon Size="Large" Path="Gui/KapakuLarge.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
+    </Icons>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Morgawr -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMorgawr" >
+    <Title>%ClassPopulationEmpireAffinityMorgawrTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMorgawrCount" >
+    <Title>%ClassPopulationEmpireAffinityMorgawrTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMorgawr" >
+    <Title>%ClassPopulationStarSystemAffinityMorgawrTitle</Title>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMorgawrCount" >
+    <Title>%ClassPopulationStarSystemAffinityMorgawrTitle</Title>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMorgawr" >
+    <Title>%PopulationMorgawrTitle</Title>
+    <Description>%PopulationMorgawrDescription</Description>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMorgawrTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMorgawrCount" >
+    <Title>%PopulationMorgawrTitle</Title>
+    <Description>%PopulationMorgawrDescription</Description>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMorgawrTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityMorgawr" >
+    <Title>%AffinityMorgawrTitle</Title>
+    <Description>%AffinityMorgawrDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MorgawrSmall.png" />
+      <Icon Size="Medium" Path="Gui/MorgawrMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MorgawrLarge.png" />
+    </Icons>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Mykara -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMykara" >
+    <Title>%ClassPopulationEmpireAffinityMykaraTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMykaraCount" >
+    <Title>%ClassPopulationEmpireAffinityMykaraTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMykara" >
+    <Title>%ClassPopulationStarSystemAffinityMykaraTitle</Title>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMykaraCount" >
+    <Title>%ClassPopulationStarSystemAffinityMykaraTitle</Title>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMykara" >
+    <Title>%PopulationMykaraTitle</Title>
+    <Description>%PopulationMykaraDescription</Description>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMykaraTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMykaraCount" >
+    <Title>%PopulationMykaraTitle</Title>
+    <Description>%PopulationMykaraDescription</Description>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMykaraTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityMykara" >
+    <Title>%AffinityMykaraTitle</Title>
+    <Description>%AffinityMykaraDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MykaraSmall.png" />
+      <Icon Size="Medium" Path="Gui/MykaraMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MykaraLarge.png" />
+    </Icons>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
   <!-- Necrophages -->
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityPhages">
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityPhages" >
     <Title>%ClassPopulationEmpireAffinityPhagesTitle</Title>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityPhagesCount">
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityPhagesCount" >
     <Title>%ClassPopulationEmpireAffinityPhagesTitle</Title>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityPhages">
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityPhages" >
     <Title>%ClassPopulationStarSystemAffinityPhagesTitle</Title>
     <SymbolString>[custom04]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityPhagesCount">
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityPhagesCount" >
     <Title>%ClassPopulationStarSystemAffinityPhagesTitle</Title>
     <SymbolString>[custom04]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityPhages">
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityPhages" >
     <Title>%PopulationPhagesTitle</Title>
     <Description>%PopulationPhagesDescription</Description>
     <SymbolString>[custom04]</SymbolString>
@@ -778,7 +518,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <AltTitle>%PopulationPhagesTitle</AltTitle>
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityPhagesCount">
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityPhagesCount" >
     <Title>%PopulationPhagesTitle</Title>
     <Description>%PopulationPhagesDescription</Description>
     <SymbolString>[custom04]</SymbolString>
@@ -786,7 +526,7 @@ SymbolString should be set to the same thing each time as to not confuse people,
     <AltTitle>%PopulationPhagesTitle</AltTitle>
   </ExtendedGuiElement>
 
-  <ExtendedGuiElement Name="AffinityPhages">
+  <ExtendedGuiElement Name="AffinityPhages" >
     <Title>%AffinityPhagesTitle</Title>
     <Description>%AffinityPhagesDescription</Description>
     <Icons>
@@ -796,6 +536,266 @@ SymbolString should be set to the same thing each time as to not confuse people,
       <Icon Size="Large" Path="Gui/PhagesLarge.png" />
     </Icons>
     <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Roving Clan -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityRoving" >
+    <Title>%ClassPopulationEmpireAffinityRovingTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityRovingCount" >
+    <Title>%ClassPopulationEmpireAffinityRovingTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityRoving" >
+    <Title>%ClassPopulationStarSystemAffinityRovingTitle</Title>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityRovingCount" >
+    <Title>%ClassPopulationStarSystemAffinityRovingTitle</Title>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityRoving" >
+    <Title>%PopulationRovingTitle</Title>
+    <Description>%PopulationRovingDescription</Description>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationRovingTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityRovingCount" >
+    <Title>%PopulationRovingTitle</Title>
+    <Description>%PopulationRovingDescription</Description>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationRovingTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityRoving" >
+    <Title>%AffinityRovingTitle</Title>
+    <Description>%AffinityRovingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/RovingSmall.png" />
+      <Icon Size="Medium" Path="Gui/RovingMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/RovingLarge.png" />
+    </Icons>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Wild Walkers -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityWalkers" >
+    <Title>%ClassPopulationEmpireAffinityWalkersTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityWalkersCount" >
+    <Title>%ClassPopulationEmpireAffinityWalkersTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityWalkers" >
+    <Title>%ClassPopulationStarSystemAffinityWalkersTitle</Title>
+    <SymbolString>[custom07]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityWalkersCount" >
+    <Title>%ClassPopulationStarSystemAffinityWalkersTitle</Title>
+    <SymbolString>[custom07]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityWalkers" >
+    <Title>%PopulationWalkersTitle</Title>
+    <Description>%PopulationWalkersDescription</Description>
+    <SymbolString>[custom07]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationWalkersTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityWalkersCount" >
+    <Title>%PopulationWalkersTitle</Title>
+    <Description>%PopulationWalkersDescription</Description>
+    <SymbolString>[custom07]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationWalkersTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityWalkers" >
+    <Title>%AffinityWalkersTitle</Title>
+    <Description>%AffinityWalkersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/WalkersSmall.png" />
+      <Icon Size="Medium" Path="Gui/WalkersMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/WalkersLarge.png" />
+    </Icons>
+    <SymbolString>[custom07]</SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Urkan A | Kazar -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanA" >
+    <Title>%ClassPopulationEmpireAffinityUrkanATitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanACount" >
+    <Title>%ClassPopulationEmpireAffinityUrkanATitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanA" >
+    <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanACount" >
+    <Title>%ClassPopulationStarSystemAffinityUrkanATitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanA" >
+    <Title>%PopulationUrkanATitle</Title>
+    <Description>%PopulationUrkanADescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanATitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanACount" >
+    <Title>%PopulationUrkanATitle</Title>
+    <Description>%PopulationUrkanADescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanATitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityUrkanA" >
+    <Title>%AffinityUrkanATitle</Title>
+    <Description>%AffinityUrkanADescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/UrkanASmall.png" />
+      <Icon Size="Medium" Path="Gui/UrkanAMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
+    </Icons>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Urkan B | Chaka -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanB" >
+    <Title>%ClassPopulationEmpireAffinityUrkanBTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanBCount" >
+    <Title>%ClassPopulationEmpireAffinityUrkanBTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanB" >
+    <Title>%ClassPopulationStarSystemAffinityUrkanBTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanBCount" >
+    <Title>%ClassPopulationStarSystemAffinityUrkanBTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanB" >
+    <Title>%PopulationUrkanBTitle</Title>
+    <Description>%PopulationUrkanBDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanBTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanBCount" >
+    <Title>%PopulationUrkanBTitle</Title>
+    <Description>%PopulationUrkanBDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanBTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityUrkanB" >
+    <Title>%AffinityUrkanBTitle</Title>
+    <Description>%AffinityUrkanBDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/UrkanBSmall.png" />
+      <Icon Size="Medium" Path="Gui/UrkanBMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
+    </Icons>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="141" Blue="102" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <!-- Urkan C | Fakir -->
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanC" >
+    <Title>%ClassPopulationEmpireAffinityUrkanCTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUrkanCCount" >
+    <Title>%ClassPopulationEmpireAffinityUrkanCTitle</Title>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanC" >
+    <Title>%ClassPopulationStarSystemAffinityUrkanCTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUrkanCCount" >
+    <Title>%ClassPopulationStarSystemAffinityUrkanCTitle</Title>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanC" >
+    <Title>%PopulationUrkanCTitle</Title>
+    <Description>%PopulationUrkanCDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanCTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUrkanCCount" >
+    <Title>%PopulationUrkanCTitle</Title>
+    <Description>%PopulationUrkanCDescription</Description>
+    <SymbolString></SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationUrkanCTitle</AltTitle>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AffinityUrkanC" >
+    <Title>%AffinityUrkanCTitle</Title>
+    <Description>%AffinityUrkanCDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/UrkanCSmall.png" />
+      <Icon Size="Medium" Path="Gui/UrkanCMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/UrkanLarge.png" />
+    </Icons>
+    <SymbolString></SymbolString>
     <Color Red="255" Green="141" Blue="102" Alpha="255" />
   </ExtendedGuiElement>
 </Datatable>

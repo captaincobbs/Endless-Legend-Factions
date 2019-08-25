@@ -1,219 +1,220 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd" >
   <!-- Mapping for the Population Collection Bonuses, defined in SimulationDescriptors[PopulationCollectionBonus]
-       Threshold is the population required to reach that level, 10 for level 1, 20 for 2, and 50 for 3 are the defaults -->
-  <!-- Kapaku -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait> 
-    
-  <!-- Broken Lords -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLords1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLords2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLords3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Forgotten -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitForgotten" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Drakken -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitDrakken" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Morgawr -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMorgawr" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Wild Walkers -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitWalkers" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-  
-  <!-- Roving Clans -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitRoving" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusRoving1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusRoving2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusRoving3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Mykara -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMykara" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
-  <!-- Cultists -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCultists" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists1" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="20">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists2" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
-    </CollectionBonus>
-
-    <CollectionBonus Threshold="50">
-      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists3" />
-      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
-    </CollectionBonus>
-  </PopulationCollectionBonusTrait>
-
+       Threshold is the population required to reach that level, 10 for level 1, 20 for 2, and 50 for 3 are the defaults
+       Cost determines how much it would cost if it were to be used in a custom faction, but since "show in custom" is false, it can't be used in one -->
   <!-- Allayi -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitAllayi" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitAllayi" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusAllayi1" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
     </CollectionBonus>
 
-    <CollectionBonus Threshold="20">
+    <CollectionBonus Threshold="20" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusAllayi2" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
     </CollectionBonus>
 
-    <CollectionBonus Threshold="50">
+    <CollectionBonus Threshold="50" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusAllayi3" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
 
   <!-- Ardent Mages -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitArdent" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitArdent" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusArdent1" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
     </CollectionBonus>
 
-    <CollectionBonus Threshold="20">
+    <CollectionBonus Threshold="20" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusArdent2" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
     </CollectionBonus>
 
-    <CollectionBonus Threshold="50">
+    <CollectionBonus Threshold="50" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusArdent3" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
 
+  <!-- Broken Lords -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitLords" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLords1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLords2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLords3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Cultists -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCultists" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusCultists3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Drakken -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitDrakken" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Forgotten -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitForgotten" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Kapaku -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitKapaku" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusKapaku3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Morgawr -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMorgawr" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMorgawr3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Mykara -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMykara" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
   <!-- Necrophages -->
-  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitPhages" Cost="10" ShowInCustom="false">
-    <CollectionBonus Threshold="10">
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitPhages" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusPhages1" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
     </CollectionBonus>
 
-    <CollectionBonus Threshold="20">
+    <CollectionBonus Threshold="20" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusPhages2" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
     </CollectionBonus>
 
-    <CollectionBonus Threshold="30">
+    <CollectionBonus Threshold="50" >
       <SimulationDescriptorReference Name="PopulationCollectionBonusPhages3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Roving Clans -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitRoving" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusRoving1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusRoving2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusRoving3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
+    </CollectionBonus>
+  </PopulationCollectionBonusTrait>
+
+  <!-- Wild Walkers -->
+  <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitWalkers" Cost="0" ShowInCustom="false" >
+    <CollectionBonus Threshold="10" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers1" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="20" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
+    </CollectionBonus>
+
+    <CollectionBonus Threshold="50" >
+      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers3" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
     </CollectionBonus>
   </PopulationCollectionBonusTrait>

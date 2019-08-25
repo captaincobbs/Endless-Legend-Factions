@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFaction.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFaction.xsd" >
+  <!-- Faction is defined here -->
   <!--
   Political definitions:
   Politics01 - Industrialist
@@ -9,14 +10,14 @@
   Politics05 - Religious
   Politics06 - Militarist
   -->
-  <!-- Kapaku -->
-  <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="100"><!-- I'm not entirely sure what priority does-->
-    <Affinity Name="AffinityGameplayKapaku" /><!-- Defined in FactionTraits[Affinity] -->
-    <Trait Name="FamilyPrimitives" /><!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
-    <Trait Name="IsMinorFaction" /><!-- Confirms that the faction is a major factions -->
-    <MajorPopulation Affinity="AffinityKapaku" Count="3" /><!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 2 Kapaku -->
-    <Personality Name="FactionPersonalityKapaku" /><!-- Defined in MinorFactionPersonalityDefinitions -->
-    <Politics Name="Politics01" />
+  <!-- Allayi -->
+  <MinorFaction Name="MinorFactionAllayi" Standard="true" Author="Captain Cobbs" Priority="90" > <!-- Priority determines processor usage -->
+    <Affinity Name="AffinityGameplayAllayi" /> <!-- Defined in FactionTraits[Affinity] -->
+    <Trait Name="FamilyPrimitives" /> <!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
+    <Trait Name="IsMinorFaction" /> <!-- Confirms that the faction is a major factions -->
+    <MajorPopulation Affinity="AffinityAllayi" Count="3" /> <!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 3 Allayi -->
+    <Personality Name="FactionPersonalityAllayi" /> <!-- Defined in MinorFactionPersonalityDefinitions, determines personality and faction traits -->
+    <Politics Name="Politics05" />
     <!-- ^ Determines starting political faction and what it should focus towards -->
     <!-- v I'm not sure what this does, all minor factions have this set to 0 -->
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
@@ -47,8 +48,46 @@
     <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
   </MinorFaction>
 
+  <!-- Ardent Mages -->
+  <MinorFaction Name="MinorFactionArdent" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayArdent" />
+    <Trait Name="FamilyPrimitives" />
+    <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitMinorUrkanBMinor" /> <!-- Starts faction with Chaka -->
+    <MajorPopulation Affinity="AffinityArdent" Count="2" />
+    <Personality Name="FactionPersonalityArdent" />
+    <Politics Name="Politics02" />
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
+  </MinorFaction>
+
   <!-- Broken Lords -->
-  <MinorFaction Name="MinorFactionLords" Standard="true" Author="Captain Cobbs" Priority="90">
+  <MinorFaction Name="MinorFactionLords" Standard="true" Author="Captain Cobbs" Priority="90" >
     <Affinity Name="AffinityGameplayLords" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
@@ -84,8 +123,85 @@
     <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
   </MinorFaction>
 
+  <!-- Cultists -->
+  <MinorFaction Name="MinorFactionCultists" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayCultists" />
+    <Trait Name="FamilyPrimitives" />
+    <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitMinorUrkanCMinor" />
+    <!-- Starts faction with Fakir -->
+    <MajorPopulation Affinity="AffinityCultists" Count="2" />
+    <Personality Name="FactionPersonalityCultists" />
+    <Politics Name="Politics05" />
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
+  </MinorFaction>
+
+  <!-- Drakken -->
+  <MinorFaction Name="MinorFactionDrakken" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayDrakken" />
+    <Trait Name="FamilyPrimitives" />
+    <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitStartWithPositiveAnomaly" />
+    <MajorPopulation Affinity="AffinityDrakken" Count="3" />
+    <Personality Name="FactionPersonalityDrakken" />
+    <Politics Name="Politics03" />
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
+  </MinorFaction>
+
   <!-- Forgotten -->
-  <MinorFaction Name="MinorFactionForgotten" Standard="true" Author="Captain Cobbs" Priority="80">
+  <MinorFaction Name="MinorFactionForgotten" Standard="true" Author="Captain Cobbs" Priority="90" >
     <Affinity Name="AffinityGameplayForgotten" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
@@ -121,15 +237,14 @@
     <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
   </MinorFaction>
 
-  <!-- Drakken -->
-  <MinorFaction Name="MinorFactionDrakken" Standard="true" Author="Captain Cobbs" Priority="70">
-    <Affinity Name="AffinityGameplayDrakken" />
+  <!-- Kapaku -->
+  <MinorFaction Name="MinorFactionKapaku" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayKapaku" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitStartWithPositiveAnomaly"/>
-    <MajorPopulation Affinity="AffinityDrakken" Count="3" />
-    <Personality Name="FactionPersonalityDrakken" />
-    <Politics Name="Politics03" />
+    <MajorPopulation Affinity="AffinityKapaku" Count="3" />
+    <Personality Name="FactionPersonalityKapaku" />
+    <Politics Name="Politics01" />
 
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
     <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
@@ -160,7 +275,7 @@
   </MinorFaction>
 
   <!-- Morgawr -->
-  <MinorFaction Name="MinorFactionMorgawr" Standard="true" Author="Captain Cobbs" Priority="60">
+  <MinorFaction Name="MinorFactionMorgawr" Standard="true" Author="Captain Cobbs" Priority="90" >
     <Affinity Name="AffinityGameplayMorgawr" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
@@ -196,14 +311,53 @@
     <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
   </MinorFaction>
 
-  <!-- Wild Walkers -->
-  <MinorFaction Name="MinorFactionWalkers" Standard="true" Author="Captain Cobbs" Priority="50">
-    <Affinity Name="AffinityGameplayWalkers" />
+  <!-- Mykara -->
+  <MinorFaction Name="MinorFactionMykara" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayMykara" />
+    <Trait Name="FamilyInsectoids" />
+    <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitMinorUrkanAMinor" />
+    <!-- Starts faction with Kazar -->
+    <MajorPopulation Affinity="AffinityMykara" Count="2" />
+    <Personality Name="FactionPersonalityMykara" />
+    <Politics Name="Politics04" />
+
+    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
+    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
+  </MinorFaction>
+
+  <!-- Necrophages -->
+  <MinorFaction Name="MinorFactionPhages" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayPhages" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityWalkers" Count="3" />
-    <Personality Name="FactionPersonalityWalkers" />
-    <Politics Name="Politics01" />
+    <MajorPopulation Affinity="AffinityPhages" Count="3" />
+    <Personality Name="FactionPersonalityPhages" />
+    <Politics Name="Politics06" />
 
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
     <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
@@ -234,7 +388,7 @@
   </MinorFaction>
 
   <!-- Roving Clans -->
-  <MinorFaction Name="MinorFactionRoving" Standard="true" Author="Captain Cobbs" Priority="40">
+  <MinorFaction Name="MinorFactionRoving" Standard="true" Author="Captain Cobbs" Priority="90" >
     <Affinity Name="AffinityGameplayRoving" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
@@ -270,165 +424,14 @@
     <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
   </MinorFaction>
 
-  <!-- Mykara -->
-  <MinorFaction Name="MinorFactionMykara" Standard="true" Author="Captain Cobbs" Priority="40">
-    <Affinity Name="AffinityGameplayMykara" />
-    <Trait Name="FamilyInsectoids" />
-    <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitMinorUrkanAMinor" />
-    <MajorPopulation Affinity="AffinityMykara" Count="2" />
-    <Personality Name="FactionPersonalityMykara" />
-    <Politics Name="Politics04" />
-
-    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
-  </MinorFaction>
-
-  <!-- Cultists -->
-  <MinorFaction Name="MinorFactionCultists" Standard="true" Author="Captain Cobbs" Priority="30">
-    <Affinity Name="AffinityGameplayCultists" />
+  <!-- Wild Walkers -->
+  <MinorFaction Name="MinorFactionWalkers" Standard="true" Author="Captain Cobbs" Priority="90" >
+    <Affinity Name="AffinityGameplayWalkers" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitMinorUrkanCMinor" />
-    <MajorPopulation Affinity="AffinityCultists" Count="2" />
-    <Personality Name="FactionPersonalityCultists" />
-    <Politics Name="Politics05" />
-
-    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
-  </MinorFaction>
-
-  <!-- Allayi -->
-  <MinorFaction Name="MinorFactionAllayi" Standard="true" Author="Captain Cobbs" Priority="30">
-    <Affinity Name="AffinityGameplayAllayi" />
-    <Trait Name="FamilyPrimitives" />
-    <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityAllayi" Count="3" />
-    <Personality Name="FactionPersonalityAllayi" />
-    <Politics Name="Politics05" />
-
-    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
-  </MinorFaction>
-
-  <!-- Ardent Mages -->
-  <MinorFaction Name="MinorFactionArdent" Standard="true" Author="Captain Cobbs" Priority="20">
-    <Affinity Name="AffinityGameplayArdent" />
-    <Trait Name="FamilyPrimitives" />
-    <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitMinorUrkanBMinor" />
-    <MajorPopulation Affinity="AffinityArdent" Count="2" />
-    <Personality Name="FactionPersonalityArdent" />
-    <Politics Name="Politics02" />
-
-    <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSteppes" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeArid" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeDesert" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAsh" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSnow" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTundra" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTerran" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeVeldt" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeTropical" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeBoreal" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeForest" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeMonsoon" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeSwamp" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeJungle" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeLava" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeIce" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeOcean" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeAtoll" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasFrozen" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasCold" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasTemperate" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasWarm" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasHot" Priority="0" />
-    <ColonizablePlanet Type="PlanetTypeGasBurning" Priority="0" />
-  </MinorFaction>
-
-  <!-- Necrophages -->
-  <MinorFaction Name="MinorFactionPhages" Standard="true" Author="Captain Cobbs" Priority="20">
-    <Affinity Name="AffinityGameplayPhages" />
-    <Trait Name="FamilyPrimitives" />
-    <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityPhages" Count="3" />
-    <Personality Name="FactionPersonalityPhages" />
-    <Politics Name="Politics06" />
+    <MajorPopulation Affinity="AffinityWalkers" Count="3" />
+    <Personality Name="FactionPersonalityWalkers" />
+    <Politics Name="Politics01" />
 
     <ColonizablePlanet Type="PlanetTypeBarren" Priority="0" />
     <ColonizablePlanet Type="PlanetTypeArctic" Priority="0" />

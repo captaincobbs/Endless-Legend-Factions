@@ -3,9 +3,14 @@
   <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
+  <!-- More info about modding can be found here https://www.games2gether.com/amplitude-studios/endless-space-2/forums/75-modding/threads/25943-manual-for-modding-endless-space-2?page=1
+       As well as under your Public gamefiles found in the Endless Space 2 steam directory
+       Anything with "custom" appended to the front you can ignore, as they aren't strictly part of making a faction
+       
+       I hope this code helps! I've spent a solid month on it! -->
   <RuntimeModule Name="ELP" Type="Extension" Version="1.8">
 
-    <Title>Endless Legend Populations - Indev</Title>
+    <Title>Endless Legend Populations</Title>
     <Description>Adds various Endless Legend races as Minor Factions.
 
       Just a warning, this mod frequently gets updated, and is unfinished. If you want something changed, have a complaint, etc. please tell me. I can't fix it if I don't know.
@@ -15,11 +20,10 @@
       If you enjoy the mod and want to support, consider liking the mod!</Description>
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
-    <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <PreviewImageFile>ModIcon.png</PreviewImageFile>
-    <ReleaseNotes>Added Custom Population Collection Bonuses, Added new Faction Traits, added Urkans Chaka and Fakir</ReleaseNotes>
+    <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
+    <ReleaseNotes>Added Custom Population Collection Bonuses, Added new Faction Traits, added Urkans Chaka and Fakir, alphabetically organized the mod</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
-
+    <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
 		<Plugins>			
 		  <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
 		    <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
@@ -100,14 +104,14 @@
         <ExtraTypes>
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
         </ExtraTypes>
-        <FilePath>Gui/CustomGuiElements[PopulationTrait].xml</FilePath>
+        <FilePath>Gui/CustomGuiElements[PopulationCollectionBonus].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
         <ExtraTypes>
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
         </ExtraTypes>
-        <FilePath>Gui/CustomGuiElements[PopulationCollectionBonus].xml</FilePath>
+        <FilePath>Gui/CustomGuiElements[PopulationTrait].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">

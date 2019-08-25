@@ -1,81 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd" >
   <!-- The definition defined here is used in PopulationDefinitions
        An "Affinity" is what the factions look like / behave like
        A Mapping tells variables where they belong 
-       A simulation descriptor is something the game uses to generate content ingame -->
-  <!-- Kapaku -->
-  <FactionAffinityMapping Name="AffinityMappingKapaku" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingKapaku" />
-  </FactionAffinityMapping>
-  
-  <!-- Broken Lords -->
-  <FactionAffinityMapping Name="AffinityMappingLords" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingLords" />
-  </FactionAffinityMapping>
-
-  <!-- Forgotten -->
-  <FactionAffinityMapping Name="AffinityMappingForgotten" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingForgotten" />
-  </FactionAffinityMapping>
-
-  <!-- Drakken -->
-  <FactionAffinityMapping Name="AffinityMappingDrakken" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingDrakken" />
-  </FactionAffinityMapping>
-
-  <!-- Morgawr -->
-  <FactionAffinityMapping Name="AffinityMappingMorgawr" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingMorgawr" />
-  </FactionAffinityMapping>
-
-  <!-- Wild Walkers -->
-  <FactionAffinityMapping Name="AffinityMappingWalkers" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingWalkers" />
-  </FactionAffinityMapping>
-
-  <!-- Roving Clans -->
-  <FactionAffinityMapping Name="AffinityMappingRoving" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingRoving" />
-  </FactionAffinityMapping>
-
-  <!-- Mykara -->
-  <FactionAffinityMapping Name="AffinityMappingMykara" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingMykara" />
-  </FactionAffinityMapping>
-
-  <!-- Urkan A | Kazar -->
-  <FactionAffinityMapping Name="AffinityMappingUrkanA" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingUrkanA" />
-  </FactionAffinityMapping>
-
-  <!-- Urkan B | Chaka -->
-  <FactionAffinityMapping Name="AffinityMappingUrkanB" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingUrkanB" />
-  </FactionAffinityMapping>
-
-  <!-- Urkan C | Fakir -->
-  <FactionAffinityMapping Name="AffinityMappingUrkanC" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingUrkanC" />
-  </FactionAffinityMapping>
-
-  <!-- Cultists -->
-  <FactionAffinityMapping Name="AffinityMappingCultists" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
-    <SimulationDescriptorReference Name="AffinityMappingCultists" />
-  </FactionAffinityMapping>
-  
+       A simulation descriptor is something the game used to generate content ingame -->
   <!-- Allayi -->
-  <FactionAffinityMapping Name="AffinityMappingAllayi" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+  <FactionAffinityMapping Name="AffinityMappingAllayi" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
     <SimulationDescriptorReference Name="AffinityMappingAllayi" />
   </FactionAffinityMapping>
 
   <!-- Ardent Mages -->
-  <FactionAffinityMapping Name="AffinityMappingArdent" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+  <FactionAffinityMapping Name="AffinityMappingArdent" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
     <SimulationDescriptorReference Name="AffinityMappingArdent" />
   </FactionAffinityMapping>
 
+  <!-- Broken Lords -->
+  <FactionAffinityMapping Name="AffinityMappingLords" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingLords" />
+  </FactionAffinityMapping>
+
+  <!-- Cultists -->
+  <FactionAffinityMapping Name="AffinityMappingCultists" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingCultists" />
+  </FactionAffinityMapping>
+  
+  <!-- Drakken -->
+  <FactionAffinityMapping Name="AffinityMappingDrakken" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingDrakken" />
+  </FactionAffinityMapping>
+
+  <!-- Forgotten -->
+  <FactionAffinityMapping Name="AffinityMappingForgotten" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingForgotten" />
+  </FactionAffinityMapping>
+
+  <!-- Kapaku -->
+  <FactionAffinityMapping Name="AffinityMappingKapaku" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingKapaku" />
+  </FactionAffinityMapping>
+
+  <!-- Morgawr -->
+  <FactionAffinityMapping Name="AffinityMappingMorgawr" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingMorgawr" />
+  </FactionAffinityMapping>
+
+  <!-- Mykara -->
+  <FactionAffinityMapping Name="AffinityMappingMykara" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingMykara" />
+  </FactionAffinityMapping>
+
   <!-- Necrophages -->
-  <FactionAffinityMapping Name="AffinityMappingPhages" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0">
+  <FactionAffinityMapping Name="AffinityMappingPhages" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
     <SimulationDescriptorReference Name="AffinityMappingPhages" />
+  </FactionAffinityMapping>
+
+  <!-- Roving Clans -->
+  <FactionAffinityMapping Name="AffinityMappingRoving" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingRoving" />
+  </FactionAffinityMapping>
+
+  <!-- Wild Walkers -->
+  <FactionAffinityMapping Name="AffinityMappingWalkers" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingWalkers" />
+  </FactionAffinityMapping>
+
+  <!-- Urkan A | Kazar -->
+  <FactionAffinityMapping Name="AffinityMappingUrkanA" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingUrkanA" />
+  </FactionAffinityMapping>
+
+  <!-- Urkan B | Chaka -->
+  <FactionAffinityMapping Name="AffinityMappingUrkanB" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingUrkanB" />
+  </FactionAffinityMapping>
+
+  <!-- Urkan C | Fakir -->
+  <FactionAffinityMapping Name="AffinityMappingUrkanC" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingUrkanC" />
   </FactionAffinityMapping>
 </Datatable>

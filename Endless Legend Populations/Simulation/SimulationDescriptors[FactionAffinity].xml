@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
   <!-- From what I can see, there are two ways to write this out, and I chose the way that most of the minor factions use just in case
        This is defined in PopulationDefinitions, and you should be fine just copying and pasting this, but I'm not entirely sure what it is
        used for. -->
-  <SimulationDescriptor Name="AffinityKapaku" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityLords" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityForgotten" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityDrakken" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityMorgawr" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityWalkers" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityRoving" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityMykara" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityCultists" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityAllayi" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityArdent" Type="Affinity"></SimulationDescriptor>
-  <SimulationDescriptor Name="AffinityPhages" Type="Affinity"></SimulationDescriptor>
+  <!-- Allayi -->
+  <SimulationDescriptor Name="AffinityAllayi" Type="Affinity" > </SimulationDescriptor>
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="AffinityArdent" Type="Affinity" > </SimulationDescriptor>
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="AffinityLords" Type="Affinity" > </SimulationDescriptor>
+  <!-- Cultists -->
+  <SimulationDescriptor Name="AffinityCultists" Type="Affinity" > </SimulationDescriptor>
+  <!-- Drakken -->
+  <SimulationDescriptor Name="AffinityDrakken" Type="Affinity" > </SimulationDescriptor>
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="AffinityForgotten" Type="Affinity" > </SimulationDescriptor>
+  <!-- Kapaku -->
+  <SimulationDescriptor Name="AffinityKapaku" Type="Affinity" > </SimulationDescriptor>
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="AffinityMorgawr" Type="Affinity" > </SimulationDescriptor>
+  <!-- Mykara -->
+  <SimulationDescriptor Name="AffinityMykara" Type="Affinity" > </SimulationDescriptor>
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="AffinityPhages" Type="Affinity" > </SimulationDescriptor>
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="AffinityRoving" Type="Affinity" > </SimulationDescriptor>
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="AffinityWalkers" Type="Affinity" > </SimulationDescriptor>
 </Datatable>

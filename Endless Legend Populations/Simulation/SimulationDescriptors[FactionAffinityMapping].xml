@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
   <!-- Not sure what this is used for, but it looks like its the mapping to the AI or something?
        Just copying and pasting it should be fine. It's defined in SimulationDescriptors[FactionAffinityMapping]-->
-  <SimulationDescriptor Name="AffinityMappingKapaku" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingLords" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingForgotten" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingDrakken" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingMorgawr" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping" />
-  <SimulationDescriptor Name="AffinityMappingCultists" Type="AffinityMapping" />
+  <!-- Allayi -->
   <SimulationDescriptor Name="AffinityMappingAllayi" Type="AffinityMapping" />
+  <!-- Ardent Mages -->
   <SimulationDescriptor Name="AffinityMappingArdent" Type="AffinityMapping" />
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="AffinityMappingLords" Type="AffinityMapping" />
+  <!-- Cultists -->
+  <SimulationDescriptor Name="AffinityMappingCultists" Type="AffinityMapping" />
+  <!-- Drakken -->
+  <SimulationDescriptor Name="AffinityMappingDrakken" Type="AffinityMapping" />
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="AffinityMappingForgotten" Type="AffinityMapping" />
+  <!-- Kapaku -->
+  <SimulationDescriptor Name="AffinityMappingKapaku" Type="AffinityMapping" />
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="AffinityMappingMorgawr" Type="AffinityMapping" />
+  <!-- Mykara -->
+  <SimulationDescriptor Name="AffinityMappingMykara" Type="AffinityMapping" />
+  <!-- Necrophages -->
   <SimulationDescriptor Name="AffinityMappingPhages" Type="AffinityMapping" />
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping" />
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping" />
 </Datatable>

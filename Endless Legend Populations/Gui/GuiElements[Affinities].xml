@@ -1,157 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">  
-  <!-- Kapaku -->  
-  <AffinityGuiElement Name="AffinityMappingKapaku">
-    <Title>%AffinityGameplayKapakuTitle</Title>
-    <Description>%AffinityGameplayKapakuDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/KapakuSmall.png" />                                                             <!-- Symbol that is displayed on system view screen 24*24-->
-      <Icon Size="Medium" Path="Gui/KapakuMedium.png" />                                                           <!-- Symbol that the minor faction uses on galaxy screen 54*54-->
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- No idea what it does -->
-      <Icon Size="Large" Path="Gui/KapakuLarge.png" />                                                             <!-- Image used on population and minor faction diplomacy screen 540*270-->
-      <Icon Size="Mood" Path="Gui/KapakuMood.png" />                                                               <!-- Image used when the faction is discovered 1324*712-->
-    </Icons>
-    <SymbolString>[custom02]</SymbolString>                                                                         <!-- Icon used for faction in interfaces -->
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Broken Lords -->
-  <AffinityGuiElement Name="AffinityMappingLords">
-    <Title>%AffinityGameplayLordsTitle</Title>
-    <Description>%AffinityGameplayLordsDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/LordsSmall.png" />
-      <Icon Size="Medium" Path="Gui/LordsMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/LordsLarge.png" />
-      <Icon Size="Mood" Path="Gui/LordsMood.png" />
-    </Icons>
-    <SymbolString>[custom00]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-  
-  <!-- Forgotten -->
-  <AffinityGuiElement Name="AffinityMappingForgotten">
-    <Title>%AffinityGameplayForgottenTitle</Title>
-    <Description>%AffinityGameplayForgottenDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/ForgottenSmall.png" />
-      <Icon Size="Medium" Path="Gui/ForgottenMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/ForgottenLarge.png" />
-      <Icon Size="Mood" Path="Gui/ForgottenMood.png" />
-    </Icons>
-    <SymbolString>[custom06]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Drakken -->
-  <AffinityGuiElement Name="AffinityMappingDrakken">
-    <Title>%AffinityGameplayDrakkenTitle</Title>
-    <Description>%AffinityGameplayDrakkenDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/DrakkenSmall.png" />
-      <Icon Size="Medium" Path="Gui/DrakkenMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/DrakkenLarge.png" />
-      <Icon Size="Mood" Path="Gui/DrakkenMood.png" />
-    </Icons>
-    <SymbolString>[custom09]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Morgawr -->
-  <AffinityGuiElement Name="AffinityMappingMorgawr">
-    <Title>%AffinityGameplayMorgawrTitle</Title>
-    <Description>%AffinityGameplayMorgawrDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/MorgawrSmall.png" />
-      <Icon Size="Medium" Path="Gui/MorgawrMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/MorgawrLarge.png" />
-      <Icon Size="Mood" Path="Gui/MorgawrMood.png" />
-    </Icons>
-    <SymbolString>[custom10]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Wild Walkers -->
-  <AffinityGuiElement Name="AffinityMappingWalkers">
-    <Title>%AffinityGameplayWalkersTitle</Title>
-    <Description>%AffinityGameplayWalkersDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/WalkersSmall.png" />
-      <Icon Size="Medium" Path="Gui/WalkersMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/WalkersLarge.png" />
-      <Icon Size="Mood" Path="Gui/WalkersMood.png" />
-    </Icons>
-    <SymbolString>[custom07]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Roving Clans -->
-  <AffinityGuiElement Name="AffinityMappingRoving">
-    <Title>%AffinityGameplayRovingTitle</Title>
-    <Description>%AffinityGameplayRovingDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/RovingSmall.png" />
-      <Icon Size="Medium" Path="Gui/RovingMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/RovingLarge.png" />
-      <Icon Size="Mood" Path="Gui/RovingMood.png" />
-    </Icons>
-    <SymbolString>[custom11]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Mykara -->
-  <AffinityGuiElement Name="AffinityMappingMykara">
-    <Title>%AffinityGameplayMykaraTitle</Title>
-    <Description>%AffinityGameplayMykaraDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/MykaraSmall.png" />
-      <Icon Size="Medium" Path="Gui/MykaraMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/MykaraLarge.png" />
-      <Icon Size="Mood" Path="Gui/MykaraMood.png" />
-    </Icons>
-    <SymbolString>[custom05]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
-  <!-- Cultists -->
-  <AffinityGuiElement Name="AffinityMappingCultists">
-    <Title>%AffinityGameplayCultistsTitle</Title>
-    <Description>%AffinityGameplayCultistsDescription</Description>
-    <Icons>
-      <Icon Size="Small" Path="Gui/CultistsSmall.png" />
-      <Icon Size="Medium" Path="Gui/CultistsMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/CultistsLarge.png" />
-      <Icon Size="Mood" Path="Gui/CultistsMood.png" />
-    </Icons>
-    <SymbolString>[custom01]</SymbolString>
-    <Color Red="255" Green="255" Blue="255" Alpha="255" />
-  </AffinityGuiElement>
-
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd" >
+  <!-- What is defined here determines the resources that the faction will use are -->
   <!-- Allayi -->
-  <AffinityGuiElement Name="AffinityMappingAllayi">
-    <Title>%AffinityGameplayAllayiTitle</Title>
+  <AffinityGuiElement Name="AffinityMappingAllayi" > <Title>%AffinityGameplayAllayiTitle</Title> <!-- Anything with a % in front is replaced with the corresponding item under localization depending on the language -->
     <Description>%AffinityGameplayAllayiDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Gui/AllayiSmall.png" />
-      <Icon Size="Medium" Path="Gui/AllayiMedium.png" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
-      <Icon Size="Large" Path="Gui/AllayiLarge.png" />
-      <Icon Size="Mood" Path="Gui/AllayiMood.png" />
+      <Icon Size="Small" Path="Gui/AllayiSmall.png" /> <!-- Symbol that is displayed on system view screen 24*24-->
+      <Icon Size="Medium" Path="Gui/AllayiMedium.png" /> <!-- Symbol that the minor faction uses on galaxy screen 54*54-->
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" /> <!-- No idea what it does, but it is required, so I just use the Harmony version -->
+      <Icon Size="Large" Path="Gui/AllayiLarge.png" /> <!-- Image used on population and minor faction diplomacy screen 540*270-->
+      <Icon Size="Mood" Path="Gui/AllayiMood.png" /> <!-- Image used when the faction is discovered 1324*712-->
     </Icons>
-    <SymbolString>[custom08]</SymbolString>
+    <SymbolString>[custom08]</SymbolString> <!-- Icon used for faction in interfaces -->
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
 
   <!-- Ardent Mages -->
-  <AffinityGuiElement Name="AffinityMappingArdent">
+  <AffinityGuiElement Name="AffinityMappingArdent" >
     <Title>%AffinityGameplayArdentTitle</Title>
     <Description>%AffinityGameplayArdentDescription</Description>
     <Icons>
@@ -165,8 +30,113 @@
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
 
+  <!-- Broken Lords -->
+  <AffinityGuiElement Name="AffinityMappingLords" >
+    <Title>%AffinityGameplayLordsTitle</Title>
+    <Description>%AffinityGameplayLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/LordsSmall.png" />
+      <Icon Size="Medium" Path="Gui/LordsMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/LordsLarge.png" />
+      <Icon Size="Mood" Path="Gui/LordsMood.png" />
+    </Icons>
+    <SymbolString>[custom00]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Cultists -->
+  <AffinityGuiElement Name="AffinityMappingCultists" >
+    <Title>%AffinityGameplayCultistsTitle</Title>
+    <Description>%AffinityGameplayCultistsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/CultistsSmall.png" />
+      <Icon Size="Medium" Path="Gui/CultistsMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/CultistsLarge.png" />
+      <Icon Size="Mood" Path="Gui/CultistsMood.png" />
+    </Icons>
+    <SymbolString>[custom01]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Drakken -->
+  <AffinityGuiElement Name="AffinityMappingDrakken" >
+    <Title>%AffinityGameplayDrakkenTitle</Title>
+    <Description>%AffinityGameplayDrakkenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/DrakkenSmall.png" />
+      <Icon Size="Medium" Path="Gui/DrakkenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/DrakkenLarge.png" />
+      <Icon Size="Mood" Path="Gui/DrakkenMood.png" />
+    </Icons>
+    <SymbolString>[custom09]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Forgotten -->
+  <AffinityGuiElement Name="AffinityMappingForgotten" >
+    <Title>%AffinityGameplayForgottenTitle</Title>
+    <Description>%AffinityGameplayForgottenDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/ForgottenSmall.png" />
+      <Icon Size="Medium" Path="Gui/ForgottenMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/ForgottenLarge.png" />
+      <Icon Size="Mood" Path="Gui/ForgottenMood.png" />
+    </Icons>
+    <SymbolString>[custom06]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+  
+  <!-- Kapaku -->  
+  <AffinityGuiElement Name="AffinityMappingKapaku" >
+    <Title>%AffinityGameplayKapakuTitle</Title>
+    <Description>%AffinityGameplayKapakuDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/KapakuSmall.png" />
+      <Icon Size="Medium" Path="Gui/KapakuMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/KapakuLarge.png" />
+      <Icon Size="Mood" Path="Gui/KapakuMood.png" />
+    </Icons>
+    <SymbolString>[custom02]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Morgawr -->
+  <AffinityGuiElement Name="AffinityMappingMorgawr" >
+    <Title>%AffinityGameplayMorgawrTitle</Title>
+    <Description>%AffinityGameplayMorgawrDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MorgawrSmall.png" />
+      <Icon Size="Medium" Path="Gui/MorgawrMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MorgawrLarge.png" />
+      <Icon Size="Mood" Path="Gui/MorgawrMood.png" />
+    </Icons>
+    <SymbolString>[custom10]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Mykara -->
+  <AffinityGuiElement Name="AffinityMappingMykara" >
+    <Title>%AffinityGameplayMykaraTitle</Title>
+    <Description>%AffinityGameplayMykaraDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/MykaraSmall.png" />
+      <Icon Size="Medium" Path="Gui/MykaraMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/MykaraLarge.png" />
+      <Icon Size="Mood" Path="Gui/MykaraMood.png" />
+    </Icons>
+    <SymbolString>[custom05]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
   <!-- Necrophages -->
-  <AffinityGuiElement Name="AffinityMappingPhages">
+  <AffinityGuiElement Name="AffinityMappingPhages" >
     <Title>%AffinityGameplayPhagesTitle</Title>
     <Description>%AffinityGameplayPhagesDescription</Description>
     <Icons>
@@ -177,6 +147,36 @@
       <Icon Size="Mood" Path="Gui/PhagesMood.png" />
     </Icons>
     <SymbolString>[custom04]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Roving Clans -->
+  <AffinityGuiElement Name="AffinityMappingRoving" >
+    <Title>%AffinityGameplayRovingTitle</Title>
+    <Description>%AffinityGameplayRovingDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/RovingSmall.png" />
+      <Icon Size="Medium" Path="Gui/RovingMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/RovingLarge.png" />
+      <Icon Size="Mood" Path="Gui/RovingMood.png" />
+    </Icons>
+    <SymbolString>[custom11]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </AffinityGuiElement>
+
+  <!-- Wild Walkers -->
+  <AffinityGuiElement Name="AffinityMappingWalkers" >
+    <Title>%AffinityGameplayWalkersTitle</Title>
+    <Description>%AffinityGameplayWalkersDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/WalkersSmall.png" />
+      <Icon Size="Medium" Path="Gui/WalkersMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+      <Icon Size="Large" Path="Gui/WalkersLarge.png" />
+      <Icon Size="Mood" Path="Gui/WalkersMood.png" />
+    </Icons>
+    <SymbolString>[custom07]</SymbolString>
     <Color Red="255" Green="255" Blue="255" Alpha="255" />
   </AffinityGuiElement>
 </Datatable>
