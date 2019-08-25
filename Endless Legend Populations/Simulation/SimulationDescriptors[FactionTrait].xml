@@ -96,7 +96,7 @@
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="FactionTraitMinorUrkanA"    Type="FactionTrait" />
+  <SimulationDescriptor Name="FactionTraitMinorUrkanAMinor"    Type="FactionTrait" />
 
   <!-- Cultists -->
   <SimulationDescriptor Name="FactionTraitCultistsShipHealth" Type="FactionTraitMinor">
@@ -108,6 +108,8 @@
     <Modifier TargetProperty="RawMaximumPopulation"     Operation="Addition"  Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
+  
+  <SimulationDescriptor Name="FactionTraitMinorUrkanCMinor"    Type="FactionTrait" />
 
   <!-- Allayi -->
   <SimulationDescriptor Name="FactionTraitAllayiOwnership" Type="FactionTraitMinor">
@@ -133,6 +135,8 @@
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
+  <SimulationDescriptor Name="FactionTraitMinorUrkanBMinor"    Type="FactionTrait" />
+  
   <!-- Necrophages -->
   <SimulationDescriptor Name="FactionTraitPhagesRecruiting" Type="FactionTraitMinor">
     <Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="150"  Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison" />
