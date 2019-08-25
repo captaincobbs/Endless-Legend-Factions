@@ -275,7 +275,7 @@
     <Affinity Name="AffinityGameplayMykara" />
     <Trait Name="FamilyInsectoids" />
     <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitMinorUrkanA" />
+    <Trait Name="FactionTraitMinorUrkanAMinor" />
     <MajorPopulation Affinity="AffinityMykara" Count="2" />
     <Personality Name="FactionPersonalityMykara" />
     <Politics Name="Politics04" />
@@ -313,7 +313,8 @@
     <Affinity Name="AffinityGameplayCultists" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityCultists" Count="3" />
+    <Trait Name="FactionTraitMinorUrkanCMinor" />
+    <MajorPopulation Affinity="AffinityCultists" Count="2" />
     <Personality Name="FactionPersonalityCultists" />
     <Politics Name="Politics05" />
 
@@ -387,7 +388,8 @@
     <Affinity Name="AffinityGameplayArdent" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityArdent" Count="3" />
+    <Trait Name="FactionTraitMinorUrkanBMinor" />
+    <MajorPopulation Affinity="AffinityArdent" Count="2" />
     <Personality Name="FactionPersonalityArdent" />
     <Politics Name="Politics02" />
 
