@@ -18,7 +18,7 @@
   <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride">Rebellion progresses 25% Slower</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride">-25% [upkeepcolored] on fleets and heroes</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride">+30% damage on weapon modules</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride">Set the [foodcolored] on Systems in Empire to 5 if natural value is lower than that</LocalizationPair>  
+  <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride">Set the [foodcolored] on Systems in Empire to 5 if natural value is lower than that</LocalizationPair>
   
   <!-- Custom Faction mess -->
   <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom1">[custom02] Collection Bonus I</LocalizationPair>
