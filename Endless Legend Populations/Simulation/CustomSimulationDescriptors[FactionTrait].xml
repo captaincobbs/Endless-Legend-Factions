@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <!-- Ignore this if you don't want to have custom faction traits -->
+  <SimulationDescriptor Name="FactionTraitMinorKapaku"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorLords"             Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorForgotten"         Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorDrakken"           Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorMorgawr"           Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorWalkers"           Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorRoving"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorMykara"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorUrkanA"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorUrkanB"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorUrkanC"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorCultists"          Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorAllayi"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorArdent"            Type="FactionTrait"/>
+  <SimulationDescriptor Name="FactionTraitMinorPhages"            Type="FactionTrait"/>
+</Datatable>
