@@ -137,7 +137,7 @@
     <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.05" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityArdent" SearchValueFromPath="true" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusArdent3" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="RebellionStarSystemIncreasePerTurn" Operation="Multiplication" Value="0.25" Path="ClassEmpire/ClassSenate" TooltipHidden="true" />
+    <Modifier TargetProperty="RebellionStarSystemIncreasePerTurn" Operation="Multiplication" Value="0.75" Path="ClassEmpire/ClassSenate" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Necrophages -->
@@ -150,6 +150,6 @@
     <Modifier TargetProperty="Upkeep"               Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassColonizedStarSystem/ClassHero" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusPhages3" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="Damage" Operation="Percent" Value="0.3" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon" TooltipHidden="true" />
+    <Modifier TargetProperty="Damage" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection/ClassModule,ClassModuleWeapon" TooltipHidden="true" />
   </SimulationDescriptor>
 </Datatable>
