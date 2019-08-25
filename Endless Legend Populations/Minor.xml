@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
   <!-- This defines all the mod info displayed in game
-        Just a note, Description overrides your mod description on steam -->
+        Just a note, Description overrides your mod description on steam
+        Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
   <RuntimeModule Name="ELP" Type="Extension" Version="1.7">
 
     <Title>Endless Legend Populations - Indev</Title>
@@ -16,7 +17,7 @@
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
     <PreviewImageFile>ModIcon.png</PreviewImageFile>
-    <ReleaseNotes>Added Ardent Mages and Necrophages, fixed Population Trait bugs</ReleaseNotes>
+    <ReleaseNotes>Added Custom Population Collection Bonuses, Added new Faction Traits, added Urkans Chaka and Fakir</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
 
 		<Plugins>			
@@ -79,19 +80,20 @@
 				<FilePath>Gui/GuiElements[*].xml</FilePath>
 			</DatabasePlugin>
 
+      <!-- Delete everything below until localization unless you want custom faction traits -->
       <DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
-        <FilePath>Simulation/PopulationCollectionBonusTraits[Custom].xml</FilePath>
+        <FilePath>Simulation/CustomPopulationCollectionBonusTraits[Custom].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
         </ExtraTypes>
-        <FilePath>Simulation/PopulationCollectionBonusTraits[Custom].xml</FilePath>
+        <FilePath>Simulation/CustomPopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-        <FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+        <FilePath>Simulation/CustomSimulationDescriptors[PopulationCollectionBonus].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
@@ -108,6 +110,21 @@
         <FilePath>Gui/CustomGuiElements[PopulationCollectionBonus].xml</FilePath>
       </DatabasePlugin>
 
+      <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+        <FilePath>Simulation/CustomFactionTraits.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <ExtraTypes>
+          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+        </ExtraTypes>
+        <FilePath>Gui/CustomGuiElements[FactionTraits].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+        <FilePath>Simulation/CustomSimulationDescriptors[FactionTrait].xml</FilePath>
+      </DatabasePlugin>
+      
       <LocalizationPlugin DefaultLanguage="English">
         <Directory>Localization</Directory>
       </LocalizationPlugin>
