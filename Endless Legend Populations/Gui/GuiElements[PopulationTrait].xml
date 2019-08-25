@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <!-- This is used for the custom faction population collection bonuses, you can ignore it if you want to make a faction mod -->
+  <GuiElement Name="PopulationCollectionBonusTraitKapakuCustom">
+    <Title>%PopulationCollectionBonusTraitKapakuCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitKapakuCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PopulationCollectionBonusTraitLordsCustom">
+    <Title>%PopulationCollectionBonusTraitLordsCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitLordsCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PopulationCollectionBonusTraitForgottenCustom">
+    <Title>%PopulationCollectionBonusTraitForgottenCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitForgottenCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+
+  <GuiElement Name="PopulationCollectionBonusTraitDrakkenCustom">
+    <Title>%PopulationCollectionBonusTraitDrakkenCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitDrakkenCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitMorgawrCustom">
+    <Title>%PopulationCollectionBonusTraitMorgawrCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitMorgawrCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitWalkersCustom">
+    <Title>%PopulationCollectionBonusTraitWalkersCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitWalkersCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitRovingCustom">
+    <Title>%PopulationCollectionBonusTraitRovingCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitRovingCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitMykaraCustom">
+    <Title>%PopulationCollectionBonusTraitMykaraCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitMykaraCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitCultistsCustom">
+    <Title>%PopulationCollectionBonusTraitCultistsCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitCultistsCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitAllayiCustom">
+    <Title>%PopulationCollectionBonusTraitAllayiCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitAllayiCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitArdentCustom">
+    <Title>%PopulationCollectionBonusTraitArdentCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitArdentCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+  
+  <GuiElement Name="PopulationCollectionBonusTraitPhagesCustom">
+    <Title>%PopulationCollectionBonusTraitPhagesCustomTitle</Title>
+    <Description>%PopulationCollectionBonusTraitPhagesCustomDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="DiplomaticAbilitiesTruceSmall" />
+    </Icons>
+  </GuiElement>
+</Datatable>
