@@ -6,8 +6,8 @@
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
     <!-- More info about modding can be found here https://www.games2gether.com/amplitude-studios/endless-space-2/forums/75-modding/threads/25943-manual-for-modding-endless-space-2?page=1
        As well as under your Public gamefiles found in the Endless Space 2 steam directory
-       Anything with "custom" appended to the front you can ignore, as they aren't strictly part of making a faction
-       
+       Anything under "custom" section to the front you can ignore, as they aren't strictly part of making a faction,
+       but are merely frankenstein code for making the custom faction stuff (as in, the custom faction creation menu)
        I hope this code helps! I've spent a solid month on it! -->
     <Title>Endless Legend Populations</Title>
     <Description>Adds various Endless Legend races as Minor Factions.
@@ -25,37 +25,8 @@
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
 		<Plugins>
-      <!--<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
-        <ExtraTypes>
-          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
-        </ExtraTypes>
-        <FilePath>Gui/CustomGuiElements[PopulationCollectionBonus].xml</FilePath>
-        <FilePath>Gui/CustomGuiElements[PopulationTrait].xml</FilePath>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
-        <ExtraTypes>
-          <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
-        </ExtraTypes>
-        <FilePath>Simulation/CustomPopulationCollectionBonusTraits.xml</FilePath>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-        <FilePath>Simulation/CustomSimulationDescriptors[PopulationCollectionBonus].xml</FilePath>
-      </DatabasePlugin>-->
-      
-      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
-        <ExtraTypes>
-          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
-          <ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
-        </ExtraTypes>
-        <FilePath>Gui/CustomGuiElements[FactionTraits].xml</FilePath>
-        <FilePath>Gui/GuiElements[*].xml</FilePath>
-      </DatabasePlugin>
-
       <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
         <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
-        <FilePath>Simulation/CustomSimulationDescriptors[FactionTrait].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
@@ -69,7 +40,6 @@
           <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
         </ExtraTypes>
         <FilePath>Simulation/FactionTraits[*].xml</FilePath>
-        <FilePath>Simulation/CustomFactionTraits.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Faction, Assembly-CSharp">
@@ -105,7 +75,15 @@
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
-      
+
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <ExtraTypes>
+          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+          <ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Gui/GuiElements[*].xml</FilePath>
+      </DatabasePlugin>
+
       <LocalizationPlugin DefaultLanguage="English">
         <Directory>Localization</Directory>
       </LocalizationPlugin>
