@@ -148,4 +148,40 @@
     <Modifier TargetProperty="VisionRange"	Operation="Addition" Value="10" Path="Class/ClassColonizedStarSystem" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
+
+  <!-- #####  #   #  #####  #####  #####  ####### -->
+  <!-- #      #   #  #        #    #   #  #  #  # -->
+  <!-- #      #   #  #####    #    #   #  #  #  # -->
+  <!-- #      #   #      #    #    #   #  #     # -->
+  <!-- #####  #####  #####    #    #####  #     # -->
+  <!-- Allayi -->
+  <SimulationDescriptor Name="FactionTraitMinorAllayi"       Type="FactionTrait" />
+  <!-- Ardent Mages -->
+  <SimulationDescriptor Name="FactionTraitMinorArdent"       Type="FactionTrait" />
+  <!-- Broken Lords -->
+  <SimulationDescriptor Name="FactionTraitMinorLords"        Type="FactionTrait" />
+  <!-- Cultists -->
+  <SimulationDescriptor Name="FactionTraitMinorCultists"     Type="FactionTrait" />
+  <!-- Drakken -->
+  <SimulationDescriptor Name="FactionTraitMinorDrakken"      Type="FactionTrait" />
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="FactionTraitMinorForgotten"    Type="FactionTrait" />
+  <!-- Kapaku -->
+  <SimulationDescriptor Name="FactionTraitMinorKapaku"       Type="FactionTrait" />
+  <!-- Morgawr -->
+  <SimulationDescriptor Name="FactionTraitMinorMorgawr"      Type="FactionTrait" />
+  <!-- Mykara -->
+  <SimulationDescriptor Name="FactionTraitMinorMykara"       Type="FactionTrait" />
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="FactionTraitMinorPhages"       Type="FactionTrait" />
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="FactionTraitMinorRoving"       Type="FactionTrait" />
+  <!-- Wild Walkers -->
+  <SimulationDescriptor Name="FactionTraitMinorWalkers"      Type="FactionTrait" />
+  <!-- Urkan A | Kazar -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanA"       Type="FactionTrait" />
+  <!-- Urkan B | Chaka -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanB"       Type="FactionTrait" />
+  <!-- Urkan C | Fakir -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanC"       Type="FactionTrait" />
 </Datatable>
