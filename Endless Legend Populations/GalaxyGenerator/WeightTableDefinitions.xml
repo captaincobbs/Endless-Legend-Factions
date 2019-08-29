@@ -27,6 +27,8 @@
     <Entry Tag="MinorFactionGalvrans"       Weight="1" />
     <Entry Tag="MinorFactionHarmony"        Weight="1" />
     <Entry Tag="MinorFactionBasryxo"        Weight="1" />
+    <Entry Tag="MinorFactionMinorHacking"   Weight="1" />
+    <!-- Included in Mod -->
     <Entry Tag="MinorFactionAllayi"         Weight="1" />
     <Entry Tag="MinorFactionArdent"         Weight="1" />    
     <Entry Tag="MinorFactionLords"          Weight="1" />
@@ -39,6 +41,21 @@
     <Entry Tag="MinorFactionPhages"         Weight="1" />
     <Entry Tag="MinorFactionRoving"         Weight="1" />
     <Entry Tag="MinorFactionWalkers"        Weight="1" />
+    <!-- Compatibility -->
+    <Entry Tag="MinorFactionBos"            Weight="1" />
+    <Entry Tag="MinorFactionCeratan"        Weight="1" />
+    <Entry Tag="MinorFactionDelvers"        Weight="1" />
+    <Entry Tag="MinorFactionDorgeshi"       Weight="1" />
+    <Entry Tag="MinorFactionErycis"         Weight="1" />
+    <Entry Tag="MinorFactionEyeless"        Weight="1" />
+    <Entry Tag="MinorFactionGauran"         Weight="1" />
+    <Entry Tag="MinorFactionGeldirus"       Weight="1" />
+    <Entry Tag="MinorFactionHaunts"         Weight="1" />
+    <Entry Tag="MinorFactionHurnas"         Weight="1" />
+    <Entry Tag="MinorFactionJotus"          Weight="1" />
+    <Entry Tag="MinorFactionKazanji"        Weight="1" />
+    <Entry Tag="MinorFactionNidya"          Weight="1" />
+    <Entry Tag="MinorFactionUrces"          Weight="1" />
   </GalaxyGeneratorWeightTable>
 	
   <!-- Determines the chance for different types of starting planets
