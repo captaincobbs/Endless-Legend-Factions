@@ -80,9 +80,6 @@
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
-    <TooltipElement>
-      <EffectOverride>%PopulationAssimilationBonusDiplomacyDrakkenEffectOverride</EffectOverride>
-    </TooltipElement>
   </ExtendedGuiElement>
 
   <GuiElement Name="FactionTraitDrakkenConversion" >
@@ -112,7 +109,7 @@
     </TooltipElement>
   </ExtendedGuiElement>
 
-  <GuiElement Name="FactionTraitForgottenAccuracy" >
+  <ExtendedGuiElement Name="FactionTraitForgottenAccuracy" >
     <Title>%FactionTraitForgottenAccuracyTitle</Title>
     <Description>%FactionTraitForgottenAccuracyDescription</Description>
     <Icons>
@@ -121,7 +118,7 @@
     <TooltipElement>
       <EffectOverride>%PopulationAssimilationBonusAccuracyForgottenEffectOverride</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Kapaku-->
   <GuiElement Name="FactionTraitKapakuHappiness" >
