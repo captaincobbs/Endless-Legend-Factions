@@ -57,15 +57,17 @@
         <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
       </DatabasePlugin>
 
+      <DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
+        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+      </DatabasePlugin>
+
       <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp" />
           <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp" />
-          <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp" />
         </ExtraTypes>
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
         <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
-        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
@@ -83,7 +85,6 @@
         </ExtraTypes>
         <FilePath>Gui/GuiElements[*].xml</FilePath>
       </DatabasePlugin>
-
       <LocalizationPlugin DefaultLanguage="English">
         <Directory>Localization</Directory>
       </LocalizationPlugin>
