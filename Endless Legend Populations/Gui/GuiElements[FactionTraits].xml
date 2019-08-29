@@ -432,4 +432,10 @@
       <EffectOverride>%FactionTraitMinorUrkanCTooltipEffect</EffectOverride>
     </TooltipElement>
   </GuiElement>
+
+  <!-- Faction Trait Families -->
+  <GuiElement Name="FactionTraitFamilyUrkan">
+    <Title>%FactionTraitFamilyUrkanTitle</Title>
+    <Description>%FactionTraitFamilyUrkanDescription</Description>
+  </GuiElement>
 </Datatable>
