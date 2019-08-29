@@ -110,12 +110,9 @@
   <GuiElement Name="PopulationCollectionBonusMorgawr1" >
     <Title>%PopulationCollectionBonusMorgawr1</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusMorgawr2" >
+  <GuiElement Name="PopulationCollectionBonusMorgawr2" >
     <Title>%PopulationCollectionBonusMorgawr2</Title>
-    <TooltipElement>
-      <EffectOverride>%PopulationCollectionBonusMorgawr2EffectOverride</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
+  </GuiElement>
   <ExtendedGuiElement Name="PopulationCollectionBonusMorgawr3" >
     <Title>%PopulationCollectionBonusMorgawr3</Title>
     <TooltipElement>
