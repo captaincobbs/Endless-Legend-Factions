@@ -205,4 +205,8 @@
   <LocalizationPair Name="%FactionTraitMinorUrkanCTitle" >Fakir Citizen</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMinorUrkanCDescription" >The faction starts with Fakir population on their home planet</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMinorUrkanCTooltipEffect" >+1  on your home system</LocalizationPair>
+  
+  <!-- Trait Families -->
+  <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Displays traits that will define your starting Urkan population.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Starting Urkan</LocalizationPair>
 </Datatable>
