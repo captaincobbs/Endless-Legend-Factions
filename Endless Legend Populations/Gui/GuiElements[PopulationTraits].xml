@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd" >
   <!-- This is used for the custom faction population collection bonuses, you can ignore it if you want to make a faction mod -->
   <!-- Allayi -->
-  <GuiElement Name="PopulationCollectionBonusTraitAllayiCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomAllayi" >
     <Title>%PopulationCollectionBonusTraitAllayiCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitAllayiCustomDescription</Description>
     <Icons>
@@ -11,7 +11,7 @@
   </GuiElement>
 
   <!-- Ardent Mages -->
-  <GuiElement Name="PopulationCollectionBonusTraitArdentCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomArdent" >
     <Title>%PopulationCollectionBonusTraitArdentCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitArdentCustomDescription</Description>
     <Icons>
@@ -20,7 +20,7 @@
   </GuiElement>
 
   <!-- Broken Lords -->
-  <GuiElement Name="PopulationCollectionBonusTraitLordsCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomLords" >
     <Title>%PopulationCollectionBonusTraitLordsCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitLordsCustomDescription</Description>
     <Icons>
@@ -29,7 +29,7 @@
   </GuiElement>
 
   <!-- Cultists -->
-  <GuiElement Name="PopulationCollectionBonusTraitCultistsCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomCultists" >
     <Title>%PopulationCollectionBonusTraitCultistsCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitCultistsCustomDescription</Description>
     <Icons>
@@ -38,7 +38,7 @@
   </GuiElement>
 
   <!-- Drakken -->
-  <GuiElement Name="PopulationCollectionBonusTraitDrakkenCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomDrakken" >
     <Title>%PopulationCollectionBonusTraitDrakkenCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitDrakkenCustomDescription</Description>
     <Icons>
@@ -47,7 +47,7 @@
   </GuiElement>
 
   <!-- Forgotten -->
-  <GuiElement Name="PopulationCollectionBonusTraitForgottenCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomForgotten" >
     <Title>%PopulationCollectionBonusTraitForgottenCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitForgottenCustomDescription</Description>
     <Icons>
@@ -56,7 +56,7 @@
   </GuiElement>
 
   <!-- Kapaku -->
-  <GuiElement Name="PopulationCollectionBonusTraitKapakuCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomKapaku" >
     <Title>%PopulationCollectionBonusTraitKapakuCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitKapakuCustomDescription</Description>
     <Icons>
@@ -65,7 +65,7 @@
   </GuiElement>
   
   <!-- Morgawr -->
-  <GuiElement Name="PopulationCollectionBonusTraitMorgawrCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomMorgawr" >
     <Title>%PopulationCollectionBonusTraitMorgawrCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitMorgawrCustomDescription</Description>
     <Icons>
@@ -74,7 +74,7 @@
   </GuiElement>
 
   <!-- Mykara -->
-  <GuiElement Name="PopulationCollectionBonusTraitMykaraCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomMykara" >
     <Title>%PopulationCollectionBonusTraitMykaraCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitMykaraCustomDescription</Description>
     <Icons>
@@ -83,7 +83,7 @@
   </GuiElement>
 
   <!-- Necrophages -->
-  <GuiElement Name="PopulationCollectionBonusTraitPhagesCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomPhages" >
     <Title>%PopulationCollectionBonusTraitPhagesCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitPhagesCustomDescription</Description>
     <Icons>
@@ -92,7 +92,7 @@
   </GuiElement>
 
   <!-- Roving Clans -->
-  <GuiElement Name="PopulationCollectionBonusTraitRovingCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomRoving" >
     <Title>%PopulationCollectionBonusTraitRovingCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitRovingCustomDescription</Description>
     <Icons>
@@ -101,7 +101,7 @@
   </GuiElement>
 
   <!-- Wild Walkers -->
-  <GuiElement Name="PopulationCollectionBonusTraitWalkersCustom" >
+  <GuiElement Name="PopulationCollectionBonusTraitCustomWalkers" >
     <Title>%PopulationCollectionBonusTraitWalkersCustomTitle</Title>
     <Description>%PopulationCollectionBonusTraitWalkersCustomDescription</Description>
     <Icons>

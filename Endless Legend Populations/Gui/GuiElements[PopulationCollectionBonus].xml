@@ -179,13 +179,13 @@
   <!-- #      #   #      #    #    #   #  #     # -->
   <!-- #####  #####  #####    #    #####  #     # -->
   <!-- Allayi -->
-  <GuiElement Name="PopulationCollectionBonusAllayiCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomAllayi1" >
     <Title>%PopulationCollectionBonusAllayiCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusAllayiCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomAllayi2" >
     <Title>%PopulationCollectionBonusAllayiCustom2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusAllayiCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomAllayi3" >
     <Title>%PopulationCollectionBonusAllayiCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusAllayi3EffectOverride</EffectOverride>
@@ -193,13 +193,13 @@
   </ExtendedGuiElement>
 
   <!-- Ardent Mages -->
-  <GuiElement Name="PopulationCollectionBonusArdentCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomArdent1" >
     <Title>%PopulationCollectionBonusArdentCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusArdentCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomArdent2" >
     <Title>%PopulationCollectionBonusArdentCustom2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusArdentCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomArdent3" >
     <Title>%PopulationCollectionBonusArdentCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusArdent3EffectOverride</EffectOverride>
@@ -207,13 +207,13 @@
   </ExtendedGuiElement>
 
   <!-- Broken Lords -->
-  <GuiElement Name="PopulationCollectionBonusLordsCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomLords1" >
     <Title>%PopulationCollectionBonusLordsCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusLordsCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomLords2" >
     <Title>%PopulationCollectionBonusLordsCustom2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusLordsCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomLords3" >
     <Title>%PopulationCollectionBonusLordsCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusLords3EffectOverride</EffectOverride>
@@ -221,27 +221,27 @@
   </ExtendedGuiElement>
 
   <!-- Cultists -->
-  <GuiElement Name="PopulationCollectionBonusCultistsCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomCultists1" >
     <Title>%PopulationCollectionBonusCultistsCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusCultistsCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomCultists2" >
     <Title>%PopulationCollectionBonusCultistsCustom2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusCultistsCustom3" >
+  <GuiElement Name="PopulationCollectionBonusCustomCultists3" >
     <Title>%PopulationCollectionBonusCultistsCustom3</Title>
   </GuiElement>
 
   <!-- Drakken -->
-  <GuiElement Name="PopulationCollectionBonusDrakkenCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomDrakken1" >
     <Title>%PopulationCollectionBonusDrakkenCustom1</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusDrakkenCustom2" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomDrakken2" >
     <Title>%PopulationCollectionBonusDrakkenCustom2</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusDrakken2EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusDrakkenCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomDrakken3" >
     <Title>%PopulationCollectionBonusDrakkenCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusDrakken3EffectOverride</EffectOverride>
@@ -249,16 +249,16 @@
   </ExtendedGuiElement>
 
   <!-- Forgotten -->
-  <GuiElement Name="PopulationCollectionBonusForgottenCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomForgotten1" >
     <Title>%PopulationCollectionBonusForgottenCustom1</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusForgottenCustom2" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomForgotten2" >
     <Title>%PopulationCollectionBonusForgottenCustom2</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusForgotten2EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusForgottenCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomForgotten3" >
     <Title>%PopulationCollectionBonusForgottenCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusForgotten3EffectOverride</EffectOverride>
@@ -266,13 +266,13 @@
   </ExtendedGuiElement>
 
   <!-- Kapaku -->
-  <GuiElement Name="PopulationCollectionBonusKapakuCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomKapaku1" >
     <Title>%PopulationCollectionBonusKapakuCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusKapakuCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomKapaku2" >
     <Title>%PopulationCollectionBonusKapakuCustom2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusKapakuCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomKapaku3" >
     <Title>%PopulationCollectionBonusKapakuCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusKapaku3EffectOverride</EffectOverride>
@@ -280,38 +280,38 @@
   </ExtendedGuiElement>
 
   <!-- Morgawr -->
-  <GuiElement Name="PopulationCollectionBonusMorgawrCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomMorgawr1" >
     <Title>%PopulationCollectionBonusMorgawrCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusMorgawrCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomMorgawr2" >
     <Title>%PopulationCollectionBonusMorgawrCustom2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusMorgawrCustom3" >
+  <GuiElement Name="PopulationCollectionBonusCustomMorgawr3" >
     <Title>%PopulationCollectionBonusMorgawrCustom3</Title>
   </GuiElement>
 
   <!-- Mykara -->
-  <GuiElement Name="PopulationCollectionBonusMykaraCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomMykara1" >
     <Title>%PopulationCollectionBonusMykaraCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusMykaraCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomMykara2" >
     <Title>%PopulationCollectionBonusMykaraCustom2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusMykaraCustom3" >
+  <GuiElement Name="PopulationCollectionBonusCustomMykara3" >
     <Title>%PopulationCollectionBonusMykaraCustom3</Title>
   </GuiElement>
 
   <!-- Necrophages -->
-  <GuiElement Name="PopulationCollectionBonusPhagesCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomPhages1" >
     <Title>%PopulationCollectionBonusPhagesCustom1</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusPhagesCustom2" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomPhages2" >
     <Title>%PopulationCollectionBonusPhagesCustom2</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusPhages2EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusPhagesCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomPhages3" >
     <Title>%PopulationCollectionBonusPhagesCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusPhages3EffectOverride</EffectOverride>
@@ -319,24 +319,24 @@
   </ExtendedGuiElement>
 
   <!-- Roving Clans -->
-  <GuiElement Name="PopulationCollectionBonusRovingCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomRoving1" >
     <Title>%PopulationCollectionBonusRovingCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusRovingCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomRoving2" >
     <Title>%PopulationCollectionBonusRovingCustom2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusRovingCustom3" >
+  <GuiElement Name="PopulationCollectionBonusCustomRoving3" >
     <Title>%PopulationCollectionBonusRovingCustom3</Title>
   </GuiElement>
 
   <!-- Wild Walkers -->
-  <GuiElement Name="PopulationCollectionBonusWalkersCustom1" >
+  <GuiElement Name="PopulationCollectionBonusCustomWalkers1" >
     <Title>%PopulationCollectionBonusWalkersCustom1</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusWalkersCustom2" >
+  <GuiElement Name="PopulationCollectionBonusCustomWalkers2" >
     <Title>%PopulationCollectionBonusWalkersCustom2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusWalkersCustom3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusCustomWalkers3" >
     <Title>%PopulationCollectionBonusWalkersCustom3</Title>
     <TooltipElement>
       <EffectOverride>%PopulationCollectionBonusWalkers3EffectOverride</EffectOverride>
