@@ -246,7 +246,6 @@
 
   <!-- Necrophages -->
   <SimulationDescriptor Name="PopulationCollectionBonusPhages1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics06ToPolitics06"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityPhages" TooltipOverride="%TooltipOverridePositivePolitics06" />
     <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics06" />
     <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
     <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
