@@ -24,12 +24,12 @@
   <LocalizationPair Name="%AffinityArdentDescription" >Having survived a long history of slaughter and starvation, the powers that the Ardent Mages discovered - and that permitted them to survive - were those based on Dust magic, agony, and rage.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentTrascendTitle" >Altar of Trascendence</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Verda's Temple</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Becoming as the great Virtual Endless did, we can abandon the need for physical bodies and focus on the </LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Becoming as the great Virtual Endless did, we can abandon the need for physical bodies and focus on the pursuit of power.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >The subtleties of Dust are numerous and easy to overlook. Only through its methodical study will its secrets be discovered. This temple, replete with terrifying contraptions, will aid that endeavor.</LocalizationPair>
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Broken Lords</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionLordsDescription" >The Broken Lords in an emergency coalition of other factions, not to be outdone by the Vaulters, cooperated to develop spacecraft to escape Auriga. </LocalizationPair>
+  <LocalizationPair Name="%MinorFactionLordsDescription" >The Broken Lords, formed an emergency coalition of other factions, not to be outdone by the exodus of the Vaulters. They cooperated to develop spacecraft to escape Auriga.</LocalizationPair>
   <LocalizationPair Name="%PopulationLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle" >Systems with [custom00]</LocalizationPair>
