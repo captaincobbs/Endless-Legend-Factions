@@ -1,0 +1,211 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <!-- I pretty much just use this file for overrides, you don't need it if you aren't using them -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayi3EffectOverride" >+3 [move] auf Schiffe</LocalizationPair>
+  
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride" >Rebellionen schreiten 25% langsamer voran</LocalizationPair>
+  
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% Schaden auf Bodentruppen je Held im Imperium</LocalizationPair>
+  
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% maximale Energie auf Schiffe</LocalizationPair>
+  
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% [prestigecolored] Bonus auf: Imperium</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride" >-50% [prestigecolored] Unterhaltskosten auf: Gesetze im Imperium</LocalizationPair>
+  
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride" >+1 [move] auf: Schiffe</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride" >5% [sciencecolored] wird als [dustcolored] hinzugefügt auf: Systeme</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusAccuracyForgottenEffectOverride" >+10% Präzision auf: Waffenmodule</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride" >+1 [move] auf: Schiffe</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride" >+25% [industrycolored] wird als [foodcolored] hinzugefügt auf: Systeme</LocalizationPair>
+  
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawr3EffectOverride" >-15% [industrycolored] Schiffskosten auf: Systeme</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride" >+5 [prestigecolored] je Anomalie auf: Systeme</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride" >+20 [industrycolored] je fruchtbarem Planeten auf: Systeme</LocalizationPair>
+  
+  <!-- Mykara doesn't have any overrides -->
+  
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-25% [upkeepcolored] auf: Flotten und Helden</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride" >+30% Schaden auf: Waffenmodule</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride" >Setzt imperiumsweit [foodcolored] in den Systemen auf 5, in denen der natürliche Wert kleiner ist</LocalizationPair>
+  
+  <!-- Roving Clans don't have any overrides-->
+  
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride" >+25% [foodcolored] wird zur [industrycolored] in deinen Systemen hinzugefügt</LocalizationPair>
+
+  
+  <!-- Custom Faction Population Collection -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom1" >[custom08] Unendliche Weiten I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom2" >[custom08] Unendliche Weiten II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom3" >[custom08] Unendliche Weiten III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomTitle" >Späher-Kollektion</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Erkundung und isoliertem Wachstum.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom1" >[custom03] Geeintes Reich I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom2" >[custom03] Geeintes Reich II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom3" >[custom03] Geeintes Reich III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomTitle" >Sammlung der Dominanz</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Fortschritt und Stabilität.</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom1" >[custom00] Vorwärts immer I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom2" >[custom00] Vorwärts immer II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom3" >[custom00] Vorwärts immer III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomTitle" >Sammlung der Macht</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomDescription" >Bei dieser Sammlung liegt der Fokus auf wahrer militärischer Stärke.</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom1" >[custom01] Bürokraten I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom2" >[custom01] Bürokraten II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom3" >[custom01] Bürokraten III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomTitle" >Sammlung der optmierten Verwaltung</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomDescription" >Bei dieser Sammlung liegt der Fokus auf der imperiumsweiten Stabilität.</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom1" >[custom09] Kulturelle Offensive I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom2" >[custom09] Kulturelle Offensive II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom3" >[custom09] Kulturelle Offensive III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomTitle" >Sammlung des Charmes</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Diplomatie und Kultur.</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom1" >[custom06] Reichtum durch Expansion I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom2" >[custom06] Reichtum durch Expansion II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom3" >[custom06] Reichtum durch Expansion III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomTitle" >Sammlung der Raffinesse</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Dust und Erkundung.</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom1" >[custom02] Erschliessung I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom2" >[custom02] Erschliessung II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom3" >[custom02] Erschliessung III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomTitle" >Sammlung des Hadaikum</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Industrie in unwirtlichen Umgebungen.</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom1" >[custom10] Reise zu den Sternen I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom2" >[custom10] Reise zu den Sternen II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom3" >[custom10] Reise zu den Sternen III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomTitle" >Sammlung des Fortschritts</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Kultur und Industrie.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom1" >[custom05] Lukrative Kompromisse I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom2" >[custom05] Lukrative Kompromisse II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom3" >[custom05] Lukrative Kompromisse III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomTitle" >Sammlung des Wesentlichen</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Anpassungsfähigkeit und Generalisierung.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom1" >[custom04] Reichtum durch Stärke I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom2" >[custom04] Reichtum durch Stärke II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom3" >[custom04] Reichtum durch Stärke III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomTitle" >Sammlung der Dynamik</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Militär und Vermögen.</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom1" >[custom11] Sieg der Ökonomie I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom2" >[custom11] Sieg der Ökonomie II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom3" >[custom11] Sieg der Ökonomie III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomTitle" >Sammlung des Unternehmers</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Handel und Vermögen.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom1" >[custom07] Masse und Klasse I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom2" >[custom07] Masse und Klasse II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom3" >[custom07] Masse und Klasse III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomTitle" >Sammlung des Wagemutigen</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomDescription" >Bei dieser Sammlung liegt der Fokus auf Industrie und Erkundung.</LocalizationPair>
+
+  
+  <!-- Custom Faction Population Trait -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%FactionTraitMinorAllayiTitle" >Allayi-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiDescription" >Diese Fraktion beginnt das Spiel mit einer Allayi-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiTooltipEffect" >+1 [custom08] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%FactionTraitMinorArdentTitle" >Brennende Magier-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentDescription" >Diese Fraktion beginnt das Spiel mit einer Brennende Magier-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentTooltipEffect" >+1 [custom03] in deinem Heimatsystem.</LocalizationPair>
+  
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%FactionTraitMinorLordsTitle" >Zerbrochene Lords-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsDescription" >Diese Fraktion beginnt das Spiel mit einer Zerbrochene Lords-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsTooltipEffect" >+1 [custom00] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitMinorCultistsTitle" >Kultisten-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsDescription" >Diese Fraktion beginnt das Spiel mit einer Kultisten-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsTooltipEffect" >+1 [custom01] in deinem Heimatsystem.</LocalizationPair>
+  
+    <!-- Drakken -->
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTitle" >Drakken-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenDescription" >Diese Fraktion beginnt das Spiel mit einer Drakken-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTooltipEffect" >+1 [custom09] in deinem Heimatsystem.</LocalizationPair>
+  
+  <!-- Forgotten -->
+  <LocalizationPair Name="%FactionTraitMinorForgottenTitle" >Vergessenen-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenDescription" >Diese Fraktion beginnt das Spiel mit einer Vergessenen-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenTooltipEffect" >+1 [custom06] in deinem Heimatsystem.</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%FactionTraitMinorKapakuTitle" >Kapaku-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuDescription" >Diese Fraktion beginnt das Spiel mit einer Kapaku-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuTooltipEffect" >+1 [custom02] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTitle" >Morgawr-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrDescription" >Diese Fraktion beginnt das Spiel mit einer Morgawr-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTooltipEffect" >+1 [custom10] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%FactionTraitMinorMykaraTitle" >Mykara-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraDescription" >Diese Fraktion beginnt das Spiel mit einer Mykara-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraTooltipEffect" >+1 [custom05] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%FactionTraitMinorPhagesTitle" >Nekrophagen-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesDescription" >Diese Fraktion beginnt das Spiel mit einer Nekrophagen-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesTooltipEffect" >+1 [custom04] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%FactionTraitMinorRovingTitle" >Wanderklan-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingDescription" >Diese Fraktion beginnt das Spiel mit einer Wanderklan-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingTooltipEffect" >+1 [custom11] in deinem Heimatsystem.</LocalizationPair>
+  
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%FactionTraitMinorWalkersTitle" >Wildläufer-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersDescription" >Diese Fraktion beginnt das Spiel mit einer Windläufer-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersTooltipEffect" >+1 [custom07] in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanATitle" >Kazar-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanADescription" >Diese Fraktion beginnt das Spiel mit einer Kazar-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanATooltipEffect" >+1  in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTitle" >Chaka-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBDescription" >Diese Fraktion beginnt das Spiel mit einer Chaka-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTooltipEffect" >+1  in deinem Heimatsystem.</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTitle" >Fakir-Bevölkerung</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCDescription" >Diese Fraktion beginnt das Spiel mit einer Fakir-Bevölkerung auf dem Heimatplaneten.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTooltipEffect" >+1  in deinem Heimatsystem.</LocalizationPair>
+  
+  <!-- Trait Families -->
+  <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Zeigt die Merkmale an, die Ihre Anfangspopulation der Urkan definiert.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Erste Urkan</LocalizationPair>
+</Datatable>
