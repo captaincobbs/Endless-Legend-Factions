@@ -107,7 +107,7 @@
 
   <!-- Mykara -->
   <LocalizationPair Name="%MinorFactionMykaraTitle" >Mykara</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionMykaraDescription" >Ein einziger, riesiger pflanzenartiger Organismus, der seine vielen Kinder manipuliert, auch aus der Ferne. Seit der Urzeit haben die Mykara eine symbiotische Beziehung zu den Urkanen und konnten sogar einen der Urkane vor dem Erfrierungstod auf Auriga bewahren.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMykaraDescription" >Ein einziger, riesiger, pflanzenartiger Organismus, der seine vielen Kinder manipuliert, auch aus der Ferne. Seit der Urzeit haben die Mykara eine symbiotische Beziehung zu den Urkanen und konnten sogar einen der Urkane vor dem Erfrierungstod auf Auriga bewahren.</LocalizationPair>
   <LocalizationPair Name="%PopulationMykaraTitle" >[custom05]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityMykaraTitle" >[custom05]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityMykaraTitle" >Systeme mit [custom05]</LocalizationPair>
@@ -134,7 +134,7 @@
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Wanderklans</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionRovingDescription" >Unbeeindruckt von den Geheimnissen der Galaxie konzentrierten sich die Clans immer mehr auf die interne Infrastruktur und Wirtschaft und wurden mit Leichtigkeit Meister in diesen Belangen.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionRovingDescription" >Unbeeindruckt von den Geheimnissen der Galaxie konzentrierten sich die Klans immer mehr auf die interne Infrastruktur und Wirtschaft und wurden mit Leichtigkeit Meister in diesen Belangen.</LocalizationPair>
   <LocalizationPair Name="%PopulationRovingTitle" >[custom11]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityRovingTitle" >[custom11]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityRovingTitle" >Systeme mit [custom11]</LocalizationPair>
