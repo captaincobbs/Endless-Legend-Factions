@@ -10,14 +10,105 @@
        but are merely frankenstein code for making the custom faction stuff (as in, the custom faction creation menu)
        I hope this code helps! I've spent a solid month on it! -->
     <Title>Endless Legend Populations</Title>
-    <Description>Adds various Endless Legend races as Minor Factions.
+    <Description>This mod adds all of the remaining Endless Legend major factions as encounterable minor factions.
 
-      Just a warning, this mod frequently gets updated, and is unfinished. If you want something changed, have a complaint, etc. please tell me. I can't fix it if I don't know.
+      [h1]List of their bonuses[/h1]:
+      Allayi[list]
+      [*]Traits (+3 Science on Cold, +1 Influence)
+      [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Allayi 3. +3 Movement points on Ships)
+      [*] Assimilation Bonuses ( +2 Happiness on Cold Planets or +25% Ownership Recovery)
+      [/list]
+      Ardent Mages[list]
+      [*]Traits (+5 IDS)
+      [*]Collection Bonuses ( 1. +Scientists, 2. +5% IDI 3. Rebellions progress 25% more slowly)
+      [*] Assimilation Bonuses ( +5 Science per Anomaly or +15 Happiness and +2 Influence per Population)
+      [*] Faction Trait (Start with Chaka)
+      [/list]
+      Broken Lords[list]
+      [*]Traits (+50 Defensive damage, +2 dust on happy)
+      [*]Collection Bonuses ( 1. +Religious, 2. +15% maximum manpower, +150 ground bombardment damage when attacking 3. +1% troop damage per hero)
+      [*] Assimilation Bonuses ( +5% dust or +2% health regen on ships )
+      [/list]
+      Cultists of the Eternal End[list]
+      [*]Traits (+30 Manpower Capacity on Fertile, +2 FIDSI)
+      [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Cultists 3. +25 Happiness)
+      [*] Assimilation Bonuses ( +1 Population Slot on Colonized Planets or +15% Maximum Health on Ships)
+      [*] Faction Trait (Start with Fakir)
+      [/list]
+      Drakken[list]
+      [*]Traits (+2 Influence on Anomalies, +1 Science)
+      [*]Collection Bonuses ( 1. +Pacifism, 2. +15% Influence on Systems 3. Laws cost 50% less influence maintenance)
+      [*] Assimilation Bonuses ( Peaceful treaties 30% cheaper or Systems are 50% harder to convert using influence)
+      [/list]
+      Forgotten[list]
+      [*]Traits (+2 Food on Strategic Resources, +1 Bandwidth)
+      [*]Collection Bonuses ( 1. +Pacifism, 2. +3 Movement on Ships 3. 5% of science is added to dust)
+      [*] Assimilation Bonuses ( +1 Movement on ships or +8% accuracy on ships)
+      [/list]
+      Kapaku[list]
+      [*]Traits (+2 Happiness on Hot, +1 Industry)
+      [*]Collection Bonuses (1. +Environmentalism 2. +15% Industry 3. 25% Production is added as Food)
+      [*] Assimilation Bonuses (+2 Happiness on Sterile and + 4 on Hot per citizen, or -50% Terraformation Cost)
+      [/list]
+      Morgawr[list]
+      [*]Traits (+2 Industry on Fertile, +1 Science)
+      [*]Collection Bonuses ( 1. +Scientist, 2. +15% Influence on Systems with Morgawr 3. Ships construction costs are 15% less)
+      [*] Assimilation Bonuses ( +5 Influence points on systems per anomaly (in that system) or +20 production per Fertile planet on systems)
+      [/list]
+      Mykara[list]
+      [*]Traits (+5 Food, +3 Food on Fertile)
+      [*]Collection Bonuses ( 1. +Industrialist, 2. +15% Food on Systems 3. +3% FIDSI)
+      [*] Assimilation Bonuses ( +500 Empire Manpower or -15% Food Upkeep)
+      [*] Faction Trait ( Start with Kazar)
+      [/list]
+      Necrophages[list]
+      [*]Traits (+1 Manpower / Turn, +20 Manpower Capacity, -2 Food (Boosting adds +2 Production))
+      [*]Collection Bonuses ( 1. +Militarists, 2. -25% Hero and Ship Upkeep 3. +20% Weapon Damage)
+      [*] Assimilation Bonuses ( Minimum 5 food per turn or +150 Experience on ships when created)
+      [/list]
+      Roving Clans[list]
+      [*]Traits (+1 Science, +5 dust on sterile)
+      [*]Collection Bonuses ( 1. +Pacifist, 2. +15% trade company value 3. -5% dust inflation per trading company)
+      [*] Assimilation Bonuses ( -15% system upkeep or -15% military upkeep)
+      [/list]
+      Wild Walkers[list]
+      [*]Traits (+5 industry on fertile, +2 food)
+      [*]Collection Bonuses ( 1. +Industrialist, 2. +15 Vision Range 3. 25% System Food is added onto System Production)
+      [*] Assimilation Bonuses ( +10 Vision Range on all Systems or -25% Building Production cost)
+      [/list]
 
-      Read [url=https://steamcommunity.com/workshop/filedetails/discussion/1816492263/3158630999996373337/]About[/url] for more details about the mod if you are interested!
+      [h1]Urkans[/h1]
+      Urkan - Kazar[list]
+      [*]Traits (+5 IDS, +25 damage done to Attackers, Population is Immortal but Movable, Population cannot be Gene Spliced, Population can be boosted)
+      [/list]
+      Urkan - Chaka[list]
+      [*]Traits (+50 Damage done to Attackers on Fertile, +50 Damage done to Attackers, +20 Manpower Capacity, +1 Manpower/Turn, Population is Immortal but Movable, Population cannot be Gene Spliced, Population can be boosted)
+      [/list]
+      Urkan - Fakir[list]
+      [*]Traits ( +20 Manpower Capacity, +2 FIDSI, +1 Manpower/Turn, Population is Immortal but Movable, Population cannot be Gene Spliced, Population can be boosted)
+      [/list]
 
-      If you enjoy the mod and want to support, consider liking the mod!
-    </Description>
+      [h1]Other Features[/h1][list]
+      [*] Documented Code - I am aware that no other mod really does what this mod does, as such, I have documented it and am in the process of organizing it in order to help anyone wishing to do something similar.
+      [*] Faction Traits - Make a custom population that starts with any Endless Legend major population race or Urkan!
+      [*] [Collections Bonuses - Make custom populations that use the very same collection bonuses as the major races!
+      [/list]
+
+      [h1]Credits[/h1]
+      Special thanks Guvenoren and Bob's Childhood for Beta Testing and providing many suggestions for faction design.
+      One last thanks to all the translators:[list]
+      [*] Groo (German)
+      [/list]
+
+      [h1]Links[/h1]
+      Want to make your own Minor Faction mod? Want to make your own version of this mod? Check out the [url=https://github.com/captaincobbs/Endless-Legend-Factions]Github[/url], you don't even need to credit me.
+
+      I'm looking for translators for the following languages:[list]
+      [*] 한국어
+      [*] 中國傳統的 / 簡體中文
+      [*] Русский язык
+      [*] Język Polski[/list]
+      If you are interested, comment below!</Description>
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
