@@ -21,7 +21,7 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Added Custom Population Collection Bonuses, Added new Faction Traits, added Urkans Chaka and Fakir, alphabetically organized the mod</ReleaseNotes>
+    <ReleaseNotes>Added German Translation, Compatibility with an Upcoming Mod, Bugfixes, Slight Rebalancing</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
 		<Plugins>
@@ -65,9 +65,11 @@
         <ExtraTypes>
           <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp" />
           <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp" />
+          <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp" />
         </ExtraTypes>
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
         <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
+        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
