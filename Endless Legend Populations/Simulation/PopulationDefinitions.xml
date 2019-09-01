@@ -216,6 +216,35 @@
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
 
+  <!-- Morgawr -->
+  <PopulationDefinition AffinityName="AffinityMorgawr" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+
+    <Trait Name="PopulationPoliticalTraitScientist" />
+    <Trait Name="PopulationPoliticalTraitCurious" />
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
+
+    <Trait Name="PopulationModifiersMorgawrCount" />
+    <Trait Name="PopulationModifiersTraitMorgawr" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryScience01" />
+    <!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile" />
+    <!-- +2 Industry on Fertile -->
+
+    <Trait Name="PopulationCollectionBonusTraitMorgawr" />
+
+    <AffinityMapping Name="AffinityMappingMorgawr" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury10</Luxury>
+      <Luxury>Luxury16</Luxury>
+      <Luxury>Luxury18</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+  
   <!-- Mykara -->
   <PopulationDefinition AffinityName="AffinityMykara" Standard="true" >
     <DefaultPolitics>
@@ -295,33 +324,6 @@
       <Luxury>Luxury8</Luxury>
       <Luxury>Luxury11</Luxury>
       <Luxury>Luxury24</Luxury>
-    </GrowthBoostLuxuryOptions>
-  </PopulationDefinition>
-
-  <!-- Morgawr -->
-  <PopulationDefinition AffinityName="AffinityMorgawr" Standard="true" >
-    <DefaultPolitics>
-      <Politics PoliticsReference="Politics02" BaseScore="1" BaseTrend="0" />
-    </DefaultPolitics>
-
-    <Trait Name="PopulationPoliticalTraitScientist" />
-    <Trait Name="PopulationPoliticalTraitCurious" />
-    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
-
-    <Trait Name="PopulationModifiersMorgawrCount" />
-    <Trait Name="PopulationModifiersTraitMorgawr" />
-
-    <Trait Name="PopulationModifiersTraitPrimaryScience01" /> <!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile" /> <!-- +2 Industry on Fertile -->
-
-    <Trait Name="PopulationCollectionBonusTraitMorgawr" />
-
-    <AffinityMapping Name="AffinityMappingDrakken" />
-    <GrowthBoostLuxuryOptions>
-      <Luxury>Luxury1</Luxury>
-      <Luxury>Luxury10</Luxury>
-      <Luxury>Luxury16</Luxury>
-      <Luxury>Luxury18</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
 
