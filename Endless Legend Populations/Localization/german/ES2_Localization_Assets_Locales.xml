@@ -81,7 +81,7 @@
 
   <!-- Kapaku -->
   <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionKapakuDescription" >Die Kapaku haben eine problematische Vergangenheit im Umgang mit Planeten. Nachdem ihr erster in einen abstoßend üppigen Wald verwandelt und ihr zweiter zu einem Eisklumpen mutierte, beschlossen die Kapaku, ihren eigenen, perfekten Planeten zu finden.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionKapakuDescription" >Die Kapaku haben eine problematische Vergangenheit im Umgang mit Planeten. Nachdem ihr erster in einen abstoßend üppigen Wald verwandelt wurde und ihr zweiter zu einem Eisklumpen mutierte, beschlossen die Kapaku, ihren eigenen, perfekten Planeten zu finden.</LocalizationPair>
   <LocalizationPair Name="%PopulationKapakuTitle" >[custom02]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle" >[custom02]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle" >Systeme mit [custom02]</LocalizationPair>
