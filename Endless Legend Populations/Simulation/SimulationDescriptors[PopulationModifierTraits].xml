@@ -31,15 +31,15 @@
   
   <!-- Wild Walkers +5 Industry on Fertile -->
   <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" Type="ClassPopulationPlanet" >
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="5" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="5" Path="ClassPopulation" TooltipHidden="true" />
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
+    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true" Path="ClassPopulation" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitWalkersIndustry" Type="WithPopulationPlanet" >
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" TooltipHidden="true" />
+    <BinaryModifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Left="3" BinaryOperation="Multiplication" Right="$(PlanetIsTeemings)" TooltipHidden="true" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitWalkersIndustry" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetWalkersIndustry" Type="ClassPopulationAssimilated" >
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition"  Value="3" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
-    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="3" TooltipHidden="true" Path="ClassPopulation" />
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition"  Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeTeeming" />
+    <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" TooltipHidden="true" Path="ClassPopulation" />
   </SimulationDescriptor>
 </Datatable>
