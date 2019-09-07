@@ -26,7 +26,7 @@
     <Modifier TargetProperty="BonusPopulationIndustry" Operation="Addition" Value="2" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPhagesFood" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetPhagesFood" Type="ClassPopulationAssimilated" >
-    <Modifier TargetProperty="BonusPopulationFood" Operation="Subtraction" Value="1" Path="ClassPopulation" />
+    <Modifier TargetProperty="BonusPopulationFood" Operation="Addition" Value="1" Path="ClassPopulation" />
   </SimulationDescriptor>
   
   <!-- Wild Walkers +5 Industry on Fertile -->
