@@ -28,6 +28,7 @@
     <Entry Tag="MinorFactionHarmony"        Weight="1" />
     <Entry Tag="MinorFactionBasryxo"        Weight="1" />
     <Entry Tag="MinorFactionMinorHacking"   Weight="1" />
+    <Entry Tag="MinorFactionOraculars"      Weight="1" />
     <!-- Included in Mod -->
     <Entry Tag="MinorFactionAllayi"         Weight="1" />
     <Entry Tag="MinorFactionArdent"         Weight="1" />    
