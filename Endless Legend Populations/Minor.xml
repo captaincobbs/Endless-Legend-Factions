@@ -9,9 +9,10 @@
        but are merely frankenstein code for making the custom faction stuff (as in, the custom faction creation menu)
        I hope this code helps! I've spent a solid month on it! -->
     <Title>Endless Legend Populations</Title>
-    <Description>This mod adds all of the remaining Endless Legend major factions as encounterable minor factions.
+    <Description>
+      This mod adds all of the remaining Endless Legend major factions as encounterable minor factions.
 
-      [h1]List of their bonuses[/h1]:
+      [h1]List of their bonuses[/h1]
       Allayi[list]
       [*]Traits (+3 Science on Cold, +1 Influence)
       [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Allayi 3. +3 Movement points on Ships)
@@ -90,7 +91,7 @@
       [h1]Other Features[/h1][list]
       [*] Documented Code - I am aware that no other mod really does what this mod does, as such, I have documented it and am in the process of organizing it in order to help anyone wishing to do something similar.
       [*] Faction Traits - Make a custom population that starts with any Endless Legend major population race or Urkan!
-      [*] [Collections Bonuses - Make custom populations that use the very same collection bonuses as the major races!
+      [*] Collections Bonuses - Make custom populations that use the very same collection bonuses as the major races!
       [/list]
 
       [h1]Credits[/h1]
@@ -107,11 +108,12 @@
       [*] Chinese Traditional / Simplified
       [*] Russian
       [*] Polish[/list]
-      If you are interested, comment below!</Description>
+      If you are interested, comment below!
+    </Description>
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Fixes to German Translation, Fixed Morgawr Image pathing using Drakken pathing instead</ReleaseNotes>
+    <ReleaseNotes>Fixes to German Translation, Compatibility with The Awakening, Compatibility with Major Factions Starting Populations</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
 		<Plugins>
@@ -160,6 +162,11 @@
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
         <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
         <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="PopulationModifiersTrait, Assembly-CSharp">
+        <FilePath>Public/Simulation/PopulationModifiersTraits.xml</FilePath>
+        <FilePath>Public/Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
