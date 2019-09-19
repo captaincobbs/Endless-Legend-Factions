@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
-  <RuntimeModule Name="ELP" Type="Extension" Version="2.0">
+  <RuntimeModule Name="ELP" Type="Extension" Version="2.1">
     <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
@@ -113,10 +114,10 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Fixes to German Translation, Compatibility with The Awakening, Compatibility with Major Factions Starting Populations</ReleaseNotes>
+    <ReleaseNotes>Fixed the mod loadorder in order to fix PopulationCollectionBonuses</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
-		<Plugins>
+    <Plugins>
       <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
         <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
       </DatabasePlugin>
@@ -149,8 +150,8 @@
         <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
       </DatabasePlugin>
 
-      <DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
-        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+      <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
+        <FilePath>Simulation/PopulationDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
@@ -165,12 +166,12 @@
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationModifiersTrait, Assembly-CSharp">
-        <FilePath>Public/Simulation/PopulationModifiersTraits.xml</FilePath>
-        <FilePath>Public/Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
+        <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
+        <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
       </DatabasePlugin>
 
-      <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
-        <FilePath>Simulation/PopulationDefinitions.xml</FilePath>
+      <DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
+        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
@@ -187,6 +188,6 @@
       <LocalizationPlugin DefaultLanguage="English">
         <Directory>Localization</Directory>
       </LocalizationPlugin>
-		</Plugins>
-	</RuntimeModule>
+    </Plugins>
+  </RuntimeModule>
 </Datatable>
