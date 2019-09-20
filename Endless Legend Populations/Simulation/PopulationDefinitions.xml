@@ -37,7 +37,7 @@
     <Trait Name="PopulationPoliticalTraitRelativist" /> <!-- And this line are used to define political traits -->
     <!-- Count and Modifier Mapping(?) -->
     <Trait Name="PopulationModifiersAllayiCount" /> <!-- Used for the total population count -->
-    <Trait Name="PopulationModifiersTraitAllayi" /> <!-- I have no idea what this is -->
+    <Trait Name="PopulationModifiersTraitAllayi" /> <!-- Determines population properties -->
     
     <!-- Population Modifier traits (the custom ones defined in PopulationModifiersTraits) -->
     <Trait Name="PopulationModifiersTraitPrimaryInfluence" /> <!-- +1 Influence -->

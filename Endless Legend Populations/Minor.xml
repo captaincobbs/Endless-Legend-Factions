@@ -11,7 +11,7 @@
        I hope this code helps! I've spent a solid month on it! -->
     <Title>Endless Legend Populations</Title>
     <Description>
-      This mod adds all of the remaining Endless Legend major factions as encounterable minor factions.
+      This mod adds all of the Endless Legend major factions as encounterable minor factions.
 
       [h1]List of their bonuses[/h1]
       Allayi[list]
@@ -161,13 +161,13 @@
           <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp" />
         </ExtraTypes>
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
-        <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
+        <FilePath>Simulation/PopulationModifiersTraits[*].xml</FilePath>
         <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationModifiersTrait, Assembly-CSharp">
         <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
-        <FilePath>Simulation/PopulationModifiersTraits[Affinity].xml</FilePath>
+        <FilePath>Simulation/PopulationModifiersTraits[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
