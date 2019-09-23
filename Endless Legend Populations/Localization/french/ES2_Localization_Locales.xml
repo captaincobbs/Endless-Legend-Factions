@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayi3EffectOverride" >+3 [move] sur Vaisseaux</LocalizationPair>
+  
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride" >Les Rébellions progressent 25% moins vite</LocalizationPair>
+  
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% de Dégât par Héro sur Armée au sol</LocalizationPair>
+  
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% de Vie Maximum sur Vaisseaux</LocalizationPair>
+  
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% [prestigecolored] bonus sur Empire</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride" >-50% de coût [prestigecolored] d'entretien de loi sur Empire</LocalizationPair>
+  
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride" >+1 [move] sur Vaisseaux</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride" >5% de [sciencecolored] est ajouté à la production de [dustcolored] sur Système</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusAccuracyForgottenEffectOverride" >+10% de Précision sur Modules d'Arme</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride" >+1 [move] sur Vaisseaux</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride" >+25% [industrycolored] ajouté à la production de [foodcolored] sur Système</LocalizationPair>
+  
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawr3EffectOverride" >-15% de coût de [industrycolored] sur Système</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride" >+5 de [prestigecolored] par Anomalie sur Système</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride" >+20 d'Industrie [industrycolored] par planète sur Système</LocalizationPair>
+  
+  <!-- Mykara doesn't have any overrides -->
+  
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-25% de [upkeepcolored] sur Flottes et Héros</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride" >+30% de Dégât sur les Modules d'Armes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride" >Défini la production de [foodcolored] sur Système dans l'Empire à 5 si la valeur naturel est plus basse que ça</LocalizationPair>
+  
+  <!-- Roving Clans don't have any overrides-->
+  
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride" >+25% de [foodcolored] ajouté à la production de [industrycolored] sur Système</LocalizationPair>
+
+  
+  <!-- Custom Faction Population Collection -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom1" >[custom08] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom2" >[custom08] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom3" >[custom08] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomTitle" >Accumulation Attentive</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomDescription" >Cette Accumulation se concentre sur l'exploration et la croissance recluse.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom1" >[custom03] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom2" >[custom03] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom3" >[custom03] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomTitle" >Accumulation Dominante</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomDescription" >Cette Accumulation de concentre sur l'avancement et la stabilité.</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom1" >[custom00] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom2" >[custom00] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom3" >[custom00] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomTitle" >Puissante Accumulation</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomDescription" >Cette Accumulation se concentre sur la simple force militaire.</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom1" >[custom01] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom2" >[custom01] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom3" >[custom01] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomTitle" >Accumulation Précise</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomDescription" >Cette Accumulation se concentre la stabilté à l'échelle de l'empire.</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom1" >[custom09] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom2" >[custom09] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom3" >[custom09] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomTitle" >Accumulation Charmante</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomDescription" >Cette Accumulation se concentre sur la diplomacie et la culture.</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom1" >[custom06] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom2" >[custom06] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom3" >[custom06] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomTitle" >Accumulation Rusée</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomDescription" >Cette Accumulation se concentre sur la Brume et l'Exploration.</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom1" >[custom02] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom2" >[custom02] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom3" >[custom02] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomTitle" >Hadean Collection</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomDescription" >Cette Accumulation se concentre sur l'Industrie dans des environnements sévères.</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom1" >[custom10] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom2" >[custom10] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom3" >[custom10] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomTitle" >Accumulation Progressive</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomDescription" >Cette Accumulation se concentre sur la culture et l'industrie.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom1" >[custom05] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom2" >[custom05] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom3" >[custom05] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomTitle" >Accumulation Générale</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomDescription" >Cette Accumulation se concentre sur l'adaptabilité et la généralisation.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom1" >[custom04] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom2" >[custom04] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom3" >[custom04] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomTitle" >Accumulation Dynamique</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomDescription" >Cette Accumulation se concentre sur l'aspect militaire et la fortune.</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom1" >[custom11] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom2" >[custom11] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom3" >[custom11] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomTitle" >Accumulation d'Entrepreneur</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomDescription" >Cette Accumulation se concentre sur les échanges et la fortune.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom1" >[custom07] Bonus d'Accumulation I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom2" >[custom07] Bonus d'Accumulation II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom3" >[custom07] Bonus d'Accumulation III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomTitle" >Accumulation Audacieuse</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomDescription" >Cette Accumulation se concentre sur l'Industrie et l'exploration.</LocalizationPair>
+
+  
+  <!-- Custom Faction Population Trait -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%FactionTraitMinorAllayiTitle" >Citoyens Allayi</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiDescription" >La faction commence avec une population d'Allayi sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiTooltipEffect" >+1 [custom08] sur système de départ</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%FactionTraitMinorArdentTitle" >Citoyens Mages Ardents</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentDescription" >La faction commence avec une population de Mages Ardents sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentTooltipEffect" >+1 [custom03] sur système de départ</LocalizationPair>
+  
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%FactionTraitMinorLordsTitle" >Citoyens Seigneurs Déchus</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsDescription" >La faction commence avec une population de Seigneurs Déchus sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsTooltipEffect" >+1 [custom00] sur système de départ</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitMinorCultistsTitle" >Citoyens Cultistes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsDescription" >La faction commence avec une population de Cultistes sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsTooltipEffect" >+1 [custom01] sur système de départ</LocalizationPair>
+  
+    <!-- Drakken -->
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTitle" >Citoyens Drakken</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenDescription" >La faction commence avec une population de Drakken sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTooltipEffect" >+1 [custom09] sur système de départ</LocalizationPair>
+  
+  <!-- Forgotten -->
+  <LocalizationPair Name="%FactionTraitMinorForgottenTitle" >Citoyens Oubliés</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenDescription" >La faction commence avec une population d'Oubliés sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenTooltipEffect" >+1 [custom06] sur système de départ</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%FactionTraitMinorKapakuTitle" >Citoyens Kapaku</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuDescription" >La faction commence avec une population de Kapaku sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuTooltipEffect" >+1 [custom02] sur système de départ</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTitle" >Citoyens Morgawr</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrDescription" >La faction commence avec une population de Morgawr sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTooltipEffect" >+1 [custom10] sur système de départ</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%FactionTraitMinorMykaraTitle" >Citoyens Mykara</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraDescription" >La faction commence avec une population de Mykara sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraTooltipEffect" >+1 [custom05] sur système de départ</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%FactionTraitMinorPhagesTitle" >Citoyens Necrophages</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesDescription" >La faction commence avec une population de Necrophages sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesTooltipEffect" >+1 [custom04] sur système de départ</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%FactionTraitMinorRovingTitle" >Citoyens Clans Errants</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingDescription" >La faction commence avec une population de Clans Errants sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingTooltipEffect" >+1 [custom11] sur système de départ</LocalizationPair>
+  
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%FactionTraitMinorWalkersTitle" >Citoyens Indomptés</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersDescription" >La faction commence avec une population d'Indomptés sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersTooltipEffect" >+1 [custom07] sur système de départ</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanATitle" >Citoyens Kazar</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanADescription" >La faction commence avec une population de Kazar sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanATooltipEffect" >+1  sur système de départ</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTitle" >Citoyens Chaka</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBDescription" >La faction commence avec une population de Chaka sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTooltipEffect" >+1  sur système de départ</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTitle" >Citoyens Fakir</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCDescription" >La faction commence avec une population de Fakir sur leur planète d'origine</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTooltipEffect" >+1  sur système de départ</LocalizationPair>
+  
+  <!-- Trait Families -->
+  <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Montre les traits qui vont définir votre population Urkan de départ.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Urkan de départ</LocalizationPair>
+</Datatable>
