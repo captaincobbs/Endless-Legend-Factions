@@ -160,8 +160,7 @@
   </GalaxyGeneratorWeightTable>
   <!-- Kapaku -->
 	<GalaxyGeneratorWeightTable Name="MinorFactionKapaku_PlanetTypes" >
-    <Entry Tag="PlanetTypeLava"                 Weight="9" />
-    <Entry Tag="PlanetTypeAsh"                  Weight="1" />
+    <Entry Tag="UniquePlanetChobata"                 Weight="1" />
   </GalaxyGeneratorWeightTable>
   <!-- Morgawr -->
   <GalaxyGeneratorWeightTable Name="MinorFactionMorgawr_PlanetTypes" >
