@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <GuiElement Name="UniquePlanetChabota">
+    <Title>%UniquePlanetChabotaTitle</Title>
+    <Description>%UniquePlanetChabotaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Notifications/NotificationUniquePlanetDiscoveredSmall" />
+      <Icon Size="Medium" Path="Bitmaps/Dynamic/Notifications/NotificationUniquePlanetDiscoveredMedium" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Planets/PlanetTypeLavaLarge" />
+      <Icon Size="Mood" Path="Gui/NotificationUniquePlanetChabotaLarge.png" /> <!-- 1324x712 -->
+      <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeLavaPlanetoid"/>
+    </Icons>
+  </GuiElement>
+</Datatable>
