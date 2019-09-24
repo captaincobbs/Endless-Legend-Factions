@@ -91,7 +91,10 @@
   <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Expert de la Terraformation</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >L'assimilation des Kapaku conduit à une disposition similaire aux Kapaku eux-même concernant les planètes Chaudes, qui est celle de l'admiration et d'optimisme.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >Les Kapaku possédait des technologies de Terraformation depuis plus longtemps que n'importe quelle autres races, et de fait, comprennent comment l'appliquer plus efficacement.</LocalizationPair>
-
+  <!-- Unique Planet -->
+  <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetChabotaDescription">Kapaku Homeworld</LocalizationPair>
+  
   <!-- Morgawr -->
   <LocalizationPair Name="%MinorFactionMorgawrTitle" >Morgawr</LocalizationPair>
   <LocalizationPair Name="%MinorFactionMorgawrDescription" >Les Morgawr ont toujours été confiné aux plan d'eaux, et à Auriga... Mais maintenant, les Morgawr sont libre, libre d'embracer leur étrange nature.</LocalizationPair>

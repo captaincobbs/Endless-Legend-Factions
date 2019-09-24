@@ -91,6 +91,9 @@
   <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Expertenwissen im Terraforming-Bereich</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >Die Assimilation der Kapaku führt zu einer vergleichbaren Neigung zu heißen Planeten wie die der Kapaku selbst, was zu einer Einstellung von Ehrfurcht, aber auch Zuversicht gegenüber dieser Art von Planeten führt.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >Die Kapaku haben die Terraforming-Technologie schon viel länger als die meisten anderen Rassen. Sie verstehen es daher, sie noch effizienter einzusetzen.</LocalizationPair>
+  <!-- Unique Planet -->
+  <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetChabotaDescription">Kapaku Homeworld</LocalizationPair>
 
   <!-- Morgawr -->
   <LocalizationPair Name="%MinorFactionMorgawrTitle" >Morgawr</LocalizationPair>

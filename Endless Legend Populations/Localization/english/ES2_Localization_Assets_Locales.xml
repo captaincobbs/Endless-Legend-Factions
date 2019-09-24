@@ -91,7 +91,11 @@
   <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Terraforming Expertise</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >The assimilation of the Kapaku leads to a similar disposition to Hot planets as the Kapaku themselves, which is one of awe and optimism.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >The Kapaku have had Terraforming technology for much longer than most other races, and therefore, understand how to apply it more efficiently.</LocalizationPair>
-
+  <!-- Unique Planet -->
+  <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetChabotaDescription">Kapaku Homeworld</LocalizationPair>
+  
+  
   <!-- Morgawr -->
   <LocalizationPair Name="%MinorFactionMorgawrTitle" >Morgawr</LocalizationPair>
   <LocalizationPair Name="%MinorFactionMorgawrDescription" >The Morgawr have always been confined to the waters, and to Auriga... But now, Morgawr are free, free to embrace their curious nature.</LocalizationPair>
