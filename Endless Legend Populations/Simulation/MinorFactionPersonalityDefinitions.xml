@@ -106,11 +106,11 @@
   <!-- Necrophages -->
   <MinorFactionPersonalityDefinition Name="FactionPersonalityPhages" >
     <MajorTrait Name="PersonalityTraitWarmonger" />
-    <MinorTrait Weight="8" >
+    <MinorTrait Weight="9" >
       <Trait Name="FactionTraitPhagesRecruiting" />
     </MinorTrait>
-    <MinorTrait Weight="2" >
-      <Trait Name="FactionTraitPhagesFood" />
+    <MinorTrait Weight="1" >
+      <Trait Name="FactionTraitPhagesDust" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
 

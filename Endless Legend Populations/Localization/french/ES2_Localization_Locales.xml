@@ -35,7 +35,7 @@
   <!-- Necrophages -->
   <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-25% de [upkeepcolored] sur Flottes et Héros</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride" >+30% de Dégât sur les Modules d'Armes</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride" >Défini la production de [foodcolored] sur Système dans l'Empire à 5 si la valeur naturel est plus basse que ça</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustEffectOverride" >Défini la production de [dustcolored] sur Système dans l'Empire à 5 si la valeur naturel est plus basse que ça</LocalizationPair>
   
   <!-- Roving Clans don't have any overrides-->
   

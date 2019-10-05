@@ -186,22 +186,22 @@
     </Icons>
   </GuiElement>
 
-  <ExtendedGuiElement Name="FactionTraitPhagesFood" >
-    <Title>%FactionTraitPhagesFoodTitle</Title>
-    <Description>%FactionTraitPhagesFoodDescription</Description>
+  <ExtendedGuiElement Name="FactionTraitPhagesDust" >
+    <Title>%FactionTraitPhagesDustTitle</Title>
+    <Description>%FactionTraitPhagesDustDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%FactionTraitPhagesFoodEffectOverride</EffectOverride>
+      <EffectOverride>%FactionTraitPhagesDustEffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  <!-- Subtract Food Necrophages -->
-  <GuiElement Name="ClassPopulationPlanetModifiersTraitPhagesFood" >
-    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
+  <!-- Subtract Dust Necrophages -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitPhagesDust" >
+    <Title>%PopulationModifiersTraitPhagesDustTitle</Title>
   </GuiElement>
-  <GuiElement Name="PopulationModifiersTraitPhagesFood" >
-    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
+  <GuiElement Name="PopulationModifiersTraitPhagesDust" >
+    <Title>%PopulationModifiersTraitPhagesDustTitle</Title>
   </GuiElement>
 
   <!-- Roving Clans -->

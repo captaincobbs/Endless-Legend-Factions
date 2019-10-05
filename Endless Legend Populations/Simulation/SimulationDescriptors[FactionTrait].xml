@@ -122,8 +122,8 @@
     <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="FactionTraitPhagesFood" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="ApplyShouldForceRawFood"  Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassPlanet" Priority="-5" TooltipHidden="true" />
+  <SimulationDescriptor Name="FactionTraitPhagesDust" Type="FactionTraitMinor" >
+    <Modifier TargetProperty="ApplyShouldForceRawDust"  Operation="Addition" Value="1" Path="ClassEmpire/ClassColonizedStarSystem/ClassPlanet" Priority="-5" TooltipHidden="true" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 

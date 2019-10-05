@@ -91,9 +91,9 @@
   <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Terraforming Expertise</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >The assimilation of the Kapaku leads to a similar disposition to Hot planets as the Kapaku themselves, which is one of awe and optimism.</LocalizationPair> 
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >The Kapaku have had Terraforming technology for much longer than most other races, and therefore, understand how to apply it more efficiently.</LocalizationPair>
-  <!-- Unique Planet -->
+  <!-- Homeworld -->
   <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
-  <LocalizationPair Name="%UniquePlanetChabotaDescription">Kapaku Homeworld</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetChabotaDescription">A planet remade in the image of the Kapaku's original homeworld before the Virtual Endless corrupted it with vegetation. It's harsh and unforgiving, but the Kapaku view it as a symbol of their returning power.</LocalizationPair>
   
   
   <!-- Morgawr -->
@@ -131,10 +131,10 @@
   <LocalizationPair Name="%AffinityPhagesTitle" >Necrophages</LocalizationPair>
   <LocalizationPair Name="%AffinityPhagesDescription" >A hive-people that survive by ingesting or converting others as they infect them with their plague, the Necrophages are scavengers and survivors. Always hungry and always hostile, they are viewed as a scourge by other people.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Veteran Warriors</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodTitle" >Slave Driving</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Slave Driving</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Extremes of evolution and environment can teach advanced organisms the secrets of combat.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodDescription" >Through the use of brutal enslavement of other peoples, the Necrophages can force a minimum amount of food to be produced if times get tough.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Through the use of brutal enslavement of other peoples, the Necrophages can force a minimum amount of dust to be produced if times get tough.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Roving Clans</LocalizationPair>

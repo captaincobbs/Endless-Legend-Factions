@@ -130,10 +130,10 @@
   <LocalizationPair Name="%AffinityPhagesTitle" >Nekrophagen</LocalizationPair>
   <LocalizationPair Name="%AffinityPhagesDescription" >Die Nekrophagen sind insektenartige Schwarmvölker, die überleben, indem sie andere Spezies konsumieren oder auch transformieren - indem sie sie mit ihrer Brut infizieren; sie sind Aasfresser und Überlebenskünstler. Immer hungrig und immer angriffslustig, werden sie von anderen als Plage angesehen.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Veteranen Krieger</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodTitle" >Sklaventreiber</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Sklaventreiber</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Extreme der Evolution und herrschende Umweltbedingungen können fortschrittlichen Organismen die Geheimnisse der Kriegsführung in die Wiege legen.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodDescription" >Durch die brutale Versklavung anderer Völker können die Nekrophagen in Krisenzeiten eine Mindestmenge an Nahrung produzieren lassen.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Durch die brutale Versklavung anderer Völker können die Nekrophagen in Krisenzeiten eine Mindestmenge an Nahrung produzieren lassen.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Wanderklans</LocalizationPair>

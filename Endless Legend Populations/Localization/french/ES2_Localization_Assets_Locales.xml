@@ -130,10 +130,10 @@
   <LocalizationPair Name="%AffinityPhagesTitle" >Necrophages</LocalizationPair>
   <LocalizationPair Name="%AffinityPhagesDescription" >Un peuple de ruche qui survit en ingérant ou convertissant d'autres créatures en les infectant de leur peste, les Necrophages sont des charognards et des survivants. Toujours affamés et belliqueux, ils sont considérés par les autres comme un fléau.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Guerriers Aguerris</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodTitle" >Traite d'esclaves</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Traite d'esclaves</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Les conditions extrêmes de l'évolution et de l'environnment peuvent apprendre à des organismes avancés les secrets du combat.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesFoodDescription" >Au travers de la brutale mise en esclavage des autres races, les Necrophages peuvent forcer la production d'un minimum de nourriture en cas de coup de dur.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Au travers de la brutale mise en esclavage des autres races, les Necrophages peuvent forcer la production d'un minimum de nourriture en cas de coup de dur.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Clans Errants</LocalizationPair>
