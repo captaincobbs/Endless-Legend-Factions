@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <ExtendedGuiElement Name="PlanetTerraformationFromLavaToSuperLava">
+    <Title>%PlanetTerraformationFromLavaToSuperLavaTitle</Title>
+    <Description>%PlanetTerraformationFromLavaToSuperLavaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationLavaSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationLavaLarge" />
+    </Icons>
+    <AltTitle>%PlanetTypeSuperLavaTitle</AltTitle>
+  </ExtendedGuiElement>
+</Datatable>

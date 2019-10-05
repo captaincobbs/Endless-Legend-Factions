@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
-  <!-- Broken Lords -->
+  <!-- Broken Lords - Reproduction -->
   <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementCloneLordsPopulation" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationDestination="AffinityLords" PopulationToTransformCount="1" CreateIfNotAvailable="true" ConsumeResourceSurplus="true">
     <Tags>NoBuyout</Tags>
     <CustomCost ResourceName="SystemProduction">1</CustomCost>
@@ -18,22 +18,6 @@
     </InterpreterPrerequisite>
     <SimulationDescriptorReference Name="StarSystemImprovementCloneLordsPopulation"/>
   </StarSystemPopulationTransformImprovementDefinition>
-
-  <!--<StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementCloneLordsPopulation" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt"
-                                                  PopulationSource="AffinityLords"  PopulationToTransformCount="1" CreateIfNotAvailable="true">
-    <AIGain RessourceName="PopulationGain" Inverted="false"></AIGain>
-    <Tags>NoBuyout</Tags>
-    <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
-    <CustomCost ResourceName="SystemProduction">1</CustomCost>
-    <CustomCost ResourceName="EmpireMoney">(100 + Property(Context,@'../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityLordsCount', PopulationCount) * 100) * Property(StockLocation, @../ClassEmpire, GameSpeedMultiplier, true)</CustomCost>
-    <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
-    <InterpreterPrerequisite Flags="Prerequisite,Discard">SumProperty(Context, @'../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityCustom0Count', PopulationCount) ge 1</InterpreterPrerequisite>
-    <InterpreterPrerequisite Flags="MaximumPopulationSystem,Enqueue">
-      (Property(Context,@ClassColonizedStarSystem, MaximumPopulation) ge (1 + Property(Context,@ClassColonizedStarSystem, Population) + Property(Context,@ClassColonizedStarSystem, VirtualPopulation)))
-    </InterpreterPrerequisite>
-    <InterpreterPrerequisite Flags="Prerequisite">
-      (Property(Context,@ClassColonizedStarSystem, MaximumPopulation) ge (Property(Context,@ClassColonizedStarSystem, Population) + Property(Context,@ClassColonizedStarSystem, VirtualPopulation)))
-    </InterpreterPrerequisite>
-    <SimulationDescriptorReference Name="StarSystemImprovementCloneLordsPopulation"/>
-  </StarSystemPopulationTransformImprovementDefinition>-->
+  
+  
 </Datatable>

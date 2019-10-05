@@ -160,7 +160,8 @@
   </GalaxyGeneratorWeightTable>
   <!-- Kapaku -->
 	<GalaxyGeneratorWeightTable Name="MinorFactionKapaku_PlanetTypes" >
-    <Entry Tag="UniquePlanetChabota"                 Weight="1" />
+    <Entry Tag="PlanetTypeLava"                 Weight="9" />
+    <Entry Tag="PlanetTypeAsh"                  Weight="1" />
   </GalaxyGeneratorWeightTable>
   <!-- Morgawr -->
   <GalaxyGeneratorWeightTable Name="MinorFactionMorgawr_PlanetTypes" >
@@ -204,5 +205,22 @@
     <Entry Tag="PlanetTypeOcean"                 Weight="2" />
     <Entry Tag="PlanetTypeAtoll"                 Weight="2" />
     <Entry Tag="PlanetTypeMonsoon"               Weight="2" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Unique Planets -->
+  <GalaxyGeneratorWeightTable Name="UniquePlanetList">
+    <Entry Tag="UniquePlanetTor"                 Weight="1"/>
+    <Entry Tag="UniquePlanetKyros"               Weight="1"/>
+    <Entry Tag="UniquePlanetAuriga"              Weight="1"/>
+    <Entry Tag="UniquePlanetBilgeli"             Weight="1"/>
+    <Entry Tag="UniquePlanetSahar"               Weight="1"/>
+    <Entry Tag="UniquePlanetSykagoja"            Weight="1"/>
+		<Entry Tag="UniquePlanetVeil"		             Weight="1"/>
+		<Entry Tag="UniquePlanetTeonha"		           Weight="1"/>
+    <Entry Tag="UniquePlanetChabota"		         Weight="1"/>
+  </GalaxyGeneratorWeightTable>
+
+  <GalaxyGeneratorWeightTable Name="UniquePlanetChabota">
+    <Entry Tag="PlanetTypeLava"      Weight="1"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>

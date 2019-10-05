@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Generator.Definitions.PlanetTierDefinition.xsd">
+    <PlanetTierDefinition Model="Standard" Rank="2">
+    <PlanetType>Steppes</PlanetType>
+    <PlanetType>Tropical</PlanetType>
+    <PlanetType>Snow</PlanetType>
+    <PlanetType>Arid</PlanetType>
+    <PlanetType>Desert</PlanetType>
+    <PlanetType>Arctic</PlanetType>
+	<PlanetType>SuperLava</PlanetType>
+  </PlanetTierDefinition>
+</Datatable>
