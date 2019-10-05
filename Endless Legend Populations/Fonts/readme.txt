@@ -1,0 +1,1 @@
+This folder isn't read by the mod. I keep the AmplitudeFont.otf here so I can access the game's custom characters for tooltips using fontforge.
