@@ -559,4 +559,20 @@
     <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom10" TooltipHidden="true"/>
     <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom11" TooltipHidden="true"/>
   </SimulationDescriptor>
+
+  <SimulationDescriptor Name="PopulationCollectionBonusWalkersCustom2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom0" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom1" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom2" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom3" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom4" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom5" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom6" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom7" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom8" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom9" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom10" TooltipHidden="true"/>
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="../ClassEmpire/ClassPopulationEmpireAffinityCustom11" TooltipHidden="true"/>
+  </SimulationDescriptor>
 </Datatable>
