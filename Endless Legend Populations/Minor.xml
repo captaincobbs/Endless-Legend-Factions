@@ -18,6 +18,7 @@
       [*]Traits (+3 Science on Cold, +1 Influence)
       [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Allayi 3. +3 Movement points on Ships)
       [*] Assimilation Bonuses ( +2 Happiness on Cold Planets or +25% Ownership Recovery)
+      [*] Faction Trait (Start with Fakir)
       [/list]
       Ardent Mages[list]
       [*]Traits (+5 IDS)
@@ -34,7 +35,6 @@
       [*]Traits (+30 Manpower Capacity on Fertile, +2 FIDSI)
       [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Cultists 3. +25 Happiness)
       [*] Assimilation Bonuses ( +1 Population Slot on Colonized Planets or +15% Maximum Health on Ships)
-      [*] Faction Trait (Start with Fakir)
       [/list]
       Drakken[list]
       [*]Traits (+2 Influence on Anomalies, +1 Science)
@@ -115,7 +115,7 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Added Kapaku homeworld, Added Faction Quests</ReleaseNotes>
+    <ReleaseNotes>Added Kapaku homeworld, Balance Changes, Spanish Translation, Fixed Population Collection Bonuses</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
     <Plugins>
