@@ -14,20 +14,7 @@
 	 -->
   <!-- Allayi -->
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics04" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityAllayi"           TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayi1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityAllayi" TooltipOverride="%TooltipOverridePositivePolitics04"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAllayi" />
@@ -39,20 +26,7 @@
 
   <!-- Ardent Mages -->
   <SimulationDescriptor Name="PopulationCollectionBonusArdent1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics02" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityArdentCount"      TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdent1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityArdent" TooltipOverride="%TooltipOverridePositivePolitics02"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusArdent2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.05" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityArdent" SearchValueFromPath="true" />
@@ -68,20 +42,7 @@
 
   <!-- Broken Lords -->
   <SimulationDescriptor Name="PopulationCollectionBonusLords1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics06" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityArdentCount"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLords1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityLords" TooltipOverride="%TooltipOverridePositivePolitics06"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusLords2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="150" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityLords" />
@@ -95,20 +56,7 @@
 
   <!-- Cultists -->
   <SimulationDescriptor Name="PopulationCollectionBonusCultists1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics05" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCultistsCount"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultists1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCultists" TooltipOverride="%TooltipOverridePositivePolitics05"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true" />
@@ -121,20 +69,7 @@
   
     <!-- Drakken -->
   <SimulationDescriptor Name="PopulationCollectionBonusDrakken1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics03" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityDrakkenCount"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakken1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityDrakken" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusDrakken2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true" />
@@ -145,20 +80,7 @@
 
   <!-- Forgotten-->
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics03" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityForgottenCount"   TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgotten1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="ShipMaximumMovement" Operation="Addition" Value="1" Path="../ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true" />
@@ -169,20 +91,7 @@
 
   <!-- Kapaku -->
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics04" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityKapaku"           TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapaku1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKapaku" TooltipOverride="%TooltipOverridePositivePolitics04"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusKapaku2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityKapaku" SearchValueFromPath="true" />
@@ -194,20 +103,7 @@
 
   <!-- Morgawr -->
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics02" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityMorgawrCount"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawr1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityPhages" TooltipOverride="%TooltipOverridePositivePolitics02"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" />
@@ -215,25 +111,11 @@
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr3" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" />
-    <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMorgawrCustom3,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Mykara -->
   <SimulationDescriptor Name="PopulationCollectionBonusMykara1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics01" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityMykaraCount"      TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykara1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityMykara" TooltipOverride="%TooltipOverridePositivePolitics01"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMykara2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMykara" />
@@ -246,19 +128,7 @@
 
   <!-- Necrophages -->
   <SimulationDescriptor Name="PopulationCollectionBonusPhages1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics06" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhages1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityPhages" TooltipOverride="%TooltipOverridePositivePolitics06"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusPhages2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="GarrisonMoneyUpkeep"	Operation="Percent" Value="-0.25" Path="ClassEmpire" TooltipHidden="true" />
@@ -271,20 +141,7 @@
 
   <!-- Roving Clans -->
   <SimulationDescriptor Name="PopulationCollectionBonusRoving1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics03" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityRovingCount"      TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRoving1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03"    Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityRoving" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusRoving2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" />
@@ -295,20 +152,7 @@
 
   <!-- Wild Walkers -->
   <SimulationDescriptor Name="PopulationCollectionBonusWalkers1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics01" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityRovingCount"      TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
-    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkers1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityWalkers" TooltipOverride="%TooltipOverridePositivePolitics01"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusWalkers2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityWalkers" />
@@ -325,6 +169,22 @@
   <!-- #      #   #      #    #    #   #  #     # -->
   <!-- #####  #####  #####    #    #####  #     # -->
   <!-- Allayi -->
+  <SimulationDescriptor Name="PopulationCollectionBonusAllayiCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics04" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusAllayiCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusAllayiCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusAllayiCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" TooltipHiddenIfPathInvalid="true" />
@@ -342,6 +202,22 @@
   </SimulationDescriptor>
 
   <!-- Ardent Mages -->
+  <SimulationDescriptor Name="PopulationCollectionBonusArdentCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics02" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusArdentCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusArdentCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.05" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.05" Path="PopulationCollectionBonusArdentCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
@@ -385,6 +261,22 @@
   </SimulationDescriptor>
 
   <!-- Broken Lords -->
+  <SimulationDescriptor Name="PopulationCollectionBonusLordsCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics06" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusLordsCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusLordsCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="150" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="150" Path="PopulationCollectionBonusLordsCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
@@ -415,6 +307,22 @@
   </SimulationDescriptor>
 
   <!-- Cultists -->
+  <SimulationDescriptor Name="PopulationCollectionBonusCultistsCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics05" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="PopulationCollectionBonusCultistsCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusCultistsCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusCultistsCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" TooltipHiddenIfPathInvalid="true" />
@@ -430,6 +338,7 @@
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusCultistsCustom2,ClassPopulationEmpireAffinityCustom10Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom10Count" TooltipHiddenIfPathInvalid="true" />
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusCultistsCustom2,ClassPopulationEmpireAffinityCustom11Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom11Count" TooltipHiddenIfPathInvalid="true" />
   </SimulationDescriptor>
+  
   <SimulationDescriptor Name="PopulationCollectionBonusCultistsCustom3" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="25" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="25" Path="PopulationCollectionBonusCultistsCustom3,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" TooltipHiddenIfPathInvalid="true" />
@@ -446,7 +355,57 @@
     <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="25" Path="PopulationCollectionBonusCultistsCustom3,ClassPopulationEmpireAffinityCustom11Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom11Count" TooltipHiddenIfPathInvalid="true" />
   </SimulationDescriptor>
 
+  <!-- Drakken -->
+  <SimulationDescriptor Name="PopulationCollectionBonusDrakkenCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics03" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusDrakkenCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+  
+  <!-- Forgotten -->
+  <SimulationDescriptor Name="PopulationCollectionBonusForgottenCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics03" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusForgottenCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+  
   <!-- Kapaku -->
+  <SimulationDescriptor Name="PopulationCollectionBonusKapakuCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics04" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="PopulationCollectionBonusKapakuCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusKapakuCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" SearchValueFromPath="true" />
     <Modifier TargetProperty="SystemProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusKapakuCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
@@ -464,6 +423,22 @@
   </SimulationDescriptor>
 
   <!-- Morgawr -->
+  <SimulationDescriptor Name="PopulationCollectionBonusMorgawrCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics02" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusMorgawrCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawrCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMorgawrCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" TooltipHiddenIfPathInvalid="true" />
@@ -479,6 +454,7 @@
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMorgawrCustom2,ClassPopulationEmpireAffinityCustom10Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom10Count" TooltipHiddenIfPathInvalid="true" />
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMorgawrCustom2,ClassPopulationEmpireAffinityCustom11Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom11Count" TooltipHiddenIfPathInvalid="true" />
   </SimulationDescriptor>
+  
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawrCustom3" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMorgawrCustom3,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
@@ -496,6 +472,22 @@
   </SimulationDescriptor>
 
   <!-- Mykara -->
+  <SimulationDescriptor Name="PopulationCollectionBonusMykaraCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics01" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusMykaraCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusMykaraCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMykaraCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
@@ -511,6 +503,7 @@
     <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMykaraCustom2,ClassPopulationEmpireAffinityCustom10Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom10Count" SearchValueFromPath="true" TooltipHidden="true" />
     <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusMykaraCustom2,ClassPopulationEmpireAffinityCustom11Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom11Count" SearchValueFromPath="true" TooltipHidden="true" />
   </SimulationDescriptor>
+  
   <SimulationDescriptor Name="PopulationCollectionBonusMykaraCustom3" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="PopulationCollectionBonusMykaraCustom3,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" SearchValueFromPath="true" TooltipHidden="true" />
@@ -527,7 +520,58 @@
     <Modifier TargetProperty="SystemFIDSIPercentBonusFromCollection" Operation="Addition" Value="0.03" Path="PopulationCollectionBonusMykaraCustom3,ClassPopulationEmpireAffinityCustom11Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom11Count" SearchValueFromPath="true" TooltipHidden="true" />
   </SimulationDescriptor>
 
+  <!-- Necrophages -->
+  <SimulationDescriptor Name="PopulationCollectionBonusPhagesCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics06" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="PopulationCollectionBonusPhagesCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+  
+  <!-- Roving Clans -->
+  <SimulationDescriptor Name="PopulationCollectionBonusRovingCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics03" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityRovingCount"      TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="PopulationCollectionBonusRovingCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <!-- Wild Walkers -->
+  <SimulationDescriptor Name="PopulationCollectionBonusWalkersCustom1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="false" TooltipOverride="%TooltipOverridePositivePolitics01" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true" />
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="PopulationCollectionBonusWalkersCustom1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true" />
+  </SimulationDescriptor>
+
   <SimulationDescriptor Name="PopulationCollectionBonusWalkersCustom2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemCustomFaction" />
     <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Addition" Value="15" Path="PopulationCollectionBonusWalkersCustom2,ClassPopulationEmpireAffinityCustom0Count/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCustom0Count" TooltipHiddenIfPathInvalid="true" />
