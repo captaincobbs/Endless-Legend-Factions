@@ -430,7 +430,7 @@
     </CollectionBonus>
 
     <CollectionBonus Threshold="20" >
-      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkersCustom2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusWalkers2" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
     </CollectionBonus>
 
