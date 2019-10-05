@@ -79,8 +79,8 @@
   <FactionTrait Name="FactionTraitPhagesRecruiting" SubCategory="FactionTrait" Hidden="false" Cost="0" >
     <SimulationDescriptorReference Name="FactionTraitPhagesRecruiting" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitPhagesFood" SubCategory="FactionTrait" Hidden="false" Cost="0" >
-    <SimulationDescriptorReference Name="FactionTraitPhagesFood" />
+  <FactionTrait Name="FactionTraitPhagesDust" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+    <SimulationDescriptorReference Name="FactionTraitPhagesDust" />
   </FactionTrait>
 
   <!-- Roving Clans -->
