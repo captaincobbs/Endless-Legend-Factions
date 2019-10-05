@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <ExtendedGuiElement Name="StarSystemImprovementCloneLordsPopulation">
+    <Title>%StarSystemImprovementCloneLordsPopulationTitle</Title>
+    <Description>%AffinityLordsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/AffinityLordsBuild" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityZvaliLarge" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%StarSystemImprovementCloneLordsPopulationTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+</Datatable>

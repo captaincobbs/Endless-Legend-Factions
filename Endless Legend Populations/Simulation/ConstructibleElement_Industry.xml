@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
+  <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementCloneLordsPopulation" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt" PopulationDestination="AffinityLords" PopulationToTransformCount="1" CreateIfNotAvailable="true" ConsumeResourceSurplus="true">
+    <Tags>NoBuyout</Tags>
+
+    <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+    <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
+    <InterpreterPrerequisite Flags="Prerequisite,Discard">
+      SumProperty(Context, @'../ClassColonizedStarSystem/ClassPopulationStarSystemAffinityLordsCount,ClassPopulation', PopulationCount) ge 1
+    </InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="MaximumPopulationSystem,Enqueue">
+      (Property(Context,@ClassColonizedStarSystem, MaximumPopulation) ge (1 + Property(Context,@ClassColonizedStarSystem, Population) + Property(Context,@ClassColonizedStarSystem, VirtualPopulation)))
+    </InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite">
+      (Property(Context,@ClassColonizedStarSystem, MaximumPopulation) ge (Property(Context,@ClassColonizedStarSystem, Population) + Property(Context,@ClassColonizedStarSystem, VirtualPopulation)))
+    </InterpreterPrerequisite>
+    <SimulationDescriptorReference Name="StarSystemImprovementCloneLordsPopulation"/>
+  </StarSystemPopulationTransformImprovementDefinition>
+
+  <!--Clone Cravers Self0-->
+  <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementCloneLordsPopulation" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt"
+                                                  PopulationSource="Major"  PopulationDestination="AffinityLords" PopulationToTransformCount="1">
+    <Tags>NoBuyout</Tags>
+    <Cost ResourceName="SystemProduction">1</Cost>
+    <Cost ResourceName="EmpireMoney">(100 + Property(Context,@'../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityLordsCount', PopulationCount) * 100) * Property(StockLocation, @../ClassEmpire, GameSpeedMultiplier, true)</Cost>
+    <PathPrerequisite Inverted="false" Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
+    <QueuedSimulationDescriptorReference Name="StarSystemImprovementMajorPopulationQueued"/>
+    <InterpreterPrerequisite Flags="Prerequisite,Discard">SumProperty(Context, @'../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityCustom0Count', PopulationCount) ge 1</InterpreterPrerequisite>
+    <InterpreterPrerequisite Inverted="false" Flags="NotEnoughPopulation,Enqueue">( Property(Context, @ClassColonizedStarSystem, MajorPopulationCount) - Property(Context, @ClassColonizedStarSystem, OnGoingLords) ) gt 0</InterpreterPrerequisite>
+    <InterpreterPrerequisite Flags="Prerequisite,Discard">SumProperty(Context, @'../ClassColonizedStarSystem/ClassPopulationStarSystemAffinityLordsCount,ClassPopulation', PopulationCount) ge 1</InterpreterPrerequisite>
+    <SimulationDescriptorReference Name="StarSystemImprovementCloneLordsPopulation"/>
+  </StarSystemPopulationTransformImprovementDefinition>
+</Datatable>
