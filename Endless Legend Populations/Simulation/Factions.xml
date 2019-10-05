@@ -17,6 +17,7 @@
     <Trait Name="IsMinorFaction" /> <!-- Confirms that the faction is a major factions -->
     <MajorPopulation Affinity="AffinityAllayi" Count="3" /> <!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 3 Allayi -->
     <Personality Name="FactionPersonalityAllayi" /> <!-- Defined in MinorFactionPersonalityDefinitions, determines personality and faction traits -->
+    <Trait Name="FactionTraitMinorUrkanCMinor" /> <!-- Starts faction with Fakir, this is a major faction trait I made specifically for them -->
     <Politics Name="Politics05" />
     <!-- ^ Determines starting political faction and what it should focus towards -->
     <!-- v I'm not sure what this does, all minor factions have this set to 0 -->
@@ -128,8 +129,6 @@
     <Affinity Name="AffinityGameplayCultists" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitMinorUrkanCMinor" />
-    <!-- Starts faction with Fakir -->
     <MajorPopulation Affinity="AffinityCultists" Count="2" />
     <Personality Name="FactionPersonalityCultists" />
     <Politics Name="Politics05" />
