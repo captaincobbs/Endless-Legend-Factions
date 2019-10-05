@@ -123,6 +123,14 @@
         <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
       </DatabasePlugin>
 
+      <DatabasePlugin DataType="IndustryConstructibleElement, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="StarSystemPopulationTransformImprovementDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/ConstructibleElement_Industry.xml</FilePath>
+      </DatabasePlugin>
+
       <DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
         <FilePath>Simulation/MinorFactionPersonalityDefinitions.xml</FilePath>
       </DatabasePlugin>

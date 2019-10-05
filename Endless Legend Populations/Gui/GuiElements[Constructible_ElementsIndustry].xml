@@ -4,8 +4,8 @@
     <Title>%StarSystemImprovementCloneLordsPopulationTitle</Title>
     <Description>%AffinityLordsDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Gui/AffinityLordsBuild" />
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityZvaliLarge" />
+      <Icon Size="Small" Path="Gui/LordsBuildSmall" /><!-- 96x48 -->
+      <Icon Size="Large" Path="Gui/LordsBuildLarge" /> <!-- 540x270 -->
     </Icons>
     <TooltipElement>
       <EffectOverride>%StarSystemImprovementCloneLordsPopulationTooltipEffect</EffectOverride>

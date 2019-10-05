@@ -9,7 +9,7 @@
   
   <!-- Broken Lords -->
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% Damage per Hero on troops</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Clone Broken Lords [custom00]</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Purchase Broken Lords [custom00]</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Use [dustcolored] to add one Broken Lords [population]</LocalizationPair>
 
   <!-- Cultists -->

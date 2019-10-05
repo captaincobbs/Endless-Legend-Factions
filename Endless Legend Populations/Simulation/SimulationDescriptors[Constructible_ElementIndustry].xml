@@ -4,5 +4,5 @@
     <Modifier TargetProperty="OnGoingLords" Operation="Addition" Value="1" />
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="StarSystemImprovementAssimilateLordsPopulation" Type="StarSystemImprovement"/>
+  <SimulationDescriptor Name="StarSystemImprovementCloneLordsPopulation" Type="StarSystemImprovement"/>
 </Datatable>
