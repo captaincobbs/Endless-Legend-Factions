@@ -185,4 +185,7 @@
   <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
   <LocalizationPair Name="%UniquePlanetChabotaDescription">The original homeworld of the Kapaku before the Virtual Endless corrupted it with their experiments. Deformed with vast toxic bogs and aggressive beasts, the Kapaku desire to make the world regain its former glory. Scattered about the surface are various ruins and signs of their existance, so perhaps further investigation may result in discoveries as to what happened to the survivors.</LocalizationPair>
 
+  <!-- Chabota's Anomaly -->
+  <LocalizationPair Name="%PlanetAnomalyEndlessWonder1Title">Vestiges of Cultivation</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEndlessWonder1Description">A great complex, dedicated to the extraction and collection of wealth. Utilizing many golems, the Kapaku have uncovered many answers about their past, and have, at least in their eyes, returned to their former glory. The complex was built and designed entirely by the Kapaku, and will forever remain as a testamant of their resilience.</LocalizationPair>
 </Datatable>

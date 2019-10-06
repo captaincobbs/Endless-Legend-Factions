@@ -195,4 +195,13 @@
     <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Percent" Value="$(PlanetDepletionMultiplier)"/>
 
   </SimulationDescriptor>
+
+  <!-- Chabota's Anomaly -->
+  <SimulationDescriptor Name="PlanetAnomalyEndlessWonder3" Type="PlanetAnomaly" >
+    <Modifier TargetProperty="PlanetRawPrestige"                Value="2"       Operation="Addition" Path="ClassPlanet"/>
+    <Modifier           TargetProperty="RawMaximumPopulation" Operation="Addition" Value="1" Path="ClassPlanet" />
+    <BinaryModifier     TargetProperty="Happiness"            Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)"      />
+    <Modifier           TargetProperty="HappinessRaw"         Operation="Addition" Value="2" TooltipHidden="true" />
+    <Modifier           TargetProperty="PlanetRawIndustry"    Value="5" Operation="Addition" Path="ClassPlanet"/>
+  </SimulationDescriptor>
 </Datatable>
