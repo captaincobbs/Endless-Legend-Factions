@@ -1,0 +1,181 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <!-- Allayi -->
+  <LocalizationPair Name="%MinorFactionAllayiTitle" >Allayi</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionAllayiDescription" >Una de las razas originles de Auriga, los Allayi sufrieron mucho por el éxodo de su planeta natal. Una vez intrinsecamente atados a su planeta, se han adaptado para sentir un vinculo similr con cualquier planeta en que residan.</LocalizationPair>
+  <LocalizationPair Name="%PopulationAllayiTitle" >[custom08]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityAllayiTitle" >[custom08]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle" >Systems with [custom08]</LocalizationPair>
+  <LocalizationPair Name="%AffinityAllayiTitle" >Allayi</LocalizationPair>
+  <LocalizationPair Name="%AffinityAllayiDescription" >Con su abilidad unica para cambiar de forma, los Allayi son adaptables y feroces cuando se sieten amenazados.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle" >Nosotos, los elegidos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessTitle" >Regalo de Auriga</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription" >Caballerosos y leales, los Allayi situados estratégicamente pueden tener un efecto tremendo en la lealtad al tomar sistemas solares.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >A pesar de que Auriga se ha ido, ella dejó un regalo final a los Allayi que te pueden entregar.</LocalizationPair>
+
+  <!-- Ardent mages -->
+  <LocalizationPair Name="%MinorFactionArdentTitle" >Magos Ardientes</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionArdentDescription" >A pear de que controlan grandes poderes, deben pagar un gran precio por ello. Para manipular los poderes del polvo, un mago ardiente debe disociar su mente de su cuerpo. Para ello, han desarrollado rituales de dolor, porque cuanto más capaces son de aguantar la agonía y la incomodidad física, más profunda se vuelve su relación con el polvo. El dolor se ha convertido en un elemento fundamental de su sociedad, hasta el punto que des de la infancia se les enseña a aguantarlo.</LocalizationPair>
+  <LocalizationPair Name="%PopulationArdentTitle" >[custom03]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityArdentTitle" >[custom03]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle" >Sistemas con [custom03]</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentTitle" >Magos ardientes</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentDescription" >Tras sobrevivir una larga historia de sacrificio e inanición, los poderes que los Magos Ardientes descubrieron - y les permitieron sobrevivir - son los basados en la magia del Polvo, la agonia y la ira.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTrascendTitle" >Altar de la Trascendencia</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Templo de Verda</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Convirtiendonos cómo hicieron los Endless Virtuales, podemos abandonar la necesidad de cuerpos físicos y centrarnos en la persecución del poder.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Las sutilezas del Polvo son nomerosas y faciles de olvidar. Solo se desvelaran sus secretos tras un estudio metódico. Este templo, repleto de trampas terroríficas, ayudará en esta empresa.</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%MinorFactionLordsTitle" >Caballeros Espectrales</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionLordsDescription" >Los Caballeros Espectrales formaron una coalición de emergencia con otras facciones, para no ser superados por el éxodo de los Saltadores. Cooperaron para construir una nave espacial y escapar de Auriga.</LocalizationPair>
+  <LocalizationPair Name="%PopulationLordsTitle" >[custom00]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle" >[custom00]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle" >Sistemas con [custom00]</LocalizationPair>
+  <LocalizationPair Name="%AffinityLordsTitle" >Caballeros Espectrales</LocalizationPair>
+  <LocalizationPair Name="%AffinityLordsDescription" >Una vez una nación de nobles Caballeros, ahora lisiados por una maldición que atrapó sus cuerpos dentro de armaduras. Aún deben romper esta maldición, pero han perdido toda motivación para hacerlo.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsDustTitle" >Extracción no letal</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Sobrecarga de Polvo</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsDustDescription" >Usando el poder vampírico de los Caballeros Espectrales, pero combinado don métodos más seguros, es posible extraer grandes cantidades de Polvo de los ciudadanos de forma no letal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Usando el poder restaurador de Polvo que los Caballeros Espectrales aprendieron es posible hacer que todo se repare por si mismo lentamente.</LocalizationPair>
+  
+  <!-- Cultists -->
+  <LocalizationPair Name="%MinorFactionCultistsTitle" >Cultistas del Fin Eterno</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionCultistsDescription" >Los cultistas del Fin Eterno, guiados por la Reina y el Impronunciable, superaran cualquier límite para asegurar que su voluntad se lleva a cabo mediante la conversión de gentes inferiores.</LocalizationPair>
+  <LocalizationPair Name="%PopulationCultistsTitle" >[custom01]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityCultistsTitle" >[custom01]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Sistemas con [custom01]</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsTitle" >Cultistas</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsDescription" >Vigilantes e hiperproductivos en todos los aspectos, con un apoyo inquebrantable hacia la Reina, los Cultitas son excelentes ciudadanos, siempre que no se permita a demasiados de ellos estar en el mismo sitio.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle" >Recubrimiento de Fe</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Santuarios de la Reina</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription" >Derramando su corazón y fe en la creación de obras maestras del blindaje, tus naves aumentaran su resistencia.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >Un único y enorme santuario es construido en cada planeta de tu imperio, sirviendo como centro de alojamiento masivo y adoración de los Cultistas.</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%MinorFactionDrakkenTitle" >Dragonianos</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionDrakkenDescription" >Al darse cuenta que su misión para salvar el planeta era fútil, los Dragonianos, a través de un gran conflicto civil y un cambio de liderazgo, decidieron que lo único que podian hacer era un esfuerzo colectivo para abandonar el planeta.</LocalizationPair>
+  <LocalizationPair Name="%PopulationDrakkenTitle" >[custom09]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityDrakkenTitle" >[custom09]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityDrakkenTitle" >Sistemas con [custom09]</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrakkenTitle" >Dragonianos</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrakkenDescription" >Los Dragonianos parecen dragones de fantasia. Pero, contrariamente a sus homónimos fantásticos, los Dragonianos prefieren una aproximación diplomática a los conflictos.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Lengua de Plata</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Patriotas tozudos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Los Dragonianos son h´biles diplomáticos, con la habilidad de hacer rápidas y eficientes declaraciones diplomáticas.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Usando su sobrenatural habilidada para la oración, los Dragonianos son capaces de enrolar a la gente para resistir el control cultural de otros imperios.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%MinorFactionForgottenTitle" >Olvidados</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionForgottenDescription" >Escapando lenta y furtivamente como polizones en naves de exploración en grandes números, los Olvidados decidieron empezar de nuevo y dispersarse por la galaxia. Al fin se disgustaron por ser tratados de forma parecida en todos esos nuevos mundos y decidieron congregarse de nuevo para formar su propia nacion otra vez.</LocalizationPair>
+  <LocalizationPair Name="%PopulationForgottenTitle" >[custom06]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityForgottenTitle" >[custom06]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityForgottenTitle" >Sistema con [custom06]</LocalizationPair>
+  <LocalizationPair Name="%AffinityForgottenTitle" >Olvidados</LocalizationPair>
+  <LocalizationPair Name="%AffinityForgottenDescription" >Pícaros y espías con la abilidad única de volverse invisibles a voluntad, loa Olvidados se sirven del latrocinio y los trucos sucios para conseguir todo lo que quieren.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Maniobra rápida</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Ojo de águila</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >Los Olvidados tienen una técnica sorprendente y única para hacer que sus pilotos conduzcan sus naves más rápido: amenazarles.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >La experiencia en espionage e infiltración tiene sus ventajas, y usar a Olvidados como artilleros hace las armas más proclives a acertar.</LocalizationPair>
+
+  <!-- Kapaku -->
+  <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionKapakuDescription" >Los Kapaku han tenido un pasado problematico con los planetas. después de que su primer mundo fuese terraformado en un asqueroso bosque frondoso, y su segundo congelado para siempre, los Kapaku decidieron encontrar su propia y perfecto mundo.</LocalizationPair>
+  <LocalizationPair Name="%PopulationKapakuTitle" >[custom02]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle" >[custom02]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle" >Sistemas con [custom02]</LocalizationPair>
+  <LocalizationPair Name="%AffinityKapakuTitle" >Kapaku</LocalizationPair>                                                  
+  <LocalizationPair Name="%AffinityKapakuDescription" >Los Kapaku son una raza extraña, con su habilidad para usar la geomancia y su amor por los terrenos volcánicos.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuHappinessTitle" >Paraíso volcánico</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Terraformadores con pericia</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >La similación de los Kapaku lleva a una disposición similar hacia los planetas cálidos, parecida a la de ellos, siendo de admiración y optimismo.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >Los Kapaku han conocido la tecnologia de terraformación des de mucho antes que la mayoría de las otras razas, por ello, entienden como aplicarla de forma más eficiente.</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%MinorFactionMorgawrTitle" >Morgawr</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMorgawrDescription" >Los Morgawr han estado siempre confinados a las aguas, y a Auriga... Pero ahora, los Morgawr son libres, libres para abrazar su curiosa naturaleza.</LocalizationPair>
+  <LocalizationPair Name="%PopulationMorgawrTitle" >[custom10]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityMorgawrTitle" >[custom10]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityMorgawrTitle" >Sistemas con [custom10]</LocalizationPair>
+  <LocalizationPair Name="%AffinityMorgawrTitle" >Morgawr</LocalizationPair>
+  <LocalizationPair Name="%AffinityMorgawrDescription" >Los Morgawr, experimentos de los Endless, parecen peces mutados. Anhelan la libertad por encima de cualquier otra cosa y prefieren planetas océano.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceTitle" >Marioneta</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryTitle" >Hidrofilicos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription" >Usando su panipulación de mentes inferiores para la ingenieria social, los Morgawr pueden mejorar mucho la estructura social de tu imperio.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription" >La afinidad por el agua de los Morgawr se contagia a sus conciudadanos, mejorando mucho la producción en planeta fértiles.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%MinorFactionMykaraTitle" >Mykara</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMykaraDescription" >Un único, vasto, organismo parecido a una planta, que manipula su prole, incluso des de lejos. Deste tiempos ancestrales, han tenido relaciones simbioticas con los Urkans, incluso han conseguido salvar a uno de la congelación de Auriga.</LocalizationPair>
+  <LocalizationPair Name="%PopulationMykaraTitle" >[custom05]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityMykaraTitle" >[custom05]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityMykaraTitle" >Sistemas con [custom05]</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraTitle" >Mykara</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraDescription" >Moradores ancestrales del reino subterráneo perdido de Auriga, los Mykara, hechos de plantas, tienen un talento especial para la agricultura.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraFoodTitle" >sustento hiperorganico</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraManpowerTitle" >Presencia imperceptible</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraFoodDescription" >Con un íntimo entendimiento de la anatomia y la biologia, los Mykara pueden hacer la alimentación tan eficiente como sea posible creando alimentos mejorados.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraManpowerDescription" >Germinando infinitos soldados-planta, puedes tener una cantidad casi infinita de tropas sin casi ningún coste.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%MinorFactionPhagesTitle" >Necrófagos</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionPhagesDescription" >Abandonados en Auriga por las razas que escaparon, los Necrófagos esperaron pacientemente a algún explorador imprudente que llegase a su planeta y les permitiese escapar.</LocalizationPair>
+  <LocalizationPair Name="%PopulationPhagesTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityPhagesTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityPhagesTitle" >Sistemas con [custom04]</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesTitle" >Necrófagos</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesDescription" >Un colectivo que sobrevive ingeriendo o convirtiendo a otros al infectarles con su plaga, los Necrófagos son carroñeros y supervivientes. siempre hambrientos y hostiles, son vistos como un azote por el resto de las gentes.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Guerreros Veteranos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodTitle" >Esclavistas</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Un entorno y una evolución extremos pueden enseñar a los organismos los secretos más avanzados del combate.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodDescription" >Esclavizando brutalmente otras especies, los necròfagos pueden forzar la producción de una cantidad mínima de alimento si los tiempos se vuelven difíciles.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
+  
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%MinorFactionRovingTitle" >Clanes errantes</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionRovingDescription" >Inquietos por los misterios de la galaxia, los Clanes, más centrados en la estructura interna y la economia, se han convertido en maestros de ambos con comodidad.</LocalizationPair>
+  <LocalizationPair Name="%PopulationRovingTitle" >[custom11]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityRovingTitle" >[custom11]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityRovingTitle" >Sistemas con [custom11]</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingTitle" >Clanes Errantes</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingDescription" >Nunca más simples negociantes nómadas, exploradores y aventureros, los Clanes se han modernizado en algo más profesional.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsTitle" >Eficiencia Organizada</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryTitle" >Cortes Etratégicos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsDescription" >Usando su comprensión natural de la economia, los Clanes Errantes pueden señalar ineficiencias puntuales en las economias de los sistemas, exprimiendo un mayor porcentage de los costes.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryDescription" >Tratando los ejercitos como negocios, los Clanes pueden reutilizarlos, organizarlos y recortarlos en un camino hacia la eficiencia perfecta.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%MinorFactionWalkersTitle" >Caminantes Salvajes</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionWalkersDescription" >Una vez varados sobre la moribunda Auriga, los Caminantes Salvajes pusieron en las estrellas sus ultimos esfuerzos, utilizando todos los recursos de que disponian para escapar con los últimos Saltadores que allí permanecían.</LocalizationPair>
+  <LocalizationPair Name="%PopulationWalkersTitle" >[custom07]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityWalkersTitle" >[custom07]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityWalkersTitle" >Sistemas con [custom07]</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersTitle" >Caminantes Salvajes</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersDescription" >Una vez meros cazadores-recolectores, tienen la misteriosa abilidad de dar forma a árboles y rocas, creando grandes edificios, y una unión sobrenatural con los animales.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingTitle" >Edificios crecientes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightTitle" >La Confidencia</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingDescription" >Usando su afinidad conla naturaleza, los Caminantes Salvajes pueden reemplazar la necesidad de materiales como acero o titanio por sustancia naturales y regenerativas, disminuyendo los costes de produccion.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightDescription" >dándose cuenta que su conexión natural con las bestias aún persistia fuera de Auriga, los Caminantes Salvajes usan su unión con los animales para crear una ancha red de visión, potenciando enormemente el rango de detección.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%PopulationUrkanATitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle" >Sistemas con </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanATitle" >Kazar</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanADescription" >La más grande de las tres bestias, Kazarse mueve con paso calmado que muestra su gran fuerza y arrogancia. A menudo cubierto por minerales preciosos cuando emerge de las profundidades, Kazar es a veces la diana de valientes, estúpidos y aventureros que intentan liberar las piedras preciosas.</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%PopulationUrkanBTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanBTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanBTitle" >Sistemas con </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanBTitle" >Chaka</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanBDescription" >LAs leyendas cuentan que Chaka es el más tímido de los tres Urkans, reputadamente merodeando por las regiones vacias de Auriga, y disfrutando su solitud más que el conflicot. Igualgmente, además, se cuenta que Chaka es la más feroz de las tres bestias, habiendo muchas historias de su cólera y destrucción.</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%PopulationUrkanCTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanCTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanCTitle" >Sistemas con </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanCTitle" >Fakir</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanCDescription" >De los tres Urkans, quienes son eternanos adversarios de Mykara, Fakires el que provoca más miedo en el colectivo de hongos. Bendecido con un sentido del olfato extremamente afilado, las leyendas cuentan que puede rastreatr rizomas subterráneos durante kilómetros y kilómetros.</LocalizationPair>
+</Datatable>
