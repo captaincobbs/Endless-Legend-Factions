@@ -180,13 +180,6 @@
   <LocalizationPair Name="%AffinityUrkanCTitle" >Fakir</LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanCDescription" >Of the three Urkans who are the eternal adversaries of the Mykara, Fakir is the one who strikes the greatest fear into the fungal collective. Blessed with a extremely keen olfactory senses, legend has it that Fakir can track subterranean rhizome paths for leagues upon leagues.</LocalizationPair>
 
-  <!-- Planets -->
-  <!-- Planet Type - SuperLava -->
-  <LocalizationPair Name="%PlanetTypeLavaTitle">Hadean</LocalizationPair>
-  <LocalizationPair Name="%PlanetTypeLavaDescription">Though hellishly hot, this planet retains a bountiful source of industry and revenues while managing to be somewhat more hospitable than its base, the Lava planet. Though not pleasant to live on, this planet was made for industry and is meant for nothing else.</LocalizationPair>
-  <LocalizationPair Name="%PlanetTerraformationFromDestroyedToLavaTitle">Advanced Planetary Terraformation</LocalizationPair>
-  <LocalizationPair Name="%PlanetTerraformationFromDestroyedToLavaDescription">Reconstruct a Lava planet into a Hadean Planet.</LocalizationPair>
-
   <!-- Unique Planet Type - Chabota -->
   <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
   <LocalizationPair Name="%UniquePlanetChabotaDescription">A planet remade in the image of the Kapaku's original homeworld before the Virtual Endless corrupted it with vegetation. It's harsh and unforgiving, but the Kapaku view it as a symbol of their returning power.</LocalizationPair>
