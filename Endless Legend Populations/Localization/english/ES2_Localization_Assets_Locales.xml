@@ -181,6 +181,7 @@
   <LocalizationPair Name="%AffinityUrkanCDescription" >Of the three Urkans who are the eternal adversaries of the Mykara, Fakir is the one who strikes the greatest fear into the fungal collective. Blessed with a extremely keen olfactory senses, legend has it that Fakir can track subterranean rhizome paths for leagues upon leagues.</LocalizationPair>
 
   <!-- Unique Planet Type - Chabota -->
+  <!-- Note to Translators: The original text I asked you to translate has been rewritten -->
   <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
   <LocalizationPair Name="%UniquePlanetChabotaDescription">The original homeworld of the Kapaku before the Virtual Endless corrupted it with their experiments. Deformed with vast toxic bogs and aggressive beasts, the Kapaku desire to make the world regain its former glory. Scattered about the surface are various ruins and signs of their existance, so perhaps further investigation may result in discoveries as to what happened to the survivors.</LocalizationPair>
 
