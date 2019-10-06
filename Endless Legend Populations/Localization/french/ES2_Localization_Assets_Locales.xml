@@ -93,7 +93,7 @@
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >Les Kapaku possédait des technologies de Terraformation depuis plus longtemps que n'importe quelle autres races, et de fait, comprennent comment l'appliquer plus efficacement.</LocalizationPair>
   <!-- Unique Planet -->
   <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
-  <LocalizationPair Name="%UniquePlanetChabotaDescription">Une planète recréer à l'image du Monde originel des Kapaku avant que les Endless Virtuel l'aient corrompu avec de la végétation. C'est un endroit dur et qui pardonne rarement mais les Kapaku le vois comme un symbole du retour de leur puissance</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetChabotaDescription">TBI</LocalizationPair>
 
   <!-- Morgawr -->
   <LocalizationPair Name="%MinorFactionMorgawrTitle" >Morgawr</LocalizationPair>

@@ -182,6 +182,6 @@
 
   <!-- Unique Planet Type - Chabota -->
   <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
-  <LocalizationPair Name="%UniquePlanetChabotaDescription">A planet remade in the image of the Kapaku's original homeworld before the Virtual Endless corrupted it with vegetation. It's harsh and unforgiving, but the Kapaku view it as a symbol of their returning power.</LocalizationPair>
+  <LocalizationPair Name="%UniquePlanetChabotaDescription">The original homeworld of the Kapaku before the Virtual Endless corrupted it with their experiments. Deformed with vast toxic bogs and aggressive beasts, the Kapaku desire to make the world regain its former glory. Scattered about the surface are various ruins and signs of their existance, so perhaps further investigation may result in discoveries as to what happened to the survivors.</LocalizationPair>
 
 </Datatable>
