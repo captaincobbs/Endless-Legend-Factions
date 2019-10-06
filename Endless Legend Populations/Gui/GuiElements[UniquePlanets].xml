@@ -11,4 +11,14 @@
       <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeLavaPlanetoid"/>
     </Icons>
   </GuiElement>
+
+  <ExtendedGuiElement Name="PlanetTerraformationFromSwampToLava">
+    <Title>%PlanetTerraformationToLavaTitle</Title>
+    <Description>%PlanetTerraformationToLavaDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationLavaSmall" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Improvements/Colonization/ColonizationLavaLarge" />
+    </Icons>
+    <AltTitle>%PlanetTypeLavaTitle</AltTitle>
+  </ExtendedGuiElement>
 </Datatable>

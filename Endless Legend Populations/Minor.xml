@@ -115,7 +115,7 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Added Kapaku homeworld, Balance Changes, Spanish Translation, Fixed Population Collection Bonuses</ReleaseNotes>
+    <ReleaseNotes>Added Kapaku homeworld, Balance Changes, Spanish Translation, Fixed Population Collection Bonuses, Added Compatibility with Population Control</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
     <Plugins>
@@ -127,6 +127,7 @@
         <ExtraTypes>
           <ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
           <ExtraType DataType="StarSystemPopulationTransformImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PlanetTerraformationDefinition, Assembly-CSharp"/>
         </ExtraTypes>
         <FilePath>Simulation/ConstructibleElement_Industry.xml</FilePath>
       </DatabasePlugin>
@@ -182,11 +183,11 @@
       <DatabasePlugin DataType="PopulationCollectionBonusTrait, Assembly-CSharp">
         <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
       </DatabasePlugin>
-
+      
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
-
+      
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
         <ExtraTypes>
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />

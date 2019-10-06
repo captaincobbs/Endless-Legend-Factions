@@ -221,6 +221,6 @@
   </GalaxyGeneratorWeightTable>
 
   <GalaxyGeneratorWeightTable Name="UniquePlanetChabota">
-    <Entry Tag="PlanetTypeLava"      Weight="1"/>
+    <Entry Tag="PlanetTypeSwamp"      Weight="1"/>
   </GalaxyGeneratorWeightTable>
 </Datatable>
