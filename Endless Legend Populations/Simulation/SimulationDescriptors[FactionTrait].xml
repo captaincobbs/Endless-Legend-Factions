@@ -6,7 +6,7 @@
        Left="5" BinaryOperation="Multiplication" Right="$(Population)"-->
   <!-- Allayi -->
   <SimulationDescriptor Name="FactionTraitAllayiOwnership" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="OwnerShipRecoveryRate"  Operation="Percent" Value="0.25" Path="./ClassEmpire/ClassColonizedStarSystem"  />
+    <Modifier TargetProperty="OwnerShipRecoveryRate"  Operation="Percent" Value="0.25" Path="ClassEmpire/ClassColonizedStarSystem"  />
     <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
@@ -41,7 +41,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitLordsShipRegen" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.02" Path="./ClassColonizedStarSystem/ClassGarrison/ClassShip" />
+    <Modifier TargetProperty="HealthRegenerationRatio" Operation="Addition" Value="0.02" Path="ClassColonizedStarSystem/ClassGarrison/ClassShip" />
     <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
@@ -119,7 +119,7 @@
 
   <!-- Necrophages -->
   <SimulationDescriptor Name="FactionTraitPhagesRecruiting" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="150"  Path="./ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison" />
+    <Modifier TargetProperty="ExperienceAtShipCreation" Operation="Addition" Value="150"  Path="ColonizedStarSystemStateColony,ClassColonizedStarSystem/ClassGarrison" />
     <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
