@@ -16,7 +16,10 @@
     <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeCold" SearchValueFromPath="true" TooltipHidden="true" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
-
+  
+  <!-- Ignore this -->
+  <SimulationDescriptor Name="FactionTraitMinorUrkanCMinor"    Type="FactionTrait" />
+  
   <!-- Ardent Mages -->
   <SimulationDescriptor Name="FactionTraitArdentTrascend" Type="FactionTraitMinor" >
     <Modifier TargetProperty="Happiness"                Operation="Addition" Value="15"  Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
@@ -52,8 +55,6 @@
     <Modifier TargetProperty="RawMaximumPopulation"     Operation="Addition"  Value="1"  Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
-
-  <SimulationDescriptor Name="FactionTraitMinorUrkanCMinor"    Type="FactionTrait" />
 
   <!-- Drakken -->
   <SimulationDescriptor Name="FactionTraitDrakkenDiplomacy" Type="FactionTraitMinor" >
