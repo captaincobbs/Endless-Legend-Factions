@@ -146,7 +146,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitWalkersSight" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="VisionRange"	Operation="Addition" Value="10" Path="Class/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="VisionRange"	Operation="Addition" Value="10" Path="ClassEmpire/ClassColonizedStarSystem" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
