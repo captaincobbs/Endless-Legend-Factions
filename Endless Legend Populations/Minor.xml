@@ -132,10 +132,18 @@
         <FilePath>Simulation/ConstructibleElement_Industry.xml</FilePath>
       </DatabasePlugin>
 
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <ExtraTypes>
+          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+          <ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
+          <ExtraType DataType="QuestGuiElement, Assembly-CSharp"/>
+        </ExtraTypes>
+        <FilePath>Gui/GuiElements[*].xml</FilePath>
+      </DatabasePlugin>
+      
       <DatabasePlugin DataType="MinorFactionPersonalityDefinition, Assembly-CSharp">
         <FilePath>Simulation/MinorFactionPersonalityDefinitions.xml</FilePath>
       </DatabasePlugin>
-
 
       <DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
         <ExtraTypes>
@@ -154,10 +162,6 @@
 
       <DatabasePlugin DataType="MinorFaction, Assembly-CSharp">
         <FilePath>Simulation/Factions.xml</FilePath>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
-        <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
@@ -187,13 +191,33 @@
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
-      
-      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
-        <ExtraTypes>
-          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
-          <ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
-        </ExtraTypes>
-        <FilePath>Gui/GuiElements[*].xml</FilePath>
+
+      <DatabasePlugin DataType="QuestDefinition, Assembly-CSharp">
+        <FilePath>Quests/QuestDefinitions.xml</FilePath>
+        <Overrides>
+          <Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
+            <ExtraType Name="FilterConstellationByDistance" DataType="QuestFilterConstellationByDistance, Assembly-CSharp" />
+            <ExtraType Name="FilterSystemByStatus" DataType="QuestFilterSystemByStatus, Assembly-CSharp" />
+            <ExtraType Name="FilterSystemByDistance" DataType="QuestFilterSystemByDistance, Assembly-CSharp" />
+            <ExtraType Name="FilterSystemByCuriosity" DataType="QuestFilterSystemByCuriosity, Assembly-CSharp" />
+            <ExtraType Name="FilterPlanetByCuriosity" DataType="QuestFilterPlanetByCuriosity, Assembly-CSharp" />
+            <ExtraType Name="FilterShipDesignByModule" DataType="QuestFilterShipDesignByModule, Assembly-CSharp" />
+            <ExtraType Name="FilterByStringValue" DataType="QuestFilterByStringValue, Assembly-CSharp" />
+            <ExtraType Name="IsNot" DataType="QuestFilterDifferentEntity, Assembly-CSharp" />
+          </Override>
+          <Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
+            <ExtraType Name="SortConstellationByDistance" DataType="QuestSorterConstellationByDistance, Assembly-CSharp" />
+            <ExtraType Name="SortSystemByDistance" DataType="QuestSorterSystemByDistance, Assembly-CSharp" />
+          </Override>
+        </Overrides>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="Droplist, Assembly-CSharp">
+        <FilePath>Quests/Droplists.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
+        <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
       </DatabasePlugin>
       <LocalizationPlugin DefaultLanguage="English">
         <Directory>Localization</Directory>

@@ -1,4 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+  <!-- Allayi -->
+  <!-- Ardent Mages -->
+  <!-- Broken Lords -->
+  <!-- Cultists -->
+  <!-- Drakken -->
+  <!-- Forgotten -->
+  <!-- Kapaku -->
+  <QuestDefinition Name="PopulationQuestKapaku_Part1" Category="PopulationQuest" SubCategory="Population" MinimumTurn="36" TriggeringProbability="1">
 
+    <!--============ TAGS ============-->
+    <Tags>BeginTurn</Tags>
+
+    <QuestContextSolo/>
+
+    <RepetitionRules  NumberOfOccurrencesPerGame="0"
+                      NumberOfOccurrencesPerEmpire="1"
+                      NumberOfConcurrentInstances="0"/>
+
+    <!--============ VARIABLES ============-->
+    <Vars>
+      <!--Empire fulfilling this quest-->
+      <Var VarName="$CurrentEmpire">
+        <From Source="$Empire"/>
+      </Var>
+
+      <!-- POPULATE THIS FIRST -->
+      <!--OBJECTIVE 0-->
+      <!-- Colonize the Kapaku Homeworld -->
+
+      <!--OBJECTIVE 1-->
+      <!-- Rename a Lava Planet to Chobata -->
+
+      <!--LOCALIZATION VARIABLE-->
+    </Vars>
+
+    <!--============ PREREQUISITES ============-->
+    <Prerequisites Target="$(Empire)">
+      <InterpreterPrerequisite Flags="Prerequisite">Property(Context,@'ClassEmpire/ClassPopulationEmpire,ClassPopulationEmpireAffinityBasryxo',PopulationCount,true) ge 10 </InterpreterPrerequisite>
+      <DownloadableContentPrerequisite Flags="Prerequisite,Discard">Update14</DownloadableContentPrerequisite>
+    </Prerequisites>
+
+    <!--============ STEPS ============-->
+    <!-- Todo -->
+  </QuestDefinition>
+
+  <!-- Morgawr -->
+  <!-- Mykara -->
+  <!-- Necrophages -->
+  <!-- Roving Clans -->
+  <!-- Wild Walkers -->
 </Datatable>

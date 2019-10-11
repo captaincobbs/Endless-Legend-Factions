@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+  <!-- Allayi -->
+  <!-- Ardent Mages -->
+  <!-- Broken Lords -->
+  <!-- Cultists -->
+  <!-- Drakken -->
+  <!-- Forgotten -->
+  <!-- Kapaku -->
+  <QuestDefinition Name="PopulationQuestKapaku_Part1">
+    <Title></Title>
+    <Description></Description>
+    <Icons>
+      <Icon Path="Resources/Gui/KapakuMood.png" Size="Quest"/>
+    </Icons>
+    <Steps>
+      <Step Name="Step1">
+        <ObjectiveSet Politics="Politics00">
+          <Title></Title>
+          <Description></Description>
+          <TooltipDescription></TooltipDescription>
+          <OutcomeCompleted></OutcomeCompleted>
+          <Objective Name="Objective0"></Objective>
+        </ObjectiveSet>
+      </Step>
+    </Steps>
+  </QuestDefinition>
+  <!-- Morgawr -->
+  <!-- Mykara -->
+  <!-- Necrophages -->
+  <!-- Roving Clans -->
+  <!-- Wild Walkers -->
+</Datatable>
