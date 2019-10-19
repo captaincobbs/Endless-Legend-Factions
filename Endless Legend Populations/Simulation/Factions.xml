@@ -15,9 +15,9 @@
     <Affinity Name="AffinityGameplayAllayi" /> <!-- Defined in FactionTraits[Affinity] -->
     <Trait Name="FamilyPrimitives" /> <!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
     <Trait Name="IsMinorFaction" /> <!-- Confirms that the faction is a major factions -->
-    <MajorPopulation Affinity="AffinityAllayi" Count="3" /> <!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 3 Allayi -->
+    <Trait Name="FactionTraitThermophobic" /> <!-- Allayi unique trait for the mod, ignore -->
+    <MajorPopulation Affinity="AffinityAllayi" Count="2" /> <!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 3 Allayi -->
     <Personality Name="FactionPersonalityAllayi" /> <!-- Defined in MinorFactionPersonalityDefinitions, determines personality and faction traits -->
-    <Trait Name="FactionTraitMinorUrkanCMinor" /> <!-- Starts faction with Fakir, this is a major faction trait I made specifically for them -->
     <Politics Name="Politics05" />
     <!-- ^ Determines starting political faction and what it should focus towards -->
     <!-- v I'm not sure what this does, all minor factions have this set to 0 -->
@@ -92,7 +92,7 @@
     <Affinity Name="AffinityGameplayLords" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityLords" Count="3" />
+    <MajorPopulation Affinity="AffinityLords" Count="2" />
     <Personality Name="FactionPersonalityLords" />
     <Politics Name="Politics04" />
 
@@ -129,6 +129,7 @@
     <Affinity Name="AffinityGameplayCultists" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitMinorUrkanCMinor" /><!-- Starts faction with Fakir -->
     <MajorPopulation Affinity="AffinityCultists" Count="2" />
     <Personality Name="FactionPersonalityCultists" />
     <Politics Name="Politics05" />
@@ -204,6 +205,7 @@
     <Affinity Name="AffinityGameplayForgotten" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitStartWithTitanium"/>
     <MajorPopulation Affinity="AffinityForgotten" Count="3" />
     <Personality Name="FactionPersonalityForgotten" />
     <Politics Name="Politics03" />
@@ -241,6 +243,7 @@
     <Affinity Name="AffinityGameplayKapaku" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
+    <Trait Name="FactionTraitCryophobic" />
     <MajorPopulation Affinity="AffinityKapaku" Count="3" />
     <Personality Name="FactionPersonalityKapaku" />
     <Politics Name="Politics01" />
@@ -278,7 +281,7 @@
     <Affinity Name="AffinityGameplayMorgawr" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityMorgawr" Count="3" />
+    <MajorPopulation Affinity="AffinityMorgawr" Count="4" />
     <Personality Name="FactionPersonalityMorgawr" />
     <Politics Name="Politics02" />
 
@@ -315,8 +318,7 @@
     <Affinity Name="AffinityGameplayMykara" />
     <Trait Name="FamilyInsectoids" />
     <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitMinorUrkanAMinor" />
-    <!-- Starts faction with Kazar -->
+    <Trait Name="FactionTraitMinorUrkanAMinor" /><!-- Starts faction with Kazar -->
     <MajorPopulation Affinity="AffinityMykara" Count="2" />
     <Personality Name="FactionPersonalityMykara" />
     <Politics Name="Politics04" />
@@ -354,7 +356,7 @@
     <Affinity Name="AffinityGameplayPhages" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityPhages" Count="3" />
+    <MajorPopulation Affinity="AffinityPhages" Count="4" />
     <Personality Name="FactionPersonalityPhages" />
     <Politics Name="Politics06" />
 
@@ -391,7 +393,8 @@
     <Affinity Name="AffinityGameplayRoving" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityRoving" Count="3" />
+    <Trait Name="FactionTraitStartWithPositiveAnomaly" />
+    <MajorPopulation Affinity="AffinityRoving" Count="2" />
     <Personality Name="FactionPersonalityRoving" />
     <Politics Name="Politics03" />
 
@@ -428,7 +431,7 @@
     <Affinity Name="AffinityGameplayWalkers" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <MajorPopulation Affinity="AffinityWalkers" Count="3" />
+    <MajorPopulation Affinity="AffinityWalkers" Count="4" />
     <Personality Name="FactionPersonalityWalkers" />
     <Politics Name="Politics01" />
 
