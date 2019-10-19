@@ -10,7 +10,7 @@
   <QuestDefinition Name="PopulationQuestKapaku_Part1" Category="PopulationQuest" SubCategory="Population" MinimumTurn="36" TriggeringProbability="1">
 
     <!--============ TAGS ============-->
-    <Tags>BeginTurn</Tags>
+    <Tags>BeginTurn,EventStarSystemNodeRevealed</Tags>
 
     <QuestContextSolo/>
 
@@ -25,20 +25,41 @@
         <From Source="$Empire"/>
       </Var>
 
-      <!-- POPULATE THIS FIRST -->
-      <!--OBJECTIVE 0-->
-      <!-- Colonize the Kapaku Homeworld -->
+      <Var VarName="$AllStarSystems">
+        <From Source="$Constellations.$StarSystems"/>
+      </Var>
+      
+      <Var VarName="$ChabotaSystem">
+        <Any>
+          <From Source="$AllStarSystems">
+            <Where>
+              <PathPrerequisite Flags="Prerequisite">ClassStarSystem/ClassPlanet,UniquePlanetChabota</PathPrerequisite>
+            </Where>
+          </From>
+        </Any>
+      </Var>
 
-      <!--OBJECTIVE 1-->
-      <!-- Rename a Lava Planet to Chobata -->
+      <Var VarName ="$ChabotaPlanet">
+        <Any>
+          <From Source ="$ChabotaSystem.$Planets">
+            <Where>
+              <PathPrerequisite Flags="Prerequisite">ClassPlanet,UniquePlanetAcademy</PathPrerequisite>
+            </Where>
+          </From>
+        </Any>
+      </Var>
 
-      <!--LOCALIZATION VARIABLE-->
+      <Var VarName="$Marker01"/>
+      <Var VarName="$Marker02"/>
+
+     <LocalizationVar LocalizationKey="$AurigaPlanetName"   Source="$AurigaPlanet"/>
+      <!--C3: expression to check if the player owns Chabota-->
+      <Var VarName="$Expression01" StringValue="ClassEmpire/ClassColonizedStarSystem/UniquePlanetChabota,ClassColonizedPlanet"/>
     </Vars>
 
     <!--============ PREREQUISITES ============-->
     <Prerequisites Target="$(Empire)">
-      <InterpreterPrerequisite Flags="Prerequisite">Property(Context,@'ClassEmpire/ClassPopulationEmpire,ClassPopulationEmpireAffinityBasryxo',PopulationCount,true) ge 10 </InterpreterPrerequisite>
-      <DownloadableContentPrerequisite Flags="Prerequisite,Discard">Update14</DownloadableContentPrerequisite>
+      <InterpreterPrerequisite Flags="Prerequisite">Property(Context,@'ClassEmpire/ClassPopulationEmpire,ClassPopulationEmpireAffinityKapaku',PopulationCount,true) ge 10 </InterpreterPrerequisite>
     </Prerequisites>
 
     <!--============ STEPS ============-->
