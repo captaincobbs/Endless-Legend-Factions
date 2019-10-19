@@ -40,7 +40,7 @@
     <Trait Name="PopulationModifiersTraitAllayi" /> <!-- Determines population properties -->
     
     <!-- Population Modifier traits (the custom ones defined in PopulationModifiersTraits) -->
-    <Trait Name="PopulationModifiersTraitPrimaryInfluence" /> <!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamage01"/> <!-- +25 Defense Damage -->
     <Trait Name="PopulationModifiersTraitSecondaryScienceCold" /> <!-- +3 Science on Cold -->
     <!-- Collection Bonus Used -->
     <Trait Name="PopulationCollectionBonusTraitAllayi" />
@@ -68,7 +68,7 @@
     <Trait Name="PopulationModifiersArdentCount" />
     <Trait Name="PopulationModifiersTraitArdent" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryIDS" /> <!-- +5 Industry, Dust, Science -->
+    <Trait Name="PopulationModifiersTraitPrimaryIDS0" /> <!-- +2 Industry, Dust, Science -->
 
     <Trait Name="PopulationCollectionBonusTraitArdent" />
 
@@ -122,7 +122,6 @@
     <Trait Name="PopulationModifiersTraitCultists" />
 
     <Trait Name="PopulationModifiersTraitPrimaryFIDSI" /> <!-- +2 FIDSI -->
-    <Trait Name="PopulationModifiersTraitSecondaryDefenseFertile" /> <!-- +50 Defense on Fertile (Change to +50 Manpower on Fertile on Systems) -->
 
     <Trait Name="PopulationCollectionBonusTraitCultists" />
 
@@ -229,10 +228,8 @@
     <Trait Name="PopulationModifiersMorgawrCount" />
     <Trait Name="PopulationModifiersTraitMorgawr" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience01" />
-    <!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile" />
-    <!-- +2 Industry on Fertile -->
+    <Trait Name="PopulationModifiersTraitPrimaryScience02" /><!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryInfluenceFertile00" /><!-- +2 Industry on Fertile -->
 
     <Trait Name="PopulationCollectionBonusTraitMorgawr" />
 
@@ -258,7 +255,7 @@
     <Trait Name="PopulationModifiersMykaraCount" />
     <Trait Name="PopulationModifiersTraitMykara" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryFood03" /> <!-- +5 Food -->
+    <Trait Name="PopulationModifiersTraitPrimaryIndustry"/> <!-- +1 Industry -->
     <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01" /> <!-- +3 Food on Fertile -->
 
     <Trait Name="PopulationCollectionBonusTraitMykara" />
@@ -313,8 +310,8 @@
     <Trait Name="PopulationModifiersRovingCount" />
     <Trait Name="PopulationModifiersTraitRoving" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience01" /> <!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryDustSterile" /> <!-- +5 Dust on Sterile -->
+    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/> <!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitSecondaryDustAnomaly00"/> <!-- +3 Dust on Anomaly -->
 
     <Trait Name="PopulationCollectionBonusTraitRoving" />
 
@@ -341,7 +338,7 @@
     <Trait Name="PopulationModifiersTraitWalkers" />
 
     <Trait Name="PopulationModifiersTraitWalkersIndustry" /> <!-- +5 industry on fertile-->
-    <Trait Name="PopulationModifiersTraitPrimaryFood02" /> <!-- +2 food -->
+    <Trait Name="PopulationModifiersTraitPrimaryFood01"/> <!-- +1 food -->
 
     <Trait Name="PopulationCollectionBonusTraitWalkers" />
 
@@ -364,7 +361,7 @@
     <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
     <Trait Name="PopulationPoliticalTraitXenophobic" />
 
-    <Trait Name="PopulationModifiersUrkanACount" />
+    <Trait Name="PopulationModifiersUrkanCount" />
     <Trait Name="PopulationModifiersTraitUrkanA" />
 
     <Trait Name="PopulationModifiersTraitPrimaryIDS" /> <!-- +5 IDS -->
@@ -393,7 +390,7 @@
     <Trait Name="PopulationPoliticalTraitAggressive" />
     <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
 
-    <Trait Name="PopulationModifiersUrkanBCount" />
+    <Trait Name="PopulationModifiersUrkanCount" />
     <Trait Name="PopulationModifiersTraitUrkanB" />
 
     <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage" /> <!-- +50 damage done to attackers -->
@@ -424,7 +421,7 @@
     <Trait Name="PopulationPoliticalTraitEcologistToMilitarist" />
     <Trait Name="PopulationPoliticalTraitCurious" />
 
-    <Trait Name="PopulationModifiersUrkanCCount" />
+    <Trait Name="PopulationModifiersUrkanCount" />
     <Trait Name="PopulationModifiersTraitUrkanC" />
 
     <Trait Name="PopulationModifiersTraitPrimaryFIDSI" /> <!-- +2 FIDSI -->
