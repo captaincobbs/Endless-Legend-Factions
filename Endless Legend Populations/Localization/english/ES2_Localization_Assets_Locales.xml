@@ -159,6 +159,12 @@
   <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Finding their exceptional natural connection to beasts still applies off of Auriga, the Wild Walkers use their understanding bond to animals create a wide web of sight, greatly enchancing detection range.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
 
+  <!-- Urkan -->
+  <LocalizationPair Name="%AffinityUrkanTitle" >Kazar</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanDescription" >The largest of the three great beasts, Kazar moves with an unhurried gait that belies its great strength and arrogance. Often crusted with precious ores when emerging from the depths, Kazar is sometimes the target of brave, or foolhardy, adventures who attempt to liberate the valuable stones.</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanTitle" >Systems with </LocalizationPair>
+  
   <!-- Urkan A | Kazar -->
   <LocalizationPair Name="%PopulationUrkanATitle" ></LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle" ></LocalizationPair>
