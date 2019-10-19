@@ -132,36 +132,20 @@
     <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityWalkersCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
   
-  <!-- Urkan A | Kazar -->
-  <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanACount" Type="ClassPopulationPlanet" >
+  <!-- Urkan -->
+  <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanCount" Type="ClassPopulationPlanet" >
     <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanACount" TooltipHidden="true" />
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanACount" Type="ClassPopulationStarSystem" >
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanACount" TooltipHidden="true" />
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanACount" Type="ClassPopulationEmpire" >
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanACount" Priority="100" TooltipHidden="true" />
-  </SimulationDescriptor>
-  
-  <!-- Urkan B | Chaka -->
-  <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanBCount" Type="ClassPopulationPlanet" >
     <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanBCount" TooltipHidden="true" />
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanBCount" Type="ClassPopulationStarSystem" >
-    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanBCount" TooltipHidden="true" />
-  </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanBCount" Type="ClassPopulationEmpire" >
-    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanBCount" Priority="100" TooltipHidden="true" />
-  </SimulationDescriptor>
-  
-  <!-- Urkan C | Fakir -->
-  <SimulationDescriptor Name="ClassPopulationPlanetAffinityUrkanCCount" Type="ClassPopulationPlanet" >
     <Modifier       TargetProperty="PopulationCount"          Operation="Addition"    Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUrkanCCount" TooltipHidden="true" />
   </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanCCount" Type="ClassPopulationStarSystem" >
+  <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUrkanCount" Type="ClassPopulationStarSystem" >
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanACount" TooltipHidden="true" />
+    <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanBCount" TooltipHidden="true" />
     <Modifier 		TargetProperty="PopulationCount" 			Operation="Addition" 	Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUrkanCCount" TooltipHidden="true" />
   </SimulationDescriptor>
-  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanCCount" Type="ClassPopulationEmpire" >
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUrkanCount" Type="ClassPopulationEmpire" >
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanACount" Priority="100" TooltipHidden="true" />
+    <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanBCount" Priority="100" TooltipHidden="true" />
     <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUrkanCCount" Priority="100" TooltipHidden="true" />
   </SimulationDescriptor>
 </Datatable>

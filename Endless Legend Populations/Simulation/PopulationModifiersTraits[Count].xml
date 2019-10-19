@@ -185,47 +185,17 @@
     </Modifiers>
   </PopulationModifiersTrait>
   
-  <!-- Urkan A | Kazar -->
-  <PopulationModifiersTrait Name="PopulationModifiersUrkanACount" SubCategory="Count" >
+  <!-- Urkan -->
+  <PopulationModifiersTrait Name="PopulationModifiersUrkanCount" SubCategory="Count" >
     <Modifiers>
       <Modifier Class="ClassPopulationPlanet" >
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanACount" />
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanCount" />
       </Modifier>
       <Modifier Class="ClassPopulationStarSystem" >
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanACount" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanCount" />
       </Modifier>
       <Modifier Class="ClassPopulationEmpire" >
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanACount" />
-      </Modifier>
-    </Modifiers>
-  </PopulationModifiersTrait>
-  
-  <!-- Urkan B | Chaka -->
-  <PopulationModifiersTrait Name="PopulationModifiersUrkanBCount" SubCategory="Count" >
-    <Modifiers>
-      <Modifier Class="ClassPopulationPlanet" >
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanBCount" />
-      </Modifier>
-      <Modifier Class="ClassPopulationStarSystem" >
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanBCount" />
-      </Modifier>
-      <Modifier Class="ClassPopulationEmpire" >
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanBCount" />
-      </Modifier>
-    </Modifiers>
-  </PopulationModifiersTrait>
-
-  <!-- Urkan C | Fakir -->
-  <PopulationModifiersTrait Name="PopulationModifiersUrkanCCount" SubCategory="Count" >
-    <Modifiers>
-      <Modifier Class="ClassPopulationPlanet" >
-        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrkanCCount" />
-      </Modifier>
-      <Modifier Class="ClassPopulationStarSystem" >
-        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrkanCCount" />
-      </Modifier>
-      <Modifier Class="ClassPopulationEmpire" >
-        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanCCount" />
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrkanCount" />
       </Modifier>
     </Modifiers>
   </PopulationModifiersTrait>
