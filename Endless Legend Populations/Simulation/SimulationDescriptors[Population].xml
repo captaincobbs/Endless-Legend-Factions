@@ -23,6 +23,10 @@
     <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
+  <SimulationDescriptor Name="ClassPopulationStarSystemGrowthTypeDust" Type="ClassPopulationStarSystemGrowthType">
+    <Modifier TargetProperty="PopulationNotUsingGrowth"              Operation="Addition" Value="$(PopulationCount)" Path="../ClassColonizedStarSystem"            TooltipHidden="true"/>
+  </SimulationDescriptor>
+  
   <!-- Cultists -->
   <SimulationDescriptor Name="ClassPopulationEmpireAffinityCultists" Type="ClassPopulationEmpire" />
   <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCultists" Type="ClassPopulationStarSystem" />
