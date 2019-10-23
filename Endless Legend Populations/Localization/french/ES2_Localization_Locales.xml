@@ -8,6 +8,8 @@
   
   <!-- Broken Lords -->
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% de Dégât par Héro sur Armée au sol</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Acheter un Seigneur Déchu [custom00]</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Utiliser [dustcolored] afin d'acquérir une [population] de Seigneur Déchu</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% de Vie Maximum sur Vaisseaux</LocalizationPair>

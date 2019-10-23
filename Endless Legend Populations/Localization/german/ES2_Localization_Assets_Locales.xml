@@ -159,6 +159,12 @@
   <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Die Wildläufer haben ihre außergewöhnliche natürliche Beziehung zur Tierwelt auch abseits von Auriga bewahren können und nutzen ihre besondere Verbundenheit mit der Fauna, um ein verbessertes Sichtfeld zu schaffen, so dass sich ihre Wahrnehmungsreichweite enorm verbessert.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
 
+  <!-- Urkan -->
+  <LocalizationPair Name="%AffinityUrkanTitle" >Urkan</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanDescription" >Diese gigantischen Bestien, die ursprünglich von Auriga stammen, können ganze Inseln kontrollieren, und ihre Läuse schwärmen aus, um sie zu verteidigen. Diese Bestien, die dafür bekannt sind, jeden um sie herum zu segnen oder zu verfluchen, sind außerordentlich mächtig.</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanTitle" >Systeme mit </LocalizationPair>
+
   <!-- Urkan A | Kazar -->
   <LocalizationPair Name="%PopulationUrkanATitle" ></LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle" ></LocalizationPair>

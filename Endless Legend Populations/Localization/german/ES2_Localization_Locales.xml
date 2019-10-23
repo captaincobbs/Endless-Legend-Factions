@@ -7,6 +7,8 @@
   
   <!-- Broken Lords -->
   <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% Schaden auf Bodentruppen je Held im Imperium</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Zerbrochene Lords [custom00] kaufen</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Nutze [dustcolored] um einen Zerbrochenen Lord [population]  hinzuzufügen</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% maximale Energie auf Schiffe</LocalizationPair>

@@ -159,6 +159,12 @@
   <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Découvrant que leur exceptionnel connection naturel aux animaux fonctionnais aussi ailleurs que sur Auriga, les Indomptés utilisèrent leur lien de compréhension des animaux pour créer un grand réseau de vision, augmentant énormément le rayon de détection.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
 
+  <!-- Urkan -->
+  <LocalizationPair Name="%AffinityUrkanTitle" >Urkan</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanDescription" >Puissantes bêtes originaire d'Auriga, ces créatures massives peuvent contrôler des îles entières, et leurs poux fourmillent autour d'eux pour les défendre. Connues pour bénir ou maudire ceux autour d'eux, ces bêtes sont extrêmement puissantes.</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanTitle" >Système avec </LocalizationPair>
+
   <!-- Urkan A | Kazar -->
   <LocalizationPair Name="%PopulationUrkanATitle" ></LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle" ></LocalizationPair>
