@@ -1,3 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <!-- I pretty much just use this file for overrides, you don't need it if you aren't using them -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayi3EffectOverride" >+3 [move] en naves</LocalizationPair>
 
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride" >Las rebeliones progresan un 25% más lentas</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% de daño por héroe en ejército</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Comprar Caballeros Espectrales [custom00]</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Usa [dustcolored] para añadir un Caballero Espectral [population]</LocalizationPair>
+  
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% salud máxima en naves</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% [prestigecolored] bonificación en imperio</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride" >-50% [prestigecolored] coste de mantenimiento de leyes en imperio</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride" >+1 [move] en naves</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride" >5% de [sciencecolored] se añade a [dustcolored] en los sistemas</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusAccuracyForgottenEffectOverride" >+10% precisón en modulos de armas</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride" >+1 [move] en naves</LocalizationPair>
+
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride" >+25% [industrycolored] se añade a [foodcolored] en los sistemas</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawr3EffectOverride" >-15% [industrycolored] coste de naves en los sistemas</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride" >+5 [prestigecolored] por Anomalia en sistemas</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride" >+20 Industria por planeta Fértil en los sistemas</LocalizationPair>
+
+  <!-- Mykara doesn't have any overrides -->
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-25% [upkeepcolored] en flotas y héroes</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride" >+30% daño en módulos de armas</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesFoodEffectOverride" >Fija el valor de [foodcolored] en los sistemas del imperio a 5 si su valor natural es menor</LocalizationPair>
+
+  <!-- Roving Clans don't have any overrides-->
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride" >+25% [foodcolored] añadido a [industrycolored] en los sistemas</LocalizationPair>
+
+
+  <!-- Custom Faction Population Collection -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom1" >[custom08] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom2" >[custom08] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom3" >[custom08] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomTitle" >Colección de pares</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomDescription" >Estas bonificaciones de colección se centran en la exploración y el crecimiento en solitario.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom1" >[custom03] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom2" >[custom03] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom3" >[custom03] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomTitle" >Colección dominante</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomDescription" >Estas bonificaciones de colección se centran en el avance y la estabilidad.</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom1" >[custom00] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom2" >[custom00] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom3" >[custom00] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomTitle" >Colección poderosa</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomDescription" >Estas bonificaciones de colección se centran en la fuerza bruta del ejército.</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom1" >[custom01] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom2" >[custom01] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom3" >[custom01] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomTitle" >Colección precisa</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomDescription" >Estas bonificaciones de colección se centran en la estabilidad a nivel del imperio entero.</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom1" >[custom09] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom2" >[custom09] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom3" >[custom09] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomTitle" >Colección encantadora</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomDescription" >Estas bonificaciones de olección se centran en la diplomacia y la cultura.</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom1" >[custom06] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom2" >[custom06] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom3" >[custom06] CBonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomTitle" >Colección astuta</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomDescription" >Estas bonificaciones de colección se centran en el polvo y la exploración.</LocalizationPair>
+
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom1" >[custom02] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom2" >[custom02] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom3" >[custom02] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomTitle" >Colección hadeana</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomDescription" >Estas bonificaciones de colección se centran en la indústria y los ambientes hostiles.</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom1" >[custom10] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom2" >[custom10] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom3" >[custom10] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomTitle" >Colección progresiva</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomDescription" >Estas bonificaciones de colección se centran en la indústria y la cultura.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom1" >[custom05] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom2" >[custom05] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom3" >[custom05] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomTitle" >Colección general</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomDescription" >Estas bonificaciones de colección se centran en la adaptabilidad y la generalización.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom1" >[custom04] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom2" >[custom04] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom3" >[custom04] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomTitle" >Colección dinámica</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomDescription" >Estas bonificaciones de colección se centran en el ejército y la riqueza.</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom1" >[custom11] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom2" >[custom11] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom3" >[custom11] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomTitle" >Colección emprendedora</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomDescription" >Estas bonificaciones de colección se centran en el comercio y la riqueza.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom1" >[custom07] Bonus de colección I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom2" >[custom07] Bonus de colección II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom3" >[custom07] Bonus de colección III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomTitle" >Colección atrevida</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomDescription" >Estas bonificaciones de colección se centran en la indústria y la exploración.</LocalizationPair>
+
+
+  <!-- Custom Faction Population Trait -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%FactionTraitMinorAllayiTitle" >Cidadanos Allayi</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiDescription" >La facción empieza con población Allayi en su sistema natal</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiTooltipEffect" >+1 [custom08] en sistema natal</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%FactionTraitMinorArdentTitle" >Ciudadanos Magos Ardientes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentDescription" >La facción empieza con población de los Magos Ardientes en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentTooltipEffect" >+1 [custom03] en sistema natal</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%FactionTraitMinorLordsTitle" >Ciudadanos Caballeros Espectrales</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsDescription" >La facción empieza con población de los Caballeros Espectrales en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsTooltipEffect" >+1 [custom00] en sistema natal</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitMinorCultistsTitle" >Ciudadanos Cultistas</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsDescription" >La facción empieza con población Cultista en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsTooltipEffect" >+1 [custom01] en sistema natal</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTitle" >Ciudadanos ragonianos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenDescription" >La facción empieza con ciudadanos Dragonianos en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTooltipEffect" >+1 [custom09] en sistema natal</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%FactionTraitMinorForgottenTitle" >Ciudadanos Olvidados</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenDescription" >LA facción empieza con población de los Olvidados en su sistema natal</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenTooltipEffect" >+1 [custom06] en sistema natal</LocalizationPair>
+
+  <!-- Kapaku -->
+  <LocalizationPair Name="%FactionTraitMinorKapakuTitle" >Cidadanos Kapaku</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuDescription" >LA facción empieza con población Kapaku en su sistema natal</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuTooltipEffect" >+1 [custom02] en sistema natal</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTitle" >Ciudadanos Morgawr</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrDescription" >LA facción empieza con poblacion Morgawr en sus sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTooltipEffect" >+1 [custom10] en sistema natal</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%FactionTraitMinorMykaraTitle" >Ciudadanos Mykara</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraDescription" >La facción empieza con población Mykara en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraTooltipEffect" >+1 [custom05] en sistema natal</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%FactionTraitMinorPhagesTitle" >Ciudadanos Necrófagos</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesDescription" >La facción empieza con población de los necrófagos en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesTooltipEffect" >+1 [custom04] en sistema natal</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%FactionTraitMinorRovingTitle" >Ciudadanos de los Clanes Errantes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingDescription" >La facción empieza con población de los Clanes Errantes en su sistema natal</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingTooltipEffect" >+1 [custom11] en sistema natal</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%FactionTraitMinorWalkersTitle" >Ciudadanos Caminantes Salvajes</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersDescription" >La facción empieza con población de los Caminantes Salvajes en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersTooltipEffect" >+1 [custom07] en sistema natal</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanATitle" >Ciudadano Kazar</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanADescription" >La facción empieza con población Kazar en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanATooltipEffect" >+1  en sistema natal</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTitle" >Ciudadano Chaka</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBDescription" >La facción empieza con población Chaka en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTooltipEffect" >+1  en sistema natal</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTitle" >Ciudadano Fakir</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCDescription" >La facción empieza con población Fakir en su sistema natal.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTooltipEffect" >+1  en sistema natal</LocalizationPair>
+
+  <!-- Trait Families -->
+  <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Muestra los rasgos que definiran tu población Urkan inicial.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Urkan inicial</LocalizationPair>
 </Datatable>

@@ -1,14 +1,24 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+
   <!-- Allayi -->
   <LocalizationPair Name="%MinorFactionAllayiTitle" >Allayi</LocalizationPair>
+  <!--< Minor Faction diplomacy screen name-->
+  <!-- Minor Faction diplomacy screen description v -->
   <LocalizationPair Name="%MinorFactionAllayiDescription" >Una de las razas originles de Auriga, los Allayi sufrieron mucho por el éxodo de su planeta natal. Una vez intrinsecamente atados a su planeta, se han adaptado para sentir un vinculo similr con cualquier planeta en que residan.</LocalizationPair>
   <LocalizationPair Name="%PopulationAllayiTitle" >[custom08]</LocalizationPair>
+  <!--No idea-->
   <LocalizationPair Name="%ClassPopulationEmpireAffinityAllayiTitle" >[custom08]</LocalizationPair>
+  <!--Minor Faction population icon in menus-->
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle" >Systems with [custom08]</LocalizationPair>
+  <!--Used in GuiElements[GameVariables]-->
   <LocalizationPair Name="%AffinityAllayiTitle" >Allayi</LocalizationPair>
+  <!--< Population Name-->
+  <!-- Population Description v -->
   <LocalizationPair Name="%AffinityAllayiDescription" >Con su abilidad unica para cambiar de forma, los Allayi son adaptables y feroces cuando se sieten amenazados.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle" >Nosotos, los elegidos</LocalizationPair>
+  <!-- < Custom Trait display names-->
   <LocalizationPair Name="%FactionTraitAllayiHappinessTitle" >Regalo de Auriga</LocalizationPair>
+  <!-- Custom Trait descriptions v -->
   <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription" >Caballerosos y leales, los Allayi situados estratégicamente pueden tener un efecto tremendo en la lealtad al tomar sistemas solares.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >A pesar de que Auriga se ha ido, ella dejó un regalo final a los Allayi que te pueden entregar.</LocalizationPair>
 
@@ -37,7 +47,7 @@
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Sobrecarga de Polvo</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription" >Usando el poder vampírico de los Caballeros Espectrales, pero combinado don métodos más seguros, es posible extraer grandes cantidades de Polvo de los ciudadanos de forma no letal.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Usando el poder restaurador de Polvo que los Caballeros Espectrales aprendieron es posible hacer que todo se repare por si mismo lentamente.</LocalizationPair>
-  
+
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle" >Cultistas del Fin Eterno</LocalizationPair>
   <LocalizationPair Name="%MinorFactionCultistsDescription" >Los cultistas del Fin Eterno, guiados por la Reina y el Impronunciable, superaran cualquier límite para asegurar que su voluntad se lleva a cabo mediante la conversión de gentes inferiores.</LocalizationPair>
@@ -84,11 +94,11 @@
   <LocalizationPair Name="%PopulationKapakuTitle" >[custom02]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle" >[custom02]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle" >Sistemas con [custom02]</LocalizationPair>
-  <LocalizationPair Name="%AffinityKapakuTitle" >Kapaku</LocalizationPair>                                                  
+  <LocalizationPair Name="%AffinityKapakuTitle" >Kapaku</LocalizationPair>
   <LocalizationPair Name="%AffinityKapakuDescription" >Los Kapaku son una raza extraña, con su habilidad para usar la geomancia y su amor por los terrenos volcánicos.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuHappinessTitle" >Paraíso volcánico</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Terraformadores con pericia</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >La similación de los Kapaku lleva a una disposición similar hacia los planetas cálidos, parecida a la de ellos, siendo de admiración y optimismo.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >La similación de los Kapaku lleva a una disposición similar hacia los planetas cálidos, parecida a la de ellos, siendo de admiración y optimismo.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >Los Kapaku han conocido la tecnologia de terraformación des de mucho antes que la mayoría de las otras razas, por ello, entienden como aplicarla de forma más eficiente.</LocalizationPair>
 
   <!-- Morgawr -->
@@ -101,7 +111,7 @@
   <LocalizationPair Name="%AffinityMorgawrDescription" >Los Morgawr, experimentos de los Endless, parecen peces mutados. Anhelan la libertad por encima de cualquier otra cosa y prefieren planetas océano.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMorgawrInfluenceTitle" >Marioneta</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMorgawrIndustryTitle" >Hidrofilicos</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription" >Usando su panipulación de mentes inferiores para la ingenieria social, los Morgawr pueden mejorar mucho la estructura social de tu imperio.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription" >Usando su panipulación de mentes inferiores para la ingenieria social, los Morgawr pueden mejorar mucho la estructura social de tu imperio.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription" >La afinidad por el agua de los Morgawr se contagia a sus conciudadanos, mejorando mucho la producción en planeta fértiles.</LocalizationPair>
 
   <!-- Mykara -->
@@ -130,7 +140,7 @@
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Un entorno y una evolución extremos pueden enseñar a los organismos los secretos más avanzados del combate.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesFoodDescription" >Esclavizando brutalmente otras especies, los necròfagos pueden forzar la producción de una cantidad mínima de alimento si los tiempos se vuelven difíciles.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
-  
+
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Clanes errantes</LocalizationPair>
   <LocalizationPair Name="%MinorFactionRovingDescription" >Inquietos por los misterios de la galaxia, los Clanes, más centrados en la estructura interna y la economia, se han convertido en maestros de ambos con comodidad.</LocalizationPair>
@@ -157,6 +167,12 @@
   <LocalizationPair Name="%FactionTraitWalkersBuildingDescription" >Usando su afinidad conla naturaleza, los Caminantes Salvajes pueden reemplazar la necesidad de materiales como acero o titanio por sustancia naturales y regenerativas, disminuyendo los costes de produccion.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersSightDescription" >dándose cuenta que su conexión natural con las bestias aún persistia fuera de Auriga, los Caminantes Salvajes usan su unión con los animales para crear una ancha red de visión, potenciando enormemente el rango de detección.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
+
+  <!-- Urkan -->
+  <LocalizationPair Name="%AffinityUrkanTitle" >Urkan</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanDescription" >Bestias poderosas originadas en Auriga,estas criaturas masivas pueden controlar islas enteras, y sus a su alrededor, los enjambres de piojos, defenderlas. Conocidas por bendecir y maldecir aquellos a su alrededor, estas bestias son extremamente poderosas..</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanTitle" ></LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanTitle" >Sistemas con </LocalizationPair>
 
   <!-- Urkan A | Kazar -->
   <LocalizationPair Name="%PopulationUrkanATitle" ></LocalizationPair>
