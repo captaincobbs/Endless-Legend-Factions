@@ -160,8 +160,8 @@
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
 
   <!-- Urkan -->
-  <LocalizationPair Name="%AffinityUrkanTitle" >Kazar</LocalizationPair>
-  <LocalizationPair Name="%AffinityUrkanDescription" >The largest of the three great beasts, Kazar moves with an unhurried gait that belies its great strength and arrogance. Often crusted with precious ores when emerging from the depths, Kazar is sometimes the target of brave, or foolhardy, adventures who attempt to liberate the valuable stones.</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanTitle" >Urkan</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanDescription" >Mighty beasts originating from Auriga, these massive creatures can control entire islands, and their lice swarm around to defend it. Known to bless or curse those around it, these beasts are extremely powerful.</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanTitle" ></LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanTitle" >Systems with </LocalizationPair>
   
@@ -185,13 +185,4 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanCTitle" >Systems with </LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanCTitle" >Fakir</LocalizationPair>
   <LocalizationPair Name="%AffinityUrkanCDescription" >Of the three Urkans who are the eternal adversaries of the Mykara, Fakir is the one who strikes the greatest fear into the fungal collective. Blessed with a extremely keen olfactory senses, legend has it that Fakir can track subterranean rhizome paths for leagues upon leagues.</LocalizationPair>
-
-  <!-- Unique Planet Type - Chabota -->
-  <!-- Note to Translators: The original text I asked you to translate has been rewritten -->
-  <LocalizationPair Name="%UniquePlanetChabotaTitle">Chabota</LocalizationPair>
-  <LocalizationPair Name="%UniquePlanetChabotaDescription">The original homeworld of the Kapaku before the Virtual Endless corrupted it with their experiments. Deformed with vast toxic bogs and aggressive beasts, the Kapaku desire to make the world regain its former glory. Scattered about the surface are various ruins and signs of their existance, so perhaps further investigation may result in discoveries as to what happened to the survivors.</LocalizationPair>
-
-  <!-- Chabota's Anomaly -->
-  <LocalizationPair Name="%PlanetAnomalyEndlessWonder1Title">Vestiges of Cultivation</LocalizationPair>
-  <LocalizationPair Name="%PlanetAnomalyEndlessWonder1Description">A great complex, dedicated to the extraction and collection of wealth. Utilizing many golems, the Kapaku have uncovered many answers about their past, and have, at least in their eyes, returned to their former glory. The complex was built and designed entirely by the Kapaku, and will forever remain as a testamant of their resilience.</LocalizationPair>
 </Datatable>

@@ -18,26 +18,4 @@
     </InterpreterPrerequisite>
     <SimulationDescriptorReference Name="StarSystemImprovementCloneLordsPopulation"/>
   </StarSystemPopulationTransformImprovementDefinition>
-
-  <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToLava" SubCategory="PlanetTerraformationDust">
-    <AIGain RessourceName="FoodGain"/>
-    <AIGain RessourceName="IndustryGain"/>
-
-    <SupervisorGain Name="Food"     Weight="-3"/>
-    <SupervisorGain Name="Industry" Weight="14"/>
-    <SupervisorGain Name="Science"  Weight="-2"/>
-    <SupervisorGain Name="Dust"     Weight="-6"/>
-    <SupervisorGain Name="Approval" Weight="0"/>
-
-    <CustomCost ResourceName="SystemProduction">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-
-    <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSwamp,UniquePlanetChabota</PathPrerequisite>
-
-    <SimulationDescriptorReference Name="PlanetTypeLava"/>
-    <SimulationDescriptorReference Name="PlanetGameplayTypeHot"/>
-    <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
-
-    <RemovedType>PlanetType</RemovedType>
-    <RemovedType>PlanetGameplayType</RemovedType>
-  </PlanetTerraformationDefinition>
 </Datatable>

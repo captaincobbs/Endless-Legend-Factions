@@ -127,7 +127,6 @@
         <ExtraTypes>
           <ExtraType DataType="StarSystemImprovementDefinition, Assembly-CSharp" />
           <ExtraType DataType="StarSystemPopulationTransformImprovementDefinition, Assembly-CSharp" />
-          <ExtraType DataType="PlanetTerraformationDefinition, Assembly-CSharp"/>
         </ExtraTypes>
         <FilePath>Simulation/ConstructibleElement_Industry.xml</FilePath>
       </DatabasePlugin>
@@ -136,7 +135,6 @@
         <ExtraTypes>
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
           <ExtraType DataType="AffinityGuiElement, Assembly-CSharp" />
-          <ExtraType DataType="QuestGuiElement, Assembly-CSharp"/>
         </ExtraTypes>
         <FilePath>Gui/GuiElements[*].xml</FilePath>
       </DatabasePlugin>
@@ -190,30 +188,6 @@
       
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="QuestDefinition, Assembly-CSharp">
-        <FilePath>Quests/QuestDefinitions.xml</FilePath>
-        <Overrides>
-          <Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
-            <ExtraType Name="FilterConstellationByDistance" DataType="QuestFilterConstellationByDistance, Assembly-CSharp" />
-            <ExtraType Name="FilterSystemByStatus" DataType="QuestFilterSystemByStatus, Assembly-CSharp" />
-            <ExtraType Name="FilterSystemByDistance" DataType="QuestFilterSystemByDistance, Assembly-CSharp" />
-            <ExtraType Name="FilterSystemByCuriosity" DataType="QuestFilterSystemByCuriosity, Assembly-CSharp" />
-            <ExtraType Name="FilterPlanetByCuriosity" DataType="QuestFilterPlanetByCuriosity, Assembly-CSharp" />
-            <ExtraType Name="FilterShipDesignByModule" DataType="QuestFilterShipDesignByModule, Assembly-CSharp" />
-            <ExtraType Name="FilterByStringValue" DataType="QuestFilterByStringValue, Assembly-CSharp" />
-            <ExtraType Name="IsNot" DataType="QuestFilterDifferentEntity, Assembly-CSharp" />
-          </Override>
-          <Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
-            <ExtraType Name="SortConstellationByDistance" DataType="QuestSorterConstellationByDistance, Assembly-CSharp" />
-            <ExtraType Name="SortSystemByDistance" DataType="QuestSorterSystemByDistance, Assembly-CSharp" />
-          </Override>
-        </Overrides>
-      </DatabasePlugin>
-
-      <DatabasePlugin DataType="Droplist, Assembly-CSharp">
-        <FilePath>Quests/Droplists.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
