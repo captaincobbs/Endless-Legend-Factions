@@ -4,98 +4,98 @@
        These are the faction assimilation bonuses for the minor factions
        This page is more useful for declaring non-invisible faction traits that the player uses in custom factions -->
   <!-- Allayi -->
-  <FactionTrait Name="FactionTraitAllayiOwnership" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitAllayiOwnership" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitAllayiOwnership" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitAllayiHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitAllayiHappiness" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitAllayiHappiness" />
   </FactionTrait>
 
   <!-- Ardent Mages -->
-  <FactionTrait Name="FactionTraitArdentTrascend" SubCategory="FactionTrait" Hidden="false" Cost="0" >
-    <SimulationDescriptorReference Name="FactionTraitArdentTrascend" />
+  <FactionTrait Name="FactionTraitArdentTranscend" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
+    <SimulationDescriptorReference Name="FactionTraitArdentTranscend" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitArdentScience" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitArdentScience" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitArdentScience" />
   </FactionTrait>
 
   <!-- Broken Lords -->
-  <FactionTrait Name="FactionTraitLordsDust" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitLordsDust" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitLordsDust" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitLordsShipRegen" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitLordsShipRegen" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitLordsShipRegen" />
   </FactionTrait>
 
   <!-- Cultists -->
-  <FactionTrait Name="FactionTraitCultistsShipHealth" SubCategory="FactionTrait" Hidden="false" Cost="0" >
-    <SimulationDescriptorReference Name="FactionTraitCultistsShipHealth" />
+  <FactionTrait Name="FactionTraitCultistsFIDSI" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
+    <SimulationDescriptorReference Name="FactionTraitCultistsFIDSI" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitCultistsPopulation" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitCultistsPopulation" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitCultistsPopulation" />
   </FactionTrait>
 
   <!-- Drakken -->
-  <FactionTrait Name="FactionTraitDrakkenDiplomacy" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitDrakkenDiplomacy" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitDrakkenDiplomacy" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitDrakkenConversion" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitDrakkenConversion" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitDrakkenConversion" />
   </FactionTrait>
 
   <!-- Forgotten -->
-  <FactionTrait Name="FactionTraitForgottenMoveSpeed" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitForgottenMoveSpeed" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitForgottenMoveSpeed" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitForgottenAccuracy" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitForgottenAccuracy" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitForgottenAccuracy" />
   </FactionTrait>
 
   <!-- Kapaku -->
-  <FactionTrait Name="FactionTraitKapakuTerraforming" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitKapakuTerraforming" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitKapakuTerraforming" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitKapakuHappiness" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitKapakuHappiness" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitKapakuHappiness" />
   </FactionTrait>
 
   <!-- Morgawr -->
-  <FactionTrait Name="FactionTraitMorgawrInfluence" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitMorgawrInfluence" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitMorgawrInfluence" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitMorgawrIndustry" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitMorgawrIndustry" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitMorgawrProduction" />
   </FactionTrait>
 
   <!-- Mykara -->
-  <FactionTrait Name="FactionTraitMykaraFood" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitMykaraFood" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitMykaraFood" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitMykaraManpower" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitMykaraManpower" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitMykaraManpower" />
   </FactionTrait>
 
   <!-- Necrophages -->
-  <FactionTrait Name="FactionTraitPhagesRecruiting" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitPhagesRecruiting" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitPhagesRecruiting" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitPhagesDust" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitPhagesDust" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitPhagesDust" />
   </FactionTrait>
 
   <!-- Roving Clans -->
-  <FactionTrait Name="FactionTraitRovingUpkeepSystems" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitRovingUpkeepSystems" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitRovingUpkeepSystems" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitRovingUpkeepMilitary" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitRovingUpkeepMilitary" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitRovingUpkeepMilitary" />
   </FactionTrait>
 
   <!-- Wild Walkers -->
-  <FactionTrait Name="FactionTraitWalkersBuilding" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitWalkersBuilding" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitWalkersBuilding" />
   </FactionTrait>
-  <FactionTrait Name="FactionTraitWalkersSight" SubCategory="FactionTrait" Hidden="false" Cost="0" >
+  <FactionTrait Name="FactionTraitWalkersSight" SubCategory="FactionTrait" TraitCategory="TraitCategoryExpansion" TraitSubCategory="TraitSubCategoryExpansionists" Family="FactionTraitFamilyMinorFaction" Hidden="false" Custom="true" Cost="10" >
     <SimulationDescriptorReference Name="FactionTraitWalkersSight" />
   </FactionTrait>
 
