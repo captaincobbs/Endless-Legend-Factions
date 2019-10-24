@@ -68,7 +68,7 @@
     <Trait Name="PopulationModifiersArdentCount" />
     <Trait Name="PopulationModifiersTraitArdent" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryIDS0" /> <!-- +2 Industry, Dust, Science -->
+    <Trait Name="PopulationModifiersTraitPrimaryArdentIDS" /> <!-- +2 Industry, Dust, Science -->
 
     <Trait Name="PopulationCollectionBonusTraitArdent" />
 
@@ -147,8 +147,8 @@
     <Trait Name="PopulationModifiersDrakkenCount" />
     <Trait Name="PopulationModifiersTraitDrakken" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience01" /> <!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" /> <!-- +2 Influence on Anomaly -->
+    <Trait Name="PopulationModifiersTraitPrimaryFood01"/>                     <!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryDrakkenInfluenceAnomaly" /> <!-- +2 Influence on Anomaly -->
 
     <Trait Name="PopulationCollectionBonusTraitDrakken" />
 
@@ -174,8 +174,8 @@
     <Trait Name="PopulationModifiersForgottenCount" />
     <Trait Name="PopulationModifiersTraitForgotten" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01" />  <!-- +1 Processing Power -->
-    <Trait Name="PopulationModifiersTraitPrimaryStrategicToFood01" />  <!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitPrimaryProcessingPower01" /> <!-- +1 Bandwidth -->
+    <Trait Name="PopulationModifiersTraitPrimaryStrategicToFood01"/>  <!-- +2 Food on Strategic -->
 
     <Trait Name="PopulationCollectionBonusTraitForgotten" />
 
@@ -228,8 +228,8 @@
     <Trait Name="PopulationModifiersMorgawrCount" />
     <Trait Name="PopulationModifiersTraitMorgawr" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryScience02" /><!-- +1 Science -->
-    <Trait Name="PopulationModifiersTraitSecondaryInfluenceFertile00" /><!-- +2 Industry on Fertile -->
+    <Trait Name="PopulationModifiersTraitPrimaryScience02"/>                  <!-- +2 Science -->
+    <Trait Name="PopulationModifiersTraitSecondaryMorgawrInfluenceFertile" /> <!-- +1 Influence on Fertile -->
 
     <Trait Name="PopulationCollectionBonusTraitMorgawr" />
 
@@ -255,7 +255,7 @@
     <Trait Name="PopulationModifiersMykaraCount" />
     <Trait Name="PopulationModifiersTraitMykara" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryIndustry"/> <!-- +1 Industry -->
+    <Trait Name="PopulationModifiersTraitPrimaryIndustry"/>         <!-- +1 Industry -->
     <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01" /> <!-- +3 Food on Fertile -->
 
     <Trait Name="PopulationCollectionBonusTraitMykara" />
@@ -282,9 +282,9 @@
     <Trait Name="PopulationModifiersPhagesCount" />
     <Trait Name="PopulationModifiersTraitPhages" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryDefense" /> <!-- +1 Manpower -->
-    <Trait Name="PopulationModifiersTraitSecondaryManpower" /> <!-- +20 Manpower Max -->
-    <Trait Name="PopulationModifiersTraitPhagesFood" /> <!-- -2 Food -->
+    <Trait Name="PopulationModifiersTraitPrimaryDefense" />   <!-- +1 Manpower -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower" /><!-- +20 Manpower Max -->
+    <Trait Name="PopulationModifiersTraitPhagesFood" />       <!-- -2 Food -->
 
     <Trait Name="PopulationCollectionBonusTraitPhages" />
 
@@ -310,8 +310,8 @@
     <Trait Name="PopulationModifiersRovingCount" />
     <Trait Name="PopulationModifiersTraitRoving" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/> <!-- +1 Influence -->
-    <Trait Name="PopulationModifiersTraitSecondaryDustAnomaly00"/> <!-- +3 Dust on Anomaly -->
+    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/>          <!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitSecondaryRovingDustAnomaly"/><!-- +3 Dust on Anomaly -->
 
     <Trait Name="PopulationCollectionBonusTraitRoving" />
 
@@ -337,8 +337,8 @@
     <Trait Name="PopulationModifiersWalkersCount" />
     <Trait Name="PopulationModifiersTraitWalkers" />
 
-    <Trait Name="PopulationModifiersTraitWalkersIndustry" /> <!-- +5 industry on fertile-->
-    <Trait Name="PopulationModifiersTraitPrimaryFood01"/> <!-- +1 food -->
+    <Trait Name="PopulationModifiersTraitWalkersIndustry" /><!-- +3 industry on fertile-->
+    <Trait Name="PopulationModifiersTraitPrimaryFood01"/>   <!-- +1 food -->
 
     <Trait Name="PopulationCollectionBonusTraitWalkers" />
 
@@ -364,8 +364,8 @@
     <Trait Name="PopulationModifiersUrkanCount" />
     <Trait Name="PopulationModifiersTraitUrkanA" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryIDS" /> <!-- +5 IDS -->
-    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamage01" /> <!-- +25 damage done to attackers -->
+    <Trait Name="PopulationModifiersTraitPrimaryIDS" />                           <!-- +5 IDS -->
+    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamage01" /><!-- +25 damage done to attackers -->
 
     <AffinityMapping Name="AffinityMappingUrkanA" />
     <GrowthBoostLuxuryOptions>
@@ -393,9 +393,9 @@
     <Trait Name="PopulationModifiersUrkanCount" />
     <Trait Name="PopulationModifiersTraitUrkanB" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage" /> <!-- +50 damage done to attackers -->
-    <Trait Name="PopulationModifiersTraitSecondaryManpower" /> <!-- +1 manpower/turn -->
-    <Trait Name="PopulationModifiersTraitPrimaryDefense" /> <!-- +20 manpower capacity -->
+    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage" />          <!-- +50 damage done to attackers -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower" />                          <!-- +1 manpower/turn -->
+    <Trait Name="PopulationModifiersTraitPrimaryDefense" />                             <!-- +20 manpower capacity -->
     <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile" /> <!-- +50 damage done to attackers on fertile -->
 
     <AffinityMapping Name="AffinityMappingUrkanB" />
@@ -424,9 +424,9 @@
     <Trait Name="PopulationModifiersUrkanCount" />
     <Trait Name="PopulationModifiersTraitUrkanC" />
 
-    <Trait Name="PopulationModifiersTraitPrimaryFIDSI" /> <!-- +2 FIDSI -->
-    <Trait Name="PopulationModifiersTraitSecondaryManpower" /> <!-- +1 manpower/turn -->
-    <Trait Name="PopulationModifiersTraitPrimaryDefense" /> <!-- +20 Manpower capacity -->
+    <Trait Name="PopulationModifiersTraitPrimaryFIDSI" />     <!-- +2 FIDSI -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower" /><!-- +1 manpower/turn -->
+    <Trait Name="PopulationModifiersTraitPrimaryDefense" />   <!-- +20 Manpower capacity -->
 
     <AffinityMapping Name="AffinityMappingUrkanC" />
     <GrowthBoostLuxuryOptions>
