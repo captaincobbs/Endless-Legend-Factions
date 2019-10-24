@@ -20,9 +20,9 @@
   </GuiElement>
 
   <!-- Ardent Mages -->
-  <GuiElement Name="FactionTraitArdentTrascend" >
-    <Title>%FactionTraitArdentTrascendTitle</Title>
-    <Description>%FactionTraitArdentTrascendDescription</Description>
+  <GuiElement Name="FactionTraitArdentTranscend" >
+    <Title>%FactionTraitArdentTranscendTitle</Title>
+    <Description>%FactionTraitArdentTranscendDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
@@ -54,14 +54,14 @@
   </GuiElement>
 
   <!-- Cultists -->
-  <ExtendedGuiElement Name="FactionTraitCultistsShipHealth" >
-    <Title>%FactionTraitCultistsShipHealthTitle</Title>
-    <Description>%FactionTraitCultistsShipHealthDescription</Description>
+  <ExtendedGuiElement Name="FactionTraitCultistsFIDSI" >
+    <Title>%FactionTraitCultistsFIDSITitle</Title>
+    <Description>%FactionTraitCultistsFIDSIDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
     <TooltipElement>
-      <EffectOverride>%FactionTraitCultistsShipHealthEffectOverride</EffectOverride>
+      <EffectOverride>%FactionTraitCultistsFIDSIEffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 
@@ -434,5 +434,10 @@
   <GuiElement Name="FactionTraitFamilyUrkan">
     <Title>%FactionTraitFamilyUrkanTitle</Title>
     <Description>%FactionTraitFamilyUrkanDescription</Description>
+  </GuiElement>
+
+  <GuiElement Name="FactionTraitFamilyMinorFaction">
+    <Title>%FactionTraitFamilyMinorFactionTitle</Title>
+    <Description>%FactionTraitFamilyMinorFactionDescription</Description>
   </GuiElement>
 </Datatable>
