@@ -11,14 +11,14 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitAllayiHappiness" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeCold" />
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeCold" />
     <!-- From what I can tell, most things don't need tooltip overrides if you do this -->
-    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeCold" SearchValueFromPath="true" TooltipHidden="true" />
+    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeCold" SearchValueFromPath="true" TooltipHidden="true" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
   
   <!-- Ardent Mages -->
-  <SimulationDescriptor Name="FactionTraitArdentTrascend" Type="FactionTraitMinor" >
+  <SimulationDescriptor Name="FactionTraitArdentTranscend" Type="FactionTraitMinor" >
     <Modifier TargetProperty="Happiness"                Operation="Addition" Value="15"  Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
     <BinaryModifier TargetProperty="SystemEmpirePoint"  Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" />
     <Modifier TargetProperty="MinorTraitsAssimilated" Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
@@ -43,13 +43,13 @@
   </SimulationDescriptor>
 
   <!-- Cultists -->
-  <SimulationDescriptor Name="FactionTraitCultistsShipHealth" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore" TooltipHidden="true" />
+  <SimulationDescriptor Name="FactionTraitCultistsFIDSI" Type="FactionTraitMinor" >
+    <BinaryModifier TargetProperty="SystemFIDSIPercent" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemLevelSum)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitCultistsPopulation" Type="FactionTraitMinor" >
-    <BinaryModifier TargetProperty="SystemFIDSIPercent" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemLevelSum)" Path="./ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="RawMaximumPopulation"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
@@ -74,16 +74,14 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitForgottenAccuracy" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="Accuracy"  Operation="Addition"  Value="0.08"  Path="ClassShip/ClassSection/ClassModuleWeapon" />
+    <Modifier TargetProperty="Accuracy"  Operation="Addition"  Value="0.08"  Path="ClassShip/ClassSection/ClassModuleWeapon" TooltipHidden="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
   <!-- Kapaku -->
   <SimulationDescriptor Name="FactionTraitKapakuHappiness" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="2" Path="FAKEFORGUI/./PlanetGameplayTypeMeager" />
     <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeHot" />
-    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="2"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot" SearchValueFromPath="true" TooltipHidden="true" />
-    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager" SearchValueFromPath="true" TooltipHidden="true" />
+    <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeHot" SearchValueFromPath="true" TooltipHidden="true" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
