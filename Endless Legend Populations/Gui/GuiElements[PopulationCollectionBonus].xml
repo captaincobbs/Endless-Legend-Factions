@@ -79,12 +79,9 @@
   <GuiElement Name="PopulationCollectionBonusForgotten1" >
     <Title>%PopulationCollectionBonusForgotten1</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusForgotten2" >
+  <GuiElement Name="PopulationCollectionBonusForgotten2" >
     <Title>%PopulationCollectionBonusForgotten2</Title>
-    <TooltipElement>
-      <EffectOverride>%PopulationCollectionBonusForgotten2EffectOverride</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
+  </GuiElement>
   <ExtendedGuiElement Name="PopulationCollectionBonusForgotten3" >
     <Title>%PopulationCollectionBonusForgotten3</Title>
     <TooltipElement>
@@ -166,12 +163,9 @@
   <GuiElement Name="PopulationCollectionBonusWalkers2" >
     <Title>%PopulationCollectionBonusWalkers2</Title>
   </GuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusWalkers3" >
+  <GuiElement Name="PopulationCollectionBonusWalkers3" >
     <Title>%PopulationCollectionBonusWalkers3</Title>
-    <TooltipElement>
-      <EffectOverride>%PopulationCollectionBonusWalkers3EffectOverride</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
+  </GuiElement>
 
   <!-- #####  #   #  #####  #####  #####  ####### -->
   <!-- #      #   #  #        #    #   #  #  #  # -->

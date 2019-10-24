@@ -304,7 +304,7 @@
     </CollectionBonus>
 
     <CollectionBonus Threshold="20" >
-      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakken2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusDrakkenCustom2" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
     </CollectionBonus>
 
@@ -322,7 +322,7 @@
     </CollectionBonus>
 
     <CollectionBonus Threshold="20" >
-      <SimulationDescriptorReference Name="PopulationCollectionBonusForgotten2" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusForgottenCustom2" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2" />
     </CollectionBonus>
 
@@ -381,7 +381,7 @@
     </CollectionBonus>
 
     <CollectionBonus Threshold="50" >
-      <SimulationDescriptorReference Name="PopulationCollectionBonusMykaraCustom3" />
+      <SimulationDescriptorReference Name="PopulationCollectionBonusMykara3" />
       <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3" />
     </CollectionBonus>
   </PopulationCollectionBonusTrait>
