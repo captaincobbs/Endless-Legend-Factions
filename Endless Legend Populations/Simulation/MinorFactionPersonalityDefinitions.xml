@@ -19,7 +19,7 @@
   <MinorFactionPersonalityDefinition Name="FactionPersonalityArdent" >
     <MajorTrait Name="PersonalityTraitWarmonger" />
     <MinorTrait Weight="2" >
-      <Trait Name="FactionTraitArdentTrascend" />
+      <Trait Name="FactionTraitArdentTranscend" />
     </MinorTrait>
     <MinorTrait Weight="8" >
       <Trait Name="FactionTraitArdentScience" />
@@ -41,7 +41,7 @@
   <MinorFactionPersonalityDefinition Name="FactionPersonalityCultists" >
     <MajorTrait Name="PersonalityTraitPragmatist" />
     <MinorTrait Weight="9" >
-      <Trait Name="FactionTraitCultistsShipHealth" />
+      <Trait Name="FactionTraitCultistsFIDSI" />
     </MinorTrait>
     <MinorTrait Weight="1" >
       <Trait Name="FactionTraitCultistsPopulation" />
