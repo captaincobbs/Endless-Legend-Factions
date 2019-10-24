@@ -13,7 +13,7 @@
   <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Usa [dustcolored] para añadir un Caballero Espectral [population]</LocalizationPair>
   
   <!-- Cultists -->
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% salud máxima en naves</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIEffectOverride" >+15% salud máxima en naves</LocalizationPair>
 
   <!-- Drakken -->
   <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% [prestigecolored] bonificación en imperio</LocalizationPair>

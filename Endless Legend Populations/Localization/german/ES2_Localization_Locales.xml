@@ -11,7 +11,7 @@
   <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Nutze [dustcolored] um einen Zerbrochenen Lord [population]  hinzuzufügen</LocalizationPair>
   
   <!-- Cultists -->
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% maximale Energie auf Schiffe</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIEffectOverride" >+15% maximale Energie auf Schiffe</LocalizationPair>
   
   <!-- Drakken -->
   <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% [prestigecolored] Bonus auf: Imperium</LocalizationPair>

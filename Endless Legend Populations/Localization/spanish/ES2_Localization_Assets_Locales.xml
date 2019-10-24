@@ -30,9 +30,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle" >Sistemas con [custom03]</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentTitle" >Magos ardientes</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentDescription" >Tras sobrevivir una larga historia de sacrificio e inanición, los poderes que los Magos Ardientes descubrieron - y les permitieron sobrevivir - son los basados en la magia del Polvo, la agonia y la ira.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendTitle" >Altar de la Trascendencia</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendTitle" >Altar de la Transcendencia</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Templo de Verda</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Convirtiendonos cómo hicieron los Endless Virtuales, podemos abandonar la necesidad de cuerpos físicos y centrarnos en la persecución del poder.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Convirtiendonos cómo hicieron los Endless Virtuales, podemos abandonar la necesidad de cuerpos físicos y centrarnos en la persecución del poder.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Las sutilezas del Polvo son nomerosas y faciles de olvidar. Solo se desvelaran sus secretos tras un estudio metódico. Este templo, repleto de trampas terroríficas, ayudará en esta empresa.</LocalizationPair>
 
   <!-- Broken Lords -->
@@ -56,9 +56,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Sistemas con [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle" >Cultistas</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsDescription" >Vigilantes e hiperproductivos en todos los aspectos, con un apoyo inquebrantable hacia la Reina, los Cultitas son excelentes ciudadanos, siempre que no se permita a demasiados de ellos estar en el mismo sitio.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle" >Recubrimiento de Fe</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Recubrimiento de Fe</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Santuarios de la Reina</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription" >Derramando su corazón y fe en la creación de obras maestras del blindaje, tus naves aumentaran su resistencia.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Derramando su corazón y fe en la creación de obras maestras del blindaje, tus naves aumentaran su resistencia.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >Un único y enorme santuario es construido en cada planeta de tu imperio, sirviendo como centro de alojamiento masivo y adoración de los Cultistas.</LocalizationPair>
 
   <!-- Drakken -->

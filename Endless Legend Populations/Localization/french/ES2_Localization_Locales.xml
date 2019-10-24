@@ -12,7 +12,7 @@
   <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Utiliser [dustcolored] afin d'acquérir une [population] de Seigneur Déchu</LocalizationPair>
   
   <!-- Cultists -->
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthEffectOverride" >+15% de Vie Maximum sur Vaisseaux</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIEffectOverride" >+15% de Vie Maximum sur Vaisseaux</LocalizationPair>
   
   <!-- Drakken -->
   <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% [prestigecolored] bonus sur Empire</LocalizationPair>

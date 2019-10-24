@@ -21,9 +21,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle" >Système avec [custom03]</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentTitle" >Mages Ardent</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentDescription" >Ayant survécu à de nombreux massacres et de nombreuses famines, les pouvoirs que les Mages Ardent ont découvert - et qui leur ont permis de survivre - étaient ceux basé sur la magie de la Brume, l'agonie, et la rage.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendTitle" >Autel de la Transcendance</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendTitle" >Autel de la Transcendance</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Temple de Verda</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Devenant à l'image des grand Endless Virtuel, nous pouvons abandonner nos formes physiques et nous concentrer sur la poursuite de puissance.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Devenant à l'image des grand Endless Virtuel, nous pouvons abandonner nos formes physiques et nous concentrer sur la poursuite de puissance.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Les subtilités de la Brume sont nombreuses et faciles à manquées. C'est seuleument au travers de son étude méthodique que tout ses secrets seront découvert. Ce temple, rempli de terrifiants engins, vont aider cette entreprise.</LocalizationPair>
 
   <!-- Broken Lords -->
@@ -47,9 +47,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Système avec [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle" >Cultistes</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsDescription" >Vigilant et hyperproductif dans tout les aspects, avec un support inconditionnel pour la Reine, les Cultites font d'excellent citoyens tant que vous faites en sorte qu'il n'y en ai pas trop au même endroit.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle" >Blindage de la Foi</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Blindage de la Foi</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Sanctuaire de la Reine</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription" >Mettant tout leur coeur et leur foi dans du blindage digne de maitre-artisan, vos vaisseaux gagne un large bonus de durabilité.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Mettant tout leur coeur et leur foi dans du blindage digne de maitre-artisan, vos vaisseaux gagne un large bonus de durabilité.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >Un unique, massif sanctuaire est construit sur chaque planète de votre Empire, servant de centre de logement de masse, mais aussi de centre d'adoration des Cultistes.</LocalizationPair>
 
   <!-- Drakken -->

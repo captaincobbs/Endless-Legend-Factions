@@ -21,9 +21,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle" >Systeme mit [custom03]</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentTitle" >Brennende Magier</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentDescription" >Nachdem sie eine lange Ära von Massakern und Hungersnöten durchlebt hatten, waren die Mächte, die die Brennenden Magier entwickelten - und die es ihnen erlaubten zu überleben - diejenigen, die auf Dustmagie, Qualen und Wut basieren.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendTitle" >Altar der Vergänglichkeit</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendTitle" >Altar der Vergänglichkeit</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Verda's Tempel</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Indem wir so werden wie die legendären Virtuellen Endless, können wir das Gefängnis der physischen Körper aufgeben und uns auf das Streben nach Macht konzentrieren.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Indem wir so werden wie die legendären Virtuellen Endless, können wir das Gefängnis der physischen Körper aufgeben und uns auf das Streben nach Macht konzentrieren.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Die Besonderheiten des Dust sind zahlreich und leicht zu unterschätzen. Nur durch sein methodisches Studium werden seine Mysterien entschlüsselt. Dieser Tempel, ausgestattet mit furchteinflößenden Vorrichtungen, wird dieses Unterfangen unterstützen.</LocalizationPair>
 
   <!-- Broken Lords -->
@@ -47,9 +47,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Systeme mit [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle" >Kultisten</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsDescription" >Die Kultisten sind wachsam, in jeder Hinsicht hyperproduktiv, unerschütterlich in ihrer Hingabe für die Königin, und sie sind vorbildliche Bürger, solange man nicht zu viele von ihnen in den gleichen Raum sperrt.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle" >Glaubensbekenntnis</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Glaubensbekenntnis</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Heiligtümer der Königin</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription" >Indem Sie ihr Herzblut und ihren Glauben in die meisterhafte Verbesserung von Schiffsrümpfen einfließen lassen, erhalten Ihre Schiffe eine deutliche Steigerung der Widerstandsfähigkeit.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Indem Sie ihr Herzblut und ihren Glauben in die meisterhafte Verbesserung von Schiffsrümpfen einfließen lassen, erhalten Ihre Schiffe eine deutliche Steigerung der Widerstandsfähigkeit.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >Auf jedem Planeten in eurem Reich wird ein einziges, massives Heiligtum errichtet, das als Zentrum für die Massenunterbringung der Anhänger, aber auch als Zentrum der Verehrung des Kults dient.</LocalizationPair>
 
   <!-- Drakken -->

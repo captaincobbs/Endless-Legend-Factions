@@ -21,9 +21,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle" >Systems with [custom03]</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentTitle" >Ardent Mages</LocalizationPair>
   <LocalizationPair Name="%AffinityArdentDescription" >Having survived a long history of slaughter and starvation, the powers that the Ardent Mages discovered - and that permitted them to survive - were those based on Dust magic, agony, and rage.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendTitle" >Altar of Trascendence</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendTitle" >Altar of Transcendence</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Verda's Temple</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitArdentTrascendDescription" >Becoming as the great Virtual Endless did, we can abandon the need for physical bodies and focus on the pursuit of power.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Becoming as the great Virtual Endless did, we can abandon the need for physical bodies and focus on the pursuit of power.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >The subtleties of Dust are numerous and easy to overlook. Only through its methodical study will its secrets be discovered. This temple, replete with terrifying contraptions, will aid that endeavor.</LocalizationPair>
 
   <!-- Broken Lords -->
@@ -47,9 +47,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Systems with [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle" >Cultists</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsDescription" >Vigilant and hyperproductive in all aspects, with an unwavering support for the queen, the Cultists make excellent citizens as long as you don't let too many of them go in the same space.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthTitle" >Plating of Faith</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Infinite Fervor</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Sanctums of the Queen</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsShipHealthDescription" >Pouring their heart and faith into masterwork ship plating, your ships gain a large boost in durability.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Your populace is incredibly willing to contribute a little extra to your empire given the right.. motivations.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >A single, massive sanctum is built on every planet in your empire, serving as a center for mass-housing, but also a center of worship to the Cultists.</LocalizationPair>
 
   <!-- Drakken -->
@@ -61,9 +61,9 @@
   <LocalizationPair Name="%AffinityDrakkenTitle" >Drakken</LocalizationPair>
   <LocalizationPair Name="%AffinityDrakkenDescription" >The Drakken resemble the great dragons of fantasy. However, contrary to their fantasy counterparts, the Drakken prefer a much more diplomatic approach to conflict.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Silver Tongue</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Stubborn Patriots</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Truculent Diplomats</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >The Drakken are skilled at diplomacy, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Using their unnatural prowess at speechcraft, the Drakken are able to rile the people up in resisting the cultural takeover of other empires.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Your diplomats start subtly harassing the diplomats of other empire, leading to your empire having an easier time forcing your agenda.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair>
 
   <!-- Forgotten -->
