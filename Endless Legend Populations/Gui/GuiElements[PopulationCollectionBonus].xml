@@ -124,9 +124,12 @@
   <GuiElement Name="PopulationCollectionBonusMykara2" >
     <Title>%PopulationCollectionBonusMykara2</Title>
   </GuiElement>
-  <GuiElement Name="PopulationCollectionBonusMykara3" >
+  <ExtendedGuiElement Name="PopulationCollectionBonusMykara3" >
     <Title>%PopulationCollectionBonusMykara3</Title>
-  </GuiElement>
+    <TooltipElement>
+      <EffectOverride>%FactionTraitMinorMykaraTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
 
   <!-- Necrophages -->
   <GuiElement Name="PopulationCollectionBonusPhages1" >
@@ -138,12 +141,9 @@
       <EffectOverride>%PopulationCollectionBonusPhages2EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
-  <ExtendedGuiElement Name="PopulationCollectionBonusPhages3" >
+  <GuiElement Name="PopulationCollectionBonusPhages3" >
     <Title>%PopulationCollectionBonusPhages3</Title>
-    <TooltipElement>
-      <EffectOverride>%PopulationCollectionBonusPhages3EffectOverride</EffectOverride>
-    </TooltipElement>
-  </ExtendedGuiElement>
+  </GuiElement>
 
   <!-- Roving Clan -->
   <GuiElement Name="PopulationCollectionBonusRoving1" >
