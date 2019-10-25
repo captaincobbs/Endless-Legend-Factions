@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd" >
   <!-- These are used in FactionTraits[Minor] and GuiElements[GameVariables]
-       If you are confused as to how these work, try looking at examples in the Public game files
-       Meager = Sterile, Teeming = Fertile
-       Left="5" BinaryOperation="Multiplication" Right="$(Population)"-->
+       If you are confused as to how these work, try looking at examples in the Public game files-->
   <!-- Allayi -->
   <SimulationDescriptor Name="FactionTraitAllayiOwnership" Type="FactionTraitMinor" >
     <Modifier TargetProperty="OwnerShipRecoveryRate"  Operation="Percent" Value="0.25" Path="ClassEmpire/ClassColonizedStarSystem"  />
@@ -11,8 +9,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitAllayiHappiness" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeCold" />
-    <!-- From what I can tell, most things don't need tooltip overrides if you do this -->
+    <Modifier TargetProperty="BonusPopulationHappiness" Operation="Addition" Value="4" Path="FAKEFORGUI/./PlanetGameplayTypeCold" /><!-- From what I can tell, most basic things don't need tooltip overrides if you do this -->
     <BinaryModifier TargetProperty="Happiness"          Operation="Addition" Left="4"  BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeCold" SearchValueFromPath="true" TooltipHidden="true" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
@@ -97,7 +94,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitMorgawrProduction" Type="FactionTraitMinor" >
-    <BinaryModifier		TargetProperty="SystemProduction" Operation="Addition" Left="20" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" SearchValueFromPath="true" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <BinaryModifier		TargetProperty="SystemProduction" Operation="Addition" Left="30" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" SearchValueFromPath="true" Path="ClassEmpire/ClassColonizedStarSystem" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
@@ -144,7 +141,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitWalkersSight" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="VisionRange"	Operation="Percent" Value="10" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="VisionRange"	Operation="Percent" Value="0.1" Path="ClassEmpire/ClassColonizedStarSystem" />
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 

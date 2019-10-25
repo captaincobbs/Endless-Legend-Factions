@@ -135,7 +135,7 @@
     <Modifier TargetProperty="TradingRouteIncomeModifier" Operation="Percent" Value="0.15" Path="ClassEmpire/ClassColonizedStarSystem" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusRoving3" Type="PopulationCollectionBonus" >
-    <BinaryModifier TargetProperty="DustInflationModifier" Operation="Percent" Left="-0.05" BinaryOperation="Multiplication" Right="$(NumberOfTradingCompanyHeadquarters)"  Path="ClassEmpire" />
+    <BinaryModifier TargetProperty="DustInflationModifier" Operation="Percent" Left="-0.1" BinaryOperation="Multiplication" Right="$(NumberOfTradingCompanyHeadquarters)"  Path="ClassEmpire" />
   </SimulationDescriptor>
 
   <!-- Wild Walkers -->

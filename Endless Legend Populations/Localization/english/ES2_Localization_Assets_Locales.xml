@@ -63,7 +63,7 @@
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Silver Tongue</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Truculent Diplomats</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >The Drakken are skilled at diplomacy, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Your diplomats start subtly harassing the diplomats of other empire, leading to your empire having an easier time forcing your agenda.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Your diplomats start subtly harassing the diplomats of other empires, leading to your empire having an easier time forcing your agenda.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair>
 
   <!-- Forgotten -->

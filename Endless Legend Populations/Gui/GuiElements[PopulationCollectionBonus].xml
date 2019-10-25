@@ -127,7 +127,7 @@
   <ExtendedGuiElement Name="PopulationCollectionBonusMykara3" >
     <Title>%PopulationCollectionBonusMykara3</Title>
     <TooltipElement>
-      <EffectOverride>%FactionTraitMinorMykaraTooltipEffect</EffectOverride>
+      <EffectOverride>%PopulationCollectionBonusMykara3EffectOverride</EffectOverride>
     </TooltipElement>
   </ExtendedGuiElement>
 

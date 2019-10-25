@@ -161,13 +161,13 @@
   </GuiElement>
 
   <!-- Mykara -->
-  <GuiElement Name="FactionTraitMykaraFood" >
+  <ExtendedGuiElement Name="FactionTraitMykaraFood" >
     <Title>%FactionTraitMykaraFoodTitle</Title>
     <Description>%FactionTraitMykaraFoodDescription</Description>
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <GuiElement Name="FactionTraitMykaraManpower" >
     <Title>%FactionTraitMykaraManpowerTitle</Title>
@@ -251,7 +251,7 @@
   <!-- #      #   #      #    #    #   #  #     # -->
   <!-- #####  #####  #####    #    #####  #     # -->
   <!-- Allayi -->
-  <GuiElement Name="FactionTraitMinorAllayi" >
+  <ExtendedGuiElement Name="FactionTraitMinorAllayi" >
     <Title>%FactionTraitMinorAllayiTitle</Title>
     <Description>%FactionTraitMinorAllayiDescription</Description>
     <Icons>
@@ -260,10 +260,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorAllayiTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Ardent Mages -->
-  <GuiElement Name="FactionTraitMinorArdent" >
+  <ExtendedGuiElement Name="FactionTraitMinorArdent" >
     <Title>%FactionTraitMinorArdentTitle</Title>
     <Description>%FactionTraitMinorArdentDescription</Description>
     <Icons>
@@ -272,10 +272,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorArdentTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Broken Lords -->
-  <GuiElement Name="FactionTraitMinorLords" >
+  <ExtendedGuiElement Name="FactionTraitMinorLords" >
     <Title>%FactionTraitMinorLordsTitle</Title>
     <Description>%FactionTraitMinorLordsDescription</Description>
     <Icons>
@@ -284,10 +284,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorLordsTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Cultists -->
-  <GuiElement Name="FactionTraitMinorCultists" >
+  <ExtendedGuiElement Name="FactionTraitMinorCultists" >
     <Title>%FactionTraitMinorCultistsTitle</Title>
     <Description>%FactionTraitMinorCultistsDescription</Description>
     <Icons>
@@ -296,10 +296,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorCultistsTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Drakken -->
-  <GuiElement Name="FactionTraitMinorDrakken" >
+  <ExtendedGuiElement Name="FactionTraitMinorDrakken" >
     <Title>%FactionTraitMinorDrakkenTitle</Title>
     <Description>%FactionTraitMinorDrakkenDescription</Description>
     <Icons>
@@ -308,10 +308,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorDrakkenTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Forgotten -->
-  <GuiElement Name="FactionTraitMinorForgotten" >
+  <ExtendedGuiElement Name="FactionTraitMinorForgotten" >
     <Title>%FactionTraitMinorForgottenTitle</Title>
     <Description>%FactionTraitMinorForgottenDescription</Description>
     <Icons>
@@ -320,10 +320,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorForgottenTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Kapaku -->
-  <GuiElement Name="FactionTraitMinorKapaku" >
+  <ExtendedGuiElement Name="FactionTraitMinorKapaku" >
     <Title>%FactionTraitMinorKapakuTitle</Title>
     <Description>%FactionTraitMinorKapakuDescription</Description>
     <Icons>
@@ -332,10 +332,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorKapakuTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Morgawr -->
-  <GuiElement Name="FactionTraitMinorMorgawr" >
+  <ExtendedGuiElement Name="FactionTraitMinorMorgawr" >
     <Title>%FactionTraitMinorMorgawrTitle</Title>
     <Description>%FactionTraitMinorMorgawrDescription</Description>
     <Icons>
@@ -344,10 +344,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorMorgawrTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Mykara -->
-  <GuiElement Name="FactionTraitMinorMykara" >
+  <ExtendedGuiElement Name="FactionTraitMinorMykara" >
     <Title>%FactionTraitMinorMykaraTitle</Title>
     <Description>%FactionTraitMinorMykaraDescription</Description>
     <Icons>
@@ -356,10 +356,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorMykaraTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Necrophages -->
-  <GuiElement Name="FactionTraitMinorPhages" >
+  <ExtendedGuiElement Name="FactionTraitMinorPhages" >
     <Title>%FactionTraitMinorPhagesTitle</Title>
     <Description>%FactionTraitMinorPhagesDescription</Description>
     <Icons>
@@ -368,10 +368,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorPhagesTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Roving Clans -->
-  <GuiElement Name="FactionTraitMinorRoving" >
+  <ExtendedGuiElement Name="FactionTraitMinorRoving" >
     <Title>%FactionTraitMinorRovingTitle</Title>
     <Description>%FactionTraitMinorRovingDescription</Description>
     <Icons>
@@ -380,10 +380,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorRovingTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Wild Walkers -->
-  <GuiElement Name="FactionTraitMinorWalkers" >
+  <ExtendedGuiElement Name="FactionTraitMinorWalkers" >
     <Title>%FactionTraitMinorWalkersTitle</Title>
     <Description>%FactionTraitMinorWalkersDescription</Description>
     <Icons>
@@ -392,10 +392,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorWalkersTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Urkan A | Kazar -->
-  <GuiElement Name="FactionTraitMinorUrkanA" >
+  <ExtendedGuiElement Name="FactionTraitMinorUrkanA" >
     <Title>%FactionTraitMinorUrkanATitle</Title>
     <Description>%FactionTraitMinorUrkanADescription</Description>
     <Icons>
@@ -404,10 +404,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorUrkanATooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Urkan B | Chaka -->
-  <GuiElement Name="FactionTraitMinorUrkanB" >
+  <ExtendedGuiElement Name="FactionTraitMinorUrkanB" >
     <Title>%FactionTraitMinorUrkanBTitle</Title>
     <Description>%FactionTraitMinorUrkanBDescription</Description>
     <Icons>
@@ -416,10 +416,10 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorUrkanBTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Urkan C | Fakir -->
-  <GuiElement Name="FactionTraitMinorUrkanC" >
+  <ExtendedGuiElement Name="FactionTraitMinorUrkanC" >
     <Title>%FactionTraitMinorUrkanCTitle</Title>
     <Description>%FactionTraitMinorUrkanCDescription</Description>
     <Icons>
@@ -428,7 +428,7 @@
     <TooltipElement>
       <EffectOverride>%FactionTraitMinorUrkanCTooltipEffect</EffectOverride>
     </TooltipElement>
-  </GuiElement>
+  </ExtendedGuiElement>
 
   <!-- Faction Trait Families -->
   <GuiElement Name="FactionTraitFamilyUrkan">

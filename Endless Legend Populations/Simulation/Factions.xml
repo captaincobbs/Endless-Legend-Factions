@@ -168,7 +168,7 @@
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
     <Trait Name="FactionTraitStartWithPositiveAnomaly" />
-    <MajorPopulation Affinity="AffinityDrakken" Count="3" />
+    <MajorPopulation Affinity="AffinityDrakken" Count="2" />
     <Personality Name="FactionPersonalityDrakken" />
     <Politics Name="Politics03" />
 
@@ -206,7 +206,7 @@
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
     <Trait Name="FactionTraitStartWithTitanium"/>
-    <MajorPopulation Affinity="AffinityForgotten" Count="3" />
+    <MajorPopulation Affinity="AffinityForgotten" Count="2" />
     <Personality Name="FactionPersonalityForgotten" />
     <Politics Name="Politics03" />
 
@@ -244,7 +244,7 @@
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
     <Trait Name="FactionTraitCryophobic" />
-    <MajorPopulation Affinity="AffinityKapaku" Count="3" />
+    <MajorPopulation Affinity="AffinityKapaku" Count="2" />
     <Personality Name="FactionPersonalityKapaku" />
     <Politics Name="Politics01" />
 
