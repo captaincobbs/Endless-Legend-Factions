@@ -60,7 +60,7 @@
   </SimulationDescriptor>
 
   <SimulationDescriptor Name="FactionTraitDrakkenConversion" Type="FactionTraitMinor" >
-    <Modifier TargetProperty="BasePressure"  Operation="Percent"    Value="1.25" Path="ClassEmpire/ClassColonizedStarSystem" />
+    <Modifier TargetProperty="BasePressure"  Operation="Percent"    Value="0.25" Path="ClassEmpire/ClassColonizedStarSystem" />
     <Modifier TargetProperty="MinorTraitsAssimilated"  Operation="Addition" Value="1" Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
