@@ -15,7 +15,6 @@
     <Affinity Name="AffinityGameplayAllayi" /> <!-- Defined in FactionTraits[Affinity] -->
     <Trait Name="FamilyPrimitives" /> <!-- Type of minor faction bonuses they get I believe, other options: Insectoids, Advanced, and Pirates -->
     <Trait Name="IsMinorFaction" /> <!-- Confirms that the faction is a major factions -->
-    <Trait Name="FactionTraitThermophobic" /> <!-- Allayi unique trait for the mod, ignore -->
     <MajorPopulation Affinity="AffinityAllayi" Count="2" /> <!-- Affinity{Faction Name} determines their major population, Count is the number to start with, so in this case you will start with 3 Allayi -->
     <Personality Name="FactionPersonalityAllayi" /> <!-- Defined in MinorFactionPersonalityDefinitions, determines personality and faction traits -->
     <Politics Name="Politics05" />
@@ -243,7 +242,6 @@
     <Affinity Name="AffinityGameplayKapaku" />
     <Trait Name="FamilyPrimitives" />
     <Trait Name="IsMinorFaction" />
-    <Trait Name="FactionTraitCryophobic" />
     <MajorPopulation Affinity="AffinityKapaku" Count="2" />
     <Personality Name="FactionPersonalityKapaku" />
     <Politics Name="Politics01" />
