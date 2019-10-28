@@ -37,7 +37,7 @@
   <LocalizationPair Name="%FactionTraitLordsDustTitle" >Non-Lethal Extraction</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Dust Overcharging</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription" >Using the vampiric power of the Broken Lords, but combined with safer methods, you can passively extract non-lethal amounts of dust from citizens.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Using the restorative power of dust that the Broken Lords have come to learn, you can make all slowly repair themselves.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Using the restorative power of dust that the Broken Lords have come to learn, you can make all ships repair themselves more quickly.</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle" >Cultists of the Eternal End</LocalizationPair>
@@ -77,7 +77,7 @@
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Quick Maneuvering</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Eagle Eye</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >The Forgotten have a truly amazing tactic for making pilots fly their ships faster: Threathen them.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Having an expertise in infiltration and spying has its perks, and making the Forgotten gunners makes weaponry more likely to hit.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Having an expertise in infiltration and spying has its perks, such making the ship targeting more accurate.</LocalizationPair>
 
   <!-- Kapaku -->
   <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
