@@ -14,7 +14,7 @@
 	 -->
   <!-- Allayi -->
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi1" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="ClassEmpire/ClassPopulationEmpireAffinityAllayi" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="ClassEmpire/ClassPopulationEmpireAffinityAllayi" TooltipOverride="%TooltipOverridePositivePolitics05"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusAllayi2" Type="PopulationCollectionBonus" >
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAllayi" SearchValueFromPath="true"/>
