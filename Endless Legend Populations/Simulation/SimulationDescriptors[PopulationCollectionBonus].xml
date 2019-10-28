@@ -75,7 +75,7 @@
     <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="ClassEmpire/ClassPopulationEmpireAffinityForgotten" TooltipOverride="%TooltipOverridePositivePolitics03"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten2" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.15" Path="ClassEmpire/ClassGarrisonFleet" SearchValueFromPath="true" TooltipHidden="true" />
+    <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.15" Path="ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityForgotten" SearchValueFromPath="true" TooltipHidden="true" />
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusForgotten3" Type="PopulationCollectionBonus" >
     <BinaryModifier TargetProperty="SystemMoney" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemResearch)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true" />
