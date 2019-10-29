@@ -56,7 +56,7 @@
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusCultists3" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="25" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="25" Path="ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCultists" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   
     <!-- Drakken -->
@@ -100,7 +100,7 @@
     <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" SearchValueFromPath="true"/>
   </SimulationDescriptor>
   <SimulationDescriptor Name="PopulationCollectionBonusMorgawr3" Type="PopulationCollectionBonus" >
-    <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Addition" Value="0.25" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" SearchValueFromPath="true"/>
+    <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Addition" Value="0.25" Path="ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMorgawr" SearchValueFromPath="true"/>
   </SimulationDescriptor>
 
   <!-- Mykara -->
