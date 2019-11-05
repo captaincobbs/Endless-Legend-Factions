@@ -3,7 +3,7 @@
   <!-- Allayi -->
   <LocalizationPair Name="%MinorFactionAllayiTitle" >Allayi</LocalizationPair>                                       <!--< Minor Faction diplomacy screen name--> <!-- Minor Faction diplomacy screen description v -->
   <LocalizationPair Name="%MinorFactionAllayiDescription" >One of the original races of Auriga, the Allayi struggled greatly with their exodus from the planet. Once intrinsically linked to the planet, they have adapted to feel a similar bond to any planet they reside on.</LocalizationPair>
-  <LocalizationPair Name="%PopulationAllayiTitle" >[custom08]</LocalizationPair>                                     <!--No idea-->
+  <LocalizationPair Name="%PopulationAllayiTitle" >[custom08]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityAllayiTitle" >[custom08]</LocalizationPair>                  <!--Minor Faction population icon in menus-->
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle" >Systems with [custom08]</LocalizationPair> <!--Used in GuiElements[GameVariables]-->
   <LocalizationPair Name="%AffinityAllayiTitle" >Allayi</LocalizationPair>                                           <!--< Population Name--> <!-- Population Description v -->
@@ -28,7 +28,7 @@
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Broken Lords</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionLordsDescription" >The Broken Lords, formed an emergency coalition of other factions, not to be outdone by the exodus of the Vaulters. They cooperated to develop spacecraft to escape Auriga.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionLordsDescription" >The Broken Lords, formed an emergency coalition of other factions. Not to be outdone by the exodus of the Vaulters, the Broken Lords cooperated with other Nations to develop spacecraft capable of escaping Auriga.</LocalizationPair>
   <LocalizationPair Name="%PopulationLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle" >Systems with [custom00]</LocalizationPair>
@@ -37,7 +37,7 @@
   <LocalizationPair Name="%FactionTraitLordsDustTitle" >Non-Lethal Extraction</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Dust Overcharging</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription" >Using the vampiric power of the Broken Lords, but combined with safer methods, you can passively extract non-lethal amounts of dust from citizens.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Using the restorative power of dust that the Broken Lords have come to learn, you can make all slowly repair themselves.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Using the restorative power of dust that the Broken Lords have come to learn, you can make all ships slowly repair themselves.</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle" >Cultists of the Eternal End</LocalizationPair>
@@ -77,7 +77,7 @@
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Quick Maneuvering</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Eagle Eye</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >The Forgotten have developed a truly amazing tactic for making pilots fly their exponentially ships faster! Threatening them with execution is always a great motivator.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Having an expertise in infiltration and spying has its perks, and making the Forgotten gunners makes weaponry more likely to hit.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Having an expertise in infiltration and spying has its perks, and making the gunning techniques of the Forgotten much more likely to hit.</LocalizationPair>
 
   <!-- Kapaku -->
   <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
@@ -156,7 +156,7 @@
   <LocalizationPair Name="%FactionTraitWalkersBuildingTitle" >Growing Buildings</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersSightTitle" >The Sharing</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersBuildingDescription" >Using their affinity to nature, the Wild Walkers can replace the need for materials such as Steel or Titanium with naturally growing and regenerative substances, greatly decreasing production costs.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Finding their exceptional natural connection to beasts still applies off of Auriga, the Wild Walkers use their understanding bond to animals create a wide web of sight, greatly enchancing detection range.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Finding their exceptional natural connection to beasts still applies off of their homeworld, the Wild Walkers use their understanding bond to animals create a wide web of sight, greatly enchancing detection range.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
 
   <!-- Urkan -->
