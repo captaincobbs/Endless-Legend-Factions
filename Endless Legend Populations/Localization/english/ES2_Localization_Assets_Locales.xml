@@ -11,7 +11,7 @@
   <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle" >We Chosen Few</LocalizationPair>                       <!-- < Custom Trait display names-->
   <LocalizationPair Name="%FactionTraitAllayiHappinessTitle" >Gift of Auriga</LocalizationPair>                      <!-- Custom Trait descriptions v -->
   <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription" >Close-knight and loyal, the strategically located Allayi can have a tremendous effect on loyalty when taking solar systems.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >Though Auriga is gone, she left one final gift to the Allayi that they pass onto you.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >Though Auriga is gone, she left one final gift to the Allayi that they now pass onto you.</LocalizationPair>
 
   <!-- Ardent Mages -->
   <LocalizationPair Name="%MinorFactionArdentTitle" >Ardent Mages</LocalizationPair>
@@ -37,7 +37,7 @@
   <LocalizationPair Name="%FactionTraitLordsDustTitle" >Non-Lethal Extraction</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Dust Overcharging</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription" >Using the vampiric power of the Broken Lords, but combined with safer methods, you can passively extract non-lethal amounts of dust from citizens.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Using the restorative power of dust that the Broken Lords have come to learn, you can make all ships repair themselves more quickly.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Using the restorative power of dust that the Broken Lords have come to learn, you can make all slowly repair themselves.</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle" >Cultists of the Eternal End</LocalizationPair>
@@ -62,8 +62,8 @@
   <LocalizationPair Name="%AffinityDrakkenDescription" >The Drakken resemble the great dragons of fantasy. However, contrary to their fantasy counterparts, the Drakken prefer a much more diplomatic approach to conflict.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Silver Tongue</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Truculent Diplomats</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >The Drakken are skilled at diplomacy, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Your diplomats start subtly harassing the diplomats of other empires, leading to your empire having an easier time forcing your agenda.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Your diplomats learn from the tactics of the Drakken, giving them the ability to swiftly and efficiently declare diplomatic declarations.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Your diplomats start subtly harassing the represntatives of other empires, leading to your empire having an easier time forcing your agenda.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair>
 
   <!-- Forgotten -->
@@ -76,8 +76,8 @@
   <LocalizationPair Name="%AffinityForgottenDescription" >Rogues and spies with a unique ability to turn invisible at will, the Forgotten use dirty tricks and thievery to get what they want.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Quick Maneuvering</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Eagle Eye</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >The Forgotten have a truly amazing tactic for making pilots fly their ships faster: Threathen them.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Having an expertise in infiltration and spying has its perks, such making the ship targeting more accurate.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >The Forgotten have developed a truly amazing tactic for making pilots fly their exponentially ships faster! Threatening them with execution is always a great motivator.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Having an expertise in infiltration and spying has its perks, and making the Forgotten gunners makes weaponry more likely to hit.</LocalizationPair>
 
   <!-- Kapaku -->
   <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
@@ -129,7 +129,7 @@
   <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Veteran Warriors</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Slave Driving</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Extremes of evolution and environment can teach advanced organisms the secrets of combat.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Through the use of brutal enslavement of other peoples, the Necrophages can force a minimum amount of dust to be produced if times get tough.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Through the use of brutal enslavement of other peoples, the Necrophages can force a minimum amount of dust to be produced on planets sterile of dust.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
