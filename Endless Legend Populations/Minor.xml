@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
-  <RuntimeModule Name="ELP" Type="Extension" Version="3.0">
+  <RuntimeModule Name="ELP" Type="Extension" Version="4.0">
     <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
@@ -15,67 +15,76 @@
 
       [h1]List of their bonuses[/h1]
       Allayi[list]
-      [*]Traits (+3 Science on Cold, +1 Influence)
+      [*]Traits (+3 Science on Cold, +25 Defensive damage)
       [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Allayi 3. +3 Movement points on Ships)
-      [*] Assimilation Bonuses ( +2 Happiness on Cold Planets or +25% Ownership Recovery)
-      [*] Faction Trait (Start with Fakir)
+      [*]Assimilation Bonuses ( +4 Happiness on Cold Planets or +25% Ownership Recovery)
+      [*]Faction Trait (Pyrophobic [Requires Oddtraits, nearly incosequential on the game])
       [/list]
       Ardent Mages[list]
-      [*]Traits (+5 IDS)
-      [*]Collection Bonuses ( 1. +Scientists, 2. +5% IDI 3. Rebellions progress 25% more slowly)
-      [*] Assimilation Bonuses ( +5 Science per Anomaly or +15 Happiness and +2 Influence per Population)
-      [*] Faction Trait (Start with Chaka)
+      [*]Traits (+2 IDS)
+      [*]Collection Bonuses ( 1. +Scientists, 2. +5% IDS 3. Rebellions progress 25% more slowly)
+      [*]Assimilation Bonuses ( +5 Science per Anomaly or +15 Happiness and +2 Influence per Population)
+      [*]Faction Trait (Start with Chaka)
       [/list]
       Broken Lords[list]
       [*]Traits (+50 Defensive damage, +2 dust on happy)
-      [*]Collection Bonuses ( 1. +Religious, 2. +15% maximum manpower, +150 ground bombardment damage when attacking 3. +1% troop damage per hero)
-      [*] Assimilation Bonuses ( +5% dust or +2% health regen on ships )
+      [*]Collection Bonuses ( 1. +Religious, 2. +15% maximum manpower, +150 ground bombardment damage when attacking 3. +2% troop health per hero)
+      [*]Assimilation Bonuses ( +15% empire dust or +10% health regen on ships )
+      [*]Faction Trait (Appetite for Dust, faction uses dust to create population)
       [/list]
       Cultists of the Eternal End[list]
-      [*]Traits (+30 Manpower Capacity on Fertile, +2 FIDSI)
+      [*]Traits (+2 FIDSI)
       [*]Collection Bonuses ( 1. +Religious, 2. +15% Influence on Systems with Cultists 3. +25 Happiness)
-      [*] Assimilation Bonuses ( +1 Population Slot on Colonized Planets or +15% Maximum Health on Ships)
+      [*]Assimilation Bonuses ( +1 Population Slot on Colonized Planets or +5% FIDSI per System Level)
+      [*]Faction Trait (Start with Fakir)
       [/list]
       Drakken[list]
-      [*]Traits (+2 Influence on Anomalies, +1 Science)
-      [*]Collection Bonuses ( 1. +Pacifism, 2. +15% Influence on Systems 3. Laws cost 50% less influence maintenance)
-      [*] Assimilation Bonuses ( Peaceful treaties 30% cheaper or Systems are 50% harder to convert using influence)
+      [*]Traits (+2 Influence on Anomalies, +1 Food)
+      [*]Collection Bonuses ( 1. +Pacifist, 2. +15% Influence on all Systems 3. Laws cost 50% less influence upkeep)
+      [*]Assimilation Bonuses ( Peaceful treaties 30% cheaper or Systems are 25% more base diplomatic pressure)
+      [*]Faction Trait (Start with a positive anomaly)
       [/list]
       Forgotten[list]
       [*]Traits (+2 Food on Strategic Resources, +1 Bandwidth)
-      [*]Collection Bonuses ( 1. +Pacifism, 2. +3 Movement on Ships 3. 5% of science is added to dust)
-      [*] Assimilation Bonuses ( +1 Movement on ships or +8% accuracy on ships)
+      [*]Collection Bonuses ( 1. +Pacifist, 2. +15% Dust on Systems with Forgotten 3. 5% of science is added to dust)
+      [*]Assimilation Bonuses ( +2 Movement on ships or +8% accuracy on ships)
+      [*]Faction Trait (Start with Titanium)
       [/list]
       Kapaku[list]
       [*]Traits (+2 Happiness on Hot, +1 Industry)
-      [*]Collection Bonuses (1. +Environmentalism 2. +15% Industry 3. 25% Production is added as Food)
-      [*] Assimilation Bonuses (+2 Happiness on Sterile and + 4 on Hot per citizen, or -50% Terraformation Cost)
+      [*]Collection Bonuses (1. +Pacifist 2. +15% Industry 3. 10% Production is added as Food)
+      [*]Assimilation Bonuses (+4 on Hot per citizen, or -50% Terraformation Cost)
+      [*]Faction Trait (Cryophobic [Requires Oddtraits, nearly incosequential on the game])
       [/list]
       Morgawr[list]
-      [*]Traits (+2 Industry on Fertile, +1 Science)
-      [*]Collection Bonuses ( 1. +Scientist, 2. +15% Influence on Systems with Morgawr 3. Ships construction costs are 15% less)
-      [*] Assimilation Bonuses ( +5 Influence points on systems per anomaly (in that system) or +20 production per Fertile planet on systems)
+      [*]Traits (+1 Influence on Fertile, +2 Science)
+      [*]Collection Bonuses ( 1. +Militarist, 2. +15% Science on Systems with Morgawr 3. Ships construction costs are 25% less)
+      [*]Assimilation Bonuses ( +5 Influence points on systems per anomaly (in that system) or +20 production per Fertile planet on systems)
+      [*]Faction Trait (Start with 4 pop instead of 2)
       [/list]
       Mykara[list]
-      [*]Traits (+5 Food, +3 Food on Fertile)
-      [*]Collection Bonuses ( 1. +Industrialist, 2. +15% Food on Systems 3. +3% FIDSI)
-      [*] Assimilation Bonuses ( +500 Empire Manpower or -15% Food Upkeep)
-      [*] Faction Trait ( Start with Kazar)
+      [*]Traits (+1 industry, +3 Food on Fertile)
+      [*]Collection Bonuses ( 1. +Industrialist, 2. +15% Food on Systems 3. +10% Food added to Production)
+      [*]Assimilation Bonuses ( +500 Empire Manpower or -15% Food Upkeep)
+      [*]Faction Trait ( Start with Kazar)
       [/list]
       Necrophages[list]
       [*]Traits (+1 Manpower / Turn, +20 Manpower Capacity, -2 Food (Boosting adds +2 Production))
-      [*]Collection Bonuses ( 1. +Militarists, 2. -25% Hero and Ship Upkeep 3. +20% Weapon Damage)
-      [*] Assimilation Bonuses ( Minimum 5 food per turn or +150 Experience on ships when created)
+      [*]Collection Bonuses ( 1. +Militarists, 2. -15% Hero and Ship Upkeep 3. +20% Troop Damage)
+      [*]Assimilation Bonuses ( Minimum 5 dust on planets or +150 Experience on ships when created)
+      [*]Faction Trait (Start with 4 pop instead of 2)
       [/list]
       Roving Clans[list]
-      [*]Traits (+1 Science, +5 dust on sterile)
+      [*]Traits (+1 influence, +3 dust on anomaly)
       [*]Collection Bonuses ( 1. +Pacifist, 2. +15% trade company value 3. -5% dust inflation per trading company)
-      [*] Assimilation Bonuses ( -15% system upkeep or -15% military upkeep)
+      [*]Assimilation Bonuses ( -15% system upkeep or -15% military upkeep)
+      [*]Faction Trait (Start with positive anomaly)
       [/list]
       Wild Walkers[list]
-      [*]Traits (+5 industry on fertile, +2 food)
-      [*]Collection Bonuses ( 1. +Industrialist, 2. +15 Vision Range 3. 25% System Food is added onto System Production)
-      [*] Assimilation Bonuses ( +10 Vision Range on all Systems or -25% Building Production cost)
+      [*]Traits (+3 industry on fertile, +1 food)
+      [*]Collection Bonuses ( 1. +Industrialist, 2. +15% Vision Range 3. 25% structure loss defense)
+      [*]Assimilation Bonuses ( +10% Vision Range on all Systems or -15% Building Production cost)
+      [*]Faction Trait (Start with 4 pop instead of 2)
       [/list]
 
       [h1]Urkans[/h1]
@@ -115,7 +124,7 @@
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Added Kapaku homeworld, Balance Changes, Spanish Translation, Fixed Population Collection Bonuses, Added Compatibility with Population Control</ReleaseNotes>
+    <ReleaseNotes>Nearly complete rebalancing, spanish translation, added minor faction traits, fixed broken compatbility, fixed many many bugs, made broken lords reproduce via dust</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
     <Plugins>
