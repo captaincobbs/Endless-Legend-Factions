@@ -2,7 +2,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd" >
   <!-- Definitions for custom population modifier traits -->
   <!-- Ardent Mages +2 IDS -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryArdentIDS" SubCategory="Secondary" ShowInCustom="true" Cost="10" >
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryArdentIDS" SubCategory="Secondary" ShowInCustom="false" Cost="10" >
     <Tags>BonusPopulationIndustry, BonusPopulationScience, BonusPopulationDust</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
@@ -26,7 +26,7 @@
   </PopulationModifiersTrait>
   
   <!-- Drakken +2 Influence on Anomalies -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryDrakkenInfluenceAnomaly" SubCategory="Secondary" ShowInCustom="true" Cost="10" >
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryDrakkenInfluenceAnomaly" SubCategory="Secondary" ShowInCustom="false" Cost="10" >
     <Tags>PlanetAnomaly,BonusPopulationPrestige</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
@@ -50,7 +50,7 @@
   </PopulationModifiersTrait>
 
   <!-- Morgawr +1 Influence on Fertile -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryMorgawrInfluenceFertile" SubCategory="Secondary" ShowInCustom="true" Cost="5" >
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryMorgawrInfluenceFertile" SubCategory="Secondary" ShowInCustom="false" Cost="5" >
     <Tags>PlanetGameplayTypeTeeming,BonusPopulationPrestige</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
@@ -74,7 +74,7 @@
   </PopulationModifiersTrait>
 
   <!-- Necrophages -2 Food -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitPhagesFood" SubCategory="Secondary" ShowInCustom="true" Cost="-5" >
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPhagesFood" SubCategory="Secondary" ShowInCustom="false" Cost="-5" >
     <Tags>BonusPopulationFood</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
@@ -98,7 +98,7 @@
   </PopulationModifiersTrait>
 
   <!-- Roving Clans +3 Dust on Anomalies -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryRovingDustAnomaly" SubCategory="Secondary" ShowInCustom="true" Cost="10" >
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryRovingDustAnomaly" SubCategory="Secondary" ShowInCustom="false" Cost="10" >
     <Tags>PlanetAnomaly,BonusPopulationDust</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
@@ -122,7 +122,7 @@
   </PopulationModifiersTrait>
 
   <!-- Wild Walkers +3 Production on Fertile -->
-  <PopulationModifiersTrait Name="PopulationModifiersTraitWalkersIndustry" SubCategory="Secondary" ShowInCustom="true" Cost="5" >
+  <PopulationModifiersTrait Name="PopulationModifiersTraitWalkersIndustry" SubCategory="Secondary" ShowInCustom="false" Cost="5" >
     <Tags>PlanetGameplayTypeTeeming,BonusPopulationIndustry</Tags>
     <Modifiers>
       <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
