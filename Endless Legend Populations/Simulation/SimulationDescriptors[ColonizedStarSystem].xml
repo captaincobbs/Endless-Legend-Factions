@@ -7,6 +7,9 @@
     <!-- ########################################################## -->
 
     <Property Name="OnGoingLords" BaseValue="0"/>
+
+    <!-- Compatibility with ELMP -->
+    <Property Name="OnGoingFomorian" BaseValue="0"/>
     
     <!-- Compatibility with Population Control -->
     <!-- Assimilate -->
@@ -58,7 +61,6 @@
 
     <!--Clone-->
     <Property Name="OnGoingMajor"  	BaseValue="0"  />
-
 
     <!--End populace control mod variables -->
 
