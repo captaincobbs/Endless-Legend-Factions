@@ -7,9 +7,9 @@
   <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride" >Les Rébellions progressent 25% moins vite</LocalizationPair>
   
   <!-- Broken Lords -->
-  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% de Dégât par Héro sur Armée au sol</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Acheter un Seigneur Déchu [custom00]</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Utiliser [dustcolored] afin d'acquérir une [population] de Seigneur Déchu</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+2% Santé de Troupe par Héros</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Acheter Seigneur Déchus [custom00]</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Utiliser [dustcolored] pour ajouter un Seigneur Déchu [population]</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%FactionTraitCultistsFIDSIEffectOverride" >+15% de Vie Maximum sur Vaisseaux</LocalizationPair>
@@ -19,7 +19,6 @@
   <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride" >-50% de coût [prestigecolored] d'entretien de loi sur Empire</LocalizationPair>
   
   <!-- Forgotten -->
-  <LocalizationPair Name="%PopulationCollectionBonusForgotten2EffectOverride" >+1 [move] sur Vaisseaux</LocalizationPair>
   <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride" >5% de [sciencecolored] est ajouté à la production de [dustcolored] sur Système</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusAccuracyForgottenEffectOverride" >+10% de Précision sur Modules d'Arme</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride" >+1 [move] sur Vaisseaux</LocalizationPair>
@@ -32,18 +31,16 @@
   <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride" >+5 de [prestigecolored] par Anomalie sur Système</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride" >+20 d'Industrie [industrycolored] par planète sur Système</LocalizationPair>
   
-  <!-- Mykara doesn't have any overrides -->
+  <!-- Mykara -->
+  <LocalizationPair Name="%PopulationCollectionBonusMykara3EffectOverride" >+10% [foodcolored] ajouter à [industrycolored] sur Systèmes</LocalizationPair>
   
   <!-- Necrophages -->
   <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-25% de [upkeepcolored] sur Flottes et Héros</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride" >+30% de Dégât sur les Modules d'Armes</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesDustEffectOverride" >Défini la production de [dustcolored] sur Système dans l'Empire à 5 si la valeur naturel est plus basse que ça</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustEffectOverride" >Défini la [dustcolored] sur les Systèmes dans l'Empire à 5 si la valeur naturel est inférieur.</LocalizationPair>
   
-  <!-- Roving Clans don't have any overrides-->
+  <!-- Roving Clans -->
   
   <!-- Wild Walkers -->
-  <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride" >+25% de [foodcolored] ajouté à la production de [industrycolored] sur Système</LocalizationPair>
-
   
   <!-- Custom Faction Population Collection -->
   <!-- Allayi -->
@@ -210,4 +207,6 @@
   <!-- Trait Families -->
   <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Montre les traits qui vont définir votre population Urkan de départ.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Urkan de départ</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyMinorFactionDescription">Montre les traits normalement exclusisment obtenu via les bonus d'assimilations.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyMinorFactionTitle">Bonus d'Assimilations</LocalizationPair>
 </Datatable>

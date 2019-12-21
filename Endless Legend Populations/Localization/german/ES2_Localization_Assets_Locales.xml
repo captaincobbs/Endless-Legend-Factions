@@ -11,8 +11,8 @@
   <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle" >Die Auserwählten</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiHappinessTitle" >Geschenk Aurigas</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription" >Bedingt durch ihre ausgeprägte Tugendhaftigkeit und bedingungslose Treue, haben Allayi einen enormen Einfluss auf die Loyalität bei der Besiedlung von Sternensystemen.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >Obgleich der Planet Auriga Vergangenheit zu sein scheint, hinterließ er den Allayi ein letztes Vermächtnis, das sie hiermit an dich weitergeben.</LocalizationPair>
-
+  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >Auch wenn Auriga längst Geschichte ist, hinterließ der Planet den Allayi ein letztes Geschenk, das diese nun an dich weitergeben.</LocalizationPair>
+  
   <!-- Ardent Mages -->
   <LocalizationPair Name="%MinorFactionArdentTitle" >Brennende Magier</LocalizationPair>
   <LocalizationPair Name="%MinorFactionArdentDescription" >Obwohl sie große Macht kontrollieren, zahlen sie dafür einen hohen Preis. Um die Kräfte des Dusts zu nutzen, muss ein brennender Magier seinen Geist von seinem Körper lösen. Dafür haben sie aufwändige Schmerzrituale entwickelt, denn je mehr sie in der Lage sind, der Qual zu widerstehen und ihre körperlichen Beschwerden zu ignorieren, desto tiefer wird ihre Beziehung zum Dust. Der Schmerz ist zu einem grundlegenden Element ihrer Gesellschaft geworden, bis hin zu dem Punkt, an dem den Kindern von klein auf beigebracht wird, ihm zu widerstehen.</LocalizationPair>
@@ -28,7 +28,7 @@
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Zerbrochene Lords</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionLordsDescription" >Die Zerbrochenen Lords kooperierten mit anderen Fraktionen in einem aus der Not geborenen Zweckbündnis, um Raumschiffe für die Evakuierung Aurigas zu entwickeln. Die Resultate dieses Zweckbündnisses sollten auf keinen Fall von jenen der im Alleingang agierenden Vaulters übertroffen werden.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionLordsDescription" >Um dem Exodus der Vaulter in nichts nachzustehen, kooperierten die Zerbrochenen Lords in einer Notfallkoalition mit anderen Völkern. Das Ziel der Koalition war es, Raumschiffe zu entwickeln, die in der Lage sind, Auriga zu verlassen.</LocalizationPair>
   <LocalizationPair Name="%PopulationLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle" >Systeme mit [custom00]</LocalizationPair>
@@ -37,7 +37,7 @@
   <LocalizationPair Name="%FactionTraitLordsDustTitle" >Nicht-letale Extraktion</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Extreme Dustaufladung</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription" >Durch die vampirischen Kräfte der Gebrochenen Lords, kombiniert mit risikominimierenden Sicherheitstechnologien, können Sie anderen Spezies passiv Dust entziehen, ohne dass die Prozedur den sonst unweigerlichen Tod der Kreaturen nach sich zieht.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Mit der regenerierenden Wirkung des Dusts, deren Geheimnisse  die Zerbrochenen Lords gelüftet haben, ist es möglich die jedem Lebewesen innewohnenden Selbstheilungskräfte um ein vielfaches zu verstärken, so dass sogar sonst tödliche Verletzungen völlig geheilt werden können. Wie heisst es so schön? "Die Zeit heilt alle Wunden!"</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Unter Einsatz der regenerierenden Kraft des Dusts, die die Zerbrochenen Lords in Erfahrung gebracht haben, können Sie alle Schiffe dazu bringen, sich schrittweise selbst zu reparieren.</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle" >Kultisten des Ewigen Endes</LocalizationPair>
@@ -47,9 +47,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Systeme mit [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle" >Kultisten</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsDescription" >Die Kultisten sind wachsam, in jeder Hinsicht hyperproduktiv, unerschütterlich in ihrer Hingabe für die Königin, und sie sind vorbildliche Bürger, solange man nicht zu viele von ihnen in den gleichen Raum sperrt.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Glaubensbekenntnis</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Unendliche Leidenschaft</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Heiligtümer der Königin</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Indem Sie ihr Herzblut und ihren Glauben in die meisterhafte Verbesserung von Schiffsrümpfen einfließen lassen, erhalten Ihre Schiffe eine deutliche Steigerung der Widerstandsfähigkeit.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Deine Bevölkerung ist ungemein versessen darauf, etwas mehr zu deinem Imperium beizutragen, wenn man die passenden... Anreize dafür bietet.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >Auf jedem Planeten in eurem Reich wird ein einziges, massives Heiligtum errichtet, das als Zentrum für die Massenunterbringung der Anhänger, aber auch als Zentrum der Verehrung des Kults dient.</LocalizationPair>
 
   <!-- Drakken -->
@@ -61,9 +61,9 @@
   <LocalizationPair Name="%AffinityDrakkenTitle" >Drakken</LocalizationPair>
   <LocalizationPair Name="%AffinityDrakkenDescription" >Die Drakken erinnern an große Drachen aus dem Reich der Fantasie. Im Gegensatz zu diesen Pendants bevorzugen die Drakken jedoch einen weitaus diplomatischeren Ansatz zur Konfliktlösung.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Silberzunge</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Hartnäckige Patrioten</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Die Drakken verfügen über die nötigen diplomatischen Qualifikationen, die ihnen die Befähigung geben, Deklarationen schnell und effizient auszuformulieren und umzusetzen.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Mit ihren übernatürlichen Fähigkeiten bei der Redekunst sind die Drakken in der Lage, die Menschen aufzuwiegeln, um sich so der kulturellen Über- und Einflußnahme anderer Reiche effizient zu widersetzen.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Ehrgeizige Diplomaten</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Ihre Diplomaten lernen von der Taktik der Drakken und haben so die Möglichkeit, diplomatische Erklärungen schnell und effizient zu verabschieden.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Deine Diplomaten beginnen damit, die Repräsentanten anderer Reiche auf subtile Weise zu diffamieren, was dazu führt, dass dein Imperium in der Lage ist, deine Agenda wesentlich effizienter zu forcieren.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair>
 
   <!-- Forgotten -->
@@ -76,9 +76,9 @@
   <LocalizationPair Name="%AffinityForgottenDescription" >In ihrer Tradition als Gauner und Spione mit der einzigartigen Fähigkeit, sich nach Belieben zu tarnen, benutzen die Vergessenen schmutzige Tricks und Diebstahl, um die Dinge zu erhalten, die sie begehren.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Schnelles Manövrieren</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Adlerauge</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >Die Vergessenen haben eine so einfache wie wirklich beeindruckende Taktik, um ihre Piloten dazu zu bewegen, ihre Schiffe schneller zu fliegen: Morddrohungen - gegenüber den Piloten, als auch gegenüber deren Angehörigen.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Fachwissen bei der Infiltration und der Spionage hat seine Vorteile, aber auch das Spezialsieren der Vergessenen zu Geschützmannschaften, was die Effizienz und Präzision der Bordwaffen beträchtlich erhöht.</LocalizationPair>
-
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >Die Vergessenen haben eine wirklich erstaunliche Taktik entwickelt, um Piloten dazu zu bringen, ihre Raumschiffe schneller zu fliegen! Sie mit Exekutionen zu bedrohen, ist immer ein großartiger Ansporn.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Expertenwissen in den Bereichen Infiltration und Spionage hat seine Vorteile, so dass die Schusstechniken der Vergessenen zu einer wesentlich höheren Trefferquote führen.</LocalizationPair>
+  
   <!-- Kapaku -->
   <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
   <LocalizationPair Name="%MinorFactionKapakuDescription" >Die Kapaku haben eine problematische Vergangenheit im Umgang mit Planeten. Nachdem ihr erster in einen abstoßend üppigen Wald verwandelt wurde und ihr zweiter zu einem Eisklumpen mutierte, beschlossen die Kapaku, ihren eigenen, perfekten Planeten zu finden.</LocalizationPair>
@@ -129,7 +129,7 @@
   <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Veteranen Krieger</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Sklaventreiber</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Extreme der Evolution und herrschende Umweltbedingungen können fortschrittlichen Organismen die Geheimnisse der Kriegsführung in die Wiege legen.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Durch die brutale Versklavung anderer Völker können die Nekrophagen in Krisenzeiten eine Mindestmenge an Nahrung produzieren lassen.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Durch die brutale Versklavung anderer Völker können die Nekrophagen die Produktion einer Mindestmenge an Dust auf sterilen Planeten erreichen.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
@@ -156,7 +156,7 @@
   <LocalizationPair Name="%FactionTraitWalkersBuildingTitle" >Wachsende Bauwerke</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersSightTitle" >Die Teilhabe</LocalizationPair>
   <LocalizationPair Name="%FactionTraitWalkersBuildingDescription" >Durch ihre Naturverbundenheit können die Wildläufer den Bedarf an Materialien wie Stahl oder Titan durch natürlich wachsende und regenerative Materialien ersetzen und dadurch die Produktionskosten deutlich senken.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Die Wildläufer haben ihre außergewöhnliche natürliche Beziehung zur Tierwelt auch abseits von Auriga bewahren können und nutzen ihre besondere Verbundenheit mit der Fauna, um ein verbessertes Sichtfeld zu schaffen, so dass sich ihre Wahrnehmungsreichweite enorm verbessert.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Die Wildläufer haben ihre außergewöhnliche natürliche Verbindung zu Tieren auch jenseits ihrer Heimatwelt bewahrt und nutzen ihre Fähigkeit, die Vertrautheit und Verbundenheit zu den Tieren zu nutzen, um ein ausgedehntes Sichtfeld zu schaffen, was die Sichtweite erheblich verbessert.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair>
 
   <!-- Urkan -->
