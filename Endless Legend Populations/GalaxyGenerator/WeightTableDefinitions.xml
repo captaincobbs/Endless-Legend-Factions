@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd" >
   <GalaxyGeneratorWeightTable Name="MinorFactions" >
+    <!-- Vanilla -->
+    <Entry Weight="1" Tag="MinorFactionAmoeba"/>
+    <Entry Weight="1" Tag="MinorFactionBots"/>
+    <Entry Weight="1" Tag="MinorFactionBenthys"/>
+    <Entry Weight="1" Tag="MinorFactionDeuyivans"/>
+    <Entry Weight="1" Tag="MinorFactionHaroshems"/>
+    <Entry Weight="1" Tag="MinorFactionHisshos"/>
+    <Entry Weight="1" Tag="MinorFactionMavros"/>
+    <Entry Weight="1" Tag="MinorFactionPilgrims"/>
+    <Entry Weight="1" Tag="MinorFactionZvali"/>
+    <Entry Weight="1" Tag="MinorFactionTikanans"/>
+    <Entry Weight="1" Tag="MinorFactionGnashasts"/>
+    <Entry Weight="1" Tag="MinorFactionEyders"/>
+    <Entry Weight="1" Tag="MinorFactionNiris"/>
+    <Entry Weight="1" Tag="MinorFactionBhagabas"/>
+    <Entry Weight="1" Tag="MinorFactionRemnant"/>
+    <Entry Weight="1" Tag="MinorFactionPulsos"/>
+    <Entry Weight="1" Tag="MinorFactionGreenman"/>
+    <Entry Weight="1" Tag="MinorFactionSistersOfMercy"/>
+    <Entry Weight="1" Tag="MinorFactionIllo"/>
+    <Entry Weight="1" Tag="MinorFactionMinorHacking"/>
+    <Entry Weight="1" Tag="MinorFactionSowers"/>
+    <Entry Weight="1" Tag="MinorFactionKalTikMas"/>
+    <Entry Weight="1" Tag="MinorFactionSefaloros"/>
+    <Entry Weight="1" Tag="MinorFactionGalvrans"/>
+    <Entry Weight="1" Tag="MinorFactionHarmony"/>
+    <Entry Weight="1" Tag="MinorFactionBasryxo"/>
+    <Entry Weight="1" Tag="MinorFactionOraculars"/>
+    <!-- Included in Mod -->
     <Entry Tag="MinorFactionAllayi"         Weight="1" />
     <Entry Tag="MinorFactionArdent"         Weight="1" />    
     <Entry Tag="MinorFactionLords"          Weight="1" />
