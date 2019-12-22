@@ -1,69 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
   <SimulationDescriptor Name="ClassColonizedStarSystem" Type="ClassColonizedStarSystem">
-
     <!-- ########################################################## -->
-    <!-- ######################## PROPERTY ######################## -->
+    <!-- ######################### MODDED ######################### -->
     <!-- ########################################################## -->
 
     <Property Name="OnGoingLords" BaseValue="0"/>
-
-    <!-- Compatibility with ELMP -->
-    <Property Name="OnGoingFomorian" BaseValue="0"/>
-    
-    <!-- Compatibility with Population Control -->
-    <!-- Assimilate -->
-    <Property Name="OnGoingZvali"  	BaseValue="0"  />
-    <Property Name="OnGoingAmoeba"	    BaseValue="0"  />
-    <Property Name="OnGoingBenthys"	BaseValue="0"  />
-    <Property Name="OnGoingBots"	    BaseValue="0"  />
-    <Property Name="OnGoingDeuyivans"	BaseValue="0"  />
-    <Property Name="OnGoingHaroshems"	BaseValue="0"  />
-    <Property Name="OnGoingHisshos"	BaseValue="0"  />
-    <Property Name="OnGoingMavros"	    BaseValue="0"  />
-    <Property Name="OnGoingPilgrims"	BaseValue="0"  />
-    <Property Name="OnGoingTikanans"	BaseValue="0"  />
-    <Property Name="OnGoingGnashasts"	BaseValue="0"  />
-    <Property Name="OnGoingEyders"	    BaseValue="0"  />
-    <Property Name="OnGoingNiris"	    BaseValue="0"  />
-    <Property Name="OnGoingBhagabas"	BaseValue="0"  />
-    <Property Name="OnGoingRemnant"	BaseValue="0"  />
-    <Property Name="OnGoingPulsos"	    BaseValue="0"  />
-    <Property Name="OnGoingGreenman"	BaseValue="0"  />
-    <Property Name="OnGoingGuardians"	BaseValue="0"  />
-    <Property Name="OnGoingSistersOfMercy"	BaseValue="0"  />
-    <Property Name="OnGoingIllo"	    BaseValue="0"  />
-    <Property Name="OnGoingSowers"	    BaseValue="0"  />
-    <Property Name="OnGoingKalTikMas"	BaseValue="0"  />
-    <Property Name="OnGoingSefaloros"	BaseValue="0"  />
-    <Property Name="OnGoingGalvrans"	BaseValue="0"  />
-    <Property Name="OnGoingHarmony"	BaseValue="0"  />
-    <Property Name="OnGoingVampirilis"	BaseValue="0"  />
-    <Property Name="OnGoingMinorHacking"	BaseValue="0"  />
-    <Property Name="OnGoingBasryxo"	BaseValue="0"  />
-    <Property Name="OnGoingOraculars"	BaseValue="0"  />
-
-    <Property Name="OnGoingCravers"	BaseValue="0"  />
-    <Property Name="OnGoingSophons"	BaseValue="0"  />
-    <Property Name="OnGoingTerrans"	BaseValue="0"  />
-    <Property Name="OnGoingMezari"	    BaseValue="0"  />
-    <Property Name="OnGoingSheredyn"	BaseValue="0"  />
-    <Property Name="OnGoingHoratio"	BaseValue="0"  />
-    <Property Name="OnGoingVenetians"	BaseValue="0"  />
-    <Property Name="OnGoingUnfallen"	BaseValue="0"  />
-    <Property Name="OnGoingTimeLords"	BaseValue="0"  />
-    <Property Name="OnGoingVaulters"	BaseValue="0"  />
-    <Property Name="OnGoingVaultersScience"	BaseValue="0"  />
-    <Property Name="OnGoingVaultersMilitary"	BaseValue="0"  />
-    <Property Name="OnGoingMajorHisshos"	    BaseValue="0"  />
-    <Property Name="OnGoingUmbralChoir"	BaseValue="0"  />
-    <Property Name="OnGoingTemplars"	    BaseValue="0"  />
-
-    <!--Clone-->
-    <Property Name="OnGoingMajor"  	BaseValue="0"  />
-
-    <!--End populace control mod variables -->
-
 
     <!-- ########################################################## -->
     <!-- ######################## PROPERTY ######################## -->
@@ -483,6 +425,7 @@
     <Property Name="RecipeIngredientEffectTier2Luxury10" BaseValue="0"/>
     <Property Name="RecipeIngredientEffectTier2Luxury11" BaseValue="0"/>
     <Property Name="RecipeIngredientEffectTier2Luxury12" BaseValue="0"/>
+    <Property Name="RecipeIngredientEffectTier2Luxury12Bis" BaseValue="0"/>
     <Property Name="RecipeIngredientEffectTier2Luxury13" BaseValue="0"/>
     <Property Name="RecipeIngredientEffectTier2Luxury14" BaseValue="0" MinValue="Negative"/>
     <Property Name="RecipeIngredientEffectTier2Luxury14FIDSHisshos" BaseValue="0" MinValue="Negative"/>
@@ -587,7 +530,6 @@
     <Property Name="TemplePopulationCount" Composition="Sum"/>
     <Property Name="NonTemplePopulation" BaseValue="0"/>
 
-    <Property Name="TemplePopulationModifier" BaseValue="0"/>
     <Property Name="EcologistVoicesModifier" BaseValue="0"/>
 
     <Property Name="PercentageOfVoicesPolitics01" 	BaseValue="0"	MinValue="0" IsSealed="true" />
@@ -598,6 +540,10 @@
     <Property Name="PercentageOfVoicesPolitics06" 	BaseValue="0"	MinValue="0" IsSealed="true" />
 
     <Property Name="hasUniquePlanet" BaseValue="0"/>
+
+    <!-- FactionTraitScienceReduction -->
+    <Property Name="CanUseRawPlanetScience" BaseValue="1"/>
+    <Property Name="CannotUseRawPlanetScience" BaseValue="0"/>
 
     <!-- ########################################################## -->
     <!-- ######################## DEBUG ######################## -->
@@ -660,7 +606,7 @@
     <BinaryModifier TargetProperty="OwnerShipRecoveryRate" Operation="Addition" Left="$(OwnerShipRecoveryRateBoostFromFleetPresence)" BinaryOperation="Multiplication" Right="$(HasOwnedDockedFleets)" />
 
     <Modifier TargetProperty="NetSystemGrowth"          Operation="Addition"    Value="$(SystemGrowthFromGrowthConversion)"          TooltipHidden="false" />
-    <Modifier TargetProperty="NetSystemGrowth"          Operation="Addition"    Value="$(SystemGrowthFromProduction)"          TooltipHidden="false" />
+    <Modifier TargetProperty="NetSystemGrowth"          Operation="Addition"    Value="$(SystemGrowthFromProduction)"                TooltipHidden="false" />
     <Modifier TargetProperty="NetSystemGrowth"          Operation="Addition"    Value="$(SystemGrowthBasryxoTrait)"             TooltipHidden="false" />
     <Modifier TargetProperty="NetSystemGrowth"          Operation="Addition"    Value="$(SystemGrowthFromMoneyConversion)"           TooltipHidden="false" />
     <Modifier TargetProperty="NetSystemProduction"      Operation="Addition"    Value="$(SystemProductionFromProductionConversion)"  TooltipHidden="false"/>
@@ -747,7 +693,6 @@
     <!-- Influence -->
 
     <!-- Temples Modifier Influence-->
-    <BinaryModifier TargetProperty="NetSystemEmpirePoint"  Operation="Addition" Left="$(TemplePopulationModifier)" BinaryOperation="Multiplication" Right="$(TemplePopulationCount)" TooltipHidden="false"/>
     <BinaryModifier TargetProperty="NetSystemEmpirePoint"  Operation="Addition" Left="$(EcologistVoicesModifier)" BinaryOperation="Multiplication" Right="$(PercentageOfVoicesPolitics04)" TooltipHidden="false"/>
 
 
@@ -1061,7 +1006,8 @@
     <Modifier TargetProperty="PlanetRawFood"                                            Operation="Addition"    Value="$(RecipeIngredientEffectTier2Luxury9)"                   Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
     <Modifier TargetProperty="PlanetRawIndustry"                                        Operation="Addition"    Value="$(RecipeIngredientEffectTier2Luxury10)"                  Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
     <Modifier TargetProperty="PlanetRawDust"                                            Operation="Addition"    Value="$(RecipeIngredientEffectTier2Luxury11)"                  Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
-    <Modifier TargetProperty="PlanetRawScience"                                         Operation="Addition"    Value="$(RecipeIngredientEffectTier2Luxury12)"                  Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
+    <BinaryModifier TargetProperty="PlanetRawScience" Operation="Addition" Left="$(RecipeIngredientEffectTier2Luxury12)" BinaryOperation="Multiplication" Right="$(CanUseRawPlanetScience)"/>
+    <BinaryModifier TargetProperty="NetSystemResearch" Operation="Percent" Left="$(RecipeIngredientEffectTier2Luxury12Bis)" BinaryOperation="Multiplication" Right="$(CannotUseRawPlanetScience)"/>
     <Modifier TargetProperty="SystemFIDSFlat"                                           Operation="Addition"    Value="$(RecipeIngredientEffectTier1Luxury6FIDSHisshos)"        Path="ClassColonizedStarSystem"/>
     <Modifier TargetProperty="PlanetRawPrestige"                                        Operation="Addition"    Value="$(RecipeIngredientEffectTier2Luxury13)"                  Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
     <Modifier TargetProperty="Happiness"                                                Operation="Addition"    Value="$(RecipeIngredientEffectTier2Luxury14)"                  Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
@@ -1120,6 +1066,5 @@
 
     <!-- Temples -->
     <BinaryModifier     TargetProperty="NonTemplePopulation" Operation="Addition" Left="$(Population)" BinaryOperation="Subtraction" Right="$(TemplePopulationCount)" />
-
   </SimulationDescriptor>
 </Datatable>
