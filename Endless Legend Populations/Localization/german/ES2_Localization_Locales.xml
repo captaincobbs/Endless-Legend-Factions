@@ -6,9 +6,9 @@
   <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride" >Rebellionen schreiten 25% langsamer voran</LocalizationPair>
   
   <!-- Broken Lords -->
-  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+1% Schaden auf Bodentruppen je Held im Imperium</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Zerbrochene Lords [custom00] kaufen</LocalizationPair>
-  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Nutze [dustcolored] um einen Zerbrochenen Lord [population]  hinzuzufügen</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+2% Truppengesundheit je Held</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Zerbrochene Lords klonen [custom00]</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Setze [dustcolored] ein, um eine [population] der Zebrochenen Lords hinzuzufügen</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%FactionTraitCultistsFIDSIEffectOverride" >+15% maximale Energie auf Schiffe</LocalizationPair>
@@ -31,18 +31,16 @@
   <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride" >+5 [prestigecolored] je Anomalie auf: Systeme</LocalizationPair>
   <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride" >+20 [industrycolored] je fruchtbarem Planeten auf: Systeme</LocalizationPair>
   
-  <!-- Mykara doesn't have any overrides -->
+  <!-- Mykara -->
+    <LocalizationPair Name="%PopulationCollectionBonusMykara3EffectOverride" >+10% [foodcolored] wird der [industrycolored] auf Systeme hinzugefügt</LocalizationPair>
   
   <!-- Necrophages -->
   <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-25% [upkeepcolored] auf: Flotten und Helden</LocalizationPair>
-  <LocalizationPair Name="%PopulationCollectionBonusPhages3EffectOverride" >+30% Schaden auf: Waffenmodule</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesDustEffectOverride" >Setzt imperiumsweit [dustcolored] in den Systemen auf 5, in denen der natürliche Wert kleiner ist</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustEffectOverride" >Setzt die Produktion von [dustcolored] in den Systemem des Imperiums auf 5, falls der natürliche Produktionswert niedriger liegt</LocalizationPair>
   
-  <!-- Roving Clans don't have any overrides-->
+  <!-- Roving Clans -->
   
   <!-- Wild Walkers -->
-  <LocalizationPair Name="%PopulationCollectionBonusWalkers3EffectOverride" >+25% [foodcolored] wird zur [industrycolored] in deinen Systemen hinzugefügt</LocalizationPair>
-
   
   <!-- Custom Faction Population Collection -->
   <!-- Allayi -->
@@ -209,4 +207,6 @@
   <!-- Trait Families -->
   <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Zeigt die Merkmale an, die Ihre Anfangspopulation der Urkan definiert.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Erste Urkan</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyMinorFactionDescription">Zeigt Eigenschaften an, die normalerweise ausschließlich durch Assimilationsboni erzielt werden.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyMinorFactionTitle">Assimilations-Bonus</LocalizationPair>
 </Datatable>

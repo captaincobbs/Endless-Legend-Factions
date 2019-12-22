@@ -12,7 +12,7 @@
   <LocalizationPair Name="%FactionTraitAllayiHappinessTitle" >Don d'Auriga</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription" >Chevaliers preux et loyaux, les Allayi judicieusement placé peuvent avoir un énorme effet sur la loyauté quand vous vous emparez d'un système solaire.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >Même si Auriga n'est plus, elle a laissé aux Allayi un dernier cadeau qu'ils partagent avec vous.</LocalizationPair>
-
+	
   <!-- Ardent Mages -->
   <LocalizationPair Name="%MinorFactionArdentTitle" >Mages Ardent</LocalizationPair>
   <LocalizationPair Name="%MinorFactionArdentDescription" >Même si ils controlent de grandes puissances, ils paient un grand prix pour cela. Pour manipuler les pouvoirs de la Brume, un Mage Ardent doit dissocier leur esprit de leur corps. Pour cela ils ont développés des rituels élaborés et douloureux, car plus ils sont capable de résister à leur agonie et à l'inconfort de leur forme physique, plus leur relation avec la Brume s'approffondi. La douleur est devenu un pilier fondamental de leur société, au point que les enfants apprennent dès leurs plus jeune âge à la supporter.</LocalizationPair>
@@ -28,7 +28,7 @@
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Seigneurs Déchus</LocalizationPair>
-  <LocalizationPair Name="%MinorFactionLordsDescription" >Les Seigneurs Déchus formèrent une coalition d'urgence avec d'autres faction, afin de ne pas être laisser pour compte par l'exode des Exilés. Ils coopérèrent pour développer des vaisseaux spatiaux pour s'échapper d'Auriga.</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionLordsDescription" >Les Seigneurs Déchus formèrent une coalition d'urgence avec d'autres factions, afin de ne pas être laisser pour compte par l'exode des Exilés. Ils coopérèrent pour développer des vaisseaux spatiaux afin de s'échapper d'Auriga.</LocalizationPair>
   <LocalizationPair Name="%PopulationLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle" >[custom00]</LocalizationPair>
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle" >Système avec [custom00]</LocalizationPair>
@@ -37,7 +37,7 @@
   <LocalizationPair Name="%FactionTraitLordsDustTitle" >Extraction non léthale</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Surcharge de Brume</LocalizationPair>
   <LocalizationPair Name="%FactionTraitLordsDustDescription" >Utilisant le pouvoir vampirique des Seigneurs Déchu, mais combiné avec des méthodes plus sécurisées, vous pouvez extraire passivement des citoyens des quantités non-léthales de Brume.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Utilisant les pouvoirs restorateurs de la Brume que les Seigneurs Déchu ont découvert, vous pouvez tout faire s'auto-réparer lentement.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Utilisant les pouvoirs restorateurs de la Brume que les Seigneurs Déchu ont découvert, vous pouvez faire s'auto-réparer les vaisseaux lentement.</LocalizationPair>
   
   <!-- Cultists -->
   <LocalizationPair Name="%MinorFactionCultistsTitle" >Cultiste de la Fin Eternel</LocalizationPair>
@@ -47,9 +47,9 @@
   <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Système avec [custom01]</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsTitle" >Cultistes</LocalizationPair>
   <LocalizationPair Name="%AffinityCultistsDescription" >Vigilant et hyperproductif dans tout les aspects, avec un support inconditionnel pour la Reine, les Cultites font d'excellent citoyens tant que vous faites en sorte qu'il n'y en ai pas trop au même endroit.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Blindage de la Foi</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Ferveur Infinie</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Sanctuaire de la Reine</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Mettant tout leur coeur et leur foi dans du blindage digne de maitre-artisan, vos vaisseaux gagne un large bonus de durabilité.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Votre population est incroyablement disposée à contribuer un peu plus à votre empire donné les bonnes.. motivations.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >Un unique, massif sanctuaire est construit sur chaque planète de votre Empire, servant de centre de logement de masse, mais aussi de centre d'adoration des Cultistes.</LocalizationPair>
 
   <!-- Drakken -->
@@ -61,9 +61,9 @@
   <LocalizationPair Name="%AffinityDrakkenTitle" >Drakken</LocalizationPair>
   <LocalizationPair Name="%AffinityDrakkenDescription" >Les Drakken ressemble aux grand dragons tirés de la fantasie. Cependant, contrairement à ces contre-parties fanstaisistes, les Drakken préfèrent une approche bien plus diplomatique des conflits</LocalizationPair>
   <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Beaux Parleurs</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Patriotes entêtées</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Les Drakken sont des diplomates doués, leur donnant la capacité de rapidement et efficacement déclarer des statuts diplomatiques.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Usant de leur prouesses anormales pour les discours, les Drakken sont capable de d'organiser la résistance du peuple contre les prises de contrôle culturel des autres Empires.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Diplomates Truculents</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Vos diplomates ont appris des tactiques Drakken, leur donnant la capacité de plus rapidement et efficacement faire des déclarations diplomatiques</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Vos diplomates commencent à subtilement harceler les représentants des autres empires, donnant l'ascendant à votre empire pour forcer ses déclarations.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair>
 
   <!-- Forgotten -->
@@ -76,8 +76,8 @@
   <LocalizationPair Name="%AffinityForgottenDescription" >Voleurs et espion avec la capacité singulière de devenir invisible à volonté, les Oubliés utilisent des coups bas et des vols pour obtenir ce qu'ils veulent.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Manœuvre rapide</LocalizationPair>
   <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Œil de faucon</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >Les Oubliés ont une magnifique tactique pour faire accélérer leurs pilotes de Vaisseaux : les menacer.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Etre expert en infilstration et l'espionnage a ses avantages, et faire des Oubliés des tireurs donnent plus de chances de toucher à votre armement.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >Les Oubliés ont une magnifique tactique pour faire accélérer leurs pilotes de Vaisseaux ! Les menacer d'éxécution est toujours une grande source de motivation.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Avoir une expertise en infiltration et en espionnage a ses avantages, et permettent aux techniques de tirs des Oubliés de toucher plus simplement.</LocalizationPair>
 
   <!-- Kapaku -->
   <LocalizationPair Name="%MinorFactionKapakuTitle" >Kapaku</LocalizationPair>
@@ -129,7 +129,7 @@
   <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Guerriers Aguerris</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Traite d'esclaves</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Les conditions extrêmes de l'évolution et de l'environnment peuvent apprendre à des organismes avancés les secrets du combat.</LocalizationPair>
-  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Au travers de la brutale mise en esclavage des autres races, les Necrophages peuvent forcer la production d'un minimum de Brume en cas de coup de dur.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Au travers de la brutale mise en esclavage des autres races, les Necrophages peuvent forcer la production d'un minimum de Brume sur les planètes en étant dénuées.</LocalizationPair>
   <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
