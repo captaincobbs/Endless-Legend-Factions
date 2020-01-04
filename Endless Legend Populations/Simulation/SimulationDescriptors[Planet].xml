@@ -105,7 +105,10 @@
 
     <Property Name="ShouldForceRawDust" BaseValue="0" MaxValue="1"/>
     <Property Name="ApplyShouldForceRawDust" BaseValue="0" MaxValue="1"/>
-    
+
+    <Property Name="ShouldForceRawApproval" BaseValue="0" MaxValue="1"/>
+    <Property Name="ApplyShouldForceRawApproval" BaseValue="0" MaxValue="1"/>
+
     <Property Name="AssignedHeroLevel" BaseValue="0" MinValue="0" />
 
     <Property Name="CuriositiesLevel1Count" 	BaseValue="0" IsSealed="true"/>
@@ -189,6 +192,11 @@
     <Modifier       TargetProperty="ShouldForceRawDust" Operation="Multiplication"    Value="$(ApplyShouldForceRawDust)" TooltipHidden="true"/>
     <BinaryModifier    TargetProperty="PlanetRawDust"            Operation="Multiplication" Left="1" BinaryOperation="Subtraction" Right="$(ShouldForceRawDust)"    Priority="-4"   TooltipHidden="true"/>
     <BinaryModifier     TargetProperty="PlanetRawDust"          Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(ShouldForceRawDust)"      Priority="-3"     TooltipHidden="true"/>
+
+    <BinaryModifier TargetProperty="ShouldForceRawApproval" Operation="Addition" Left="5" BinaryOperation="Subtraction" Right="$(HappinessRaw)"           TooltipHidden="true" />
+    <Modifier       TargetProperty="ShouldForceRawApproval" Operation="Multiplication"    Value="$(ApplyShouldForceRawApproval)" TooltipHidden="true"/>
+    <BinaryModifier    TargetProperty="HappinessRaw"            Operation="Multiplication" Left="1" BinaryOperation="Subtraction" Right="$(ShouldForceRawApproval)"    Priority="-4"   TooltipHidden="true"/>
+    <BinaryModifier     TargetProperty="HappinessRaw"          Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(ShouldForceRawApproval)"      Priority="-3"     TooltipHidden="true"/>
 
     <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Value="$(PlanetDepletionPerTurnFromFleets)"/>
     <Modifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Value="$(PlanetDepletionPerTurnFromMiningProbe)"/>
