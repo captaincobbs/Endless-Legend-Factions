@@ -41,7 +41,7 @@
 
   <!-- Cultists -->
   <SimulationDescriptor Name="FactionTraitCultistsFIDSI" Type="FactionTraitMinor" >
-    <BinaryModifier TargetProperty="SystemFIDSIPercent" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemLevelSum)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+    <BinaryModifier TargetProperty="SystemFIDSIPercent" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(SystemLevel)" Path="ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true"/>
     <Modifier TargetProperty="MinorTraitsAssimilated"   Operation="Addition" Value="1"   Path="ClassEmpire" TooltipHidden="true" />
   </SimulationDescriptor>
 
