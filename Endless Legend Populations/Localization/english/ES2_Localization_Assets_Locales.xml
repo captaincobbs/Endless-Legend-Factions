@@ -25,6 +25,7 @@
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Verda's Temple</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Becoming as the great Virtual Endless did, we can abandon the need for physical bodies and focus on the pursuit of power.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >The subtleties of Dust are numerous and easy to overlook. Only through its methodical study will its secrets be discovered. This temple, replete with terrifying contraptions, will aid that endeavor.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPrimaryArdentIDSTitle" >[custom03]</LocalizationPair>
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Broken Lords</LocalizationPair>
@@ -130,7 +131,7 @@
   <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Slave Driving</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Extremes of evolution and environment can teach advanced organisms the secrets of combat.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Through the use of brutal enslavement of other peoples, the Necrophages can force a minimum amount of dust to be produced on planets sterile of dust.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Roving Clans</LocalizationPair>

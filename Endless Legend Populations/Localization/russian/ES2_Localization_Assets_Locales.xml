@@ -1,0 +1,189 @@
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+
+  <!-- Allayi -->
+  <LocalizationPair Name="%MinorFactionAllayiTitle" >Аллайи</LocalizationPair>                                       <!--< Minor Faction diplomacy screen name--> <!-- Minor Faction diplomacy screen description v -->
+  <LocalizationPair Name="%MinorFactionAllayiDescription" >Будучи одной из первоначальных рас Ауриги, Аллайи изо всех сил сопротивлялись своему вынужденному бегству с планеты. Будучи когда-то внутренне связанными со своей прошлой планетой, они приспособились чувствовать подобную связь с любой планетой, на которой они живут.</LocalizationPair>
+  <LocalizationPair Name="%PopulationAllayiTitle" >[custom08]</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityAllayiTitle" >[custom08]</LocalizationPair>                  <!--Minor Faction population icon in menus-->
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityAllayiTitle" >Системы с [custom08]</LocalizationPair> <!--Used in GuiElements[GameVariables]-->
+  <LocalizationPair Name="%AffinityAllayiTitle" >Аллайи</LocalizationPair>                                           <!--< Population Name--> <!-- Population Description v -->
+  <LocalizationPair Name="%AffinityAllayiDescription" >Обладая уникальной способностью к фазированию между различными формами, Аллайи легко приспосабливаются и становятся очень свирепыми, когда им угрожает опасность.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipTitle" >Мы Выбрали Меньшее</LocalizationPair>                       <!-- < Custom Trait display names-->
+  <LocalizationPair Name="%FactionTraitAllayiHappinessTitle" >Подарок Ауриги</LocalizationPair>                      <!-- Custom Trait descriptions v -->
+  <LocalizationPair Name="%FactionTraitAllayiOwnershipDescription" >Близкородственные и лояльные, стратегически расположенные Аллайи могут оказать колоссальное влияние на верноподданность при захвате солнечных систем.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitAllayiHappinessDescription" >Хотя Ауриги больше нет, но она оставила Аллайи последний подарок, который они теперь передают Вам.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%MinorFactionArdentTitle" >Неистовые Маги</LocalizationPair> 
+  <LocalizationPair Name="%MinorFactionArdentDescription" >Хотя они контролируют великие державы, но платят за это огромную цену. Чтобы управлять силами пыли, Неистовый Маг должен отделить свой разум от тела. Для этого они разработали сложные ритуалы боли, ибо чем больше они способны противостоять агонии и игнорировать свой физический дискомфорт, тем глубже становится их связь с пылью. Боль стала фундаментальным элементом их общества до такой степени, что детей с раннего возраста учат противостоять ей.</LocalizationPair>
+  <LocalizationPair Name="%PopulationArdentTitle" >[custom03]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityArdentTitle" >[custom03]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityArdentTitle" >Системы с [custom03]</LocalizationPair>
+  <LocalizationPair Name="%AffinityArdentTitle" >Неистовые Маги</LocalizationPair> 
+  <LocalizationPair Name="%AffinityArdentDescription" >Пережив долгую историю резни и голода, Неистовые Маги открыли в себе силы, которые позволили им выжить, - силы, основанные на магии пыли, агонии и ярости.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendTitle" >Алтарь Трансцендентности</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Храм Верди</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Став такими же, как Великие Виртуалы Бесконечности, мы можем отказаться от потребности в физических телах и сосредоточиться на погоне за властью.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Тонкости Пыли многочисленны и их легко не заметить. Только через его методическое изучение будут открыты его тайны. Этот храм, изобилующий ужасающими приспособлениями, поможет в этом начинании.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPrimaryArdentIDSTitle" >[custom03]</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%MinorFactionLordsTitle" >Владыки Праха</LocalizationPair> 
+  <LocalizationPair Name="%MinorFactionLordsDescription" >Владыки Праха образовали чрезвычайную коалицию из других фракций. Не желая отставать от исхода Хранителей, Владыки Праха сотрудничали с другими нациями в разработке космических кораблей, способных покинуть Ауригу.</LocalizationPair>
+  <LocalizationPair Name="%PopulationLordsTitle" >[custom00]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityLordsTitle" >[custom00]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityLordsTitle" >Системы с [custom00]</LocalizationPair>
+  <LocalizationPair Name="%AffinityLordsTitle" >Владыки праха</LocalizationPair> 
+  <LocalizationPair Name="%AffinityLordsDescription" >Когда-то гордая нация благородных рыцарей, а теперь искалеченная проклятием, которое удерживает их дух в доспехах. Они еще не сняли свое проклятие, но уже потеряли мотивацию сделать это.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsDustTitle" >Несмертельное Извлечение</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenTitle" >Перегрузка Пылью</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsDustDescription" >Используя вампирскую силу Владык Праха, но в сочетании с более безопасными методами, вы можете пассивно извлекать несмертельное количество пыли из граждан.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitLordsShipRegenDescription" >Используя восстанавливающую силу пыли, которой научились Владыки Праха, вы можете заставить все корабли медленно восстанавливаться.</LocalizationPair>
+  
+  <!-- Cultists -->
+  <LocalizationPair Name="%MinorFactionCultistsTitle" >Культисты Вечного конца</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionCultistsDescription" >Культисты Вечного конца ведомы Королевой и Безмолвными и пойдут до конца, чтобы гарантировать, что ее воля будет выполнена через Обращение меньших групп.</LocalizationPair>
+  <LocalizationPair Name="%PopulationCultistsTitle" >[custom01]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityCultistsTitle" >[custom01]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityCultistsTitle" >Системы с [custom01]</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsTitle" >Культисты</LocalizationPair>
+  <LocalizationPair Name="%AffinityCultistsDescription" >Бдительные и сверхпродуктивные во всех отношениях, с непоколебимой поддержкой Королевы, Культисты становятся отличными гражданами, если вы не позволяете слишком многим быть в одном и том же месте.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSITitle" >Бесконечное Рвение</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationTitle" >Святилища королевы</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIDescription" >Ваше население невероятно охотно внесет немного больше в вашу империю, если получит на это право... мотивации.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitCultistsPopulationDescription" >На каждой планете вашей империи построено по одному огромному святилищу, служащему не только центром массового жилья, но и центром поклонения Культистам.</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%MinorFactionDrakkenTitle" >Драккен</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionDrakkenDescription" >Понимая, что их попытки спасти планету тщетны, Драккены, пережив массовый гражданский конфликт и смену руководства, решили, что единственное, что они могут сделать, - это организовать сбор сил за пределами планеты.</LocalizationPair>
+  <LocalizationPair Name="%PopulationDrakkenTitle" >[custom09]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityDrakkenTitle" >[custom09]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityDrakkenTitle" >Системы с [custom09]</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrakkenTitle" >Драккен</LocalizationPair>
+  <LocalizationPair Name="%AffinityDrakkenDescription" >Драккены напоминают великих драконов из фэнтези. Однако, в отличие от своих фантастических собратьев, Драккены предпочитают гораздо более дипломатичный подход к конфликтам.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyTitle" >Серебряный Язык</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionTitle" >Свирепые Дипломаты</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenDiplomacyDescription" >Ваши дипломаты учатся тактике Драккенов, что дает им возможность быстро и эффективно заявлять дипломатические декларации.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitDrakkenConversionDescription" >Ваши дипломаты начинают ненавязчиво преследовать представителей других империй, что приводит к тому, что вашей империи становится легче навязывать свою повестку.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitSecondaryInfluenceAnomaly01Title" >[custom09]</LocalizationPair> 
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%MinorFactionForgottenTitle" >Забытые</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionForgottenDescription" >Медленно покидая Ауригу, тайком прячась на разведывательных судах в большом количестве, Забытые, в конце концов, решили начать все заново и рассеялись по всей галактике. Но в итоге, испытывая отвращение к тому, как с ними обращались в этих новых землях, они решили снова объединиться и сформировать свою собственную нацию.</LocalizationPair>
+  <LocalizationPair Name="%PopulationForgottenTitle" >[custom06]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityForgottenTitle" >[custom06]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityForgottenTitle" >Системы с [custom06]</LocalizationPair>
+  <LocalizationPair Name="%AffinityForgottenTitle" >Забытые</LocalizationPair>
+  <LocalizationPair Name="%AffinityForgottenDescription" >Жулики и шпионы, с уникальной способностью становиться невидимыми по желанию, Забытые используют грязные трюки и воровство, чтобы получить то, чего они желают.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedTitle" >Быстрое Маневрирование</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyTitle" >Орлиный Глаз</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenMoveSpeedDescription" >Забытые разработали поистине удивительную тактику для того, чтобы пилоты летали на своих кораблях экспоненциально быстрее! Угроза их казнью всегда является отличным мотиватором.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitForgottenAccuracyDescription" >Наличие опыта в инфильтрации и шпионаже имеет свои преимущества, и делает методы стрельбы Забытых - более точными.</LocalizationPair>
+
+  <!-- Kapaku -->
+  <LocalizationPair Name="%MinorFactionKapakuTitle" >Капаку</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionKapakuDescription" >У Капауку было беспокойное прошлое с планетами. После того, как первая из них была терраформирована в отвратительный пышный лес, а вторая замерзла, Капауку решили найти свою собственную, идеальную планету.</LocalizationPair>
+  <LocalizationPair Name="%PopulationKapakuTitle" >[custom02]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityKapakuTitle" >[custom02]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityKapakuTitle" >Системы с [custom02]</LocalizationPair>
+  <LocalizationPair Name="%AffinityKapakuTitle" >Капаку</LocalizationPair>                                                  
+  <LocalizationPair Name="%AffinityKapakuDescription" >Капауку-странная раса, с уникальной способностью использовать геомантию и любовью к вулканической местности.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuHappinessTitle" >Вулканический Рай</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingTitle" >Экспертиза Терраформинга</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitKapakuHappinessDescription" >Ассимиляция Капауку приводит к такому же предрасположению к горячим планетам, как и у самих Капауку, что вызывает благоговейный трепет и оптимизм.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitKapakuTerraformingDescription" >Капаку владеют технологией терраформирования гораздо дольше, чем большинство других рас, и поэтому понимают, как применять ее более эффективно.</LocalizationPair>  
+  
+  <!-- Morgawr -->
+  <LocalizationPair Name="%MinorFactionMorgawrTitle" >Моргоры</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMorgawrDescription" >Моргоры всегда были ограничены водами и Ауригой... Но теперь Моргоры свободны, свободны принять свою любопытную природу.</LocalizationPair>
+  <LocalizationPair Name="%PopulationMorgawrTitle" >[custom10]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityMorgawrTitle" >[custom10]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityMorgawrTitle" >Системы с [custom10]</LocalizationPair>
+  <LocalizationPair Name="%AffinityMorgawrTitle" >Моргоры</LocalizationPair>
+  <LocalizationPair Name="%AffinityMorgawrDescription" >Моргоры, эксперименты Вечных, напоминают мутировавших рыб. Они жаждут свободы больше всего на свете и предпочитают океанские планеты.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceTitle" >Использование в тёмную</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryTitle" >Гидрофильный</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMorgawrInfluenceDescription" >Используя свои манипуляции с низшими умами для социальной инженерии, Моргоры могут значительно улучшить вашу социальную структуру.</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitMorgawrIndustryDescription" >Близость Моргоров к воде передалась и другим вашим гражданам, значительно улучшив производство на плодородных планетах.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%MinorFactionMykaraTitle" >Микара</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionMykaraDescription" >Единый, огромный растительный организм, который манипулирует своими многочисленными детьми даже издалека. С древних времен они поддерживали симбиотические отношения с Урканами и даже сумели спасти одного из них от мороза Ауриги.</LocalizationPair>
+  <LocalizationPair Name="%PopulationMykaraTitle" >[custom05]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityMykaraTitle" >[custom05]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityMykaraTitle" >Системы с [custom05]</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraTitle" >Микара</LocalizationPair>
+  <LocalizationPair Name="%AffinityMykaraDescription" >Древние обитатели подземного царства, потерянного для Ауриги, Микара, будучи самими растениями, обладают особым даром земледелия.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraFoodTitle" >Гипер органическая пища</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraManpowerTitle" >Ползучее Присутствие</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraFoodDescription" >Обладая глубоким пониманием анатомии и биологии, Микара может сделать питание максимально эффективным, создавая улучшенные продукты.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMykaraManpowerDescription" >Выращивая солдат на растительной основе, вы можете иметь почти бесконечное количество солдат практически бесплатно.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%MinorFactionPhagesTitle" >Некрофаги</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionPhagesDescription" >Оставленные на Ауриге уцелевшими расами, Некрофаги терпеливо ждали, когда на их планету прибудет тупоголовый исследователь, чтобы они смогли спастись.</LocalizationPair>
+  <LocalizationPair Name="%PopulationPhagesTitle" >[custom04]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityPhagesTitle" >[custom04]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityPhagesTitle" >Системы с [custom04]</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesTitle" >Некрофаги</LocalizationPair>
+  <LocalizationPair Name="%AffinityPhagesDescription" >Народ-улей падальщиков, живущих за счёт поедания или заражения и переработки других. Некрофаги всегда голодны и всегда враждебны, являясь несомненным бичом прочих народов.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesRecruitingTitle" >Воины - Ветераны</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Раб Управления</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Крайности эволюции и окружающей среды могут научить продвинутые организмы секретам боя.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Используя жестокое порабощение других народов, Некрофаги могут заставить производить минимальное количество пыли, на стерильных (от пыли) планетах.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair> 
+  
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%MinorFactionRovingTitle" >Кочевые Кланы</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionRovingDescription" >Озадаченные тайнами Галактики, Кланы сосредоточились больше на внутренней инфраструктуре и экономике, с легкостью становясь хозяевами каждой из них.</LocalizationPair>
+  <LocalizationPair Name="%PopulationRovingTitle" >[custom11]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityRovingTitle" >[custom11]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityRovingTitle" >Системы с [custom11]</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingTitle" >Кочевые Кланы</LocalizationPair>
+  <LocalizationPair Name="%AffinityRovingDescription" >С тех пор Кланы перестали быть простыми кочевыми торговцами, исследователями и искателями приключений. Теперь они превратились в нечто более профессиональное.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsTitle" >Отлаженная Эффективность</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryTitle" >Стратегические Перебои</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepSystemsDescription" >Используя свое естественное понимание экономики, Кочевые Кланы могут точно определить незначительную неэффективность в экономике системы, тем самым подавляя основной процент затрат.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitRovingUpkeepMilitaryDescription" >Рассматривая вооруженные силы как бизнес, кланы могут перепрофилировать, организовать и сократить свой путь к совершенной эффективности.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%MinorFactionWalkersTitle" >Дикие Ходоки</LocalizationPair>
+  <LocalizationPair Name="%MinorFactionWalkersDescription" >Оказавшись на мели умирающей Ауриги, Дикие Ходоки обратились к звездам в последнем отчаянном усилии. И используя все ресурсы, которые у них оставались, смогли сбежать с оставшимися Хранителями.</LocalizationPair>
+  <LocalizationPair Name="%PopulationWalkersTitle" >[custom07]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityWalkersTitle" >[custom07]</LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityWalkersTitle" >Системы с [custom07]</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersTitle" >Дикие Ходоки</LocalizationPair>
+  <LocalizationPair Name="%AffinityWalkersDescription" >Когда-то они были простыми охотниками-собирателями. Они обладают сверхъестественной способностью превращать камни и деревья в огромные здания, а также неестественной связью с животными.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingTitle" >Выращенные Здания</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightTitle" >Разделение</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersBuildingDescription" >Используя свою близость к природе, Дикие Ходоки могут заменить потребность в таких материалах, как Сталь или Титан - естественно растущими и регенерирующими веществами, что значительно снижает производственные затраты.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitWalkersSightDescription" >Обнаружив, что их исключительная природная связь с животными все еще применима вне их родного мира, Дикие Ходоки используют свою связь понимания с животными, создавая широкую паутину Зрения, значительно увеличивающую дальность обнаружения.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitWalkersIndustryTitle" >[custom07]</LocalizationPair> 
+
+  <!-- Urkan -->
+  <LocalizationPair Name="%AffinityUrkanTitle" >Уркан</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanDescription" >Могучие звери, происходящие из Ауриги. Эти массивные существа могут контролировать целые острова. Вши роятся вокруг, чтобы защитить их. Известно, что эти звери благословляют или проклинают тех, кто их окружает. Они чрезвычайно могущественны.</LocalizationPair>
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanTitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanTitle" >Системы с </LocalizationPair>
+  
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%PopulationUrkanATitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanATitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanATitle" >Системы с </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanATitle" >Казар</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanADescription" >Самый крупный из трех великих зверей, Казар движется неторопливой походкой, которая противоречит его огромной силе и высокомерию. Часто покрытый коркой драгоценных руд, выходя из глубин, Казар иногда становится мишенью смелых или безрассудных искателей приключений, которые пытаются добыть ценные камни.</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%PopulationUrkanBTitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanBTitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanBTitle" >Системы с </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanBTitle" >Чака</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanBDescription" >Легенды гласят, что Чака-самая застенчивая из Урканов, которая, по слухам, бродит по более пустынным районам Ауриги и наслаждается одиночеством больше, чем конфликтом. В равной степени, однако, Чака считается самой свирепой из трех зверей, и есть много рассказов о её ярости и разрушении.</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%PopulationUrkanCTitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationEmpireAffinityUrkanCTitle" ></LocalizationPair> 
+  <LocalizationPair Name="%ClassPopulationStarSystemAffinityUrkanCTitle" >Системы с </LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanCTitle" >Факир</LocalizationPair>
+  <LocalizationPair Name="%AffinityUrkanCDescription" >Из трех Урканов, которые являются вечными врагами Микары, Факир является тем, кто вселяет наибольший страх в грибковый коллектив. Благословленный чрезвычайно острыми обонятельными чувствами, легенда гласит, что Факир может отслеживать подземные пути корневища на протяжении многих лиг.</LocalizationPair>
+</Datatable>

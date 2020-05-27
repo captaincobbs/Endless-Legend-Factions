@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayi3EffectOverride" >+3 к [move] корблей</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdent3EffectOverride" >Восстания развиваются на 25% медленнее</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLords3EffectOverride" >+2% к Здоровью войск за каждого Героя в Империи</LocalizationPair> 
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTitle">Покупка Владык Праха [custom00]</LocalizationPair>
+  <LocalizationPair Name="%StarSystemImprovementCloneLordsPopulationTooltipEffect">Задействуйте [dustcolored] чтобы добавить одного Владыку Праха к [population]</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitCultistsFIDSIEffectOverride" >+15% к Максимальному здоровью на Корабли</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken2EffectOverride" >+15% надбавки к [prestigecolored] на империю</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakken3EffectOverride" >-30% расходов [prestigecolored], на содержание законов Империи </LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgotten3EffectOverride" >5% от производства [sciencecolored]в ход, дают соразмерный бонус к [dustcolored] на все ваши Системы</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusAccuracyForgottenEffectOverride" >+8% к точности Оружейных модулей </LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusMoveSpeedForgottenEffectOverride" >+2 к [move] кораблей</LocalizationPair>
+
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapaku3EffectOverride" >10% от производства [industrycolored] в ход, дают соразмерный бонус к [foodcolored] на все ваши Системы</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawr3EffectOverride" >-25% стоимости [industrycolored] для производства кораблей на все ваши Системы </LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusInfluenceMorgawrEffectOverride" >+5 к [prestigecolored], за Аномалию на все ваши Системы</LocalizationPair>
+  <LocalizationPair Name="%PopulationAssimilationBonusIndustryMorgawrEffectOverride" >+30 [industrycolored] на плодородную планету в Системах</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%PopulationCollectionBonusMykara3EffectOverride" >10% от производства [foodcolored] в ход, дают соразмерный бонус к [industrycolored] на все ваши Системы</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhages2EffectOverride" >-15% [upkeepcolored] Кораблей и Героев</LocalizationPair> 
+  <LocalizationPair Name="%FactionTraitPhagesDustEffectOverride" >Установите [dustcolored]на системах в Империи до 5, если естественное значение ниже этого</LocalizationPair>
+  
+  <!-- Roving Clans -->
+
+  <!-- Wild Walkers -->
+  
+  <!-- Custom Faction Population Collection -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom1" >[custom08] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom2" >[custom08] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusAllayiCustom3" >[custom08] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomTitle" >Коллекция Поиска</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitAllayiCustomDescription" >Эта коллекция посвящена исследованию и затворническому росту.</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom1" >[custom03] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom2" >[custom03] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusArdentCustom3" >[custom03] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomTitle" >Коллекция Господства</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitArdentCustomDescription" >Эта коллекция фокусируется на развитии и стабильности.</LocalizationPair>
+
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom1" >[custom00] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom2" >[custom00] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusLordsCustom3" >[custom00] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomTitle" >Могучая Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitLordsCustomDescription" >Эта коллекция посвящена исключительно военной силе.</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom1" >[custom01] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom2" >[custom01] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusCultistsCustom3" >[custom01] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomTitle" >Точная Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitCultistsCustomDescription" >Эта коллекция посвящена стабильности всей империи.</LocalizationPair>
+
+  <!-- Drakken -->
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom1" >[custom09] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom2" >[custom09] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusDrakkenCustom3" >[custom09] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomTitle" >Очаровательная Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitDrakkenCustomDescription" >Эта коллекция посвящена дипломатии и культуре.</LocalizationPair>
+
+  <!-- Forgotten -->
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom1" >[custom06] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom2" >[custom06] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusForgottenCustom3" >[custom06] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomTitle" >Хитрая Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitForgottenCustomDescription" >Эта коллекция фокусируется на Пыли, просто на Пыли.</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom1" >[custom02] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom2" >[custom02] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusKapakuCustom3" >[custom02] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomTitle" >Адская Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitKapakuCustomDescription" >Эта коллекция посвящена промышленности в суровых условиях.</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom1" >[custom10] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom2" >[custom10] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMorgawrCustom3" >[custom10] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomTitle" >Прогрессивная Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMorgawrCustomDescription" >Эта коллекция посвящена культуре и промышленности.</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom1" >[custom05] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom2" >[custom05] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusMykaraCustom3" >[custom05] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomTitle" >Отлаженная Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitMykaraCustomDescription" >Эта коллекция фокусируется на росте и производстве.</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom1" >[custom04] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom2" >[custom04] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusPhagesCustom3" >[custom04] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomTitle" >Динамическая Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitPhagesCustomDescription" >Эта коллекция посвящена военному делу и богатству.</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom1" >[custom11] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom2" >[custom11] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusRovingCustom3" >[custom11] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomTitle" >Коллекция Предпринимателя</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitRovingCustomDescription" >Эта коллекция посвящена торговле и богатству.</LocalizationPair>
+
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom1" >[custom07] Коллекционный Бонус I</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom2" >[custom07] Коллекционный Бонус II</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusWalkersCustom3" >[custom07] Коллекционный Бонус III</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomTitle" >Отважная Коллекция</LocalizationPair>
+  <LocalizationPair Name="%PopulationCollectionBonusTraitWalkersCustomDescription" >Эта коллекция посвящена промышленности и разведке.</LocalizationPair>
+
+  
+  <!-- Custom Faction Population Trait -->
+  <!-- Allayi -->
+  <LocalizationPair Name="%FactionTraitMinorAllayiTitle" >Население: Аллайи</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiDescription" >Фракция начинает с населения "Аллайи", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorAllayiTooltipEffect" >+1 [custom08] на вашей домашней системе</LocalizationPair>
+
+  <!-- Ardent Mages -->
+  <LocalizationPair Name="%FactionTraitMinorArdentTitle" >Население: Неистовые Маги</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentDescription" >Фракция начинает с населения "Неистовые маги", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorArdentTooltipEffect" >+1 [custom03] на вашей домашней системе</LocalizationPair>
+  
+  <!-- Broken Lords -->
+  <LocalizationPair Name="%FactionTraitMinorLordsTitle" >Население: Владыки Праха</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsDescription" >Фракция начинает с населения "Владыки праха", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorLordsTooltipEffect" >+1 [custom00] на вашей домашней системе</LocalizationPair>
+
+  <!-- Cultists -->
+  <LocalizationPair Name="%FactionTraitMinorCultistsTitle" >Население: Культисты</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsDescription" >Фракция начинает с населения "Культисты", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorCultistsTooltipEffect" >+1 [custom01] на вашей домашней системе</LocalizationPair>
+  
+    <!-- Drakken -->
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTitle" >Население: Драккен</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenDescription" >Фракция начинает с населения "Драккен", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorDrakkenTooltipEffect" >+1 [custom09] на вашей домашней системе</LocalizationPair>
+  
+  <!-- Forgotten -->
+  <LocalizationPair Name="%FactionTraitMinorForgottenTitle" >Население: Забытые</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenDescription" >Фракция начинает с населения "Забытые", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorForgottenTooltipEffect" >+1 [custom06] на вашей домашней системе</LocalizationPair>
+  
+  <!-- Kapaku -->
+  <LocalizationPair Name="%FactionTraitMinorKapakuTitle" >Население: Капаку</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuDescription" >Фракция начинает с населения "Капаку", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorKapakuTooltipEffect" >+1 [custom02] на вашей домашней системе</LocalizationPair>
+
+  <!-- Morgawr -->
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTitle" >Население: Моргоры</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrDescription" >Фракция начинает с населения "Моргоры", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMorgawrTooltipEffect" >+1 [custom10] на вашей домашней системе</LocalizationPair>
+
+  <!-- Mykara -->
+  <LocalizationPair Name="%FactionTraitMinorMykaraTitle" >Население: Микара</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraDescription" >Фракция начинает с населения "Микара", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorMykaraTooltipEffect" >+1 [custom05] на вашей домашней системе</LocalizationPair>
+
+  <!-- Necrophages -->
+  <LocalizationPair Name="%FactionTraitMinorPhagesTitle" >Население: Некрофаги</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesDescription" >Фракция начинает с населения "Некрофаги", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorPhagesTooltipEffect" >+1 [custom04] на вашей домашней системе</LocalizationPair>
+
+  <!-- Roving Clans -->
+  <LocalizationPair Name="%FactionTraitMinorRovingTitle" >Население: Кочевые Кланы</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingDescription" >Фракция начинает с населения "Кочевые Кланы", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorRovingTooltipEffect" >+1 [custom11] на вашей домашней системе</LocalizationPair>
+  
+  <!-- Wild Walkers -->
+  <LocalizationPair Name="%FactionTraitMinorWalkersTitle" >Население: Дикие Ходоки</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersDescription" >Фракция начинает с населения "Дикие Ходоки", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorWalkersTooltipEffect" >+1 [custom07] на вашей домашней системе</LocalizationPair>
+
+  <!-- Urkan A | Kazar -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanATitle" >Население: Казар</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanADescription" >Фракция начинает с населения "Казар", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanATooltipEffect" >+1  на вашей домашней системе</LocalizationPair>
+
+  <!-- Urkan B | Chaka -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTitle" >Население: Чака</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBDescription" >Фракция начинает с населения "Чака", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanBTooltipEffect" >+1  на вашей домашней системе</LocalizationPair>
+
+  <!-- Urkan C | Fakir -->
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTitle" >Население: Факир</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCDescription" >Фракция начинает с населения "Факир", на их родной планете</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitMinorUrkanCTooltipEffect" >+1  на вашей домашней системе</LocalizationPair>
+  
+  <!-- Trait Families -->
+  <LocalizationPair Name="%FactionTraitFamilyUrkanDescription">Отображает признаки, которые будут определять вашу начальную популяцию "Урканов".</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyUrkanTitle">Начальный Уркан</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyMinorFactionDescription">Проявляет черты характера, как правило, исключительно полученные за счет ассимиляционных бонусов.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitFamilyMinorFactionTitle">Бонусы за Ассимиляцию</LocalizationPair>
+</Datatable>

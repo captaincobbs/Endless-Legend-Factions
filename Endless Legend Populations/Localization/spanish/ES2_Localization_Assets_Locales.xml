@@ -34,6 +34,7 @@
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Templo de Verda</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Convirtiendonos cómo hicieron los Endless Virtuales, podemos abandonar la necesidad de cuerpos físicos y centrarnos en la persecución del poder.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Las sutilezas del Polvo son nomerosas y faciles de olvidar. Solo se desvelaran sus secretos tras un estudio metódico. Este templo, repleto de trampas terroríficas, ayudará en esta empresa.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPrimaryArdentIDSTitle" >[custom03]</LocalizationPair>
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Caballeros Espectrales</LocalizationPair>

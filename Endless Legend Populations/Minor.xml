@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
-  <RuntimeModule Name="ELP" Type="Extension" Version="4.0">
+  <RuntimeModule Name="ELP" Type="Extension" Version="4.4">
     <!-- This defines all the mod info displayed in game
         Just a note, Description overrides your mod description on steam
         Also, ignore anything with "Custom" in the name if you don't want faction traits, you can delete those -->
@@ -9,6 +9,7 @@
        Anything under "custom" section to the front you can ignore, as they aren't strictly part of making a faction,
        but are merely frankenstein code for making the custom faction stuff (as in, the custom faction creation menu)
        I hope this code helps! I've spent a solid month on it! -->
+    <!-- Note as of 5/27/2020, looking back on my code it gives me nightmares. -->
     <Title>Endless Legend Populations</Title>
     <Description>
       This mod adds all of the Endless Legend major factions as encounterable minor factions.
@@ -111,6 +112,7 @@
       [*] Natani Shadepaw (French)
       [*] lo_fabre (Spanish)
       [*] MrRiceman (Portuguese)
+      [*] Phonograf (Russian)
       [/list]
 
       [h1]Links[/h1]
@@ -119,14 +121,13 @@
       I'm looking for translators for the following languages:[list]
       [*] Korean
       [*] Chinese Traditional / Simplified
-      [*] Russian
       [*] Polish[/list]
       If you are interested, comment below!
     </Description>
     <Author>Captain Cobbs</Author>
     <Homepage>https://steamcommunity.com/sharedfiles/filedetails/?id=1816492263</Homepage>
     <PreviewImageFile>ModIcon.png</PreviewImageFile> <!-- Image as it appears in the workshop. Size should be 430x430 pixels -->
-    <ReleaseNotes>Nearly complete rebalancing, spanish translation, added minor faction traits, fixed broken compatbility, fixed many many bugs, made broken lords reproduce via dust</ReleaseNotes>
+    <ReleaseNotes>4.4 - Fixed spelling errors, accidentally deleted Russian translation</ReleaseNotes>
     <Tags>MinorFactions,Other,Art,Gameplay</Tags>
     <!-- More info about this section can be found under the link I posted up there, this section determines what your mod loads and where -->
     <Plugins>

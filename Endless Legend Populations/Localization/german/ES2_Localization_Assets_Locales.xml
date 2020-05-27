@@ -25,7 +25,8 @@
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Verda's Tempel</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Indem wir so werden wie die legendären Virtuellen Endless, können wir das Gefängnis der physischen Körper aufgeben und uns auf das Streben nach Macht konzentrieren.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Die Besonderheiten des Dust sind zahlreich und leicht zu unterschätzen. Nur durch sein methodisches Studium werden seine Mysterien entschlüsselt. Dieser Tempel, ausgestattet mit furchteinflößenden Vorrichtungen, wird dieses Unterfangen unterstützen.</LocalizationPair>
-
+  <LocalizationPair Name="%PopulationModifiersTraitPrimaryArdentIDSTitle" >[custom03]</LocalizationPair>
+  
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Zerbrochene Lords</LocalizationPair>
   <LocalizationPair Name="%MinorFactionLordsDescription" >Um dem Exodus der Vaulter in nichts nachzustehen, kooperierten die Zerbrochenen Lords in einer Notfallkoalition mit anderen Völkern. Das Ziel der Koalition war es, Raumschiffe zu entwickeln, die in der Lage sind, Auriga zu verlassen.</LocalizationPair>
@@ -130,7 +131,7 @@
   <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Sklaventreiber</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Extreme der Evolution und herrschende Umweltbedingungen können fortschrittlichen Organismen die Geheimnisse der Kriegsführung in die Wiege legen.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Durch die brutale Versklavung anderer Völker können die Nekrophagen die Produktion einer Mindestmenge an Dust auf sterilen Planeten erreichen.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Wanderklans</LocalizationPair>

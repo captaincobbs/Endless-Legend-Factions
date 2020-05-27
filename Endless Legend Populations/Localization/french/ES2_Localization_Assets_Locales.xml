@@ -25,6 +25,7 @@
   <LocalizationPair Name="%FactionTraitArdentScienceTitle" >Temple de Verda</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentTranscendDescription" >Devenant à l'image des grand Endless Virtuel, nous pouvons abandonner nos formes physiques et nous concentrer sur la poursuite de puissance.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitArdentScienceDescription" >Les subtilités de la Brume sont nombreuses et faciles à manquées. C'est seuleument au travers de son étude méthodique que tout ses secrets seront découvert. Ce temple, rempli de terrifiants engins, vont aider cette entreprise.</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPrimaryArdentIDSTitle" >[custom03]</LocalizationPair>
 
   <!-- Broken Lords -->
   <LocalizationPair Name="%MinorFactionLordsTitle" >Seigneurs Déchus</LocalizationPair>
@@ -130,7 +131,7 @@
   <LocalizationPair Name="%FactionTraitPhagesDustTitle" >Traite d'esclaves</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesRecruitingDescription" >Les conditions extrêmes de l'évolution et de l'environnment peuvent apprendre à des organismes avancés les secrets du combat.</LocalizationPair>
   <LocalizationPair Name="%FactionTraitPhagesDustDescription" >Au travers de la brutale mise en esclavage des autres races, les Necrophages peuvent forcer la production d'un minimum de Brume sur les planètes en étant dénuées.</LocalizationPair>
-  <LocalizationPair Name="%PopulationModifiersTraitPhagesDustTitle" >[custom04]</LocalizationPair>
+  <LocalizationPair Name="%PopulationModifiersTraitPhagesFoodTitle" >[custom04]</LocalizationPair>
   
   <!-- Roving Clans -->
   <LocalizationPair Name="%MinorFactionRovingTitle" >Clans Errants</LocalizationPair>

@@ -35,7 +35,14 @@
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
   </GuiElement>
-
+  <!-- +2 IDS -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitArdentIDS" >
+    <Title>%PopulationModifiersTraitPrimaryArdentIDSTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitPrimaryArdentIDS" >
+    <Title>%PopulationModifiersTraitPrimaryArdentIDSTitle</Title>
+  </GuiElement>
+  
   <!-- Broken Lords -->
   <GuiElement Name="FactionTraitLordsDust" >
     <Title>%FactionTraitLordsDustTitle</Title>
@@ -159,6 +166,13 @@
       <EffectOverride>%PopulationAssimilationBonusIndustryMorgawrEffectOverride</EffectOverride>
     </TooltipElement>
   </GuiElement>
+  <!-- Influence fertile -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitSecondaryMorgawrInfluenceFertile" >
+    <Title>%PopulationMorgawrTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitSecondaryMorgawrInfluenceFertile" >
+    <Title>%PopulationMorgawrTitle</Title>
+  </GuiElement>
 
   <!-- Mykara -->
   <ExtendedGuiElement Name="FactionTraitMykaraFood" >
@@ -197,11 +211,11 @@
     </TooltipElement>
   </ExtendedGuiElement>
   <!-- Subtract Dust Necrophages -->
-  <GuiElement Name="ClassPopulationPlanetModifiersTraitPhagesDust" >
-    <Title>%PopulationModifiersTraitPhagesDustTitle</Title>
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitPhagesFood" >
+    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
   </GuiElement>
-  <GuiElement Name="PopulationModifiersTraitPhagesDust" >
-    <Title>%PopulationModifiersTraitPhagesDustTitle</Title>
+  <GuiElement Name="PopulationModifiersTraitPhagesFood" >
+    <Title>%PopulationModifiersTraitPhagesFoodTitle</Title>
   </GuiElement>
 
   <!-- Roving Clans -->
@@ -219,6 +233,13 @@
     <Icons>
       <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
     </Icons>
+  </GuiElement>
+  <!-- Dust on anomaly -->
+  <GuiElement Name="ClassPopulationPlanetModifiersTraitSecondaryRovingDustAnomaly" >
+    <Title>%PopulationRovingTitle</Title>
+  </GuiElement>
+  <GuiElement Name="PopulationModifiersTraitSecondaryRovingDustAnomaly" >
+    <Title>%PopulationRovingTitle</Title>
   </GuiElement>
 
   <!-- Wild Walkers -->
